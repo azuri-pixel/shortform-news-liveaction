@@ -12,6 +12,8 @@ import { pathToFileURL } from "node:url";
 
 const sha = (path) => createHash("sha256").update(readFileSync(path)).digest("hex");
 const PER_SHEET = 12, COLUMNS = 4;
+// Bound each media subprocess and keep it disconnected from the host's stdin.
+const MEDIA_OPTIONS = { stdio: ["ignore", "pipe", "pipe"], timeout: 300_000, killSignal: "SIGKILL" };
 
 export const parseRanges = (text) => (text ? text.split(",").map((part) => {
   const m = /^(\d+)-(\d+)$/.exec(part.trim());
@@ -39,7 +41,7 @@ export const buildPacket = ({ repo = process.cwd(), id, mp4, round, ranges = nul
   if (existsSync(out)) { if (!force) throw new Error(`${relative(repo, out)}가 이미 있다. 같은 라운드를 다시 만들 때만 --force`); rmSync(out, { recursive: true }); }
   for (const dir of ["orig", "mobile", "sheets"]) mkdirSync(join(out, dir), { recursive: true });
 
-  const probe = JSON.parse(execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-count_packets", "-show_entries", "stream=width,height,nb_read_packets,avg_frame_rate", "-of", "json", video], { encoding: "utf8" })).streams[0];
+  const probe = JSON.parse(execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-count_packets", "-show_entries", "stream=width,height,nb_read_packets,avg_frame_rate", "-of", "json", video], { ...MEDIA_OPTIONS, encoding: "utf8" })).streams[0];
   const totalFrames = Number(probe.nb_read_packets);
   if (totalFrames !== timeline.total_frames) throw new Error(`MP4 프레임 수 ${totalFrames} ≠ timeline.total_frames ${timeline.total_frames}. 현재 timeline으로 렌더한 MP4인지 확인한다`);
   const frames = selectFrames(timeline.proof_frames ?? [], totalFrames, ranges);
@@ -51,7 +53,7 @@ export const buildPacket = ({ repo = process.cwd(), id, mp4, round, ranges = nul
     const batch = frames.slice(b, b + BATCH), tmp = join(out, "orig", `.batch${b}`);
     mkdirSync(tmp);
     const select = batch.map((f) => `eq(n\\,${f.frame})`).join("+");
-    execFileSync("ffmpeg", ["-v", "error", "-i", video, "-vf", `select='${select}'`, "-fps_mode", "passthrough", join(tmp, "%04d.png")]);
+    execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-i", video, "-vf", `select='${select}'`, "-fps_mode", "passthrough", join(tmp, "%04d.png")], MEDIA_OPTIONS);
     const extracted = readdirSync(tmp).filter((n) => n.endsWith(".png")).sort();
     if (extracted.length !== batch.length) throw new Error(`추출 ${extracted.length}장 ≠ 선택 ${batch.length}장 (${batch[0].frame}~)`);
     batch.forEach((f, i) => renameSync(join(tmp, extracted[i]), join(out, "orig", `f${String(f.frame).padStart(5, "0")}.png`)));
@@ -59,7 +61,7 @@ export const buildPacket = ({ repo = process.cwd(), id, mp4, round, ranges = nul
   }
   frames.forEach((f) => {
     const name = `f${String(f.frame).padStart(5, "0")}`;
-    execFileSync("ffmpeg", ["-v", "error", "-i", join(out, "orig", `${name}.png`), "-vf", `scale=${Math.round(probe.width / 3)}:-2`, join(out, "mobile", `${name}.png`)]);
+    execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-i", join(out, "orig", `${name}.png`), "-vf", `scale=${Math.round(probe.width / 3)}:-2`, join(out, "mobile", `${name}.png`)], MEDIA_OPTIONS);
     Object.assign(f, { time: Number((f.frame / fps).toFixed(3)), original: `orig/${name}.png`, mobile: `mobile/${name}.png` });
   });
 
@@ -71,14 +73,14 @@ export const buildPacket = ({ repo = process.cwd(), id, mp4, round, ranges = nul
     writeFileSync(list, group.map((f) => `file '${join(out, f.mobile)}'\nduration 1\n`).join(""));
     const rows = Math.ceil(group.length / COLUMNS);
     const path = `sheets/sheet-${String(s + 1).padStart(2, "0")}.jpg`;
-    execFileSync("ffmpeg", ["-v", "error", "-f", "concat", "-safe", "0", "-i", list, "-vf", `tile=${COLUMNS}x${rows}:padding=8:color=white`, "-frames:v", "1", "-q:v", "3", join(out, path)]);
+    execFileSync("ffmpeg", ["-nostdin", "-v", "error", "-f", "concat", "-safe", "0", "-i", list, "-vf", `tile=${COLUMNS}x${rows}:padding=8:color=white`, "-frames:v", "1", "-q:v", "3", join(out, path)], MEDIA_OPTIONS);
     rmSync(list);
     group.forEach((f, i) => { f.sheet = path; f.sheet_position = i + 1; });
     sheets.push({ path, frames: group.map((f) => f.frame), layout: `${COLUMNS} columns, left→right then top→bottom` });
   }
 
   const audioLog = join(out, "audio-measure.txt");
-  writeFileSync(audioLog, execFileSync("bash", [join(repo, "scripts/audio-measure.sh"), video, ...(existsSync(join(production, "audio/narration.wav")) ? ["--narr", join(production, "audio/narration.wav")] : [])], { encoding: "utf8" }));
+  writeFileSync(audioLog, execFileSync("bash", [join(repo, "scripts/audio-measure.sh"), video, ...(existsSync(join(production, "audio/narration.wav")) ? ["--narr", join(production, "audio/narration.wav")] : [])], { ...MEDIA_OPTIONS, encoding: "utf8" }));
 
   let transcriptEntry = { status: "not-provided", note: "전사가 필요하면 제작자가 만들어 --transcript로 넘긴다. 검수자는 전사 도구·모델을 찾지 않는다" };
   if (transcript) {

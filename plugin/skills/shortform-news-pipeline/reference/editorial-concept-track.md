@@ -41,6 +41,9 @@
 9. **통합 제작:** `src/editorial/episodes/<id>.tsx`에 이번 편의 개념 장면을 작성한다. 형식 참고용 placeholder를 사용했다면 실제 구현으로 교체한다. 자막은 중앙 런타임, SFX는 같은 timeline 이벤트에 맡긴다. 장면은 `eventInConcept`·`eventProgress`·`eventOpacity`로 지역 시간과 곡선을 받거나 같은 사건 데이터를 직접 소비한다. 좌표·궤적·미감은 편별 구현에서 결정한다.
 10. **표준 실행:** `npm run sync -- news/<id>`로 여섯 JSON과 `visual-system.media.assets` 미디어를 옮긴다. 이 모드에는 legacy `beats.json`·`overlays.json`·`shots.json`이 필요 없다. `still/render/sheet/beat/slides`는 실행 직전에 정본, source timeline, sync snapshot 전체와 미디어를 다시 대조한다.
 11. **전체 시안·독립 검수·수정:** `resume`의 `context.work`에서 현재 시안과 관찰을 확인하고 [review-loop.md](review-loop.md)의 입력 명령으로 P5/P7 검수를 연결한다. 실물에서 읽힌 흐름을 먼저 받고 의도와 대조한다. 첫 관찰은 원문 그대로 보존하고 요약해 옮기지 않는다. 제작자는 중요한 관찰에 대해 자료·순서·원고·모션·음향 중 필요한 수정 범위를 선택해 실행하거나 유지 이유를 남긴다. 변경된 결과를 갱신하고 원래 문제가 어떻게 달라졌는지 재확인한다. 초기 시안이 충분하면 불필요한 재수정을 하지 않는다.
+
+위치·크기·타이밍·문구 수정은 `npm run preview:frames -- --pilot <id> --at 1.2,3.4`로 영향받은 장면의 프리뷰 프레임을 확인한다. 수정은 묶어서 진행하고, 전체 렌더는 매 수정 직후가 아니라 **검수자에게 보내기 전 검수 라운드당 한 번** 수행한다. 이미 렌더된 MP4에서 프레임을 추출할 때는 `npm run frames`를 쓴다.
+
 12. **제출·보존:** `produce complete`가 현재 실물과 검수·수정 근거를 연결한 뒤 사용자에게 완성 시안, 중요한 변화와 이유, 남은 큰 선택만 보여준다. 확정판과 해시·소스 커밋·검수 기록을 보존한다.
 
 ## 완료 조건

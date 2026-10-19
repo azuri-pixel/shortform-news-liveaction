@@ -12,6 +12,9 @@
 import {
   closeSync,
   createWriteStream,
+  createReadStream,
+  writeFileSync,
+  renameSync,
   existsSync,
   lstatSync,
   mkdirSync,
@@ -25,7 +28,9 @@ import {
   statSync,
 } from "node:fs";
 import { basename, dirname, isAbsolute, join, resolve } from "node:path";
-import { randomUUID } from "node:crypto";
+import { createHash, randomUUID } from "node:crypto";
+import { spawn } from "node:child_process";
+import { FFMPEG, FFPROBE } from "./tools.mjs";
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 
@@ -193,6 +198,8 @@ export function collectAssets(doc) {
   ];
 }
 
+const manifestContexts = new WeakMap();
+
 export function readManifest(root, rel = DEFAULT_MANIFEST) {
   const file = episodePath(root, rel, "manifest 경로");
   if (!existsSync(file)) throw new Error(`manifest 없음: ${rel}`);
@@ -202,7 +209,9 @@ export function readManifest(root, rel = DEFAULT_MANIFEST) {
   } catch (e) {
     throw new Error(`manifest 읽기 실패: ${rel} — ${e.message}`);
   }
-  return collectAssets(doc);
+  const assets = collectAssets(doc);
+  assets.forEach((a, index) => manifestContexts.set(a, { root, rel, index }));
+  return assets;
 }
 
 // ── 계획 ────────────────────────────────────────────────────────────────────
@@ -218,7 +227,7 @@ export function planAssets({ root, assets, index, force = false }) {
     const label = a.id ?? a.path;
     let dst;
     try {
-      dst = episodePath(root, a.path, `자산 ${label}`);
+      dst = episodePath(root, a.normalize === false ? (a.original_path ?? a.path) : a.path, `자산 ${label}`);
       if (destinations.has(dst)) throw new Error(`중복 목적지: ${a.path}`);
       destinations.add(dst);
     } catch (e) {
@@ -247,6 +256,11 @@ export function planAssets({ root, assets, index, force = false }) {
       derived.push({ a, dst, src });
       continue;
     }
+    if (existsSync(dst) && ((a.normalize === false && a.original_path) ||
+      (a.normalize !== false && manifestContexts.has(a) && (!a.original_path || a.path === a.original_path) && videoContainer(dst, a)))) {
+      downloads.push({ a, dst, root, normalizeOnly: true });
+      continue;
+    }
     if (existsSync(dst)) {
       reused.push({
         a,
@@ -257,6 +271,18 @@ export function planAssets({ root, assets, index, force = false }) {
       });
       continue;
     }
+    if (a.original_path) {
+      try {
+        dst = episodePath(root, a.original_path, `원본 ${label}`);
+      } catch (error) {
+        refused.push({ a, reason: error.message });
+        continue;
+      }
+      if (existsSync(dst)) {
+        downloads.push({ a, dst, root, normalizeOnly: true });
+        continue;
+      }
+    }
     const r = resolveUrl(a, index);
     if (r.error) {
       refused.push({ a, reason: r.error });
@@ -266,7 +292,7 @@ export function planAssets({ root, assets, index, force = false }) {
       unknown.push(a);
       continue;
     }
-    downloads.push({ a, dst, url: r.url });
+    downloads.push({ a, dst, url: r.url, root });
   }
   return { downloads, derived, unknown, reused, refused };
 }
@@ -291,6 +317,10 @@ export async function downloadOne(
 ) {
   const part = `${job.dst}.${randomUUID()}.part`;
   try {
+    if (job.normalizeOnly) {
+      const normalized = await normalizeDownloadedVideo(job, { timeoutMs });
+      return { job, ok: true, size: statSync(job.dst).size, ...normalized };
+    }
     if (existsSync(job.dst))
       throw new Error("이미 있다 — 원본을 덮어쓰지 않는다");
     mkdirSync(dirname(job.dst), { recursive: true });
@@ -313,7 +343,8 @@ export async function downloadOne(
       throw new Error("이미 있다 — 원본을 덮어쓰지 않는다");
     linkSync(part, job.dst); // atomic no-clobber across independent workers
     rmSync(part);
-    return { job, ok: true, size };
+    const normalized = await normalizeDownloadedVideo(job, { timeoutMs });
+    return { job, ok: true, size, ...normalized };
   } catch (e) {
     rmSync(part, { force: true });
     return {
@@ -344,4 +375,118 @@ export async function downloadAll(downloads, options = {}) {
   const width = Math.max(1, Math.min(jobs, downloads.length));
   await Promise.all(Array.from({ length: width }, worker));
   return results;
+}
+
+// Probe actual video containers, rather than treating every downloaded blob as video.
+const videoContainer = (file, asset) => {
+  if (asset.type === "video" || asset.kind === "video") return true;
+  const fd = openSync(file, "r");
+  try {
+    const head = Buffer.alloc(384);
+    readSync(fd, head, 0, head.length, 0);
+    return /ftyp|moov|mdat/.test(head.toString("ascii", 4, 8)) ||
+      head.readUInt32BE(0) === 0x1a45dfa3 ||
+      head.toString("ascii", 8, 12) === "AVI " ||
+      head.readUInt32BE(0) === 0x000001ba ||
+      (head[0] === 0x47 && head[188] === 0x47 && head[376] === 0x47);
+  } finally {
+    closeSync(fd);
+  }
+};
+
+const mediaCommand = (command, args, timeoutMs) => new Promise((resolve, reject) => {
+  const child = spawn(command, args, { stdio: ["ignore", "pipe", "pipe"] });
+  let stdout = "", stderr = "", timedOut = false;
+  const timer = setTimeout(() => {
+    timedOut = true;
+    child.kill("SIGKILL");
+  }, timeoutMs);
+  child.stdout.on("data", (data) => { stdout += data; });
+  child.stderr.on("data", (data) => { stderr = (stderr + data).slice(-4096); });
+  child.on("error", (error) => { clearTimeout(timer); reject(error); });
+  child.on("close", (code) => {
+    clearTimeout(timer);
+    if (timedOut) reject(new Error("video normalization 시간 초과"));
+    else if (code !== 0) reject(new Error(`${command}: ${stderr}`));
+    else resolve(stdout);
+  });
+});
+
+const sha256 = async (file) => {
+  const hash = createHash("sha256");
+  for await (const chunk of createReadStream(file)) hash.update(chunk);
+  return hash.digest("hex");
+};
+
+/** Keep the receipt untouched; only publish a complete rendering derivative. */
+export async function normalizeDownloadedVideo(job, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
+  const { a, dst } = job;
+  if (a.normalize === false) {
+    if (!a.original_path) return {};
+    const originalHash = await sha256(dst);
+    return publishMetadata(job, {
+      path: a.original_path, sha256: originalHash,
+      original_path: a.original_path, original_sha256: originalHash,
+    });
+  }
+  if (!videoContainer(dst, a)) return {};
+  const probe = JSON.parse(await mediaCommand(FFPROBE, [
+    "-v", "error", "-select_streams", "v:0", "-show_streams", "-of", "json", dst,
+  ], timeoutMs));
+  const stream = probe.streams?.[0];
+  if (!stream) throw new Error("video stream 없음");
+  const portrait = stream.height > stream.width;
+  const maxWidth = portrait ? 1080 : 1920;
+  const maxHeight = portrait ? 1920 : 1080;
+  const rate = String(stream.avg_frame_rate).split("/").map(Number);
+  const fps = rate[0] / rate[1];
+  const oversized = stream.width > maxWidth || stream.height > maxHeight;
+  if (!oversized && !(fps > 30)) return {};
+  const context = manifestContexts.get(a);
+  const root = context?.root ?? job.root;
+  if (!root) throw new Error("video normalization 편 root 없음");
+  const originalPath = a.original_path ?? a.path;
+  const originalHash = await sha256(dst);
+  const path = `02_production/external_assets/_normalized/${originalHash}-${a.keep_audio === true ? "audio" : "silent"}-1080.mp4`;
+  const output = episodePath(root, path);
+  mkdirSync(dirname(output), { recursive: true });
+  const part = `${output}.${randomUUID()}.part.mp4`;
+  try {
+    await mediaCommand(FFMPEG, [
+      "-nostdin", "-v", "error", "-n", "-i", dst, "-map", "0:v:0",
+      "-vf", `scale=${Math.min(stream.width, maxWidth)}:${Math.min(stream.height, maxHeight)}:force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1,fps=${fps > 0 ? Math.min(30, fps) : 30}`,
+      "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+      ...(a.keep_audio === true ? ["-map", "0:a:0?", "-c:a", "aac"] : ["-an"]),
+      "-movflags", "+faststart", part,
+    ], timeoutMs);
+    // A concurrent worker may already have published the identical derivative.
+    try { linkSync(part, output); } catch (error) {
+      if (error.code !== "EEXIST") throw error;
+    }
+  } finally {
+    rmSync(part, { force: true });
+  }
+  const metadata = { path, sha256: await sha256(output), original_path: originalPath, original_sha256: originalHash };
+  return publishMetadata(job, metadata);
+}
+
+function publishMetadata(job, metadata) {
+  const { a } = job;
+  const context = manifestContexts.get(a);
+  const root = context?.root ?? job.root;
+  if (context) {
+    const file = episodePath(root, context.rel, "manifest 경로");
+    // Re-read synchronously so parallel downloads retain each other's changes.
+    const doc = JSON.parse(readFileSync(file, "utf8"));
+    const entry = collectAssets(doc)[context.index];
+    if (entry?.path !== a.path) throw new Error("manifest 자산이 변경됨");
+    Object.assign(entry, metadata);
+    const temp = `${file}.${randomUUID()}.part`;
+    try {
+      writeFileSync(temp, JSON.stringify(doc, null, 2) + "\n", { flag: "wx" });
+      renameSync(temp, file);
+    } finally { rmSync(temp, { force: true }); }
+  }
+  Object.assign(a, metadata);
+  return metadata;
 }
