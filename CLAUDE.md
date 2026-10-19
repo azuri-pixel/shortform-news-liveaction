@@ -73,6 +73,10 @@ For a new article or resumed production, read the checked-out [production entry]
 
 Anywhere else, ask first. Issue parallel calls in a single message.
 
+### Decide, do not ask (2026-10-19)
+
+During production do not use AskUserQuestion or ask for confirmation. Stop only for: (1) a stop condition written in the request, (2) payment, external publishing or sending beyond the existing approval, (3) irreversible deletion or overwrite. Rights, wording, tool fallbacks and reviewers' "decision needed" items are decided by the producer with the defaults in [config/production-defaults.md](config/production-defaults.md#사용자에게-묻지-않고-제작자가-정하는-것-2026-10-19) and listed in the final report as `대신 결정한 항목 | 선택 | 근거`. User directive (verbatim, with the question it answered) is in that section.
+
 Call them as `@agent-shortform-news:<name>`. They judge and never edit; do not re-judge what they report — pass their wording to the user unchanged.
 
 ## 공통 후킹
