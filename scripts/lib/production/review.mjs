@@ -97,6 +97,11 @@ export const validateRender = (w, outputs) => {
 export const productionReviewTemplate = (w, state, action) => {
   requireValue(ROLES[action], "review_visual|review_audio|review_facts 중 하나가 필요하다");
   return {
+    _format: {
+      coverage: "coverage.original_frames/mobile_frames[].evidence 경로는 evidence[]에도 {path, sha256}로 등록한다",
+      explanations_evidence: "explanations[].evidence는 evidence[].path에 있는 경로 문자열의 배열이다",
+      explanations_observation: "verdict가 unverified여도 explanations[].observed_subject/action/result는 비어 있으면 안 된다",
+    },
     schema_version: "1.0", action, artifact: target(state), source_commit: state.receipts.render.source_commit,
     reviewer: { id: "", role: ROLES[action], independent: false, tool: "" },
     verdict: "incomplete", raw_report: { path: "", sha256: "" }, evidence: [],

@@ -62,7 +62,7 @@
 
 SFX는 `audio_cues[].bind.event_id + point`로 같은 사건에 묶고 `asset`은 `audio/`로 시작하는 편 상대경로를 쓴다. 장면과 별도로 초를 다시 적지 않는다. **SFX 음량(`gain_db`)의 정본은 이 `audio_cues[]` 하나다** — `audio.json sfx[].gain_db` 는 렌더가 읽지 않으며, 같은 id 에 다른 값이 있으면 `audio-sfx-gain-conflict` 오류다(확정된 옛 편은 경고). 품질 확인을 받은 완성 믹스를 이관한 경우 `audio.json.master_mix:true`로 두어 BGM·SFX를 중복 재생하지 않는다.
 
-`visual-system.media.assets[]`는 편 renderer가 쓰는 미디어를 `id`, 편 루트 상대 `source`, `editorial/` 아래의 렌더 `file`로 등기한다. 영상 일부만 필요하면 `trim{from_sec,duration_sec}`를 적고 sync가 편별 파생 클립을 만든다. renderer는 실험 폴더나 공용 임시 캐시를 직접 읽지 않는다.
+`visual-system.media.assets[]`는 편 renderer가 쓰는 미디어를 `id`, 편 루트 상대 `source`, `editorial/` 아래의 렌더 `file`로 등기한다. 영상 일부만 필요하면 `trim{from_sec,duration_sec}`를 적고 sync가 편별 파생 클립을 만든다. 선택 `crop:{x,y,width,height}`는 원본 픽셀 정수 기준으로 trim과 같은 ffmpeg 단계에서 적용한다. 크롭 비율이 정확히 9:16이면 1080×1920으로 스케일하고 다른 비율은 크롭만 한다. 선택 `frame_at_sec`는 원본 영상의 0 이상 초 위치에서 PNG 한 장을 추출하며 `file`은 `.png`로 지정한다. trim과 함께 있으면 frame_at_sec의 원본 시각을 우선한다. renderer는 실험 폴더나 공용 임시 캐시를 직접 읽지 않는다.
 
 컴파일러는 모든 개념 경계와 motion 이벤트의 `from/settled/to/end`를 중복 제거해 `timeline.proof_frames[]`로 만든다. `BeatSheet`, `BeatStill`, `Slides`는 이 목록을 사용하므로 별도 프레임 번호표를 손으로 관리하지 않는다.
 

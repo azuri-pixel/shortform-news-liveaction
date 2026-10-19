@@ -134,3 +134,20 @@ test("60fps below 1080p is capped without upscaling; opt-out preserves and resto
   assert.equal((await run())[0].ok, true);
   assert.equal(readManifest(root)[0].path, normalized.path);
 });
+
+test("sync는 trim과 crop을 함께 적용하고 원본 시각에서 PNG를 추출한다", async (t) => {
+  const { syncMedia } = await import("../scripts/lib/sync-media.mjs");
+  const root = mkdtempSync(join(tmpdir(), "sync-crop-"));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  const source = join(root, "source.mp4");
+  command(FFMPEG, ["-v", "error", "-f", "lavfi", "-i", "testsrc2=s=320x240:r=10:d=1", "-c:v", "libx264", source]);
+  const before = hash(readFileSync(source));
+  const cropped = join(root, "crop.mp4");
+  syncMedia({ trim: { from_sec: 0.2, duration_sec: 0.3 }, crop: { x: 0, y: 0, width: 90, height: 160 } }, source, cropped);
+  const video = probe(cropped)[0];
+  assert.deepEqual([video.width, video.height, Number(video.nb_frames)], [1080, 1920, 3]);
+  const still = join(root, "still.png");
+  syncMedia({ frame_at_sec: 0.5, crop: { x: 20, y: 20, width: 100, height: 100 } }, source, still);
+  assert.deepEqual(probe(still).map(s => [s.codec_name, s.width, s.height]), [["png", 100, 100]]);
+  assert.equal(hash(readFileSync(source)), before);
+});

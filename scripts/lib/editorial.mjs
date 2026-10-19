@@ -93,7 +93,7 @@ const noAbsoluteFrames = (value, errors, path = "motion") => {
   }
 };
 
-export const validateEditorialData = ({ story, concepts, motion, visualSystem, narration, productionProfile, visualContractRequired = false, screenTextPolicy = null, hookPolicy = null, attributionPolicy = null, closingCtaPolicy = null, audio = null, audioLegacyTolerant = false }) => {
+export const validateEditorialData = ({ story, concepts, motion, visualSystem, narration, narrationText = null, productionProfile, visualContractRequired = false, screenTextPolicy = null, hookPolicy = null, attributionPolicy = null, closingCtaPolicy = null, audio = null, audioLegacyTolerant = false }) => {
   const visualCheck = validateVisualPlan({concepts, visualSystem, required: visualContractRequired});
   const errors = [...visualCheck.errors], warnings = [...visualCheck.warnings];
   let lines = [];
@@ -173,6 +173,15 @@ export const validateEditorialData = ({ story, concepts, motion, visualSystem, n
   const conceptList = concepts?.concepts;
   noAbsoluteFrames(concepts, errors, "concepts");
   if (concepts?.schema_version !== "1.0" || !Array.isArray(conceptList) || !conceptList.length) issue(errors, "concepts-schema", "concepts.json", "schema_version 1.0과 concepts 배열이 필요하다");
+  if (hookPolicy === "hook-overlay@4") {
+    const tokens = (text) => String(text ?? "").normalize("NFC").match(/[가-힣0-9]{2,}/g) ?? [];
+    const hookLine = lineById.get(story?.hook?.narration_line);
+    const scriptLine = typeof narrationText === "string" && hookLine ? narrationText.split(/\r?\n/).filter((line) => line.trim())[hookLine.index] : null;
+    const narrationTokens = new Set(tokens(scriptLine ?? hookLine?.text));
+    const hookTokens = (conceptList ?? []).flatMap((concept) => (concept.elements ?? []).filter((element) => element.role === HOOK_ROLE).flatMap((element) => tokens(element.text)));
+    if ((conceptList ?? []).some((concept) => (concept.elements ?? []).some((element) => element.role === HOOK_ROLE)) && !hookTokens.some((token) => narrationTokens.has(token)))
+      issue(warnings, "hook-first-line-drift", "story.hook", "첫 나레이션 문장과 후킹 문구가 공통 핵심어를 갖지 않는다 — 원고를 바꿨다면 story.hook.rows와 concepts 후킹 문구를 함께 고친다");
+  }
   const conceptIds = Array.isArray(conceptList) ? conceptList.map((c) => c.id) : [];
   if (!unique(conceptIds)) issue(errors, "concept-id-duplicate", "concepts.json", "concept id가 중복된다");
   if (JSON.stringify(story?.concept_order ?? []) !== JSON.stringify(conceptIds)) issue(errors, "concept-order-mismatch", "concepts.json", "story.concept_order와 concepts 배열 순서가 다르다");
@@ -435,6 +444,7 @@ export const loadEditorialBundle = (root) => {
     motion: readJson(join(production, "motion.json")),
     visualSystem: readJson(join(production, "visual-system.json")),
     narration: readJson(narrationPath),
+    narrationText: existsSync(join(production, "narration.txt")) ? readFileSync(join(production, "narration.txt"), "utf8") : null,
     production,
   };
 };

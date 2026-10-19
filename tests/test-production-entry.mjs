@@ -178,7 +178,12 @@ try {
     const resumed = JSON.parse(cli(["resume", id, "--json"], { bridge: true }).stdout);
     assert.equal(resumed.actions.scene_proof.pending.token, token.id);
     put(join(production, "narration.txt"), "바뀐 테스트 원고\n");
-    assert.throws(() => finishProductionAction(id, token.id, options), /도중 입력/);
+    assert.throws(() => finishProductionAction(id, token.id, options), (error) => {
+      assert.match(error.message, /narration\.txt/);
+      assert.ok(error.message.includes(`produce fail ${id} ${token.id} --reason`));
+      assert.ok(error.message.includes(`produce begin ${id} scene_proof`));
+      return true;
+    });
     failProductionAction(id, token.id, "테스트 중단", options);
     assert.equal(productionStatus(id, options).attempts.at(-1).status, "failed");
   });

@@ -17,6 +17,8 @@ import { editorialSources, jsonSources, normalizeJson, audioSourceCandidates } f
 import { engineMismatch, sourceEngine, EDITORIAL_ENGINE } from "./lib/engine.mjs";
 import { buildNormalization, defaultAudio, loadContract } from "./lib/audio-loudness.mjs";
 
+import { syncMedia } from "./lib/sync-media.mjs";
+
 const root = process.argv[2] && resolve(process.argv[2]);
 if (!root) {
   console.error("usage: sync-pilot.mjs <pilot root>");
@@ -146,17 +148,8 @@ if (isEditorial) {
       process.exit(1);
     }
     mkdirSync(dirname(dest), { recursive: true });
-    if (media.trim) {
-      execFileSync("ffmpeg", [
-        "-v", "error", "-y", "-i", src,
-        "-ss", String(media.trim.from_sec), "-t", String(media.trim.duration_sec),
-        "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-pix_fmt", "yuv420p", "-movflags", "+faststart", dest,
-      ], { stdio: "inherit" });
-      copied.push(`${media.file} (editorial trim)`);
-    } else {
-      copyFileSync(src, dest);
-      copied.push(media.file);
-    }
+    syncMedia(media, src, dest);
+    copied.push(media.file);
   }
 }
 

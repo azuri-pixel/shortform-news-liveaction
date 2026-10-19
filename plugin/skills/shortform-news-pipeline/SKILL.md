@@ -44,6 +44,7 @@ description: 기사와 분량 또는 제공 대본으로 숏폼 뉴스 영상을
 | 썸네일·커버 구상·생성·검수·표시 | [cover.md](reference/cover.md) · [고정 스타일](reference/cover-style.md) · [cover-build.md](reference/cover-build.md) · [생성 예시](reference/cover-examples.md) |
 | 기사 URL·분량으로 시작·환경·설치본 연결 | [production-entry.md](reference/production-entry.md) |
 | 현재 상태·변경 영향·중단 후 재개 | [production-state.md](reference/production-state.md) |
+| 제작 JSON 구조·필드 예시 | [file-formats.md](reference/file-formats.md) |
 | 개념 중심 제작·정본·표준 실행 | [editorial-concept-track.md](reference/editorial-concept-track.md) |
 | 이미지·일러스트·오버레이·정보그래픽의 연출과 합성 | [visual-expression.md](reference/visual-expression.md) |
 | 화면 위계·모바일·자료와 도해 선택 | [visual-direction.md](reference/visual-direction.md) |

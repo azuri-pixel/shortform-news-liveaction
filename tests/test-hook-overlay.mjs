@@ -238,3 +238,16 @@ test('underline target width is checked with the actual font before rendering',(
   b.story.hook.phrases[0].layout=null;
   assert.ok(hookCodes(validateEditorialData({...b,hookPolicy:HOOK_POLICY})).includes('hook-layout'));
 });
+
+test('hook-overlay@4에서만 첫 문장과 후킹의 핵심어 이탈을 경고한다', () => {
+  const b = bundle();
+  const drift = (policy = 'hook-overlay@4') => validateEditorialData({...b, hookPolicy: policy}).warnings.some(w => w.code === 'hook-first-line-drift');
+  assert.equal(drift(), false);
+  assert.ok(validateEditorialData({...b, hookPolicy: 'hook-overlay@4', narrationText: '완전히 변경된 원고'}).warnings.some(w => w.code === 'hook-first-line-drift'));
+  b.concepts.concepts[0].elements[0].text = '전혀 다른 표현';
+  assert.equal(drift(), true);
+  assert.equal(drift('hook-overlay@3'), false);
+  b.narration.sentences[0].text = '2026 새로운 문장';
+  b.concepts.concepts[0].elements[0].text = '2026 변화';
+  assert.equal(drift(), false);
+});

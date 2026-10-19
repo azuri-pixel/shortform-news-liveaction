@@ -135,7 +135,10 @@ export const finishProductionAction = (id, token, { repo } = {}) => {
     const attempt = state.attempts.find((a) => a.id === token && a.status === "running");
     if (!attempt) throw new Error("열린 작업 토큰이 없다: " + token);
     const current = fingerprint(w, attempt.action, state);
-    if (current.sha256 !== attempt.inputs.sha256) throw new Error("작업 도중 입력·상위 결과·의미 영향이 바뀌었다. 기존 결과를 최신으로 기록하지 않는다");
+    if (current.sha256 !== attempt.inputs.sha256) {
+      const paths = changedFiles(attempt.inputs.files, current.files);
+      throw new Error(`작업 도중 입력·상위 결과·의미 영향이 바뀌었다. 기존 결과를 최신으로 기록하지 않는다. 변경 입력: ${paths.length ? paths.join(", ") : "파일 변경 없음 (상위 결과·의미 영향 변경)"}\n복구: produce fail ${id} ${token} --reason "입력 변경으로 재시작" 다음 produce begin ${id} ${attempt.action} ...`);
+    }
     const expectedOutputs = recipe(w, attempt.action).outputs;
     if (expectedOutputs.length && JSON.stringify(expectedOutputs) !== JSON.stringify(attempt.outputs)) throw new Error("작업 도중 출력 경로 계약이 바뀌었다");
     const statuses = inspect(w, state);

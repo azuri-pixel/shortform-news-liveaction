@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseArgs, selectedFrames } from "../scripts/render-editorial-proof-frames.mjs";
+import { parseArgs, selectedFrames, frameSheetPlan } from "../scripts/render-editorial-proof-frames.mjs";
 
 const parse = (...args) => parseArgs(["--pilot", "sample", ...args]);
 const composition = { fps: 30, durationInFrames: 300 };
@@ -25,7 +25,7 @@ test("잘못된 인자와 위험한 혼용은 렌더 전에 거부한다", () =>
     ["--at", "-1"], ["--frames", "1.5"], ["--frames", "9007199254740992"],
     ["--range", "2-1", "--step", "1"], ["--range", "0-1"], ["--step", "1"],
     ["--range", "0-1", "--step", "0"], ["--range", "0-1-2", "--step", "1"],
-    ["--at", "1", "--sheet"], ["--frames", "1", "--out", "page.png"],
+    ["--frames", "1", "--out", "page.png"],
     ["--at", "1", "--at", "2"], ["--unknown"], ["extra"],
   ]) assert.throws(() => parse(...args), args.join(" "));
   assert.throws(() => parseArgs([]));
@@ -38,4 +38,19 @@ test("composition 경계 밖과 과도한 구간 표본을 거부한다", () => 
     ["--range", "0-10", "--step", "1"], ["--range", "0-1", "--step", "0.0000001"],
   ]) assert.throws(() => selectedFrames(parse(...args), composition));
   assert.throws(() => selectedFrames(parse("--at", "0"), { fps: 0, durationInFrames: 10 }));
+});
+
+test("선택 프레임과 연락지 출력 경로를 함께 받는다", () => {
+  const options = parse("--at", "1,2", "--sheet", "--out", "selected.png");
+  assert.equal(options.wantSheet, true);
+  assert.deepEqual(selectedFrames(options, composition), [30, 60]);
+});
+
+test("선택 연락지는 선택한 JPEG만 연결하고 전체 proof 파일명은 유지한다", () => {
+  const proofs = [30, 90].map(frame => ({ frame }));
+  const options = { pilotId: "sample", proofs, fps: 30 };
+  const selected = frameSheetPlan({ ...options, selected: true });
+  assert.deepEqual(selected.pages.flatMap(page => page.tiles.map(tile => tile.image)), ["frame-30.jpeg", "frame-90.jpeg"]);
+  assert.equal(selected.proof_count, 2);
+  assert.deepEqual(frameSheetPlan(options).pages[0].tiles.map(tile => tile.image), ["element-0.jpeg", "element-1.jpeg"]);
 });

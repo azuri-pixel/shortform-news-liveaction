@@ -78,7 +78,7 @@
     "narration:assemble": "node scripts/assemble-narration.mjs",
     "motion:rebase": "node scripts/motion-rebase.mjs",
     "review:packet": "node scripts/review-packet.mjs",
-    "production:workflow:test": "node --test tests/test-logged-command.mjs tests/test-narration-assembly.mjs tests/test-motion-rebase.mjs tests/test-review-packet.mjs tests/test-production-preflight.mjs tests/test-fetch-assets.mjs tests/test-proof-sheet.mjs tests/test-fact-coverage-carry.mjs tests/test-frame-extract.mjs tests/test-preview-frames.mjs tests/test-asset-video-normalization.mjs",
+    "production:workflow:test": "node --test tests/test-logged-command.mjs tests/test-narration-assembly.mjs tests/test-motion-rebase.mjs tests/test-review-packet.mjs tests/test-production-preflight.mjs tests/test-fetch-assets.mjs tests/test-proof-sheet.mjs tests/test-fact-coverage-carry.mjs tests/test-frame-extract.mjs tests/test-preview-frames.mjs tests/test-asset-video-normalization.mjs tests/test-motion-anchor.mjs",
     "check:symlinks": "node scripts/check-symlinks.mjs",
     "check:deliver": "node scripts/check-deliver.mjs",
     "time:session": "node scripts/session-time.mjs",
@@ -121,7 +121,10 @@
     "production:captions:unit": "node tests/test-caption-segmentation.mjs && node tests/test-caption-semantics.mjs && node --test tests/test-caption-policy.mjs tests/test-narration-assembly.mjs",
     "defaults:test": "node --test tests/test-music-library.mjs tests/test-global-defaults.mjs",
     "frames": "node scripts/extract-frames.mjs",
-    "preview:frames": "node scripts/render-editorial-proof-frames.mjs"
+    "preview:frames": "node scripts/render-editorial-proof-frames.mjs",
+    "motion:anchor": "node scripts/motion-anchor.mjs",
+    "editorial:test": "node --test tests/test-hook-overlay.mjs tests/test-hook-composition.mjs tests/test-screen-text-policy.mjs tests/test-attribution-policy.mjs tests/test-closing-cta.mjs tests/test-motion-anchor.mjs",
+    "production:test": "node --test tests/test-production-entry.mjs tests/test-visual-production.mjs tests/test-render-duration-basis.mjs tests/test-review-format.mjs"
   },
   "sideEffects": [
     "*.css"

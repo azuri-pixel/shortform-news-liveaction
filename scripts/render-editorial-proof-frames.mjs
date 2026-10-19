@@ -60,7 +60,7 @@ export function parseArgs(argv) {
   if (!options.id) throw new Error(USAGE);
   if ((options.range !== null) !== (options.step !== null) || options.step === 0) throw new Error("--range와 양수 --step을 함께 지정한다");
   options.selected = options.at.length > 0 || options.frames.length > 0 || options.range !== null;
-  if (options.selected && (options.wantSheet || options.outArg)) throw new Error("선택 프레임은 --sheet/--out과 함께 쓸 수 없다");
+  if (options.outArg && !options.wantSheet) throw new Error("--out은 --sheet와 함께 지정한다");
   return options;
 }
 
@@ -89,10 +89,19 @@ export function selectedFrames(options, { fps, durationInFrames }) {
   return [...frames].sort((a, b) => a - b);
 }
 
+export const frameSheetPlan = ({ selected = false, ...options }) => {
+  const plan = buildSheetPlan(options);
+  if (selected) {
+    plan.images.name_pattern = "frame-<frame>.jpeg";
+    for (const page of plan.pages) for (const tile of page.tiles) tile.image = `frame-${tile.frame}.jpeg`;
+  }
+  return plan;
+};
+
 async function main(argv) {
   const options = parseArgs(argv);
   const { id, wantSheet, outArg, selected } = options;
-  const target = outArg ? resolve(outArg) : join(dirs(id).out, "qa", "beatsheet", "page.png");
+  const target = outArg ? resolve(outArg) : join(dirs(id).out, "qa", selected ? "preview-sheet" : "beatsheet", "page.png");
   const sheetDir = dirname(target);
   const stem = basename(target).replace(/\.png$/i, "") || "page";
   const manifestName = outArg ? `${stem}-manifest.json` : "manifest.json";
@@ -172,7 +181,7 @@ async function main(argv) {
   if (!wantSheet) return;
 
   // ── 연락지 ────────────────────────────────────────────────────────────────────
-  const plan = buildSheetPlan({ pilotId: id, proofs, fps: timeline.fps, stem, imageDir: relative(sheetDir, slideDir) });
+  const plan = frameSheetPlan({ selected, pilotId: id, proofs, fps: timeline.fps, stem, imageDir: relative(sheetDir, slideDir) });
   const planErrors = sheetCoverageErrors(plan, proofs);
   if (planErrors.length) {
     for (const error of planErrors) console.error(`ERROR ${error}`);
