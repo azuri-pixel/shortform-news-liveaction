@@ -387,6 +387,26 @@ export const validateEditorialData = ({ story, concepts, motion, visualSystem, n
     for (const [i, cue] of credits.attribution.sources.entries()) timeline.proof_frames.push({id:`source${i+1}`, frame:cue.from, labels:["자료 출처"]});
     for (const [i, page] of credits.attribution.pages.entries()) timeline.proof_frames.push({id:`credit${i+1}`, frame:page.from, labels:["끝 크레딧"]});
   }
+  // Plan-level screen checks that would otherwise surface only in a review round.
+  const elementKind = new Map((conceptList ?? []).flatMap((c) => (c.elements ?? []).map((e) => [e.id, e.kind])));
+  const contentEnd = motion?.total_frames ?? 0;
+  const mediaEvents = compiledEvents.filter((e) => elementKind.get(e.element_id) === "media" && Number.isFinite(e.from) && Number.isFinite(e.end)).sort((a, b) => a.from - b.from);
+  if (mediaEvents.length) {
+    let covered = 0;
+    for (const e of mediaEvents) {
+      if (e.from - covered >= 2) issue(warnings, "media-coverage-gap", `motion.${e.id}`, `${covered}–${e.from}f에 화면을 채우는 미디어가 없다 — 앞 미디어의 end를 이 사건의 settled까지 늘려 겹친다`);
+      covered = Math.max(covered, e.end);
+    }
+    if (contentEnd - covered >= 2) issue(warnings, "media-coverage-gap", "motion", `${covered}–${contentEnd}f(본문 끝)에 화면을 채우는 미디어가 없다`);
+  }
+  for (const e of compiledEvents) {
+    if (elementKind.get(e.element_id) === "diagram" && Number.isFinite(e.settled) && Number.isFinite(e.to) && e.to - e.settled < fps)
+      issue(warnings, "diagram-hold-short", `motion.${e.id}`, `도해가 완성된 채 머무는 시간이 ${e.to - e.settled}f(<${fps}f)다 — 비교·관계를 읽을 시간을 준다`);
+    const cta = timeline.closing_cta;
+    const kind = elementKind.get(e.element_id);
+    if (cta && (kind === "text" || kind === "diagram") && e.kind !== "media" && Number.isFinite(e.to) && e.to > cta.from && e.from < cta.end && !timeline.hook_overlay?.phrases?.some((p) => p.id === e.element_id))
+      issue(warnings, "cta-overlap", `motion.${e.id}`, `${e.element_id}가 마지막 CTA 알약 구간(${cta.from}–${cta.end}f)에 남는다 — 알약 위치(중심 y${cta.style?.center_y ?? "?"})와 겹치는지 확인하거나 그 전에 정리한다`);
+  }
   if (profile) {
     timeline.production_profile = structuredClone(profile);
     timeline.source.production_profile_sha256 = sha256(JSON.stringify(profile));

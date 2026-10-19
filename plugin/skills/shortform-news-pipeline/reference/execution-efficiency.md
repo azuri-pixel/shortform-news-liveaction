@@ -65,6 +65,7 @@ npm run motion:rebase -- <id> --write   # 적용 후 editorial 검사 결과까�
 
 ## 조립과 검수
 
+- `editorial:check`는 렌더 전에 화면 계획의 흔한 검수 지적을 경고한다: `media-coverage-gap`(실사·이미지 사건 사이나 본문 끝에 화면을 채우는 미디어가 없음 → 앞 미디어 end를 다음 settled까지 겹친다), `diagram-hold-short`(완성된 도해가 1초 미만 머묾), `cta-overlap`(라벨·도해가 마지막 CTA 알약 구간에 남음). 의도한 경우 제작 노트에 이유를 남긴다.
 - motion 작성 후 `preflight <id> timeline`, 자료 배치 후 `preflight <id> sync`로 검사한다. 현재 정본을 읽으며 실행·수집·검수 완료 기록을 만들지 않는다.
 - `produce run <id> timeline|sync|proof|render`는 stderr에 진행·PID·로그 경로를 내고 전체 출력은 로그 파일에 보존한다. `--timeout-ms <양의 정수>`가 지나면 해당 작업의 프로세스 그룹을 종료하고 실패로 기록한다. 기본 제한은 15분이며 요청한 작업의 예상 비용에 맞게 지정한다. stdout JSON만 필요하면 stderr를 별도 로그로 보존한다.
 - 실행 중 출력 전체를 `| tail`로 숨기지 않는다. 종료 후 필요한 실패 구간만 읽는다. 제한을 늘리기 전에 로그와 진행 여부를 확인한다.
@@ -73,10 +74,14 @@ npm run motion:rebase -- <id> --write   # 적용 후 editorial 검사 결과까�
 
 ```bash
 npm run review:packet -- <id> --mp4 <렌더.mp4> --round r1 [--transcript <최종 믹스 전사.json>]
-npm run review:packet -- <id> --mp4 <새 렌더.mp4> --round r2 --ranges 900-960,2052-2230 --transcript <전사.json>
+npm run review:packet -- <id> --mp4 <새 렌더.mp4> --round r2 --since r1 --transcript <전사.json>
+# 손으로 범위를 지정할 때만: --ranges 900-960,2052-2230
 ```
 
-  `timeline.proof_frames`의 원해상·1/3 모바일 프레임, 번호순 시트, `audio:measure` 로그, 제작자가 만든 전사를 `out/pilots/<id>/review/<round>/packet/`에 모으고 `index.json`에 해시를 남긴다. MP4 프레임 수가 현재 timeline과 다르면 실패한다. `--ranges`는 재검수 구간 `[from,end)`이며 구간 양 끝 프레임을 함께 뽑는다. 표본·측정·전사는 연속 시청·청취가 아니다.
+  `timeline.proof_frames`의 원해상·1/3 모바일 프레임(끝 크레딧 각 페이지 중간·끝 포함), 번호순 시트, `audio:measure` 로그, 제작자가 만든 전사, 있으면 `CREDITS.md`·`external_assets/SOURCES.md`를 `out/pilots/<id>/review/<round>/packet/`에 모으고 `index.json`에 해시를 남긴다.
+- **렌더 검사(render-lint@1)가 packet 안에서 먼저 돈다.** 본문 검정 프레임, 화면 좌우 빈 띠, true peak > -1.0 dBTP, 이 MP4를 잰 `reviews/audio-loudness.json`의 pass 여부를 검사해 `render-lint.json`에 남긴다. 하나라도 실패하면 packet 생성이 멈춘다 — 검수자를 부르기 전에 고치고 다시 렌더한다. 의도한 화면(예: 의도한 암전)이면 `--allow-lint`로 기록을 남기고 진행한다. 렌더 뒤 순서는 `audio:loudness -- measure` → `review:packet`이다. 측정 통과는 시청·청취가 아니다.
+- **재검수는 `--since r<N-1>`.** 이전 packet의 snapshot과 비교해 움직인 사건, 소스·trim이 바뀐 미디어의 개념 구간을 `changes.ranges`로 자동 계산한다. 전체 저밀도 시트는 유지하고 변경 구간 양 끝 프레임을 더한다. 낭독·화면 문구·후킹·출처·크레딧이 그대로면 `fact_recheck: "claims-unchanged"`를 반환한다. 이때 fact-check 재호출은 [병렬 호출과 재검수](quality-review.md#병렬-호출과-재검수)의 예외를 따른다. 장면 코드 변경(`scene_changed`)은 diff로 범위를 알 수 없으므로 shot-judge가 시트 전체를 훑는다.
+- **청취 지점.** `--transcript`가 JSON이면 낭독 어절과 같은 시간대의 최종 믹스 전사를 비교해, 다르게 읽힌 어절을 `transcript.listen_targets`(시각·원고·전사)로 낸다. 사용자에게 "전체를 들어 달라" 대신 이 목록의 위치를 먼저 들어 달라고 요청한다. 숫자·영문은 표기 차이로도 잡히므로 후보일 뿐 오류 판정이 아니다. MP4 프레임 수가 현재 timeline과 다르면 실패한다. `--ranges`는 재검수 구간 `[from,end)`이며 구간 양 끝 프레임을 함께 뽑는다. 표본·측정·전사는 연속 시청·청취가 아니다.
 - 구조 검사는 의미·사실·권리·청취 검수를 대신하지 않는다. 첫 핵심 장면 시험은 편에 기록된 계약을 따르며 `first-core-scene@5`의 선택 시험을 강제로 추가하지 않는다.
 
 ## 확인할 성과
