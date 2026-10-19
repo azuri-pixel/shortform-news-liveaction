@@ -431,8 +431,12 @@ export async function normalizeDownloadedVideo(job, { timeoutMs = DEFAULT_TIMEOU
   }
   if (!videoContainer(dst, a)) return {};
   const probe = JSON.parse(await mediaCommand(FFPROBE, [
-    "-v", "error", "-select_streams", "v:0", "-show_streams", "-of", "json", dst,
+    "-v", "error", "-protocol_whitelist", "file", "-select_streams", "v:0", "-show_streams", "-show_format", "-of", "json", dst,
   ], timeoutMs));
+  // 내려받은 파일은 신뢰하지 않는다: 일반 동영상 컨테이너만 변환한다(재생목록·연결 목록 차단).
+  const formats = String(probe.format?.format_name ?? "").split(",");
+  if (!formats.some((f) => ["mov", "mp4", "m4a", "3gp", "matroska", "webm", "avi", "mpegts", "flv"].includes(f)))
+    throw new Error(`지원하지 않는 영상 형식: ${probe.format?.format_name ?? "unknown"}`);
   const stream = probe.streams?.[0];
   if (!stream) throw new Error("video stream 없음");
   const portrait = stream.height > stream.width;
@@ -453,7 +457,7 @@ export async function normalizeDownloadedVideo(job, { timeoutMs = DEFAULT_TIMEOU
   const part = `${output}.${randomUUID()}.part.mp4`;
   try {
     await mediaCommand(FFMPEG, [
-      "-nostdin", "-v", "error", "-n", "-i", dst, "-map", "0:v:0",
+      "-nostdin", "-v", "error", "-n", "-protocol_whitelist", "file", "-i", dst, "-map", "0:v:0",
       "-vf", `scale=${Math.min(stream.width, maxWidth)}:${Math.min(stream.height, maxHeight)}:force_original_aspect_ratio=decrease:force_divisible_by=2,setsar=1,fps=${fps > 0 ? Math.min(30, fps) : 30}`,
       "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", "-pix_fmt", "yuv420p",
       ...(a.keep_audio === true ? ["-map", "0:a:0?", "-c:a", "aac"] : ["-an"]),
