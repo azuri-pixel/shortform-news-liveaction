@@ -71,7 +71,7 @@ For a new article or resumed production, read the checked-out [production entry]
 
 `first-core-scene@5`에서 시험 자체가 선택이다. 원고·주요 자료·표현 수단 선택을 바꿀 구체적 불확실성이 없으면 시험도 호출도 하지 않고, 음성과 전체 시안으로 간다. 독립 검토가 필요한 시험인데 `scene-judge`가 설치본에 없으면 검수를 생략하거나 전체 영상용 `shot-judge`의 장문 절차로 되돌리지 않는다. 이 저장소의 [scene-judge 원문](plugin/agents/scene-judge.md)을 읽고 동일한 범위로 로컬 Opus CLI에 위임한다. 설치본과 저장소 소스의 차이는 `doctor --installed`로 기록한다. 계약 전문은 [발화→화면 제작](plugin/skills/shortform-news-pipeline/reference/visual-production.md)과 [docs/SCENE-PROOF.md](docs/SCENE-PROOF.md)에 있다.
 
-Anywhere else, ask first. Issue parallel calls in a single message.
+Outside these positions, the producer may call the same agents for extra rechecks or narrower questions without asking the user (2026-10-19 directive below). Do not add new agent types or widen their permissions. Issue parallel calls in a single message.
 
 ### Decide, do not ask (2026-10-19)
 
