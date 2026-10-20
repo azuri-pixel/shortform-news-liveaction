@@ -28,6 +28,8 @@ try {
   const fresh = new Set(remoteRefs.length===unrelated.length ? [sha] : remoteRefs);
   for (const commit of unrelated) {
    const scope = commit===sha ? 'all' : fresh.has(commit) ? 'new' : 'pushed';
+   // 이미 원격에 있는 커밋은 고칠 수 없고 다시 막아도 보호가 없다 — 트리를 읽지 않는다(수만 번 git 호출로 push 연결이 끊겼다).
+   if(scope==='pushed')continue;
    const tree = stagedTree(repo,commit); const errors=sharingErrors(tree.entries,tree.read,{scope});
    if(errors.length)throw new Error(commit.slice(0,12)+': '+errors.join('\n'));
   }

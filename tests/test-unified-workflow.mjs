@@ -111,6 +111,20 @@ test('납품 저장소로 가는 push는 설정이 없어도 공유 검사를 �
  assert.notEqual(result.status,0);assert.match(result.stderr,/공유 이력 밖/);
 });
 
+test('이미 원격에 있는 커밋은 다시 검사하지 않는다',t=>{
+ const repo=temp(t);
+ execFileSync('git',['clone','--shared','--no-checkout',REPO,repo],{stdio:'pipe'});
+ const git=(args,input)=>execFileSync('git',['-C',repo,...args],{input,encoding:'utf8',env:{...process.env,GIT_AUTHOR_NAME:'Test',GIT_AUTHOR_EMAIL:'test@example.invalid',GIT_COMMITTER_NAME:'Test',GIT_COMMITTER_EMAIL:'test@example.invalid'}}).trim();
+ const base=git(['rev-parse','HEAD']);git(['read-tree',base]);
+ const blob=git(['hash-object','-w','--stdin'],'private fixture');
+ git(['update-index','--add','--cacheinfo','100644',blob,'news/private_episode/02_production/story.json']);
+ const old=git(['commit-tree',git(['write-tree']),'-p',base,'-m','already pushed']);
+ git(['update-ref','refs/remotes/origin/already',old]);
+ const tip=git(['commit-tree',git(['rev-parse',base+'^{tree}']),'-p',old,'-m','removed at tip']);
+ const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','unused'],{cwd:repo,env:{...process.env,SHORTFORM_SHARE_GUARD:'1'},input:`refs/heads/test ${tip} refs/heads/main ${base}\n`,encoding:'utf8'});
+ assert.doesNotMatch(result.stderr,/공유 push 차단/);
+});
+
 test('최종 트리에서 삭제한 미선정 자료도 중간 커밋에 있으면 push 거절',t=>{
  const repo=temp(t);
  execFileSync('git',['clone','--shared','--no-checkout',REPO,repo],{stdio:'pipe'});
