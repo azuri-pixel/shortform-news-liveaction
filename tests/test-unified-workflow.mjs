@@ -99,15 +99,24 @@ test('공유 검사는 실제 staged 트리를 검사하며 미선정 편·로�
    p=>p==='.env.example'?'PEXELS_API_KEY=sk-ant-'+'a'.repeat(40):read(p)).some(x=>x.includes('비밀값')));
 });
 
-test('push 검사에서 옛 개발 이력을 LFS 업로드 전에 거절',()=>{
- const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','unused'],{cwd:REPO,env:{...process.env,SHORTFORM_SHARE_GUARD:'1'},input:'refs/heads/old a4dd8ceb159fd04d60cb6cc513d4cbc6d4f6b660 refs/heads/main 0000000000000000000000000000000000000000\n',encoding:'utf8'});
+// 공유 이력 밖의 커밋은 임시 클론에 부모 없는 커밋으로 만든다 — 특정 체크아웃에만 있는 옛 커밋에 기대지 않는다.
+const unsharedCommit=t=>{
+ const repo=temp(t);
+ execFileSync('git',['clone','--shared','--no-checkout',REPO,repo],{stdio:'pipe'});
+ const env={...process.env,GIT_AUTHOR_NAME:'Test',GIT_AUTHOR_EMAIL:'test@example.invalid',GIT_COMMITTER_NAME:'Test',GIT_COMMITTER_EMAIL:'test@example.invalid'};
+ const tree=execFileSync('git',['-C',repo,'mktree'],{input:'',encoding:'utf8'}).trim();
+ return {repo,sha:execFileSync('git',['-C',repo,'commit-tree',tree,'-m','old history'],{encoding:'utf8',env}).trim()};
+};
+test('push 검사에서 옛 개발 이력을 LFS 업로드 전에 거절',t=>{
+ const old=unsharedCommit(t);
+ const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','unused'],{cwd:old.repo,env:{...process.env,SHORTFORM_SHARE_GUARD:'1'},input:`refs/heads/old ${old.sha} refs/heads/main 0000000000000000000000000000000000000000\n`,encoding:'utf8'});
  assert.notEqual(result.status,0);assert.match(result.stderr,/공유 이력 밖/);
 });
 
 
-test('납품 저장소로 가는 push는 설정이 없어도 공유 검사를 건다',()=>{
- const env={...process.env};delete env.SHORTFORM_SHARE_GUARD;
- const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','git@github.com:intellieffect/shortform-news-liveaction.git'],{cwd:REPO,env:{...env,GIT_CONFIG_GLOBAL:'/dev/null',GIT_CONFIG_PARAMETERS:"'shortform.shareguard=false'"},input:'refs/heads/old a4dd8ceb159fd04d60cb6cc513d4cbc6d4f6b660 refs/heads/main 0000000000000000000000000000000000000000\n',encoding:'utf8'});
+test('납품 저장소로 가는 push는 설정이 없어도 공유 검사를 건다',t=>{
+ const old=unsharedCommit(t);const env={...process.env};delete env.SHORTFORM_SHARE_GUARD;
+ const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','git@github.com:intellieffect/shortform-news-liveaction.git'],{cwd:old.repo,env:{...env,GIT_CONFIG_GLOBAL:'/dev/null',GIT_CONFIG_PARAMETERS:"'shortform.shareguard=false'"},input:`refs/heads/old ${old.sha} refs/heads/main 0000000000000000000000000000000000000000\n`,encoding:'utf8'});
  assert.notEqual(result.status,0);assert.match(result.stderr,/공유 이력 밖/);
 });
 
