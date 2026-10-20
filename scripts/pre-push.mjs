@@ -23,13 +23,15 @@ try {
   for(const commit of unrelated) if(spawnSync('git',['-C',repo,'merge-base','--is-ancestor',historyRoot,commit]).status!==0)throw new Error('공유 커밋에 과거 비공개 이력이 병합됐다.');
   // 최종 트리에서 지웠어도 중간 커밋의 자료는 원격에 전달되므로 모두 검사한다.
   // 아직 어느 원격에도 없는 커밋만 «지금 내가 더하는 것»이다. 이미 나간 커밋은 고칠 수 없다.
-  const remoteRefs = execFileSync('git',['-C',repo,'rev-list',sha,'--not','--remotes'],{encoding:'utf8'}).trim().split('\n').filter(Boolean);
-  // 원격 ref 를 하나도 모르면(첫 clone 등) 끝 트리만 새 것으로 보아 옛 이력을 막지 않는다.
-  const fresh = new Set(remoteRefs.length===unrelated.length ? [sha] : remoteRefs);
+  // 이 push 대상 원격의 ref 만 «이미 나간 것»으로 본다 — 다른 원격에 있는 커밋은 납품 원격엔 새 것이다.
+  const remoteRefs = execFileSync('git',['-C',repo,'rev-list',sha,'--not',`--remotes=${process.argv[2]}`],{encoding:'utf8'}).trim().split('\n').filter(Boolean);
+  // 대상 원격 ref 를 하나도 모르면(첫 clone 등) 끝 트리만 새 것으로 보아 옛 이력을 막지 않되, 중간 커밋도 건너뛰지 않고 검사한다.
+  const known = remoteRefs.length!==unrelated.length;
+  const fresh = new Set(known ? remoteRefs : [sha]);
   for (const commit of unrelated) {
    const scope = commit===sha ? 'all' : fresh.has(commit) ? 'new' : 'pushed';
    // 이미 원격에 있는 커밋은 고칠 수 없고 다시 막아도 보호가 없다 — 트리를 읽지 않는다(수만 번 git 호출로 push 연결이 끊겼다).
-   if(scope==='pushed')continue;
+   if(scope==='pushed'&&known)continue;
    const tree = stagedTree(repo,commit); const errors=sharingErrors(tree.entries,tree.read,{scope});
    if(errors.length)throw new Error(commit.slice(0,12)+': '+errors.join('\n'));
   }

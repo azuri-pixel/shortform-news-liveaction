@@ -121,6 +121,12 @@ test('이미 원격에 있는 커밋은 다시 검사하지 않는다',t=>{
  const old=git(['commit-tree',git(['write-tree']),'-p',base,'-m','already pushed']);
  git(['update-ref','refs/remotes/origin/already',old]);
  const tip=git(['commit-tree',git(['rev-parse',base+'^{tree}']),'-p',old,'-m','removed at tip']);
+ const push=remote=>spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),remote,'unused'],{cwd:repo,env:{...process.env,SHORTFORM_SHARE_GUARD:'1'},input:`refs/heads/test ${tip} refs/heads/main ${base}\n`,encoding:'utf8'});
+ // 대상 원격(origin)에 이미 있으면 건너뛴다.
+ assert.doesNotMatch(push('origin').stderr,/공유 push 차단/);
+ // 다른 원격으로 보내면 그 커밋은 새 것이므로 미선정 자료를 막는다.
+ git(['remote','add','delivery','/dev/null']);
+ assert.match(push('delivery').stderr,/미선정/);
  const result=spawnSync(process.execPath,[join(REPO,'scripts/pre-push.mjs'),'origin','unused'],{cwd:repo,env:{...process.env,SHORTFORM_SHARE_GUARD:'1'},input:`refs/heads/test ${tip} refs/heads/main ${base}\n`,encoding:'utf8'});
  assert.doesNotMatch(result.stderr,/공유 push 차단/);
 });
