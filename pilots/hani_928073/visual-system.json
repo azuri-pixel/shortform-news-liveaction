@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "preset": "editorial-concept-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "caption": {
+    "preset": "betelgeuse-v1"
+  },
+  "text": {
+    "persistent_top_text": false,
+    "explanatory_notes": false,
+    "allowed_roles": [
+      "necessary-label",
+      "condition",
+      "provenance"
+    ]
+  },
+  "media": {
+    "full_bleed_default": true,
+    "assets": [
+      {
+        "id": "project_logo",
+        "source": "02_production/brand/logo.png",
+        "file": "editorial/brand-logo.png"
+      },
+      {
+        "id": "pbd2020",
+        "source": "02_production/media/pbd2020_2160x3840.jpg",
+        "file": "editorial/pbd2020.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://science.nasa.gov/photojournal/pale-blue-dot-revisited"
+      },
+      {
+        "id": "pbd1990",
+        "source": "02_production/media/pbd1990_453x614.png",
+        "file": "editorial/pbd1990.png",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot"
+      },
+      {
+        "id": "family6",
+        "source": "02_production/media/family6_620x500.png",
+        "file": "editorial/family6.png",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://photojournal.jpl.nasa.gov/catalog/PIA00453"
+      },
+      {
+        "id": "sim",
+        "source": "02_production/media/voyager1_perspective_sim_9x16.jpg",
+        "file": "editorial/sim.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://science.nasa.gov/photojournal/voyager-1-perspective-for-family-portrait"
+      },
+      {
+        "id": "launch",
+        "source": "02_production/media/v1_launch_t4-13.mp4",
+        "file": "editorial/launch.mp4",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://commons.wikimedia.org/wiki/File:JPL-19770905-VOYAGEf-0001-AVC2002151_Voyager_1_Launches.webm"
+      },
+      {
+        "id": "iss",
+        "source": "02_production/media/v7_iss_t22-42_9x16.mp4",
+        "file": "editorial/iss.mp4",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://commons.wikimedia.org/wiki/File:ISS_4K_Crew_Earth_Observations.webm"
+      }
+    ]
+  },
+  "mobile": {
+    "max_simultaneous_labels": 3,
+    "review_scale": 0.3333333333
+  },
+  "motion": {
+    "enter": "ease-out",
+    "move": "ease-in-out",
+    "exit": "ease-in",
+    "quantitative_overshoot": false
+  },
+  "production_profile": {
+    "id": "hani-shortform",
+    "version": "1.5.0"
+  },
+  "visual_contract": "visual-explanation@1",
+  "generation_jobs": [],
+  "hook_style": {
+    "version": "hook-style@3"
+  },
+  "attribution_style": {
+    "version": "1.0.0"
+  },
+  "attribution": {
+    "sources": [
+      {
+        "asset_id": "pbd2020",
+        "text": "NASA/JPL-Caltech",
+        "start": 0,
+        "end": 6.34
+      },
+      {
+        "asset_id": "launch",
+        "text": "NASA/JPL-Caltech",
+        "start": 6.34,
+        "end": 9.36
+      },
+      {
+        "asset_id": "sim",
+        "text": "NASA/JPL-Caltech · 시뮬레이션",
+        "start": 9.36,
+        "end": 23.47
+      },
+      {
+        "asset_id": "pbd1990",
+        "text": "NASA/JPL-Caltech",
+        "start": 23.47,
+        "end": 29.78
+      },
+      {
+        "asset_id": "sim",
+        "text": "NASA/JPL-Caltech · 시뮬레이션",
+        "start": 29.78,
+        "end": 34.5
+      },
+      {
+        "asset_id": "pbd1990",
+        "text": "NASA/JPL-Caltech",
+        "start": 34.5,
+        "end": 39.6
+      },
+      {
+        "asset_id": "family6",
+        "text": "NASA/JPL",
+        "start": 39.6,
+        "end": 49.29
+      },
+      {
+        "asset_id": "pbd2020",
+        "text": "NASA/JPL-Caltech",
+        "start": 49.29,
+        "end": 69.78
+      },
+      {
+        "asset_id": "iss",
+        "text": "NASA",
+        "start": 69.78,
+        "end": 75.72
+      },
+      {
+        "asset_id": "pbd2020",
+        "text": "NASA/JPL-Caltech",
+        "start": 75.72,
+        "end": 79.65
+      }
+    ],
+    "pages": [
+      {
+        "duration": 3,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필 선임기자",
+              "더 생생해진 ‘창백한 푸른 점’…30년 만에 재보정"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  }
+}

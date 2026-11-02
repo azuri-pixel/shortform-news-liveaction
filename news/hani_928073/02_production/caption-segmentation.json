@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "lines": {
+    "s02": { "protected_phrases": [{ "from": 2, "to": 3, "text": "보이저 1호" }], "break_before": [{ "token": 10, "text": "뒤를" }] },
+    "s03": { "protected_phrases": [{ "from": 2, "to": 3, "text": "칼 세이건" }] },
+    "s05": { "break_before": [{ "token": 10, "text": "한" }] },
+    "s08": { "protected_phrases": [{ "from": 0, "to": 1, "text": "보이저 1호" }, { "from": 9, "to": 11, "text": "태양계 가족 초상화" }], "break_before": [{ "token": 5, "text": "행성" }] },
+    "s13": { "protected_phrases": [{ "from": 5, "to": 7, "text": "창백한 푸른 점" }] }
+  }
+}

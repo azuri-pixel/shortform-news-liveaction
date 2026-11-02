@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_928073",
+  "status": "closed",
+  "basis": "user-confirmed",
+  "recorded_at": "2026-11-02T11:38:11+09:00",
+  "raw_request": {
+    "path": "news/hani_928073/00_brief/closeout-request.txt",
+    "sha256": "fe1a2b031cfe026245a65ad9fdd476ac778625a5b8ca884978c2ff655964d38e"
+  },
+  "artifacts": [
+    {
+      "path": "out/pilots/hani_928073/qa/production-dd63bab6-4c4d-40ea-a3b5-7153e4826364.mp4",
+      "sha256": "32d22485f13c05cdbd7b5f1391f33c9d41ffb9f8ef819d5239a5a5760831a5f3"
+    },
+    {
+      "path": "out/pilots/hani_928073/thumbnails/v1/A.png",
+      "sha256": "280a277d0784b6b546d7bab9864e99055f9bf90bdd1bc165febcb66ab9c8ed5e"
+    },
+    {
+      "path": "out/pilots/hani_928073/thumbnails/v1/B.png",
+      "sha256": "d0228decda18445fa66490e662299d61b45842842f6ee900809a82e84164ca2e"
+    },
+    {
+      "path": "out/pilots/hani_928073/thumbnails/v1/C.png",
+      "sha256": "d47eeb47d428e1efde4e3e5aa70d531015355d59389d7846702738fa4cceed02"
+    }
+  ]
+}

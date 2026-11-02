@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_928073",
+  "script_policy": "editorial-owned",
+  "creative_scope": {
+    "script": "delegated",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "가장 유명한 우주 사진 속 지구는 왜 화소 하나보다 작았고, 그 작은 점은 왜 그렇게 큰 의미를 남겼나?",
+  "takeaway": "60억 km 밖에서 겨우 찍힌 한 점이 우리 모두의 유일한 고향이라는 것 — 그래서 소중히 해야 한다는 세이건의 메시지",
+  "concept_order": [
+    "c1_hook",
+    "c2_lookback",
+    "c3_pixel",
+    "c4_family",
+    "c5_remaster",
+    "c6_sagan",
+    "c7_close"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 900,
+          "center_y": 760
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 60,
+            "gap_after": 18,
+            "runs": [
+              {
+                "text": "이 사진 속 지구",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 52,
+                "text_color": "#FFD16A",
+                "letter_spacing": 0
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 116,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "화소 1개보다 작았다",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 96,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": []
+}

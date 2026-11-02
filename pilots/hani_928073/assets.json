@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_928073",
+  "assets": [
+    {
+      "id": "A1",
+      "kind": "image",
+      "source": "article",
+      "path": "01_input/05_참고자료/hani_20200213501237.webp",
+      "url": "https://flexible.img.hani.co.kr/flexible/normal/800/0/imgdb/original/2020/0213/20200213501237.webp",
+      "caption": "30년 만에 디지털 기술로 새단장한 ‘창백한 푸른 점’ 지구. 나사 제공",
+      "rights": "unverified — 게재 자산, 1차 출처(NASA/JPL) 확인 필요"
+    },
+    {
+      "id": "A2",
+      "kind": "image",
+      "source": "article",
+      "path": "01_input/05_참고자료/hani_20200213501239.webp",
+      "url": "https://flexible.img.hani.co.kr/flexible/normal/800/0/imgdb/original/2020/0213/20200213501239.webp",
+      "caption": "1990년 2월14일 보이저 1호가 60억km 거리에서 촬영한 지구 사진 원본. 나사 제공",
+      "rights": "unverified — 게재 자산, 1차 출처(NASA/JPL) 확인 필요"
+    },
+    {
+      "id": "A3",
+      "kind": "image",
+      "source": "article",
+      "path": "01_input/05_참고자료/hani_20200213501238.webp",
+      "url": "https://flexible.img.hani.co.kr/flexible/normal/800/0/imgdb/original/2020/0213/20200213501238.webp",
+      "caption": "보이저 1호가 지구 사진을 찍을 당시의 위치와 다른 행성들의 위치. 나사 제공",
+      "rights": "unverified — 게재 자산, 1차 출처(NASA/JPL) 확인 필요"
+    },
+    {
+      "id": "A4",
+      "kind": "image",
+      "source": "article",
+      "path": "01_input/05_참고자료/hani_20200213501236.webp",
+      "url": "https://flexible.img.hani.co.kr/flexible/normal/800/0/imgdb/original/2020/0213/20200213501236.webp",
+      "caption": "성간 우주에 진입하는 보이저 1호 상상도. 나사 제공",
+      "rights": "unverified — 게재 자산, 1차 출처(NASA/JPL) 확인 필요"
+    }
+  ]
+}
