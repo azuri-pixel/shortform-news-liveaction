@@ -1,7 +1,7 @@
 import { defaultAudio } from "../audio-loudness.mjs";
 import {OPTIONAL_SCENE_GATE} from '../scene-proof-contract.mjs';
 import {SCREEN_TEXT_POLICY} from '../screen-text-policy.mjs';
-import {ATTRIBUTION_POLICY} from '../attribution.mjs';
+import {ATTRIBUTION_POLICY, creditPageSeconds} from "../attribution.mjs";
 import {HOOK_POLICY} from '../hook-overlay.mjs';
 import {CLOSING_CTA_POLICY} from '../closing-cta.mjs';
 import {VISUAL_CONTRACT} from '../visual-plan.mjs';
@@ -50,7 +50,7 @@ export const startProduction = ({ id, url, duration, durationBasis = "total", re
   visual.attribution_style = { version: attributionStyle.version };
   visual.canvas = profile.canvas;
   visual.caption = { preset: profile.caption.preset };
-  visual.attribution = {sources:[], pages:[{duration:3, categories:[{title:"참조 기사", lines:[url]}]}]};
+  visual.attribution = {sources:[], pages:[{duration:creditPageSeconds(ATTRIBUTION_POLICY), categories:[{title:"참조 기사", lines:[url]}]}]};
   const defaults = readProjectDefaults(repo, profile);
   const prompt = prepareProductionPrompt(repo, url);
   const referenceSet = captureReferences(repo);

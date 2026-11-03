@@ -75,13 +75,13 @@ try {
     assert.deepEqual(newVisual.attribution_style, { version: "1.0.0" });
     assert.equal(s.context.request.design_styles.hook_style.version, "hook-style@3");
     assert.match(s.context.request.design_styles.attribution_style.sha256, /^[0-9a-f]{64}$/);
-    assert.equal(newVisual.attribution.pages[0].duration, 3);
+    assert.equal(newVisual.attribution.pages[0].duration, 0.5);
     assert.equal(newVisual.project_logo.width, 140);
     assert.equal(newVisual.project_logo.y, 250);
     assert.equal(newVisual.attribution.pages[0].categories[0].lines[0], params.url);
     assert.equal(s.context.request.screen_text, "screen-text@2");
     assert.equal(s.context.request.hook_overlay, "hook-overlay@4");
-    assert.equal(s.context.request.attribution_policy, "attribution@3");
+    assert.equal(s.context.request.attribution_policy, "attribution@4");
     assert.equal(s.context.hook_reference.status, "available");
     assert.equal(s.context.hook_reference.font_identity, "unverified");
     assert.equal(s.context.hook_reference.frames.length, 3);

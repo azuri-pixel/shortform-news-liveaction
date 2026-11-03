@@ -1,5 +1,5 @@
 import {captionPolicyIssues} from "./caption-policy.mjs";
-import {ATTRIBUTION_POLICY, compileAttribution} from "./attribution.mjs";
+import {ATTRIBUTION_POLICY, compileAttribution, resolveAttributionPolicy} from "./attribution.mjs";
 import {CLOSING_CTA_POLICY, compileClosingCta} from "./closing-cta.mjs";
 import {validateVisualPlan} from './visual-plan.mjs';
 import {SCREEN_TEXT_POLICY, screenTextPolicyIssues} from './screen-text-policy.mjs';
@@ -436,7 +436,7 @@ export const loadEditorialBundle = (root) => {
     audioLegacyTolerant: delivered && !audio?.loudness_contract,
     screenTextPolicy: request?.screen_text ?? null,
     hookPolicy: request?.hook_overlay ?? null,
-    attributionPolicy: request?.attribution_policy ?? null,
+    attributionPolicy: resolveAttributionPolicy(request?.attribution_policy, existsSync(join(production, "visual-system.json")) ? readJson(join(production, "visual-system.json")).attribution_policy : null),
     closingCtaPolicy: request?.closing_cta ?? null,
     visualContractRequired: (existsSync(join(root, "00_brief/request.json")) && Boolean(readJson(join(root, "00_brief/request.json")).visual_contract)) || (existsSync(join(production, "run.json")) && Boolean(readJson(join(production, "run.json")).visual_contract)),
     story: readJson(join(production, "story.json")),

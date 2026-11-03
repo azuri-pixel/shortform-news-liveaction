@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {compileAttribution, ATTRIBUTION_POLICY} from '../scripts/lib/attribution.mjs';
+import {compileAttribution, ATTRIBUTION_POLICY, resolveAttributionPolicy} from '../scripts/lib/attribution.mjs';
 const options = {fps:30, contentFrames:300, policy:'attribution@2', assets:[{id:'moon', attribution_kind:'institution', attribution_evidence:'https://www.nasa.gov/image-article/moon/'}]};
 const input = () => ({sources:[{asset_id:'moon',text:'NASA / Jane Smith',start:0,end:8}],pages:[{duration:3,categories:[{title:'자료',lines:['NASA / Jane Smith','Pexels / contributor','Higgsfield']}]}]});
 test('official designated names allowed, cut duration independent, all end credits retained and pages exactly 3s',()=>{
@@ -31,7 +31,7 @@ test('old contract keeps its duration and provider labels',()=>{
   assert.deepEqual(r.errors,[]);assert.equal(r.totalFrames,630);
 });
 
-const o3 = {...options, policy:ATTRIBUTION_POLICY};
+const o3 = {...options, policy:'attribution@3'};
 const in3 = () => ({sources:[{asset_id:'moon',text:'NASA / Jane Smith',start:0,end:8}],pages:[{duration:3,categories:[{title:'참조 기사',lines:['한겨레 · 홍길동','달 기사 제목']},{title:'이미지·관측 근거',lines:['NASA / Jane Smith','ESA / Roscosmos']}]}]});
 test('attribution@3: 상단 표기와 같은 줄은 끝 크레딧에서 자동 제외, 입력은 그대로',()=>{
   const d=in3(), before=structuredClone(d), r=compileAttribution(d,o3);
@@ -49,4 +49,25 @@ test('attribution@3: 최대 2장, 허용 카테고리 2종, 음악·AI·음성 �
   for (const line of ['Higgsfield','AI 생성 이미지','Music - 봄','효과음: 땡','Typecast 음성']) {const d=in3();d.pages[0].categories[1].lines=[line];assert.ok(compileAttribution(d,o3).errors.length,line);}
   for (const line of ['한겨레 · 홍길동 (1269147)','제목 (2026-09-28)','제목（1269147）']) {const d=in3();d.pages[0].categories[0].lines=[line];assert.ok(compileAttribution(d,o3).errors.length,line);}
   const noArticle=in3();noArticle.pages[0].categories.shift();assert.ok(compileAttribution(noArticle,o3).errors.length);
+});
+
+const o4 = {...options, policy:ATTRIBUTION_POLICY};
+const in4 = () => { const d = in3(); d.pages[0].duration = 0.5; return d; };
+test('attribution@4: @3 범위 그대로, 끝 크레딧은 장당 0.5초', () => {
+  assert.equal(ATTRIBUTION_POLICY, 'attribution@4');
+  const r = compileAttribution(in4(), o4);
+  assert.deepEqual(r.errors, []);
+  assert.deepEqual(r.attribution.pages[0], {from:300, end:315, categories:r.attribution.pages[0].categories});
+  assert.deepEqual(r.attribution.pages[0].categories[1].lines, ['ESA / Roscosmos']);
+  const omitted = in4(); delete omitted.pages[0].duration; assert.equal(compileAttribution(omitted, o4).totalFrames, 315);
+  assert.ok(compileAttribution(in3(), o4).errors.some(e => /0.5초/.test(e.message)));
+  assert.ok(compileAttribution(in4(), o3).errors.some(e => /3초/.test(e.message)));
+  const music = in4(); music.pages[0].categories.push({title:'음악', lines:['x']}); assert.ok(compileAttribution(music, o4).errors.length);
+});
+test('진행 중인 편은 visual-system으로 새 계약에 올릴 수만 있다', () => {
+  assert.equal(resolveAttributionPolicy('attribution@3', 'attribution@4'), 'attribution@4');
+  assert.equal(resolveAttributionPolicy('attribution@4', 'attribution@3'), 'attribution@4');
+  assert.equal(resolveAttributionPolicy('attribution@3', null), 'attribution@3');
+  assert.equal(resolveAttributionPolicy(null, 'attribution@4'), null);
+  assert.equal(resolveAttributionPolicy('attribution@3', 'attribution@99'), 'attribution@3');
 });
