@@ -71,6 +71,10 @@ export type EditorialTimeline = {
     policy: string; text: string; from: number; end: number;
     style: {center_x: number; center_y: number; font_size: number; font_weight: number; color: string; outline_px: number; background: string; padding_x: number; padding_y: number; radius: number; max_width: number; enter_frames: number; exit_frames: number; hold_after_frames: number};
   };
+  key_callouts?: {
+    policy: string; line: string; text: string; from: number; end: number;
+    style: {center_x: number; center_y: number; font_family: string; font_size: number; font_weight: number; letter_spacing: number; color: string; shadow: string; underline_color: string; underline_px: number; underline_gap: number; lead_frames: number; enter_frames: number; underline_delay_frames: number; underline_frames: number; hold_after_frames: number; exit_frames: number};
+  }[];
   attribution?: {
     style: typeof import("../../../config/attribution-style.json");
     sources: {asset_id?:string; asset_ids?:string[]; text:string; from:number; end:number}[];

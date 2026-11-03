@@ -1,6 +1,7 @@
 import {captionPolicyIssues} from "./caption-policy.mjs";
 import {ATTRIBUTION_POLICY, compileAttribution, resolveAttributionPolicy} from "./attribution.mjs";
 import {CLOSING_CTA_POLICY, compileClosingCta} from "./closing-cta.mjs";
+import {KEY_CALLOUT_POLICY, compileKeyCallouts} from "./key-callout.mjs";
 import {validateVisualPlan} from './visual-plan.mjs';
 import {SCREEN_TEXT_POLICY, screenTextPolicyIssues} from './screen-text-policy.mjs';
 import {HOOK_POLICY, HOOK_ROLE, validateHookOverlay} from './hook-overlay.mjs';
@@ -23,7 +24,7 @@ const EASING = new Set(["ease-out", "ease-in-out", "ease-in", "linear", "cubic-i
 export const editorialContract = () => ({
   script_policies: [...SCRIPT_POLICIES], creative_scope: [...SCOPE_VALUES],
   representation_kinds: [...MEDIA], representation_roles: [...ROLES],
-  text_roles: [...TEXT_ROLES, HOOK_ROLE], easing: [...EASING], hook_policy: HOOK_POLICY, hook_role: HOOK_ROLE, attribution_policy: ATTRIBUTION_POLICY, closing_cta_policy: CLOSING_CTA_POLICY,
+  text_roles: [...TEXT_ROLES, HOOK_ROLE], easing: [...EASING], hook_policy: HOOK_POLICY, hook_role: HOOK_ROLE, attribution_policy: ATTRIBUTION_POLICY, closing_cta_policy: CLOSING_CTA_POLICY, key_callout_policy: KEY_CALLOUT_POLICY,
 });
 const validEasing = (value) => EASING.has(value) || (
   Array.isArray(value) && value.length === 4 && value.every(Number.isFinite) &&
@@ -93,7 +94,7 @@ const noAbsoluteFrames = (value, errors, path = "motion") => {
   }
 };
 
-export const validateEditorialData = ({ story, concepts, motion, visualSystem, narration, narrationText = null, productionProfile, visualContractRequired = false, screenTextPolicy = null, hookPolicy = null, attributionPolicy = null, closingCtaPolicy = null, audio = null, audioLegacyTolerant = false }) => {
+export const validateEditorialData = ({ story, concepts, motion, visualSystem, narration, narrationText = null, productionProfile, visualContractRequired = false, screenTextPolicy = null, hookPolicy = null, attributionPolicy = null, closingCtaPolicy = null, keyCalloutPolicy = null, audio = null, audioLegacyTolerant = false }) => {
   const visualCheck = validateVisualPlan({concepts, visualSystem, required: visualContractRequired});
   const errors = [...visualCheck.errors], warnings = [...visualCheck.warnings];
   let lines = [];
@@ -388,6 +389,9 @@ export const validateEditorialData = ({ story, concepts, motion, visualSystem, n
   const cta = compileClosingCta({policy: closingCtaPolicy, lines, fps, contentFrames: motion?.total_frames});
   errors.push(...cta.errors);
   if (cta.closing_cta) timeline.closing_cta = cta.closing_cta;
+  const callouts = compileKeyCallouts({policy: keyCalloutPolicy, lines, fps, contentFrames: motion?.total_frames});
+  errors.push(...callouts.errors);
+  if (callouts.key_callouts.length) timeline.key_callouts = callouts.key_callouts;
   const credits = compileAttribution(visualSystem?.attribution, {fps, contentFrames:motion?.total_frames, assets:visualSystem?.media?.assets ?? [], required:screenTextPolicy === "screen-text@2", policy:attributionPolicy, ...(attributionStyle.style ? {style: attributionStyle.style} : {})});
   errors.push(...credits.errors);
   if (credits.attribution) {
@@ -438,6 +442,8 @@ export const loadEditorialBundle = (root) => {
     hookPolicy: request?.hook_overlay ?? null,
     attributionPolicy: resolveAttributionPolicy(request?.attribution_policy, existsSync(join(production, "visual-system.json")) ? readJson(join(production, "visual-system.json")).attribution_policy : null),
     closingCtaPolicy: request?.closing_cta ?? null,
+    // 새 편은 request.key_callout, 진행 중인 편은 visual-system.key_callout_policy로 명시해 켠다
+    keyCalloutPolicy: request?.key_callout ?? (existsSync(join(production, "visual-system.json")) ? readJson(join(production, "visual-system.json")).key_callout_policy ?? null : null),
     visualContractRequired: (existsSync(join(root, "00_brief/request.json")) && Boolean(readJson(join(root, "00_brief/request.json")).visual_contract)) || (existsSync(join(production, "run.json")) && Boolean(readJson(join(production, "run.json")).visual_contract)),
     story: readJson(join(production, "story.json")),
     concepts: readJson(join(production, "concepts.json")),
