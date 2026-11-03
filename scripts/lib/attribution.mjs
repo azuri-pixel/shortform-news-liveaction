@@ -1,9 +1,20 @@
 import {readFileSync} from 'node:fs';
 // 크레딧 디자인 1.0.0 보관본 — 버전 기록이 없는 편의 값. 기록이 있는 편은 editorial.mjs가 그 버전의 style을 넘긴다.
 const LEGACY_STYLE = JSON.parse(readFileSync(new URL('../../config/attribution-styles/attribution-style-1.0.0.json', import.meta.url), 'utf8'));
-export const ATTRIBUTION_POLICY = 'attribution@3';
+export const ATTRIBUTION_POLICY = 'attribution@4';
 // @2 편은 기록된 계약을 그대로 유지한다(컷 출처 제한·장당 3초). @3은 끝 크레딧 범위를 더 좁힌다(2026-10-06 고객 지시).
-const POLICIES = ['attribution@2', ATTRIBUTION_POLICY];
+// @4는 @3의 범위를 그대로 두고 끝 크레딧을 장당 0.5초로 줄인다(2026-11-03 사용자 지시).
+const POLICIES = ['attribution@2', 'attribution@3', ATTRIBUTION_POLICY];
+/** 끝 크레딧 범위(@3 규칙)를 쓰는 계약 */
+export const SCOPED_CREDIT_POLICIES = ['attribution@3', ATTRIBUTION_POLICY];
+/** 계약별 끝 크레딧 장당 시간(초) */
+export const creditPageSeconds = policy => policy === ATTRIBUTION_POLICY ? 0.5 : 3;
+/** 진행 중인 편이 visual-system.attribution_policy로 새 계약을 명시해 올리는 것만 허용한다(내리기는 불가) */
+export const resolveAttributionPolicy = (requested, episodeUpgrade) => {
+  if (!episodeUpgrade) return requested ?? null;
+  const order = POLICIES.indexOf(episodeUpgrade), base = POLICIES.indexOf(requested);
+  return order >= 0 && base >= 0 && order > base ? episodeUpgrade : requested ?? null;
+};
 export const END_CREDIT_REQUIRED = '참조 기사';
 export const END_CREDIT_TITLES = [END_CREDIT_REQUIRED, '이미지·관측 근거'];
 export const MAX_END_CREDIT_PAGES = 2;
@@ -21,7 +32,8 @@ export const compileAttribution = (input, {fps, contentFrames, assets = [], requ
   const fail = message => errors.push({code:'attribution', where:'visual-system.attribution', message});
   if (policy != null && !POLICIES.includes(policy)) fail(`알 수 없는 출처 계약: ${policy}`);
   const current = POLICIES.includes(policy);
-  const v3 = policy === ATTRIBUTION_POLICY;
+  const v3 = SCOPED_CREDIT_POLICIES.includes(policy);
+  const pageSeconds = creditPageSeconds(policy);
   if (!input) { if (required || current) fail('공용 출처와 끝 크레딧 데이터가 필요하다'); return {errors, attribution:null}; }
   if (!Array.isArray(input.sources) || !Array.isArray(input.pages)) { fail('sources/pages 배열이 필요하다'); return {errors, attribution:null}; }
   if (!Number.isInteger(fps) || fps <= 0 || !Number.isInteger(contentFrames) || contentFrames <= 0) {fail("본편 프레임 수와 fps가 유효하지 않다"); return {errors,attribution:null};}
@@ -66,8 +78,8 @@ export const compileAttribution = (input, {fps, contentFrames, assets = [], requ
   let cursor = contentFrames;
   const pages = pagesInput.map(raw => {
     const page = {...(raw ?? {})};
-    if (current && page.duration === undefined) page.duration = 3;
-    if (current && page.duration !== 3) fail('끝 크레딧은 장당 3초다. 내용이 많으면 페이지를 나눈다');
+    if (current && page.duration === undefined) page.duration = pageSeconds;
+    if (current && page.duration !== pageSeconds) fail(`끝 크레딧은 장당 ${pageSeconds}초다. 내용이 많으면 페이지를 나눈다`);
     if (!Number.isFinite(page.duration) || page.duration <= 0 || !Array.isArray(page.categories) || !page.categories.length) fail('크레딧 페이지는 양의 duration(초)과 categories가 필요하다');
     const categories = Array.isArray(page.categories) ? page.categories : [];
     for (const c of categories) if (!c || !text(c.title) || !Array.isArray(c.lines) || !c.lines.length || c.lines.some(l=>!text(l))) fail('카테고리 제목과 비어 있지 않은 출처 줄이 필요하다');

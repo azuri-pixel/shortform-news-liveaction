@@ -202,13 +202,13 @@ export const useTrack = ({ repo, track: query, episode }) => {
     changed.push("01_input/05_참고자료/RIGHTS.md");
   }
 
-  // attribution@3(2026-10-06 고객 지시)부터 음악은 끝 크레딧에 넣지 않는다 — 게시 설명란(CREDITS.md)과 RIGHTS.md에만 남는다.
+  // attribution@3(2026-10-06 고객 지시)·@4부터 음악은 끝 크레딧에 넣지 않는다 — 게시 설명란(CREDITS.md)과 RIGHTS.md에만 남는다.
   // 정책이 기록되지 않았거나 @2 이하인 편은 기록된 계약대로 마지막 장에 "음악" 줄을 넣는다.
   let credit = "끝 크레딧에 넣지 않았다(attribution@3) — 음악 출처는 RIGHTS.md·게시 설명란에 둔다";
   const requestPath = join(root, "00_brief", "request.json");
   const policy = existsSync(requestPath) ? (JSON.parse(readFileSync(requestPath, "utf8")).attribution_policy ?? null) : null;
   const visualPath = join(root, "02_production", "visual-system.json");
-  if (policy !== "attribution@3") {
+  if (!["attribution@3", "attribution@4"].includes(policy)) {
     credit = "visual-system.json이 아직 없어 끝 크레딧에 넣지 않았다 — 화면 설계 뒤 다시 실행한다";
     if (existsSync(visualPath)) {
       const visual = JSON.parse(readFileSync(visualPath, "utf8"));
