@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "preset": "editorial-concept-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "caption": {
+    "preset": "betelgeuse-v1"
+  },
+  "text": {
+    "persistent_top_text": false,
+    "explanatory_notes": false,
+    "allowed_roles": [
+      "necessary-label",
+      "condition",
+      "provenance"
+    ]
+  },
+  "media": {
+    "full_bleed_default": true,
+    "assets": [
+      {
+        "id": "project_logo",
+        "source": "02_production/brand/logo.png",
+        "file": "editorial/brand-logo.png"
+      },
+      {
+        "id": "heroone",
+        "source": "02_production/sourcing/photo_preview/crops/A2_heroone_1080x1920.jpg",
+        "file": "editorial/heroone.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "herotwo",
+        "source": "02_production/sourcing/photo_preview/crops/A4_herotwo_1080x1920.jpg",
+        "file": "editorial/herotwo.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "spaceport",
+        "source": "01_input/05_참고자료/video/vg_WBS_Ep16_Coming-Home_16x9_captions_compressed.mp4",
+        "file": "editorial/spaceport.mp4",
+        "trim": {
+          "from_sec": 171.2,
+          "duration_sec": 3
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 520
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "apeiron_name",
+        "source": "01_input/05_참고자료/video/vg_Apeiron_The_Boundless_16x9_captions.mp4",
+        "file": "editorial/apeiron_name.mp4",
+        "trim": {
+          "from_sec": 76.1,
+          "duration_sec": 1.25
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 520
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "ch_takeoff",
+        "source": "01_input/05_참고자료/video/vg_WBS_Ep16_Coming-Home_16x9_captions_compressed.mp4",
+        "file": "editorial/ch_takeoff.mp4",
+        "trim": {
+          "from_sec": 0.7,
+          "duration_sec": 1.72
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 520
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "ch_ground",
+        "source": "01_input/05_참고자료/video/vg_WBS_Ep16_Coming-Home_16x9_captions_compressed.mp4",
+        "file": "editorial/ch_ground.png",
+        "frame_at_sec": 200,
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "ch_flyover",
+        "source": "01_input/05_참고자료/video/vg_WBS_Ep16_Coming-Home_16x9_captions_compressed.mp4",
+        "file": "editorial/ch_flyover.mp4",
+        "trim": {
+          "from_sec": 179.4,
+          "duration_sec": 2.6
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 520
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "exp_cabin",
+        "source": "01_input/05_참고자료/video/vg_Website_Space_Experience_v3_Compressed.mp4",
+        "file": "editorial/exp_cabin.mp4",
+        "trim": {
+          "from_sec": 28.2,
+          "duration_sec": 2.6
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "exp_earth",
+        "source": "01_input/05_참고자료/video/vg_Website_Space_Experience_v3_Compressed.mp4",
+        "file": "editorial/exp_earth.mp4",
+        "trim": {
+          "from_sec": 10,
+          "duration_sec": 3.6
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      },
+      {
+        "id": "altitude_bg",
+        "source": "02_production/external_assets/generated/altitude_bg.png",
+        "file": "editorial/altitude_bg.png",
+        "generation_job": "job_altitude_bg"
+      },
+      {
+        "id": "data_bg",
+        "source": "02_production/external_assets/generated/data_bg.png",
+        "file": "editorial/data_bg.png",
+        "generation_job": "job_data_bg"
+      },
+      {
+        "id": "hp_wing",
+        "source": "01_input/05_참고자료/video/vg_Homepage_Video_Compressed.mp4",
+        "file": "editorial/hp_earth.mp4",
+        "trim": {
+          "from_sec": 9.5,
+          "duration_sec": 4.3
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.virgingalactic.com/news/media/spaceship-apeiron-press-kit",
+        "credit": "Virgin Galactic"
+      }
+    ]
+  },
+  "mobile": {
+    "max_simultaneous_labels": 3,
+    "review_scale": 0.3333333333
+  },
+  "motion": {
+    "enter": "ease-out",
+    "move": "ease-in-out",
+    "exit": "ease-in",
+    "quantitative_overshoot": false
+  },
+  "production_profile": {
+    "id": "hani-shortform",
+    "version": "1.5.0"
+  },
+  "visual_contract": "visual-explanation@1",
+  "generation_jobs": [
+    {
+      "id": "job_altitude_bg",
+      "kind": "image",
+      "purpose": "고도 눈금 패널 배경: 지상에서 우주 경계까지의 하늘 단면(장식용 재료, 관측 아님)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_5",
+      "job_id": "1e3a341b-584e-47aa-8561-e196e41a6ce0",
+      "prompt_path": "02_production/prompts/altitude_bg.txt",
+      "output": "02_production/external_assets/generated/altitude_bg.png",
+      "observation": "752x1344. 지상 지평선 약 86% 높이, 대기 광선 약 14% 높이. 기체·글자 없음"
+    },
+    {
+      "id": "job_data_bg",
+      "kind": "image",
+      "purpose": "요금·예약·일정 도해 배경: 어두운 우주와 지구 곡선(장식용 재료)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_5",
+      "job_id": "101605f5-3d1d-4887-a633-74ad84046e49",
+      "prompt_path": "02_production/prompts/data_bg.txt",
+      "output": "02_production/external_assets/generated/data_bg.png",
+      "observation": "752x1344. 위 2/3 비어 있음, 아래 1/3 야간 지구 곡선. 글자 없음"
+    }
+  ],
+  "hook_style": {
+    "version": "hook-style@3"
+  },
+  "attribution_style": {
+    "version": "1.0.0",
+    "override": {
+      "source": {
+        "shadow": "0 1px 3px rgba(0,0,0,.95), 0 0 10px rgba(0,0,0,.75)"
+      }
+    }
+  },
+  "attribution": {
+    "sources": [
+      {
+        "asset_ids": [
+          "heroone",
+          "spaceport",
+          "apeiron_name",
+          "ch_takeoff"
+        ],
+        "text": "Virgin Galactic",
+        "start": 0,
+        "end": 15.11
+      },
+      {
+        "asset_ids": [
+          "exp_cabin",
+          "exp_earth"
+        ],
+        "text": "Virgin Galactic",
+        "start": 31.32,
+        "end": 40.52
+      },
+      {
+        "asset_ids": [
+          "ch_ground"
+        ],
+        "text": "Virgin Galactic",
+        "start": 47.08,
+        "end": 49.2
+      },
+      {
+        "asset_ids": [
+          "ch_flyover"
+        ],
+        "text": "Virgin Galactic",
+        "start": 56.31,
+        "end": 57.63
+      },
+      {
+        "asset_ids": [
+          "hp_wing"
+        ],
+        "text": "Virgin Galactic",
+        "start": 67.01,
+        "end": 73.133
+      }
+    ],
+    "pages": [
+      {
+        "duration": 0.5,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필 선임기자",
+              "한 번 타는 데 11억원…버진 갤럭틱, 차세대 우주비행기 공개"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  },
+  "attribution_policy": "attribution@4",
+  "key_callout_policy": "key-callout@1"
+}

@@ -1,0 +1,830 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1284974",
+  "concepts": [
+    {
+      "id": "hook_dream",
+      "question": "이번엔 정말 우주여행이 되나",
+      "takeaway": "꿈과 11억 원이라는 값이 함께 제시된다",
+      "narration_lines": [
+        "s01",
+        "s02"
+      ],
+      "prerequisites": [],
+      "representation": {
+        "kind": "image",
+        "role": "evidence",
+        "why": "석양 활주로의 실제 아페론 꼬리 사진이 큰 질문을 받친다. 문구 구간은 코드로 어둡게 누른다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "heroone",
+          "opening_hook"
+        ],
+        "remove": []
+      },
+      "elements": [
+        {
+          "id": "heroone",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "opening_hook",
+          "kind": "text",
+          "role": "hook",
+          "text": "우주 여행의 꿈, 이번엔\n실현될까?"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": [
+          "opening_hook"
+        ]
+      },
+      "visual": {
+        "purpose": "atmosphere",
+        "focus": "석양 활주로의 기체 꼬리와 큰 질문",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "heroone"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "apeiron_reveal",
+      "question": "무슨 기체인가",
+      "takeaway": "10월 28일 공개된 새 기체 아페론",
+      "narration_lines": [
+        "s03",
+        "s04"
+      ],
+      "prerequisites": [
+        "hook_dream"
+      ],
+      "representation": {
+        "kind": "footage",
+        "role": "evidence",
+        "why": "버진 갤럭틱의 우주공항 공중 영상, 동체의 APEIRON 글자, 모선에 실려 이륙하는 10월 28일 실제 영상을 이어 붙인다. 정지 사진·정지에 가까운 장면은 쓰지 않는다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "spaceport",
+          "apeiron_name",
+          "ch_takeoff",
+          "tag_apeiron"
+        ],
+        "remove": [
+          "heroone",
+          "opening_hook"
+        ]
+      },
+      "elements": [
+        {
+          "id": "spaceport",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "apeiron_name",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "ch_takeoff",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_apeiron",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "아페론"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": [
+          "tag_apeiron"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "우주공항, 이어 동체 이름, 이어 모선 아래 매달린 아페론",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "spaceport",
+            "apeiron_name",
+            "ch_takeoff"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "how_it_flies",
+      "question": "어떻게 우주 경계까지 가나",
+      "takeaway": "모선에 실려 15km까지 오른 뒤 점화해 100km 카르만 라인 근처까지 솟구친다",
+      "narration_lines": [
+        "s05",
+        "s06"
+      ],
+      "prerequisites": [
+        "apeiron_reveal"
+      ],
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "why": "비행 방식의 두 단계와 도달 고도는 고도-시간 그래프 하나에서 읽힌다. 모선 상승은 평면 그래프, 점화 뒤 상승은 3D 로우앵글로 속도감을, 도달 뒤에는 평면으로 돌아와 대기층과 함께 높이를 정리한다(실사 없음)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "graph_axes",
+          "carrier_icon",
+          "apeiron_icon",
+          "ignite_flash",
+          "view3d",
+          "layer_bands",
+          "axis_alt",
+          "axis_time",
+          "tag_15km",
+          "tag_karman",
+          "layer_tropo",
+          "layer_strato",
+          "layer_meso",
+          "layer_thermo"
+        ],
+        "remove": [
+          "spaceport",
+          "apeiron_name",
+          "ch_takeoff",
+          "tag_apeiron"
+        ]
+      },
+      "elements": [
+        {
+          "id": "graph_axes",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "carrier_icon",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "apeiron_icon",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "ignite_flash",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "view3d",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "layer_bands",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "axis_alt",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "고도"
+        },
+        {
+          "id": "axis_time",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "시간"
+        },
+        {
+          "id": "tag_15km",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "15km 점화"
+        },
+        {
+          "id": "tag_karman",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "100km 카르만 라인"
+        },
+        {
+          "id": "layer_tropo",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "대류권"
+        },
+        {
+          "id": "layer_strato",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "성층권"
+        },
+        {
+          "id": "layer_meso",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "중간권"
+        },
+        {
+          "id": "layer_thermo",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "열권"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_karman",
+          "tag_15km",
+          "layer_strato"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "고도-시간 그래프 위 모선에 실린 아페론 아이콘",
+        "moments": [
+          {
+            "id": "carrier_leg",
+            "narration_lines": [
+              "s05"
+            ],
+            "subject": "모선에 실린 아페론 아이콘",
+            "action": "완만한 궤적을 그리며 고도 15km 눈금까지 오른다",
+            "result": "궤적 끝이 15km 선에 닿아 있다",
+            "motion_required": true
+          },
+          {
+            "id": "ignite_boost",
+            "narration_lines": [
+              "s05",
+              "s06"
+            ],
+            "subject": "모선에서 떨어진 아페론 아이콘",
+            "action": "섬광과 함께 불꽃이 켜지고 화면이 3D 로우앵글로 꺾이며 불꽃 궤적을 남기고 위로 솟는다",
+            "result": "궤적이 거의 수직으로 높이 뻗어 있다",
+            "motion_required": true
+          },
+          {
+            "id": "karman_layers",
+            "narration_lines": [
+              "s06"
+            ],
+            "subject": "평면으로 돌아온 그래프의 100km 선",
+            "action": "궤적 끝이 카르만 라인 근처에 머물고 대류권·성층권·중간권·열권 띠가 아래부터 차례로 채워진다",
+            "result": "15km 점화가 성층권 아래쪽, 도달 높이가 열권 경계 위쪽임이 한 화면에 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "고도 0~110km·시간축 그래프, 모선·아페론 아이콘, 궤적, 3D 투영(코드 원근), 대기층 띠를 모두 코드로 그린다. 대기층 경계는 약값(대류권 약 12km, 성층권 약 50km, 중간권 약 85km)"
+        }
+      }
+    },
+    {
+      "id": "what_you_buy",
+      "question": "그 돈으로 무엇을 경험하나",
+      "takeaway": "전체 약 1시간 중 무중력은 몇 분",
+      "narration_lines": [
+        "s07",
+        "s08",
+        "s09"
+      ],
+      "prerequisites": [
+        "how_it_flies"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "이전 기체 유니티 실제 탑승 영상으로 창밖 경험을 보이고, 전체 시간 띠 안의 좁은 칸으로 몇 분의 비중을 보인다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "tag_unity_cabin",
+          "exp_cabin",
+          "exp_earth",
+          "time_strip",
+          "tag_minutes",
+          "tag_hour"
+        ],
+        "remove": [
+          "graph_axes",
+          "carrier_icon",
+          "apeiron_icon",
+          "ignite_flash",
+          "view3d",
+          "layer_bands",
+          "axis_alt",
+          "axis_time",
+          "tag_15km",
+          "tag_karman",
+          "layer_tropo",
+          "layer_strato",
+          "layer_meso",
+          "layer_thermo"
+        ]
+      },
+      "elements": [
+        {
+          "id": "tag_unity_cabin",
+          "kind": "text",
+          "role": "condition",
+          "text": "1세대 우주비행기 VSS 유니티"
+        },
+        {
+          "id": "exp_cabin",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "exp_earth",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "time_strip",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_minutes",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "무중력 몇 분"
+        },
+        {
+          "id": "tag_hour",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "전체 약 1시간"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_minutes",
+          "tag_hour"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "창밖 지구, 이어 전체 비행 띠 속 좁은 칸",
+        "moments": [
+          {
+            "id": "time_share",
+            "narration_lines": [
+              "s08"
+            ],
+            "subject": "전체 비행을 뜻하는 가로 띠",
+            "action": "띠가 펼쳐진 뒤 그 안의 좁은 칸 하나만 노랗게 남는다",
+            "result": "긴 띠 대비 좁은 칸의 차이",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "exp_cabin",
+            "exp_earth"
+          ],
+          "job_ids": [],
+          "code_role": "띠와 칸을 그린다. 칸은 띠의 약 6%로 측정값이 아니며 분 숫자를 붙이지 않는다"
+        }
+      }
+    },
+    {
+      "id": "price_climb",
+      "question": "요금은 얼마나 뛰었나",
+      "takeaway": "2014년 약 20만 달러에서 최근 85만 달러",
+      "narration_lines": [
+        "s10"
+      ],
+      "prerequisites": [
+        "hook_dream"
+      ],
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "why": "두 값의 차이를 같은 영점의 막대 길이로 읽힌다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "herotwo",
+          "bar_2014",
+          "bar_now",
+          "tag_2014",
+          "tag_now",
+          "tag_now_krw"
+        ],
+        "remove": [
+          "tag_unity_cabin",
+          "exp_cabin",
+          "exp_earth",
+          "time_strip",
+          "tag_minutes",
+          "tag_hour"
+        ]
+      },
+      "elements": [
+        {
+          "id": "herotwo",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "bar_2014",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "bar_now",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_2014",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "20만 달러"
+        },
+        {
+          "id": "tag_now",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "85만 달러"
+        },
+        {
+          "id": "tag_now_krw",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "약 11억 원"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tag_now",
+          "tag_2014"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "공통 영점에서 뻗는 두 막대",
+        "moments": [
+          {
+            "id": "bars",
+            "narration_lines": [
+              "s10"
+            ],
+            "subject": "같은 영점의 두 막대",
+            "action": "짧은 막대 아래로 4배 넘게 긴 막대가 펼쳐진다",
+            "result": "두 막대 길이 차이가 남는다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "data_bg"
+          ],
+          "job_ids": [
+            "job_data_bg"
+          ],
+          "generated_role": "어두운 우주·지구 배경",
+          "code_role": "눈금 격자와 막대를 20:85 비율로 그린다"
+        }
+      }
+    },
+    {
+      "id": "demand",
+      "question": "그래도 사는 사람이 있나",
+      "takeaway": "6월 말 기준 예약자 675명",
+      "narration_lines": [
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "prerequisites": [
+        "price_climb"
+      ],
+      "representation": {
+        "kind": "footage",
+        "role": "evidence",
+        "why": "스페이스포트 앞에 선 실제 모선과 아페론 위에 공시 숫자 하나만 붙인다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "ch_ground",
+          "dot_grid",
+          "tag_675"
+        ],
+        "remove": [
+          "herotwo",
+          "bar_2014",
+          "bar_now",
+          "tag_2014",
+          "tag_now",
+          "tag_now_krw"
+        ]
+      },
+      "elements": [
+        {
+          "id": "ch_ground",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "dot_grid",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_675",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "예약 675명"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": [
+          "tag_675"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "스페이스포트 앞 기체, 이어 한 사람 한 점의 예약자 격자",
+        "moments": [
+          {
+            "id": "dots",
+            "narration_lines": [
+              "s13"
+            ],
+            "subject": "점 675개 격자",
+            "action": "점이 줄 단위로 차오른다",
+            "result": "꽉 찬 점 무리의 넓이가 남는다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "ch_ground",
+            "data_bg"
+          ],
+          "job_ids": [
+            "job_data_bg"
+          ],
+          "generated_role": "격자 배경",
+          "code_role": "점 675개를 정확히 그린다"
+        }
+      }
+    },
+    {
+      "id": "plan",
+      "question": "언제 탈 수 있나",
+      "takeaway": "두 대로 연 125회 목표, 첫 상업비행은 2027년 2분기 초 예상",
+      "narration_lines": [
+        "s14",
+        "s15"
+      ],
+      "prerequisites": [
+        "apeiron_reveal"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "실제 비행 장면 뒤, 기체 두 대(2호기는 제작 중이라 점선)와 1년 띠에 채워지는 속 빈 비행 표시 125개로 목표 규모를 보이고, 이어 시간축 위 지금과 예상 시점의 거리를 보인다. 목표·예상은 비운 표시로 둔다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "ch_flyover",
+          "ferry",
+          "fleet_icons",
+          "year_band",
+          "tag_ship1",
+          "tag_ship2",
+          "tag_125",
+          "timeline_axis",
+          "tag_now_time",
+          "tag_q2"
+        ],
+        "remove": [
+          "ch_ground",
+          "dot_grid",
+          "tag_675"
+        ]
+      },
+      "elements": [
+        {
+          "id": "ch_flyover",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "ferry",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "fleet_icons",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "year_band",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_ship1",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "아페론"
+        },
+        {
+          "id": "tag_ship2",
+          "kind": "text",
+          "role": "condition",
+          "text": "2호기 (제작 중)"
+        },
+        {
+          "id": "tag_125",
+          "kind": "text",
+          "role": "condition",
+          "text": "연 125회 (목표)"
+        },
+        {
+          "id": "timeline_axis",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_now_time",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "지금"
+        },
+        {
+          "id": "tag_q2",
+          "kind": "text",
+          "role": "condition",
+          "text": "2027 2분기 초 (예상)"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_125",
+          "tag_q2",
+          "tag_now_time"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "시간축 위 지금과 예상 시점",
+        "moments": [
+          {
+            "id": "fleet_year",
+            "narration_lines": [
+              "s14"
+            ],
+            "subject": "기체 두 대와 1년 띠",
+            "action": "실선 아페론 옆에 점선 2호기가 서고, 띠에 속 빈 비행 표시 125개가 왼쪽부터 채워진다",
+            "result": "두 대·1년·125회 목표가 한 화면에 남는다",
+            "motion_required": true
+          },
+          {
+            "id": "wait",
+            "narration_lines": [
+              "s15"
+            ],
+            "subject": "시간축 위 지금 표시",
+            "action": "지금 표시에서 2027년 2분기 초 비운 표시까지 선이 뻗는다",
+            "result": "두 표시 사이 거리가 남는다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "ch_flyover",
+            "data_bg"
+          ],
+          "job_ids": [
+            "job_data_bg"
+          ],
+          "generated_role": "일정 패널 배경",
+          "code_role": "기체 두 대, 1년 띠의 비행 표시 125개, 분기 칸 달력을 그린다"
+        }
+      }
+    },
+    {
+      "id": "closing",
+      "question": "우주여행의 꿈은 열렸나",
+      "takeaway": "비싸지만 다시 열린 꿈, 판단은 시청자에게",
+      "narration_lines": [
+        "s16",
+        "s17"
+      ],
+      "prerequisites": [
+        "hook_dream"
+      ],
+      "representation": {
+        "kind": "footage",
+        "role": "tone",
+        "why": "우주에서 본 지구 곡선 실제 영상으로 처음의 꿈을 닫는다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "hp_wing",
+          "aside_text",
+          "tag_unity_close"
+        ],
+        "remove": [
+          "ch_flyover",
+          "ferry",
+          "fleet_icons",
+          "year_band",
+          "tag_ship1",
+          "tag_ship2",
+          "tag_125",
+          "timeline_axis",
+          "tag_now_time",
+          "tag_q2"
+        ]
+      },
+      "elements": [
+        {
+          "id": "hp_wing",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "aside_text",
+          "kind": "text",
+          "role": "condition",
+          "text": "조금 비싸긴 하지만"
+        },
+        {
+          "id": "tag_unity_close",
+          "kind": "text",
+          "role": "condition",
+          "text": "1세대 우주비행기 VSS 유니티"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": [
+          "aside_text"
+        ]
+      },
+      "visual": {
+        "purpose": "atmosphere",
+        "focus": "우주에서 본 지구",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "hp_wing"
+          ],
+          "job_ids": []
+        }
+      }
+    }
+  ]
+}

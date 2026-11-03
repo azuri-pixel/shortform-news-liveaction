@@ -1,0 +1,2856 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1284974",
+  "fps": 30,
+  "total_frames": 2194,
+  "narration_word_sha256": "814ce17c4d61661c629dbd9112250f5b99d499f73aaefb80144f970cc9d4ebce",
+  "events": [
+    {
+      "id": "heroone_in",
+      "concept_id": "hook_dream",
+      "element_id": "heroone",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우주",
+            "edge": "start",
+            "offset_frames": -12
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우주",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 4,
+            "word": "원입니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 4,
+            "word": "원입니다.",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "첫 화면 실제 기체 사진, 느린 접근"
+    },
+    {
+      "id": "hook_text",
+      "concept_id": "hook_dream",
+      "element_id": "opening_hook",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우주",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우주",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "요금은",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "요금은",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "첫 문장 동안 한 번만 보이는 후킹"
+    },
+    {
+      "id": "hook_line",
+      "concept_id": "hook_dream",
+      "element_id": "opening_hook",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "실현될까요?",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "실현될까요?",
+            "edge": "end",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "요금은",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "요금은",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실현될까 발화에 밑줄이 자란다"
+    },
+    {
+      "id": "spaceport_in",
+      "concept_id": "apeiron_reveal",
+      "element_id": "spaceport",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국의",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국의",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 6,
+            "word": "새",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 6,
+            "word": "새",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "스페이스포트 아메리카 공중 영상"
+    },
+    {
+      "id": "name_in",
+      "concept_id": "apeiron_reveal",
+      "element_id": "apeiron_name",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 6,
+            "word": "새",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 6,
+            "word": "새",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 9,
+            "word": "공개했습니다.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 9,
+            "word": "공개했습니다.",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "동체 APEIRON 글자 영상"
+    },
+    {
+      "id": "takeoff_in",
+      "concept_id": "apeiron_reveal",
+      "element_id": "ch_takeoff",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 9,
+            "word": "공개했습니다.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 9,
+            "word": "공개했습니다.",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "비행체입니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "비행체입니다.",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "모선에 실려 이륙하는 아페론"
+    },
+    {
+      "id": "tag_apeiron_in",
+      "concept_id": "apeiron_reveal",
+      "element_id": "tag_apeiron",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "이천이십사년",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "이천이십사년",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "비행체입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "비행체입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "매달린 기체가 아페론"
+    },
+    {
+      "id": "graph_in",
+      "concept_id": "how_it_flies",
+      "element_id": "graph_axes",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "버진",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 2,
+            "word": "커다란",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "고도-시간 그래프 축이 그려진다"
+    },
+    {
+      "id": "axis_alt_in",
+      "concept_id": "how_it_flies",
+      "element_id": "axis_alt",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "버진",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 2,
+            "word": "커다란",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "세로축 고도"
+    },
+    {
+      "id": "axis_time_in",
+      "concept_id": "how_it_flies",
+      "element_id": "axis_time",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "버진",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 2,
+            "word": "커다란",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "가로축 시간"
+    },
+    {
+      "id": "carrier_climb",
+      "concept_id": "how_it_flies",
+      "element_id": "carrier_icon",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 2,
+            "word": "커다란",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "모선에 실려 15km까지, 점화 뒤 모선은 떨어져 나간다"
+    },
+    {
+      "id": "tag_15_in",
+      "concept_id": "how_it_flies",
+      "element_id": "tag_15km",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 10,
+            "word": "십오",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 10,
+            "word": "십오",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "15km 점화 지점"
+    },
+    {
+      "id": "ignite",
+      "concept_id": "how_it_flies",
+      "element_id": "ignite_flash",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 16,
+            "word": "준궤도까지",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 16,
+            "word": "준궤도까지",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "엔진 점화 섬광"
+    },
+    {
+      "id": "rocket_climb",
+      "concept_id": "how_it_flies",
+      "element_id": "apeiron_icon",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 8,
+            "word": "백",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "점화 뒤 카르만 라인 근처까지 상승"
+    },
+    {
+      "id": "view3d",
+      "concept_id": "how_it_flies",
+      "element_id": "view3d",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 15,
+            "word": "점화해,",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 17,
+            "word": "오르는",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 7,
+            "word": "고도",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "3D 로우앵글로 꺾였다가 평면으로 복귀"
+    },
+    {
+      "id": "tag_karman_in",
+      "concept_id": "how_it_flies",
+      "element_id": "tag_karman",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "100km 선 라벨"
+    },
+    {
+      "id": "layers_in",
+      "concept_id": "how_it_flies",
+      "element_id": "layer_bands",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 12,
+            "word": "근처까지",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "대기층 띠가 아래부터 차오른다"
+    },
+    {
+      "id": "l_tropo_in",
+      "concept_id": "how_it_flies",
+      "element_id": "layer_tropo",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 10,
+            "word": "카르만",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "대류권"
+    },
+    {
+      "id": "l_strato_in",
+      "concept_id": "how_it_flies",
+      "element_id": "layer_strato",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 11,
+            "word": "라인",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 11,
+            "word": "라인",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "성층권"
+    },
+    {
+      "id": "l_meso_in",
+      "concept_id": "how_it_flies",
+      "element_id": "layer_meso",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 12,
+            "word": "근처까지",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 12,
+            "word": "근처까지",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "중간권"
+    },
+    {
+      "id": "l_thermo_in",
+      "concept_id": "how_it_flies",
+      "element_id": "layer_thermo",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 13,
+            "word": "올라갈",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 13,
+            "word": "올라갈",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 15,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "열권"
+    },
+    {
+      "id": "tag_unity_cabin_in",
+      "concept_id": "what_you_buy",
+      "element_id": "tag_unity_cabin",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "승객은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "승객은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 12,
+            "word": "내려옵니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 12,
+            "word": "내려옵니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "객실도 유니티 영상"
+    },
+    {
+      "id": "cabin_in",
+      "concept_id": "what_you_buy",
+      "element_id": "exp_cabin",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "승객은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "승객은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 7,
+            "word": "창밖으로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 7,
+            "word": "창밖으로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "객실 승객"
+    },
+    {
+      "id": "earth_in",
+      "concept_id": "what_you_buy",
+      "element_id": "exp_earth",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 7,
+            "word": "창밖으로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 7,
+            "word": "창밖으로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "이천십사년",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "이천십사년",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "창밖 지구 곡선"
+    },
+    {
+      "id": "strip_in",
+      "concept_id": "what_you_buy",
+      "element_id": "time_strip",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "전체",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "시간",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 3
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "전체 시간 띠와 좁은 무중력 칸"
+    },
+    {
+      "id": "tag_hour_in",
+      "concept_id": "what_you_buy",
+      "element_id": "tag_hour",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 2,
+            "word": "한",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "시간",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 3
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "띠 전체 라벨"
+    },
+    {
+      "id": "tag_min_in",
+      "concept_id": "what_you_buy",
+      "element_id": "tag_minutes",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "시간",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 4,
+            "word": "정도입니다.",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "뛰었습니다.",
+            "edge": "end",
+            "offset_frames": 3
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "좁은 칸 라벨"
+    },
+    {
+      "id": "herotwo_in",
+      "concept_id": "price_climb",
+      "element_id": "herotwo",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "이천십사년",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "이천십사년",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "어둡게 낮춘 기체 사진 배경"
+    },
+    {
+      "id": "bar14_in",
+      "concept_id": "price_climb",
+      "element_id": "bar_2014",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "이천십사년",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 2,
+            "word": "이십만",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2014 막대"
+    },
+    {
+      "id": "tag14_in",
+      "concept_id": "price_climb",
+      "element_id": "tag_2014",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 2,
+            "word": "이십만",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 2,
+            "word": "이십만",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2014 막대 끝 라벨"
+    },
+    {
+      "id": "barnow_in",
+      "concept_id": "price_climb",
+      "element_id": "bar_now",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 8,
+            "word": "팔십오만",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 9,
+            "word": "달러,",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "최근 막대"
+    },
+    {
+      "id": "tagnow_in",
+      "concept_id": "price_climb",
+      "element_id": "tag_now",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 8,
+            "word": "팔십오만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 9,
+            "word": "달러,",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "최근 막대 끝 라벨"
+    },
+    {
+      "id": "tagkrw_in",
+      "concept_id": "price_climb",
+      "element_id": "tag_now_krw",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 11,
+            "word": "십일억",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 11,
+            "word": "십일억",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "됐죠.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "원화 환산"
+    },
+    {
+      "id": "ground_in",
+      "concept_id": "demand",
+      "element_id": "ch_ground",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "스페이스포트 앞 기체"
+    },
+    {
+      "id": "dots_in",
+      "concept_id": "demand",
+      "element_id": "dot_grid",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "이렇게",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 8,
+            "word": "기준",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "예약자 한 명당 점 하나"
+    },
+    {
+      "id": "tag675_in",
+      "concept_id": "demand",
+      "element_id": "tag_675",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 5,
+            "word": "예약자는",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 9,
+            "word": "육백칠십오",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "명입니다.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "공시 예약자 수"
+    },
+    {
+      "id": "flyover_in",
+      "concept_id": "plan",
+      "element_id": "ch_flyover",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "이",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "이",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "비행 장면"
+    },
+    {
+      "id": "fleet_in",
+      "concept_id": "plan",
+      "element_id": "fleet_icons",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "이호기까지",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "기체 두 대"
+    },
+    {
+      "id": "ship1_in",
+      "concept_id": "plan",
+      "element_id": "tag_ship1",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1호기 아페론"
+    },
+    {
+      "id": "ship2_in",
+      "concept_id": "plan",
+      "element_id": "tag_ship2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "이호기까지",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "이호기까지",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "제작 중인 2호기"
+    },
+    {
+      "id": "year_in",
+      "concept_id": "plan",
+      "element_id": "year_band",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 8,
+            "word": "연간",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 10,
+            "word": "회",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1년 띠에 비행 표시 125개"
+    },
+    {
+      "id": "tag125_in",
+      "concept_id": "plan",
+      "element_id": "tag_125",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 9,
+            "word": "백이십오",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 10,
+            "word": "회",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "연 125회 목표"
+    },
+    {
+      "id": "ferry_in",
+      "concept_id": "plan",
+      "element_id": "ferry",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 3,
+            "word": "제작",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "모선과 아페론 사진 배경"
+    },
+    {
+      "id": "axis_in",
+      "concept_id": "plan",
+      "element_id": "timeline_axis",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 0,
+            "word": "아페론의",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 1,
+            "word": "첫",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "분기 시간축"
+    },
+    {
+      "id": "tagnowt_in",
+      "concept_id": "plan",
+      "element_id": "tag_now_time",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 0,
+            "word": "아페론의",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 1,
+            "word": "첫",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "지금 표시"
+    },
+    {
+      "id": "tagq2_in",
+      "concept_id": "plan",
+      "element_id": "tag_q2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 4,
+            "word": "이천이십칠년",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "이분기",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 9,
+            "word": "보입니다.",
+            "edge": "end",
+            "offset_frames": 14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "예상 시점"
+    },
+    {
+      "id": "wing_in",
+      "concept_id": "closing",
+      "element_id": "hp_wing",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s17",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 18
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s17",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 18
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "우주에서 본 지구"
+    },
+    {
+      "id": "tag_unity_close_in",
+      "concept_id": "closing",
+      "element_id": "tag_unity_close",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s17",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s17",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "마무리 영상도 유니티"
+    },
+    {
+      "id": "aside_in",
+      "concept_id": "closing",
+      "element_id": "aside_text",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 0,
+            "word": "다시",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 4,
+            "word": "꿈.",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s16",
+            "token_index": 4,
+            "word": "꿈.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "사용자 지정 자막 전용 문구"
+    }
+  ],
+  "audio_cues": [
+    {
+      "id": "sfx_hook_line",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -5,
+      "bind": {
+        "event_id": "hook_line",
+        "point": "settled",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_graph",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "graph_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_15",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -5,
+      "bind": {
+        "event_id": "tag_15_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_ignite",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "ignite",
+        "point": "from",
+        "offset_frames": 2
+      }
+    },
+    {
+      "id": "sfx_boost",
+      "kind": "sfx",
+      "asset": "audio/sfx_rise.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "ignite",
+        "point": "settled",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_rumble",
+      "kind": "sfx",
+      "asset": "audio/sfx_rumble.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "ignite",
+        "point": "from",
+        "offset_frames": 2
+      }
+    },
+    {
+      "id": "sfx_3d",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -7,
+      "bind": {
+        "event_id": "view3d",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_2d",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -9,
+      "bind": {
+        "event_id": "view3d",
+        "point": "to",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_karman",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tag_karman_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_l1",
+      "kind": "sfx",
+      "asset": "audio/sfx_tick.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "l_tropo_in",
+        "point": "settled",
+        "offset_frames": -3
+      }
+    },
+    {
+      "id": "sfx_l2",
+      "kind": "sfx",
+      "asset": "audio/sfx_tick.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "l_strato_in",
+        "point": "settled",
+        "offset_frames": -3
+      }
+    },
+    {
+      "id": "sfx_l3",
+      "kind": "sfx",
+      "asset": "audio/sfx_tick.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "l_meso_in",
+        "point": "settled",
+        "offset_frames": -3
+      }
+    },
+    {
+      "id": "sfx_l4",
+      "kind": "sfx",
+      "asset": "audio/sfx_tick.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "l_thermo_in",
+        "point": "settled",
+        "offset_frames": -3
+      }
+    },
+    {
+      "id": "sfx_strip",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "strip_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_zg",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tag_min_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_panel_price",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "herotwo_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_bar14",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -5,
+      "bind": {
+        "event_id": "bar14_in",
+        "point": "settled",
+        "offset_frames": -1
+      }
+    },
+    {
+      "id": "sfx_barnow",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -5,
+      "bind": {
+        "event_id": "barnow_in",
+        "point": "settled",
+        "offset_frames": -1
+      }
+    },
+    {
+      "id": "sfx_tagnow",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tagnow_in",
+        "point": "settled",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_dots",
+      "kind": "sfx",
+      "asset": "audio/sfx_rise.wav",
+      "gain_db": -7,
+      "bind": {
+        "event_id": "dots_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_675",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tag675_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_fleet",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "fleet_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_ship2",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "ship2_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_year",
+      "kind": "sfx",
+      "asset": "audio/sfx_rise.wav",
+      "gain_db": -9,
+      "bind": {
+        "event_id": "year_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_125",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tag125_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    },
+    {
+      "id": "sfx_calendar",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "axis_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_q2",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "tagq2_in",
+        "point": "settled",
+        "offset_frames": -2
+      }
+    }
+  ]
+}

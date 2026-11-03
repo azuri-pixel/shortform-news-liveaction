@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_1284974",
+  "script_policy": "editorial-owned",
+  "creative_scope": {
+    "script": "delegated",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "우주여행의 꿈은 이번엔 실현되나, 그 값은 얼마인가",
+  "takeaway": "11억 원 요금에도 예약이 몰렸고, 첫 상업비행은 2027년 2분기 초로 예상된다",
+  "concept_order": [
+    "hook_dream",
+    "apeiron_reveal",
+    "how_it_flies",
+    "what_you_buy",
+    "price_climb",
+    "demand",
+    "plan",
+    "closing"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 980,
+          "center_y": 780
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 76,
+            "gap_after": 20,
+            "runs": [
+              {
+                "text": "우주 여행의 꿈, 이번엔",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 60,
+                "text_color": "#FFD16A",
+                "letter_spacing": -1
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 156,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "실현될까?",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 144,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": [
+    "한겨레 · 곽노필, 한 번 타는 데 11억원…버진 갤럭틱, 차세대 우주비행기 공개"
+  ]
+}

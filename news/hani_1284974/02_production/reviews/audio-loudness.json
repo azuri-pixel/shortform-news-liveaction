@@ -1,0 +1,578 @@
+{
+  "schema_version": "audio-loudness-report@1",
+  "pilot": "hani_1284974",
+  "contract": "audio-loudness@1",
+  "measured_at": "2026-11-03T09:56:20.819Z",
+  "render": {
+    "path": "out/pilots/hani_1284974/qa/production-8e6c1a4f-c616-4096-b1ff-4c750a88e0f9.mp4"
+  },
+  "render_sha256": "a925c4f9d767bd7638f8b5ba0c8fc0d2dc1eb2d5feb6a9b0c6c656ccf82dae98",
+  "gains": {
+    "bgm_gain_db": 3,
+    "duck_db": -6,
+    "master_gain_db": -3,
+    "normalization": {
+      "contract": "audio-loudness@1",
+      "reference": {
+        "bgm_lufs": -23,
+        "sfx_peak_dbfs": -6,
+        "_comment": "정규화 기준점. 원본마다 보정값을 sync 가 재서 audio.json 의 gain_db 가 이 기준 대비 상대값이 되게 한다. BGM gain_db 0 = 원본 구간이 -23 LUFS 가 되는 지점(내레이션 -16 보다 7 LU 아래), SFX gain_db 0 = 원본 sample peak 가 -6 dBFS 가 되는 지점"
+      },
+      "bgm_offset_db": -7,
+      "sfx_offset_db_by_file": {
+        "audio/sfx_snap.wav": -6,
+        "audio/sfx_whoosh.wav": 8.7,
+        "audio/sfx_rise.wav": 3.1,
+        "audio/sfx_rumble.wav": -6,
+        "audio/sfx_pop.wav": -4,
+        "audio/sfx_tick.wav": -5.4
+      },
+      "sources": {
+        "audio/bgm_impact_moderato.mp3": {
+          "integrated_lufs": -16,
+          "true_peak_dbtp": -0.1,
+          "lra_lu": 3.2,
+          "from_sec": 0
+        },
+        "audio/sfx_snap.wav": {
+          "sample_peak_dbfs": 0,
+          "integrated_lufs": null,
+          "true_peak_dbtp": 0.1
+        },
+        "audio/sfx_whoosh.wav": {
+          "sample_peak_dbfs": -14.7,
+          "integrated_lufs": -28,
+          "true_peak_dbtp": -14.7
+        },
+        "audio/sfx_rise.wav": {
+          "sample_peak_dbfs": -9.1,
+          "integrated_lufs": -15,
+          "true_peak_dbtp": -9.1
+        },
+        "audio/sfx_rumble.wav": {
+          "sample_peak_dbfs": 0,
+          "integrated_lufs": -12.5,
+          "true_peak_dbtp": 0
+        },
+        "audio/sfx_pop.wav": {
+          "sample_peak_dbfs": -2,
+          "integrated_lufs": null,
+          "true_peak_dbtp": -2
+        },
+        "audio/sfx_tick.wav": {
+          "sample_peak_dbfs": -0.6,
+          "integrated_lufs": null,
+          "true_peak_dbtp": -0.6
+        }
+      }
+    }
+  },
+  "stems": {
+    "narration": {
+      "path": "out/pilots/hani_1284974/qa/audio-stems/narration.wav",
+      "sha256": "b3a73adec0552a52e64a71a0878d14b15fab7fae0065095b6014fc726519c0a2"
+    },
+    "bgm": {
+      "path": "out/pilots/hani_1284974/qa/audio-stems/bgm.wav",
+      "sha256": "80851a13c347203ab878693ba12c69f5e78c8d8b13af8424584a89db8462f857"
+    },
+    "sfx": {
+      "path": "out/pilots/hani_1284974/qa/audio-stems/sfx.wav",
+      "sha256": "336c5e763f37150eae9ffe0a8014c88558c974f6e0ca5ff1ad73e358ea8fabaa"
+    }
+  },
+  "measured": {
+    "narration_speech_lufs": -15.2,
+    "narration_integrated_lufs": -15.4,
+    "narration_peak_dbfs": -4.5,
+    "narration_true_peak_dbtp": -4.5,
+    "bgm_speech_lufs": -29.1,
+    "bgm_gap_lufs": null,
+    "speech_seconds": 65.42,
+    "gap_seconds": 0,
+    "windows": {
+      "speech": [
+        [
+          1,
+          2.384
+        ],
+        [
+          2.79,
+          4.493
+        ],
+        [
+          4.947,
+          9.991
+        ],
+        [
+          10.364,
+          14.955
+        ],
+        [
+          15.268,
+          24.787
+        ],
+        [
+          25.004,
+          31.233
+        ],
+        [
+          31.411,
+          36.407
+        ],
+        [
+          36.634,
+          38.321
+        ],
+        [
+          38.548,
+          40.381
+        ],
+        [
+          40.656,
+          46.95
+        ],
+        [
+          47.209,
+          48.474
+        ],
+        [
+          48.799,
+          51.215
+        ],
+        [
+          51.491,
+          56.162
+        ],
+        [
+          56.452,
+          62.178
+        ],
+        [
+          62.453,
+          66.856
+        ],
+        [
+          67.168,
+          68.588
+        ],
+        [
+          68.896,
+          71.133
+        ]
+      ],
+      "gaps": []
+    },
+    "sfx": [
+      {
+        "id": "sfx_hook_line",
+        "at_sec": 2.33,
+        "peak_dbfs": -14
+      },
+      {
+        "id": "sfx_graph",
+        "at_sec": 15,
+        "peak_dbfs": -17
+      },
+      {
+        "id": "sfx_15",
+        "at_sec": 19.27,
+        "peak_dbfs": -8.4
+      },
+      {
+        "id": "sfx_ignite",
+        "at_sec": 21.37,
+        "peak_dbfs": -8.4
+      },
+      {
+        "id": "sfx_boost",
+        "at_sec": 21.57,
+        "peak_dbfs": -8.4
+      },
+      {
+        "id": "sfx_rumble",
+        "at_sec": 21.37,
+        "peak_dbfs": -8.4
+      },
+      {
+        "id": "sfx_3d",
+        "at_sec": 21.7,
+        "peak_dbfs": -8.4
+      },
+      {
+        "id": "sfx_2d",
+        "at_sec": 28.03,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_karman",
+        "at_sec": 29.17,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_l1",
+        "at_sec": 29.27,
+        "peak_dbfs": -14.7
+      },
+      {
+        "id": "sfx_l2",
+        "at_sec": 29.6,
+        "peak_dbfs": -15
+      },
+      {
+        "id": "sfx_l3",
+        "at_sec": 29.9,
+        "peak_dbfs": -15
+      },
+      {
+        "id": "sfx_l4",
+        "at_sec": 30.53,
+        "peak_dbfs": -15
+      },
+      {
+        "id": "sfx_strip",
+        "at_sec": 36.5,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_zg",
+        "at_sec": 37.87,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_panel_price",
+        "at_sec": 40.4,
+        "peak_dbfs": -14
+      },
+      {
+        "id": "sfx_bar14",
+        "at_sec": 42.17,
+        "peak_dbfs": -14
+      },
+      {
+        "id": "sfx_barnow",
+        "at_sec": 45.7,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_tagnow",
+        "at_sec": 45.87,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_dots",
+        "at_sec": 48.8,
+        "peak_dbfs": -16
+      },
+      {
+        "id": "sfx_675",
+        "at_sec": 54.9,
+        "peak_dbfs": -13
+      },
+      {
+        "id": "sfx_fleet",
+        "at_sec": 57.27,
+        "peak_dbfs": -15
+      },
+      {
+        "id": "sfx_ship2",
+        "at_sec": 58.07,
+        "peak_dbfs": -12.8
+      },
+      {
+        "id": "sfx_year",
+        "at_sec": 59.3,
+        "peak_dbfs": -12.8
+      },
+      {
+        "id": "sfx_125",
+        "at_sec": 60.6,
+        "peak_dbfs": -12.8
+      },
+      {
+        "id": "sfx_calendar",
+        "at_sec": 62.27,
+        "peak_dbfs": -17
+      },
+      {
+        "id": "sfx_q2",
+        "at_sec": 65.6,
+        "peak_dbfs": -13
+      }
+    ]
+  },
+  "mix_full": {
+    "integrated_lufs": -15.1,
+    "lra_lu": 2.3,
+    "true_peak_dbtp": -1.7
+  },
+  "verdict": {
+    "status": "pass",
+    "checks": [
+      {
+        "id": "bgm_vs_narration_during_speech_lu",
+        "value": -13.9,
+        "range": {
+          "min": -15,
+          "max": -12
+        },
+        "status": "pass"
+      },
+      {
+        "id": "bgm_vs_narration_in_gaps_lu",
+        "value": null,
+        "range": {
+          "min": -10,
+          "max": -4
+        },
+        "status": "n/a",
+        "note": "말 없는 구간 0s < 1s"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_hook_line",
+        "value": -9.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_graph",
+        "value": -12.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_15",
+        "value": -3.9,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_ignite",
+        "value": -3.9,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_boost",
+        "value": -3.9,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_rumble",
+        "value": -3.9,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_3d",
+        "value": -3.9,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_2d",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_karman",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_l1",
+        "value": -10.2,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_l2",
+        "value": -10.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_l3",
+        "value": -10.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_l4",
+        "value": -10.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_strip",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_zg",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_panel_price",
+        "value": -9.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_bar14",
+        "value": -9.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_barnow",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_tagnow",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_dots",
+        "value": -11.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_675",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_fleet",
+        "value": -10.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_ship2",
+        "value": -8.3,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_year",
+        "value": -8.3,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_125",
+        "value": -8.3,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_calendar",
+        "value": -12.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db:sfx_q2",
+        "value": -8.5,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "pass"
+      }
+    ]
+  },
+  "listening": "청취 미확인",
+  "note": "측정 통과는 청취 통과가 아니다. 청취 확인은 review_audio 보고서(listened_ranges)가 증명한다."
+}
