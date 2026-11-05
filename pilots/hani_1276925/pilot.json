@@ -1,0 +1,102 @@
+{
+  "_comment": "편 매니페스트 — 대장(docs/PILOTS.md)·index.json 은 이 파일들에서 생성한다. id = news/<id> 폴더명. 순서는 started 로 파생, 폴더명에 번호 없음.",
+  "id": "hani_1276925",
+  "title": null,
+  "client": "hani",
+  "article": {
+    "id": null,
+    "url": "https://www.hani.co.kr/arti/science/science_general/1276925.html",
+    "author": null,
+    "date": null
+  },
+  "parent": null,
+  "status": "delivered",
+  "started": "2026-11-05",
+  "delivered": "2026-11-05",
+  "input": {
+    "path": "news\\hani_1276925",
+    "commit": "d8b6fc8"
+  },
+  "engine": "editorial-concept@1",
+  "engine_commit": "d8b6fc8",
+  "versions": [
+    {
+      "version": "v1",
+      "label": "final_v1",
+      "master": "out/pilots/hani_1276925/qa/production-05ba230b-8270-48aa-acc7-0cb408c86f14.mp4",
+      "sha256": "d87daaa55fe7c6ba28d9360aec398002fe0fe9a4b39c76881ef7165a49ab0963",
+      "file": "out/pilots/hani_1276925/deliver/v1/hani_1276925_v1.mp4",
+      "file_sha256": "d87daaa55fe7c6ba28d9360aec398002fe0fe9a4b39c76881ef7165a49ab0963",
+      "duration_sec": 78.96666666666667,
+      "confirmed_by": "user",
+      "confirmed_at": "2026-11-05T22:01:23+09:00",
+      "basis": "user",
+      "audio_loudness": {
+        "contract": "audio-loudness@1",
+        "status": "pass",
+        "verdict": "pass",
+        "listening": "청취 미확인",
+        "report": "news/hani_1276925/02_production/reviews/audio-loudness.json"
+      },
+      "note": "r22 사용자 확정(addendum-37)"
+    }
+  ],
+  "gates_open": [],
+  "docs": null,
+  "linear": null,
+  "audio_normalization": {
+    "contract": "audio-loudness@1",
+    "reference": {
+      "bgm_lufs": -23,
+      "sfx_peak_dbfs": -6,
+      "_comment": "정규화 기준점. 원본마다 보정값을 sync 가 재서 audio.json 의 gain_db 가 이 기준 대비 상대값이 되게 한다. BGM gain_db 0 = 원본 구간이 -23 LUFS 가 되는 지점(내레이션 -16 보다 7 LU 아래), SFX gain_db 0 = 원본 sample peak 가 -6 dBFS 가 되는 지점"
+    },
+    "bgm_offset_db": -6.3,
+    "sfx_offset_db_by_file": {
+      "audio/sfx_snore.wav": 2.8,
+      "audio/sfx_clarinet.wav": 0.9,
+      "audio/sfx_whoosh.wav": -5.7,
+      "audio/sfx_whoosh2.wav": -1,
+      "audio/sfx_tone90.wav": -2.9,
+      "audio/sfx_snore_cute.wav": -4.3
+    },
+    "sources": {
+      "audio/bgm_teddy_bear_waltz.mp3": {
+        "integrated_lufs": -16.7,
+        "true_peak_dbtp": -0.5,
+        "lra_lu": 3.7,
+        "from_sec": 0
+      },
+      "audio/sfx_snore.wav": {
+        "sample_peak_dbfs": -8.8,
+        "integrated_lufs": -22.1,
+        "true_peak_dbtp": -8.6
+      },
+      "audio/sfx_clarinet.wav": {
+        "sample_peak_dbfs": -6.9,
+        "integrated_lufs": -15.4,
+        "true_peak_dbtp": -6.9
+      },
+      "audio/sfx_whoosh.wav": {
+        "sample_peak_dbfs": -0.3,
+        "integrated_lufs": -17.2,
+        "true_peak_dbtp": -0.3
+      },
+      "audio/sfx_whoosh2.wav": {
+        "sample_peak_dbfs": -5,
+        "integrated_lufs": -19.4,
+        "true_peak_dbtp": -4.9
+      },
+      "audio/sfx_tone90.wav": {
+        "sample_peak_dbfs": -3.1,
+        "integrated_lufs": -12.5,
+        "true_peak_dbtp": -3.1
+      },
+      "audio/sfx_snore_cute.wav": {
+        "sample_peak_dbfs": -1.7,
+        "integrated_lufs": -16.6,
+        "true_peak_dbtp": -1.5
+      }
+    }
+  }
+}

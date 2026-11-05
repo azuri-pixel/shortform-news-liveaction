@@ -1,0 +1,14 @@
+# Envato Elements 연구개(soft palate) 후보 — hani_1276925 0:17~0:23
+
+- 확인 방식: elements.envato.com 검색·항목 페이지를 curl로 열람(차단 없음, HTTP 200). 워터마크 프리뷰(960x540) mp4를 미리보기 용도로만 받아 컨택트시트 작성. 정식 다운로드·로그인·라이선스 등록은 하지 않음.
+- 권리: 전 항목 **미확보** — Envato Elements 구독 라이선스(사용자 계정에서 프로젝트 등록 필요). 항목별 라이선스 문구는 확인하지 않음.
+- 시트 타임코드는 프리뷰 기준(좌→우, 위→아래).
+- 검색어(19): soft-palate, hard-palate, palate-anatomy, snoring-animation, sleep-apnea-3d, sleep-apnea-animation, airway-obstruction, uvula, oral-cavity-anatomy, mouth-anatomy-3d, snoring-anatomy, throat-anatomy, obstructive-sleep-apnea, pharynx, head-cross-section, sagittal-head, nasopharynx, snoring-3d, mouth-palate. 원자료 `_search/`.
+
+| ref | 항목 URL | 작가 | 원본 규격·길이 | 시트 | 실제 내용 | 경/연구개 구분 | 박힌 글자 | 기도막힘 연출 | 제안 구간·크롭 |
+|---|---|---|---|---|---|---|---|---|---|
+| E1 CUKUBES | https://elements.envato.com/sleep-apnea-syndrome-labeled-nasal-tongue-blocked--CUKUBES | Alexmit | 1920x1080, 0:26 | sheet_CUKUBES.jpg (t=1.6,4.9,8.2,11.5,14.8,18.1,21.4,24.7), frame_CUKUBES_t11.5.jpg | 투명 머리 누운 자세 측면 단면. 혀·인두·연구개로 보이는 밝은 분홍 띠, 청/주황 기류선(t≈4.9, 14.8~24.7) | 연구개 띠는 분명, 경구개는 투명 처리로 별도 표현 약함 | 시트 8장에 레이블 없음(슬러그엔 labeled) | **있음** — 설명문 "simulated airway obstruction ... sleep apnea", 후반 혀·연구개가 뒤벽에 붙음. 설명문의 'insertion and removal'(기구) 장면은 시트에서 미확인 | t≈8~12s(기류선·막힘 전). 9:16 cover ×1.78, 크롭창 원본 x≈600~1210 |
+| E2 5X8WAAR | https://elements.envato.com/examination-of-the-zones-inside-the-female-mouth-s-5X8WAAR | provokatorx3 | 3840x2160, 0:14 | sheet_5X8WAAR.jpg (t=1.2,3.6,5.9,8.3,10.7,13.1) | 실제 인후 접사: 연구개 아치·목젖·편도·인두 뒷벽 | 연구개만, 경구개 거의 화면 밖 | 없음 | 없음 | t≈0~8s. cover ×0.89, 중앙 크롭 시 목젖+연구개 중앙만 남고 양옆 아치 잘림 |
+| E3 LZKDLBF | https://elements.envato.com/the-man-opens-his-mouth-and-the-probe-with-the-cam-LZKDLBF | provokatorx3 | 3840x2160, 0:19 | sheet_LZKDLBF.jpg (t=1.6,4.8,8.0,11.2,14.4,17.6), frame_LZKDLBF_t17.6.jpg | 카메라가 치아→목구멍으로 들어감. t≈14 입천장 뒤 연구개 혈관·목젖, t≈17.6 입 크게 벌린 정면(앞 입천장~연구개~목젖) | t≈16~19 정면에서 앞쪽 단단한 입천장과 뒤쪽 연구개가 한 화면(색·질감 차이 약함) | 없음 | 없음 | t≈13~19s. cover ×0.89, 중앙 크롭 |
+| E4 AD8JDM4 | https://elements.envato.com/human-head-anatomy-cross-section-showing-internal--AD8JDM4 | Digital-Organs-Company | 3840x2156, 0:12 | sheet_AD8JDM4.jpg (t=1.0,3.1,5.2,7.3,9.4,11.5), frame_AD8JDM4_t10.5.jpg, frame_AD8JDM4_t12.2.jpg | 머리 회전 후 정중시상 단면 공개: 뇌·비강·구강·혀·인두 | 입천장 판은 보이나 경/연구개 색 구분 없음, 연구개 작음 | 없음 | 없음 | t≈9.0~11.5s만 측면 단면(이후 정면 회전). cover ×0.89 |
+| E5 YNTHPCH | https://elements.envato.com/human-jaw-anatomy-with-small-or-receding-jawline-a-YNTHPCH | Digital-Display-Company | 3840x2160, 0:12 | sheet_YNTHPCH.jpg (t=1.0,3.0,5.1,7.1,9.2,11.2) | 수면무호흡 원인 팩: 누운 자세 턱·혀, 측면 기류, 연구개·혀 접사 | t≈9~12 접사에서 늘어진 연구개 분명, 경구개 일부 | **있음** "Small or receding jaw"(t≈0~3), "Loss of muscle tone in pharynx"(t≈7~11, 11.2에 흐려짐) | **강함** — 설명문 "causes of airway blockage" | t≈11~12s(레이블 사라진 접사). cover ×0.89, 레이블 좌측이라 크롭창으로 배제 가능 |

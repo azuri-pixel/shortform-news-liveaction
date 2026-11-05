@@ -1,0 +1,180 @@
+{
+ "schema_version": "1.0",
+ "preset": "editorial-concept-v1",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30
+ },
+ "caption": {
+  "preset": "betelgeuse-v1"
+ },
+ "text": {
+  "persistent_top_text": false,
+  "explanatory_notes": false,
+  "allowed_roles": [
+   "necessary-label",
+   "condition",
+   "provenance"
+  ]
+ },
+ "media": {
+  "full_bleed_default": true,
+  "assets": [
+   {
+    "id": "project_logo",
+    "source": "02_production/brand/logo.png",
+    "file": "editorial/brand-logo.png"
+   },
+   {
+    "id": "snore_bed",
+    "source": "02_production/external_assets/derived/snore_bed.mp4",
+    "file": "editorial/snore_bed.mp4",
+    "credit": "Mixkit"
+   },
+   {
+    "id": "clarinet_play",
+    "source": "02_production/external_assets/derived/clarinet_play.mp4",
+    "file": "editorial/clarinet_play.mp4",
+    "credit": "United States Navy Band",
+    "attribution_kind": "institution",
+    "attribution_evidence": "https://commons.wikimedia.org/wiki/File:8_Days_of_Day-_Clarinet_solo_featuring_Musician_1st_Class_Arianna_Hammond.webm"
+   },
+   {
+    "id": "lynch_head",
+    "source": "02_production/external_assets/derived/lynch_head.jpg",
+    "file": "editorial/lynch_head.jpg",
+    "credit": "Patrick J. Lynch (CC BY 2.5)"
+   },
+   {
+    "id": "lynch_throat",
+    "source": "02_production/external_assets/derived/lynch_throat.jpg",
+    "file": "editorial/lynch_throat.jpg",
+    "credit": "Patrick J. Lynch (CC BY 2.5)"
+   },
+   {
+    "id": "aip_model_band",
+    "source": "02_production/external_assets/derived/aip_model_band.png",
+    "file": "editorial/aip_model_band.png",
+    "credit": "Li et al. / AIP Publishing",
+    "attribution_kind": "institution",
+    "attribution_evidence": "https://publishing.aip.org/?p=13356"
+   },
+   {
+    "id": "flag_wave",
+    "source": "02_production/external_assets/generated/flag_wave.mp4",
+    "file": "editorial/flag_wave.mp4",
+    "credit": "AI 생성(Higgsfield)",
+    "generation_job": "job_flag_wave"
+   },
+   {
+    "id": "palate_front",
+    "source": "02_production/external_assets/derived/palate_front.png",
+    "file": "editorial/palate_front.png",
+    "credit": "OpenStax College (CC BY 3.0)"
+   }
+  ]
+ },
+ "mobile": {
+  "max_simultaneous_labels": 3,
+  "review_scale": 0.3333333333
+ },
+ "motion": {
+  "enter": "ease-out",
+  "move": "ease-in-out",
+  "exit": "ease-in",
+  "quantitative_overshoot": false
+ },
+ "production_profile": {
+  "id": "hani-shortform",
+  "version": "1.5.0"
+ },
+ "visual_contract": "visual-explanation@1",
+ "generation_jobs": [
+  {
+   "id": "job_flag_wave",
+   "kind": "video",
+   "purpose": "깃발처럼 비유: 왼쪽 깃대에 고정된 무늬 없는 천이 오른쪽으로 계속 펄럭임(관측 아님)",
+   "status": "accepted",
+   "provider": "higgsfield",
+   "model": "seedance_2_5",
+   "job_id": "f5ac2960-6414-4008-a1e9-aa45f71426b4",
+   "prompt_path": "02_production/prompts/flag_wave.txt",
+   "output": "02_production/external_assets/generated/flag_wave.mp4",
+   "observation": "720x1280 24fps 5.04s. 깃대 왼쪽, 천이 오른쪽으로 연속 펄럭임, 글자·로고 없음"
+  }
+ ],
+ "hook_style": {
+  "version": "hook-style@3"
+ },
+ "attribution_style": {
+  "version": "1.0.0"
+ },
+ "attribution": {
+  "sources": [
+   {
+    "asset_ids": [
+     "aip_model_band"
+    ],
+    "text": "Credit: Li et al. (graph)",
+    "start": 33.015,
+    "end": 35.88
+   },
+   {
+    "asset_ids": [
+     "clarinet_play"
+    ],
+    "text": "Credit: U.S. Navy Band",
+    "start": 3.277,
+    "end": 6.085
+   },
+   {
+    "asset_ids": [
+     "clarinet_play"
+    ],
+    "text": "Credit: U.S. Navy Band",
+    "start": 37.904,
+    "end": 38.973
+   },
+   {
+    "asset_ids": [
+     "clarinet_play"
+    ],
+    "text": "Credit: U.S. Navy Band",
+    "start": 73.177,
+    "end": 78.463
+   }
+  ],
+  "pages": [
+   {
+    "duration": 0.5,
+    "categories": [
+     {
+      "title": "참조 기사",
+      "lines": [
+       "한겨레 · 곽노필",
+       "드르렁~ 코 고는 소리, 클라리넷 악기와 똑같은 원리였다"
+      ]
+     },
+     {
+      "title": "이미지·관측 근거",
+      "lines": [
+       "Li et al., Physics of Fluids 38, 081909 (2026), CC BY 4.0",
+       "Head lateral mouth anatomy, Patrick J. Lynch, CC BY 2.5",
+       "Structures of the Mouth, OpenStax College, CC BY 3.0"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "project_logo": {
+  "version": "4.0.0",
+  "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+  "file": "editorial/brand-logo.png",
+  "x": 860,
+  "y": 250,
+  "width": 140,
+  "height": 140
+ }
+}

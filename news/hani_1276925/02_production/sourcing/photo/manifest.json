@@ -1,0 +1,16 @@
+{
+  "kind": "photo",
+  "originals_dir": "news/hani_1276925/01_input/05_참고자료/photo/",
+  "md5": "news/hani_1276925/01_input/05_참고자료/photo/MD5SUMS",
+  "files": [
+    {"ref": "P1", "file": "wc_Head_lateral_mouth_anatomy.jpg", "url": "https://commons.wikimedia.org/wiki/File:Head_lateral_mouth_anatomy.jpg", "license": "CC BY 2.5 (https://creativecommons.org/licenses/by/2.5)", "credit": "Patrick J. Lynch, medical illustrator", "size": "1374x1510"},
+    {"ref": "P2", "file": "wc_Gray994.png", "url": "https://commons.wikimedia.org/wiki/File:Gray994.png", "license": "Public domain", "credit": "Henry Vandyke Carter; Henry Gray (1918) Anatomy of the Human Body, Plate 994", "size": "600x861"},
+    {"ref": "P3", "file": "wc_Pronunciation_organs_diagram.png", "url": "https://commons.wikimedia.org/wiki/File:Pronunciation_organs_diagram.png", "license": "CC0", "credit": "Obsuser", "size": "1068x1035"},
+    {"ref": "P4", "file": "wc_Illu_pharynx.svg", "url": "https://commons.wikimedia.org/wiki/File:Illu_pharynx.svg", "license": "Public domain", "credit": "Original: Arcadian; Vector: Ripounet", "size": "1097x722 (svg, not visually inspected)"},
+    {"ref": "P5", "file": "wc_Illu01_head_neck.jpg", "url": "https://commons.wikimedia.org/wiki/File:Illu01_head_neck.jpg", "license": "Public domain", "credit": "Arcadian (source training.seer.cancer.gov)", "size": "424x430"},
+    {"ref": "R1", "file": "wc_Clar_mouth_reed_lig.jpg", "url": "https://commons.wikimedia.org/wiki/File:Clar_mouth_reed_lig.jpg", "license": "CC0", "credit": "User:Gisbert K", "size": "2800x1911"},
+    {"ref": "R2", "file": "wc_reed_resin_cc_by.jpg", "url": "https://commons.wikimedia.org/wiki/File:樹脂製のリードが装着されたクラリネットのマウスピース.jpg", "license": "CC BY 4.0", "credit": "あにやら", "size": "932x982 (not visually inspected)"},
+    {"ref": "A1", "file": "newswise_fig1_full.jpg", "url": "https://media.newswise.com/pio/articles/852497/6a7e1e9c10804_PRPOF26-AR-08873fig1.jpg", "license": "graph: no stated license on press page; photo: CC0", "credit": "Li et al. (graph), Mussi Katz via flickr, licensed under CC0 (photograph)", "size": "710x533"},
+    {"ref": "A1b", "file": "newswise_fig1.jpg", "note": "400x300 thumbnail, superseded by A1"}
+  ]
+}

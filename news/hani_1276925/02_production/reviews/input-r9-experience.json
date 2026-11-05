@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "contract": "production-review-input@1",
+  "pilot": "hani_1276925",
+  "source": "render",
+  "phase": "experience",
+  "receipt_id": "59cfd260-bd0c-4381-b114-639c7fd48191",
+  "source_commit": "d8b6fc873211c2f52caa0ba16a301a10bbb8be4b",
+  "input_sha256": "b9e4df4e83813e3cc9376e0ffaf64939c33992e1ac91b847cc6cc42f53ad7eb0",
+  "episode_clock": {
+    "fps": 30,
+    "total_frames": 2361,
+    "duration": 78.7
+  },
+  "artifact": {
+    "path": "out/pilots/hani_1276925/qa/production-53abccea-a62c-46ff-bae7-30a4d13db520.mp4",
+    "sha256": "56a2cd2de4558e90787c0e6aaf30399801e3ff60c5f76ae286ab7ab4f15cd909",
+    "render_receipt": "59cfd260-bd0c-4381-b114-639c7fd48191"
+  },
+  "files": [
+    {
+      "path": "out/pilots/hani_1276925/qa/production-53abccea-a62c-46ff-bae7-30a4d13db520.mp4",
+      "sha256": "56a2cd2de4558e90787c0e6aaf30399801e3ff60c5f76ae286ab7ab4f15cd909",
+      "status": "present",
+      "expected_sha256": "56a2cd2de4558e90787c0e6aaf30399801e3ff60c5f76ae286ab7ab4f15cd909",
+      "recorded_frame": null,
+      "media": {
+        "kind": "video",
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "total_frames": 2361,
+        "duration": 78.7,
+        "content_duration": 78.7,
+        "duration_basis": "total",
+        "audio_duration": 78.762667,
+        "audio_present": true,
+        "inspection": "recorded_technical_validation"
+      }
+    }
+  ],
+  "purpose": "final_artifact_review_input",
+  "observation_status": "not_performed",
+  "note": "입력 파일과 기술 정보를 구성했다. 실제 사용 도구·관찰·시청·청취 범위는 검수자가 별도로 반환한다. 이 출력은 review-template 보고서가 아니다."
+}

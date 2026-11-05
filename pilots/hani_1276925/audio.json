@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "loudness_contract": "audio-loudness@1",
+  "master_mix": false,
+  "_comment": "소리층. bgm.file/sfx[].file 이 null 이면 그 트랙은 건너뛴다. 경로는 편 상대(audio/<name>). dB 값은 렌더에서 선형으로 변환. loudness_contract 가 있어 gain_db 는 정규화 기준 상대값(rules-finish.md §10 D)",
+  "narration": {
+    "file": "audio/narration.wav",
+    "normalized": {
+      "target_lufs": -16,
+      "true_peak": -1.5
+    },
+    "gain_db": 0
+  },
+  "bgm": {
+    "asset": "bgm_teddy_bear_waltz",
+    "file": "audio/bgm_teddy_bear_waltz.mp3",
+    "gain_db": 3,
+    "duck_db": -6,
+    "duck_attack_sec": 0.25,
+    "duck_release_sec": 0.6,
+    "fade_in_sec": 0.8,
+    "fade_out_sec": 2.5,
+    "start_offset_sec": 0,
+    "loop": false,
+    "credit": "\"Teddy Bear Waltz\" Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/",
+    "duck_ranges": [
+      {
+        "from": 39.944,
+        "to": 41.708,
+        "gain_db": -24,
+        "attack_sec": 0.2,
+        "release_sec": 0.5,
+        "why": "0:39 리드 강조 쉼의 클라리넷 단음 단독 구간(사용자 addendum-23)"
+      },
+      {
+        "from": 47.885,
+        "to": 49.279,
+        "gain_db": -24,
+        "attack_sec": 0.2,
+        "release_sec": 0.5,
+        "why": "90Hz 예시음 단독 구간(사용자 addendum-12)"
+      }
+    ]
+  },
+  "sfx": [],
+  "master_gain_db": -2,
+  "measured": {
+    "integrated_lufs": null,
+    "true_peak_dbtp": null,
+    "measured_at": null
+  }
+}

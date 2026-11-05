@@ -1,0 +1,143 @@
+{
+  "_format": {
+    "coverage": "coverage.original_frames/mobile_frames[].evidence 경로는 evidence[]에도 {path, sha256}로 등록한다",
+    "explanations_evidence": "explanations[].evidence는 evidence[].path에 있는 경로 문자열의 배열이다",
+    "explanations_observation": "verdict가 unverified여도 explanations[].observed_subject/action/result는 비어 있으면 안 된다"
+  },
+  "schema_version": "1.0",
+  "action": "review_visual",
+  "artifact": {
+    "path": "out/pilots/hani_1276925/qa/production-316ac938-eaaf-4c58-af6e-5b73a1f542fc.mp4",
+    "sha256": "7e68b0475b540db5ed50e4bb1d9e043b4b571b7e9929cab800ead7645db42e55",
+    "render_receipt": "47abc47e-7303-4b15-84b5-0c144ae4a36e"
+  },
+  "source_commit": "d8b6fc873211c2f52caa0ba16a301a10bbb8be4b",
+  "reviewer": {
+    "id": "",
+    "role": "shot-judge",
+    "independent": false,
+    "tool": ""
+  },
+  "verdict": "incomplete",
+  "raw_report": {
+    "path": "",
+    "sha256": ""
+  },
+  "evidence": [],
+  "coverage": {
+    "original_frames": [],
+    "mobile_frames": [],
+    "playback_ranges": [],
+    "listened_ranges": [],
+    "fact_ranges": [],
+    "audio_measurement": null
+  },
+  "findings": [],
+  "rechecks": [],
+  "text_review": {
+    "verdict": "unverified",
+    "observation": "",
+    "evidence": []
+  },
+  "explanations": [
+    {
+      "concept_id": "c_common",
+      "moment_id": "guess",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_model",
+      "moment_id": "locate",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_interaction",
+      "moment_id": "push",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_flutter",
+      "moment_id": "flutter",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_flutter",
+      "moment_id": "reed",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_numbers",
+      "moment_id": "amp",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_numbers",
+      "moment_id": "match",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_key",
+      "moment_id": "open",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    },
+    {
+      "concept_id": "c_limit",
+      "moment_id": "simplify",
+      "verdict": "unverified",
+      "basis": "unverified",
+      "observed_subject": "",
+      "observed_action": "",
+      "observed_result": "",
+      "text_dependency": "",
+      "evidence": []
+    }
+  ]
+}

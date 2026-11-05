@@ -1,0 +1,88 @@
+{
+ "schema_version": "1.0",
+ "lines": {
+  "s01": {
+   "protected_phrases": [
+    {
+     "from": 7,
+     "to": 8,
+     "text": "목관악기 클라리넷과"
+    }
+   ]
+  },
+  "s04": {
+   "protected_phrases": [
+    {
+     "from": 0,
+     "to": 1,
+     "text": "스웨덴 왕립공대"
+    },
+    {
+     "from": 4,
+     "to": 6,
+     "text": "상기도 컴퓨터 모델을"
+    }
+   ]
+  },
+  "s12": {
+   "protected_phrases": [
+    {
+     "from": 8,
+     "to": 9,
+     "text": "곧은 관"
+    }
+   ],
+   "break_before": [
+    {
+     "token": 6,
+     "text": "지름"
+    },
+    {
+     "token": 8,
+     "text": "곧은"
+    },
+    {
+     "token": 11,
+     "text": "단순화한"
+    },
+    {
+     "token": 13,
+     "text": "대상으로"
+    },
+    {
+     "token": 15,
+     "text": "한계도"
+    }
+   ]
+  },
+  "s03": {
+   "protected_phrases": [
+    {
+     "from": 5,
+     "to": 6,
+     "text": "주원인일 것으로"
+    }
+   ]
+  },
+  "s11": {
+   "break_before": [
+    {
+     "token": 13,
+     "text": "줄이는"
+    },
+    {
+     "token": 15,
+     "text": "코골이"
+    },
+    {
+     "token": 17,
+     "text": "핵심이라고"
+    },
+    {
+     "token": 18,
+     "text": "봤습니다."
+    }
+   ]
+  }
+ }
+}

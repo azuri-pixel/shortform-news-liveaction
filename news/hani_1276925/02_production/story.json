@@ -1,0 +1,77 @@
+{
+ "schema_version": "1.0",
+ "mode": "editorial-concept",
+ "pilot": "hani_1276925",
+ "script_policy": "script-faithful",
+ "creative_scope": {
+  "script": "locked",
+  "assets": "delegated",
+  "diagrams": "delegated",
+  "audio": "delegated"
+ },
+ "question": "흔한 코골이 소리는 정확히 어디서, 어떻게 나는가",
+ "takeaway": "입천장 안쪽 연구개가 공기와 밀고 당기며 클라리넷 리드처럼 스스로 계속 떨려 소리가 난다(단순화한 컴퓨터 모델 결과)",
+ "concept_order": [
+  "c_hook",
+  "c_common",
+  "c_model",
+  "c_interaction",
+  "c_flutter",
+  "c_numbers",
+  "c_key",
+  "c_limit",
+  "c_close"
+ ],
+ "hook": {
+  "narration_line": "s01",
+  "phrases": [
+   {
+    "element_id": "opening_hook",
+    "text_event_id": "hook_text",
+    "underline_event_id": "hook_line",
+    "layout": {
+     "width": 980,
+     "center_y": 1180
+    },
+    "rows": [
+     {
+      "align": "center",
+      "line_height": 76,
+      "gap_after": 18,
+      "runs": [
+       {
+        "text": "드르렁 코골이,",
+        "role": "support",
+        "font_family": "Pretendard",
+        "font_weight": 700,
+        "font_size": 60,
+        "text_color": "#FFD16A",
+        "letter_spacing": -1
+       }
+      ]
+     },
+     {
+      "align": "center",
+      "line_height": 156,
+      "gap_after": 0,
+      "runs": [
+       {
+        "text": "클라리넷 원리?",
+        "role": "emphasis",
+        "underline": true,
+        "font_family": "Pretendard",
+        "font_weight": 800,
+        "font_size": 144,
+        "text_color": "#FFFFFF",
+        "letter_spacing": -4
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  "한겨레 · 곽노필, 드르렁~ 코 고는 소리, 클라리넷 악기와 똑같은 원리였다"
+ ]
+}

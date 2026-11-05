@@ -1,0 +1,37 @@
+{
+  "_format": {
+    "coverage": "coverage.original_frames/mobile_frames[].evidence 경로는 evidence[]에도 {path, sha256}로 등록한다",
+    "explanations_evidence": "explanations[].evidence는 evidence[].path에 있는 경로 문자열의 배열이다",
+    "explanations_observation": "verdict가 unverified여도 explanations[].observed_subject/action/result는 비어 있으면 안 된다"
+  },
+  "schema_version": "1.0",
+  "action": "review_facts",
+  "artifact": {
+    "path": "out/pilots/hani_1276925/qa/production-b1b51ff1-fd99-40c7-9bc6-e3ccec26103d.mp4",
+    "sha256": "f0d38b79a84406dde4b7f047699cec20c3c9dc59600ca887bec3ac2355bb87f9",
+    "render_receipt": "a649ace1-3587-4b6d-a4e5-7ab9241afa2f"
+  },
+  "source_commit": "d8b6fc873211c2f52caa0ba16a301a10bbb8be4b",
+  "reviewer": {
+    "id": "",
+    "role": "fact-check",
+    "independent": false,
+    "tool": ""
+  },
+  "verdict": "incomplete",
+  "raw_report": {
+    "path": "",
+    "sha256": ""
+  },
+  "evidence": [],
+  "coverage": {
+    "original_frames": [],
+    "mobile_frames": [],
+    "playback_ranges": [],
+    "listened_ranges": [],
+    "fact_ranges": [],
+    "audio_measurement": null
+  },
+  "findings": [],
+  "rechecks": []
+}

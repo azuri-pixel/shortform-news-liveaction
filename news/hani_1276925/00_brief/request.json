@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1276925",
+  "mode": "editorial-concept",
+  "created_at": "2026-11-05T02:09:30.087Z",
+  "visual_contract": "visual-explanation@1",
+  "scene_gate": "first-core-scene@5",
+  "screen_text": "screen-text@2",
+  "hook_overlay": "hook-overlay@4",
+  "attribution_policy": "attribution@4",
+  "closing_cta": "closing-cta@1",
+  "key_callout": "key-callout@1",
+  "source_url": "https://www.hani.co.kr/arti/science/science_general/1276925.html",
+  "duration_sec": {
+    "min": 60,
+    "max": 90,
+    "basis": "total"
+  },
+  "raw_request": "00_brief/user-request.txt",
+  "visual_references": {
+    "path": "00_brief/visual-references.json",
+    "sha256": "310cfc56cde1e03a2467437cc7747121ee0c7be386b7721125baa4630c318808"
+  },
+  "raw_request_sha256": "d89adaf2e5c747acb3b9f58ac93c43703ed8334a8be6054184927171271249c7",
+  "production_prompt": {
+    "version": "v2-original@6",
+    "source": "docs/PRODUCTION_PROMPT_V2_RESTORED.txt",
+    "template": "00_brief/production-prompt-template.txt",
+    "applied": "00_brief/production-prompt-applied.txt",
+    "template_sha256": "7c5791a0048b6677586e52cc34659c3952426cfb68c7cebef982ea28b8bc5e2e",
+    "applied_sha256": "df14cdd2479bdb2c62eae63bbd5d05ebc0e3e1351092f0e6c9e31aded968c034"
+  },
+  "creative_scope": {
+    "script": "delegated",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "profile": {
+    "path": "config/production-profile.json",
+    "id": "hani-shortform",
+    "version": "1.5.0",
+    "sha256": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981"
+  },
+  "design_styles": {
+    "hook_style": {
+      "version": "hook-style@3",
+      "sha256": "7e2a3daa67820b4a3eaacc64a8809a53b31e9c922543df111b997bc1c39a4fd4"
+    },
+    "attribution_style": {
+      "version": "1.0.0",
+      "sha256": "e7308394af5eb1d4afa6bdbebb25e3c566c1b43e1ff01f2b16473dba472d48fc"
+    }
+  }
+}

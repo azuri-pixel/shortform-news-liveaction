@@ -1,0 +1,1064 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1276925",
+  "concepts": [
+    {
+      "id": "c_hook",
+      "question": "코 고는 소리가 왜 클라리넷과 비슷하다는 걸까?",
+      "takeaway": "익숙한 코골이 소리와 클라리넷이 같은 원리로 묶인다는 의외성",
+      "narration_lines": [
+        "s01"
+      ],
+      "facts": [
+        "F8"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "드르렁",
+            "edge": "start",
+            "offset_frames": -11
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 12,
+            "word": "계셨나요.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "representation": {
+        "kind": "footage",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "snore_bed",
+          "clarinet_play"
+        ],
+        "why": "어두운 침실 실사(Mixkit 42974, 옆사람이 베개로 귀를 막음) + 코골이 SFX → '클라리넷' 발화에 해군 밴드 클라리넷 실사(23~27s) + 클라리넷 단음. 후킹 오버레이 「드르렁 코골이, / 클라리넷 원리?」는 얼굴·마우스피스를 피해 배치(렌더에서 확인)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "bed",
+          "hook_clarinet",
+          "opening_hook"
+        ],
+        "remove": []
+      },
+      "elements": [
+        {
+          "id": "bed",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "hook_clarinet",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "opening_hook",
+          "kind": "text",
+          "role": "hook",
+          "text": "드르렁 코골이,\n클라리넷 원리?"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "bed",
+          "hook_clarinet",
+          "opening_hook"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "어두운 침실 실사(Mixkit 42974, 옆사람이 베개로 귀를 막음) + 코골이 SFX → '클라리넷' 발화에 해군 밴드 클라리넷 실사(23~27s) + 클라리넷 단음. 후킹 오버레이 「드르렁 코골이, / 클라리넷 원리?」는 얼굴·마우스피스를 피해 배치(렌더에서 확인)",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "snore_bed",
+            "clarinet_play"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "c_common",
+      "question": "이렇게 흔한데 원리는 몰랐다?",
+      "takeaway": "성인 4명 중 1~2명이 겪지만 원인은 난기류로 '추정'만 했다",
+      "narration_lines": [
+        "s02",
+        "s03"
+      ],
+      "facts": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "코골이는",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 8,
+            "word": "뿐이었죠.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "snore_bed",
+          "lynch_head"
+        ],
+        "why": "침실 실사 위 25%~50% 범위 띠(한 값이 아니라 구간, 기사 수치) → Lynch 해부도(CC BY 2.5, 실제 일러스트)로 전환해 목 속 공기 길에 소용돌이 + '난기류?' 물음표(추정 유지)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "bed2",
+          "range_bar",
+          "airway_ref",
+          "swirl_guess",
+          "why_question"
+        ],
+        "remove": [
+          "bed",
+          "hook_clarinet",
+          "opening_hook"
+        ]
+      },
+      "elements": [
+        {
+          "id": "bed2",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "range_bar",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "airway_ref",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "swirl_guess",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "why_question",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "정확히 왜 소리가 날까?"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "bed2",
+          "range_bar",
+          "airway_ref"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "침실 실사 위 25%~50% 범위 띠(한 값이 아니라 구간, 기사 수치) → Lynch 해부도(CC BY 2.5, 실제 일러스트)로 전환해 목 속 공기 길에 소용돌이 + '난기류?' 물음표(추정 유지)",
+        "moments": [
+          {
+            "id": "guess",
+            "narration_lines": [
+              "s03"
+            ],
+            "subject": "목 속 공기 길",
+            "action": "소용돌이(난기류)가 그려지고 물음표가 붙는다",
+            "result": "원인을 추정만 했다는 점이 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "snore_bed",
+            "lynch_head"
+          ],
+          "job_ids": [],
+          "code_role": "25~50% 범위 띠, 공기 길의 소용돌이·물음표"
+        }
+      }
+    },
+    {
+      "id": "c_model",
+      "question": "연구진은 어디를 봤나",
+      "takeaway": "3차원 상기도 컴퓨터 모델 속 입천장 안쪽 연구개",
+      "narration_lines": [
+        "s04"
+      ],
+      "facts": [
+        "F5",
+        "F6"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "스웨덴",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 13,
+            "word": "들여다봤습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "lynch_head",
+          "palate_front"
+        ],
+        "why": "'컴퓨터 모델' → 코드로 그린 반투명 관 모델(논문 구조 재작도, 출처 Li et al. 2026 CC BY 4.0) 등장 / '입천장 안쪽 부드러운 연구개' → Lynch 해부도에서 연구개만 하이라이트하고 그 판이 모델 속 판으로 연결되는 선. 생성 해부 이미지는 쓰지 않음(실제 촬영·MRI 오인 방지)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "anatomy_window",
+          "model_tube",
+          "palate_highlight",
+          "sim_grid",
+          "palate_front"
+        ],
+        "remove": [
+          "airway_ref",
+          "bed2",
+          "range_bar",
+          "swirl_guess",
+          "why_question"
+        ]
+      },
+      "elements": [
+        {
+          "id": "anatomy_window",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "model_tube",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "palate_highlight",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "sim_grid",
+          "kind": "motion",
+          "role": "tone"
+        },
+        {
+          "id": "palate_front",
+          "kind": "media",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "anatomy_window",
+          "model_tube",
+          "palate_highlight"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "'컴퓨터 모델' → 코드로 그린 반투명 관 모델(논문 구조 재작도, 출처 Li et al. 2026 CC BY 4.0) 등장 / '입천장 안쪽 부드러운 연구개' → Lynch 해부도에서 연구개만 하이라이트하고 그 판이 모델 속 판으로 연결되는 선. 생성 해부 이미지는 쓰지 않음(실제 촬영·MRI 오인 방지)",
+        "moments": [
+          {
+            "id": "locate",
+            "narration_lines": [
+              "s04"
+            ],
+            "subject": "입천장 안쪽 연구개",
+            "action": "해부도에서 연구개가 빛나고 선이 모델의 판으로 이어진다",
+            "result": "연구개 = 모델 속 판으로 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "lynch_head",
+            "palate_front"
+          ],
+          "job_ids": [],
+          "code_role": "논문 구조를 재작도한 관+판 모델, 해부도 연구개 하이라이트와 연결선"
+        }
+      }
+    },
+    {
+      "id": "c_interaction",
+      "question": "공기와 연구개는 어떻게 주고받나",
+      "takeaway": "공기가 밀면 연구개가 휘고, 휜 연구개가 공기 흐름을 바꾸는 순환",
+      "narration_lines": [
+        "s05"
+      ],
+      "facts": [
+        "F7"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "이어",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 17,
+            "word": "구현했습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [],
+        "why": "모델 관 안: ①공기 유선이 판을 민다 ②판이 휜다 ③휜 판을 따라 유선이 꺾인다 — 인과는 유선과 다른 색의 얇은 쌍방향 화살표 두 개(원형 소용돌이 고리 금지, 난기류 재등장 오독 방지)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "tube_i",
+          "flow_push",
+          "plate_bend",
+          "flow_bend",
+          "mutual_arrows"
+        ],
+        "remove": [
+          "anatomy_window",
+          "model_tube",
+          "palate_front",
+          "palate_highlight",
+          "sim_grid"
+        ]
+      },
+      "elements": [
+        {
+          "id": "tube_i",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "flow_push",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "plate_bend",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "flow_bend",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "mutual_arrows",
+          "kind": "motion",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tube_i",
+          "flow_push",
+          "plate_bend"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "모델 관 안: ①공기 유선이 판을 민다 ②판이 휜다 ③휜 판을 따라 유선이 꺾인다 — 인과는 유선과 다른 색의 얇은 쌍방향 화살표 두 개(원형 소용돌이 고리 금지, 난기류 재등장 오독 방지)",
+        "moments": [
+          {
+            "id": "push",
+            "narration_lines": [
+              "s05"
+            ],
+            "subject": "공기 흐름선과 판",
+            "action": "흐름이 판을 밀어 판이 휘고 휜 판을 따라 흐름이 꺾인다",
+            "result": "공기와 조직이 서로 영향을 주는 순환",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "관 속 유선·판 휨·유선 꺾임·쌍방향 화살표"
+        }
+      }
+    },
+    {
+      "id": "c_flutter",
+      "question": "그래서 무슨 일이 일어나나",
+      "takeaway": "공기가 들어오는 한 연구개가 깃발처럼, 클라리넷 리드처럼 계속 떨린다",
+      "narration_lines": [
+        "s06",
+        "s07"
+      ],
+      "facts": [
+        "F8"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "분석",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "진동",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "metaphor",
+        "full_bleed": true,
+        "assets": [
+          "aip_model_band",
+          "flag_wave",
+          "clarinet_play"
+        ],
+        "why": "'깃발처럼' → 고정단 왼쪽·바람 왼→오른쪽으로 맞춘 생성 깃발(비유) 위에 같은 방향으로 떨리는 모델 판이 겹치고, 판 끝과 관 벽 사이 틈은 계속 열려 보임. AIP 보도자료 모델 그림 띠(그래프만, 출처 AIP Publishing/Li et al.)를 실제 연구 화면으로 짧게 → '리드처럼' → 리드 장착 마우스피스 사진(CC BY 4.0, 상표 가림)에 리드 위치 지시선 + 판처럼 얇은 리드가 떨리는 코드 잔물결. 리드 개폐와 연구개를 나란히 맞추지 않음"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "tube_f",
+          "aip_band",
+          "flag",
+          "reed_photo",
+          "wave_link",
+          "xray_clarinet",
+          "reed_glow"
+        ],
+        "remove": [
+          "flow_bend",
+          "flow_push",
+          "mutual_arrows",
+          "plate_bend",
+          "tube_i"
+        ]
+      },
+      "elements": [
+        {
+          "id": "tube_f",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "aip_band",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "flag",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "reed_photo",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "wave_link",
+          "kind": "motion",
+          "role": "metaphor"
+        },
+        {
+          "id": "xray_clarinet",
+          "kind": "motion",
+          "role": "metaphor"
+        },
+        {
+          "id": "reed_glow",
+          "kind": "motion",
+          "role": "metaphor"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tube_f",
+          "aip_band",
+          "flag"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "'깃발처럼' → 고정단 왼쪽·바람 왼→오른쪽으로 맞춘 생성 깃발(비유) 위에 같은 방향으로 떨리는 모델 판이 겹치고, 판 끝과 관 벽 사이 틈은 계속 열려 보임. AIP 보도자료 모델 그림 띠(그래프만, 출처 AIP Publishing/Li et al.)를 실제 연구 화면으로 짧게 → '리드처럼' → 리드 장착 마우스피스 사진(CC BY 4.0, 상표 가림)에 리드 위치 지시선 + 판처럼 얇은 리드가 떨리는 코드 잔물결. 리드 개폐와 연구개를 나란히 맞추지 않음",
+        "moments": [
+          {
+            "id": "flutter",
+            "narration_lines": [
+              "s06"
+            ],
+            "subject": "연구개(모델 판)",
+            "action": "공기가 드나드는 동안 깃발처럼 계속 떨린다",
+            "result": "멈추지 않는 진동이 보인다",
+            "motion_required": true
+          },
+          {
+            "id": "reed",
+            "narration_lines": [
+              "s07"
+            ],
+            "subject": "클라리넷 리드",
+            "action": "실사 마우스피스가 엑스레이 와이어프레임으로 바뀌고 리드만 빛나며 떨린다",
+            "result": "리드와 연구개가 같은 종류의 떨림임을 비유로 이해",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "aip_model_band",
+            "flag_wave",
+            "clarinet_play"
+          ],
+          "job_ids": [
+            "job_flag_wave"
+          ],
+          "code_role": "모델 판 떨림 합성, 리드 지시선과 잔떨림",
+          "generated_role": "깃발 펄럭임 동작(비유)"
+        }
+      }
+    },
+    {
+      "id": "c_numbers",
+      "question": "정말 코골이 소리와 같은가",
+      "takeaway": "진동 폭 2.8~4.2mm, 최대 소리 90Hz — 실제 코골이 측정 범위 안",
+      "narration_lines": [
+        "s08",
+        "s09"
+      ],
+      "facts": [
+        "F9",
+        "F10",
+        "F11"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "진동",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 8,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [],
+        "why": "작은 위치창(관 전체) 유지 + 판 끝 확대, mm 눈금에 진동 폭 띠 2.8~4.2mm('진동 폭' 라벨) → 주파수 눈금에 90Hz 표식 하나(스펙트럼 '최대' 그림 단정 안 함) → s09: Hz 눈금 위에 실제 코골이 녹음 범위 68~138Hz 띠가 겹쳐 90Hz를 감싸고 '음높이 ✓', 소리 크기는 '소리 크기 ✓' 키워드만(진동 폭 띠와 분리 배치)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "tube_n",
+          "amp_ruler",
+          "hz_axis",
+          "real_band",
+          "check_loud",
+          "check_pitch",
+          "scope_wave",
+          "scope_focus"
+        ],
+        "remove": [
+          "aip_band",
+          "flag",
+          "reed_glow",
+          "reed_photo",
+          "tube_f",
+          "wave_link",
+          "xray_clarinet"
+        ]
+      },
+      "elements": [
+        {
+          "id": "tube_n",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "amp_ruler",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "hz_axis",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "real_band",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "check_loud",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "소리 크기 ✓"
+        },
+        {
+          "id": "check_pitch",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "음높이 ✓"
+        },
+        {
+          "id": "scope_wave",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "scope_focus",
+          "kind": "motion",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tube_n",
+          "amp_ruler",
+          "hz_axis"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "작은 위치창(관 전체) 유지 + 판 끝 확대, mm 눈금에 진동 폭 띠 2.8~4.2mm('진동 폭' 라벨) → 주파수 눈금에 90Hz 표식 하나(스펙트럼 '최대' 그림 단정 안 함) → s09: Hz 눈금 위에 실제 코골이 녹음 범위 68~138Hz 띠가 겹쳐 90Hz를 감싸고 '음높이 ✓', 소리 크기는 '소리 크기 ✓' 키워드만(진동 폭 띠와 분리 배치)",
+        "moments": [
+          {
+            "id": "amp",
+            "narration_lines": [
+              "s08"
+            ],
+            "subject": "판 끝",
+            "action": "판 끝이 2.8~4.2mm 폭으로 떨리고 90Hz 표식이 찍힌다",
+            "result": "모델 수치가 보인다",
+            "motion_required": true
+          },
+          {
+            "id": "match",
+            "narration_lines": [
+              "s09"
+            ],
+            "subject": "90Hz 표식",
+            "action": "실제 코골이 녹음 범위 띠가 표식을 감싼다",
+            "result": "실제 코골이와 맞는다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "mm 눈금·진동 폭 띠, Hz 눈금·90Hz 표식·실제 범위 띠"
+        }
+      }
+    },
+    {
+      "id": "c_key",
+      "question": "중요한 한 가지는",
+      "takeaway": "기도가 열려 있어도 진동만으로 코골이가 생길 수 있고, 진동을 줄이는 게 치료 핵심이라 봤다",
+      "narration_lines": [
+        "s10",
+        "s11"
+      ],
+      "facts": [
+        "F12",
+        "F13"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 18,
+            "word": "봤습니다.",
+            "edge": "end",
+            "offset_frames": 12
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [],
+        "why": "key-callout '중요한 한 가지!'(공통 레이어) → 판 끝과 벽 사이 넓은 틈에 '열린 기도' 양방향 치수 표시, 판은 계속 떨림 → '진동을 줄이는 게' 구간은 떨림 궤적 강조 + '연구진' 귀속 키워드. 떨림이 멈추는 전후 시연은 하지 않음(치료 효과 단정 방지)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "tube_k",
+          "open_gap",
+          "vib_trace",
+          "key_card",
+          "key_highlight"
+        ],
+        "remove": [
+          "amp_ruler",
+          "check_loud",
+          "check_pitch",
+          "hz_axis",
+          "real_band",
+          "scope_focus",
+          "scope_wave",
+          "tube_n"
+        ]
+      },
+      "elements": [
+        {
+          "id": "tube_k",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "open_gap",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "vib_trace",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "key_card",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "치료의 실마리"
+        },
+        {
+          "id": "key_highlight",
+          "kind": "motion",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tube_k",
+          "open_gap",
+          "vib_trace"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "key-callout '중요한 한 가지!'(공통 레이어) → 판 끝과 벽 사이 넓은 틈에 '열린 기도' 양방향 치수 표시, 판은 계속 떨림 → '진동을 줄이는 게' 구간은 떨림 궤적 강조 + '연구진' 귀속 키워드. 떨림이 멈추는 전후 시연은 하지 않음(치료 효과 단정 방지)",
+        "moments": [
+          {
+            "id": "open",
+            "narration_lines": [
+              "s11"
+            ],
+            "subject": "판 끝과 관 벽 사이 틈",
+            "action": "틈이 열린 채로 판이 계속 떨린다",
+            "result": "기도가 막히지 않아도 진동만으로 소리가 난다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "열린 기도 틈 치수, 떨림 궤적 강조"
+        }
+      }
+    },
+    {
+      "id": "c_limit",
+      "question": "한계는",
+      "takeaway": "실제 목구멍이 아니라 지름 3.8cm 곧은 관으로 단순화한 모델",
+      "narration_lines": [
+        "s12"
+      ],
+      "facts": [
+        "F14"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 19,
+            "word": "있습니다.",
+            "edge": "end",
+            "offset_frames": 11
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "lynch_throat"
+        ],
+        "why": "좌: Lynch 해부도의 실제 목구멍 윤곽 / 우: 곧은 관 모델 + '지름 3.8cm' 치수선 — 나란히 비교(모핑 안 함)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "real_airway",
+          "model_tube_dim",
+          "limit_mag"
+        ],
+        "remove": [
+          "key_card",
+          "key_highlight",
+          "open_gap",
+          "tube_k",
+          "vib_trace"
+        ]
+      },
+      "elements": [
+        {
+          "id": "real_airway",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "model_tube_dim",
+          "kind": "motion",
+          "role": "condition"
+        },
+        {
+          "id": "limit_mag",
+          "kind": "motion",
+          "role": "condition"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "real_airway",
+          "model_tube_dim",
+          "limit_mag"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "좌: Lynch 해부도의 실제 목구멍 윤곽 / 우: 곧은 관 모델 + '지름 3.8cm' 치수선 — 나란히 비교(모핑 안 함)",
+        "moments": [
+          {
+            "id": "simplify",
+            "narration_lines": [
+              "s12"
+            ],
+            "subject": "실제 목구멍과 모델 관",
+            "action": "둘을 나란히 놓고 관에 지름 3.8cm 치수선",
+            "result": "모델이 단순화됐다는 한계",
+            "motion_required": false
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "lynch_throat"
+          ],
+          "job_ids": [],
+          "code_role": "곧은 관 치수선 3.8cm"
+        }
+      }
+    },
+    {
+      "id": "c_close",
+      "question": "결국 무엇이 남나",
+      "takeaway": "코골이와 클라리넷 소리의 유사성",
+      "narration_lines": [
+        "s13",
+        "s14"
+      ],
+      "facts": [
+        "F8"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "코골이와",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "tone",
+        "full_bleed": true,
+        "assets": [
+          "clarinet_play"
+        ],
+        "why": "위: 떨리는 모델 판 / 아래: 클라리넷 연주 실사 — 결말에 '떨리는 판 = 리드' 결론을 다시 보여줌. CTA 알약(공통 레이어)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "close_plate",
+          "close_clarinet"
+        ],
+        "remove": [
+          "limit_mag",
+          "model_tube_dim",
+          "real_airway"
+        ]
+      },
+      "elements": [
+        {
+          "id": "close_plate",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "close_clarinet",
+          "kind": "media",
+          "role": "tone"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "close_plate",
+          "close_clarinet"
+        ]
+      },
+      "visual": {
+        "purpose": "atmosphere",
+        "focus": "위: 떨리는 모델 판 / 아래: 클라리넷 연주 실사 — 결말에 '떨리는 판 = 리드' 결론을 다시 보여줌. CTA 알약(공통 레이어)",
+        "moments": [],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "clarinet_play"
+          ],
+          "job_ids": [],
+          "code_role": "떨리는 판 반복"
+        }
+      }
+    }
+  ]
+}
