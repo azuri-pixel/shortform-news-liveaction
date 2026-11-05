@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_1246017",
+  "script_policy": "script-faithful",
+  "creative_scope": {
+    "script": "locked",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "초고층 빌딩이 정말 매년 100개 넘게 올라가나, 누가 어디까지 짓고 그 대가는 무엇인가",
+  "takeaway": "지난해 141개·누계 두 배, 중국이 주도하고 1km 건물까지 계획되지만, 높을수록 에너지·비용이 커 더 엄격한 기준이 필요하다는 지적이 있다",
+  "concept_order": [
+    "hook_towers",
+    "count_2025",
+    "doubling",
+    "pipeline",
+    "china",
+    "shenzhen",
+    "underway",
+    "jec",
+    "energy",
+    "standard",
+    "closing"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 1000,
+          "center_y": 800
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 72,
+            "gap_after": 18,
+            "runs": [
+              {
+                "text": "초고층 빌딩이",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 60,
+                "text_color": "#FFD16A",
+                "letter_spacing": -1
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 150,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "매년 100개 넘게",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 132,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": [
+    "한겨레 · 곽노필, 꺾이지 않는 초고층 건축 바람…12년 연속 100개 돌파"
+  ]
+}

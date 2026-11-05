@@ -1,0 +1,1 @@
+{"provider": "typecast", "voice_id": "uc_6ac72342065c524f71343144", "voice_name": null, "model": "ssfm-v30", "language": "kor", "audio_tempo": 1.1, "audio_pitch": 0, "emotion_preset": "normal", "source": ".env TYPECAST_VOICE_ID (계정 보이스, 이름 미기록)"}

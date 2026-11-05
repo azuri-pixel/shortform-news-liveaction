@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "lines": {
+    "s02": { "protected_phrases": [{ "from": 5, "to": 6, "text": "200m 이상" }] },
+    "s05": { "protected_phrases": [{ "from": 0, "to": 1, "text": "부동산 경기" }] },
+    "s08": { "protected_phrases": [{ "from": 4, "to": 5, "text": "200미터 이상" }] },
+    "s09": { "protected_phrases": [{ "from": 10, "to": 11, "text": "300m가 넘는" }] },
+    "s10": { "protected_phrases": [{ "from": 1, "to": 2, "text": "짓고 있는" }, { "from": 10, "to": 11, "text": "높이 1킬로미터를" }] }
+  }
+}

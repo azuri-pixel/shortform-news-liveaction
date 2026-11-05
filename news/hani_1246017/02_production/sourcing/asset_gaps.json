@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1246017",
+  "mode": "editorial-concept",
+  "script_policy": "user-provided — 사용자가 준 원고를 그대로 낭독한다. 표현·자료는 위임.",
+  "story_question": "초고층 빌딩이 정말 매년 100개 넘게 올라가나, 누가 짓고 어디까지 높아지나, 그 대가는 무엇인가",
+  "flow": "부르즈칼리파·메르데카118·상하이타워 실물 → 매년 100개 넘게(2025년 141개, 대표 JP모건 체이스 본사 423m) → 전 세계 2583개, 2017년 이후 두 배 → 공사 보류에도 2026년 약 140개 예정 → 중국이 주도(141개 중 91개, 65%) → 선전 200m 이상 200개 돌파 → 공사 중 400개, 300m 이상 88개 → 사우디 JEC타워 2028년 완공 예정 1km → 「중요한 한 가지」 층이 높을수록 단위면적당 에너지 소비 증가, 건축·유지비 → 엄격한 에너지 기준 지적 → 댓글 CTA",
+  "must_keep": [
+    "JEC타워는 아직 공사 중이며 2028년 완공·1km는 예정·예상이다. 실물 사진이 아니라 조감도(렌더링)는 조감도로만 쓴다.",
+    "JP모건 체이스 본사(270 Park Avenue, 423m, 60층)는 2025년 완공 건물 중 최고. 다른 건물 영상을 이 건물로 소개하지 않는다.",
+    "부르즈칼리파(두바이)·메르데카118(쿠알라룸푸르)·상하이타워(상하이)는 각 건물이 실제로 식별되는 자료여야 한다.",
+    "선전 장면은 실제 선전 스카이라인이어야 한다(홍콩·상하이 자료로 대체 금지).",
+    "제3자 촬영물 중 NC·ND·BY-SA·권리 불명 자료는 쓰지 않는다. Pexels·Pixabay·Unsplash 라이선스, CC0, CC BY, 공식 제공(보도용) 자료는 가능."
+  ],
+  "gaps": [
+    {"id": "g_hook_towers", "kind": "video", "role": "evidence", "need": "부르즈칼리파, 메르데카118, 상하이타워 각각의 실제 영상(드론·저각 올려다보기·스카이라인). 세로 크롭 시 건물 전체 높이감이 살아야 함", "viewer_gets": "도입 3초 안에 '세계 최고층 건물들'이라는 실물감", "where": "Pexels, Pixabay, 공식 관광청·건물 운영사 보도 영상"},
+    {"id": "g_city", "kind": "video", "role": "evidence", "need": "선전(深圳) 스카이라인 실제 영상(푸톈·난산·핑안금융센터 등 식별 가능), 뉴욕 맨해튼 미드타운 영상(270 Park Ave 부근이면 최상)", "viewer_gets": "선전이 초고층 숲이라는 규모감, 뉴욕 맥락", "where": "Pexels, Pixabay"},
+    {"id": "g_construction", "kind": "video", "role": "tone", "need": "초고층 건설 현장 영상(타워크레인, 골조 상승, 타임랩스). 특정 건물로 소개하지 않는 일반 맥락용", "viewer_gets": "지금도 계속 올라가는 중이라는 진행감 (공사 중 400개, 올해 140개 예정, 보류된 현장도 있음)", "where": "Pexels, Pixabay"},
+    {"id": "g_energy", "kind": "video", "role": "tone", "need": "초고층 빌딩 야간 조명·유리 외벽·엘리베이터·공조 설비 등 에너지 소비를 연상시키는 실제 영상", "viewer_gets": "높을수록 더 많은 에너지가 든다는 대가의 정서", "where": "Pexels, Pixabay"},
+    {"id": "g_photo_jpm", "kind": "photo", "role": "evidence", "need": "JP모건 체이스 신사옥 270 Park Avenue 공식 사진(기사 게재 사진은 '제이피모건 체이스 제공'), 또는 재사용 가능한 실제 사진(CC BY/CC0/Pexels 등)", "viewer_gets": "지난해 완공된 141개 중 하나의 실물", "where": "JPMorganChase 공식 뉴스룸·보도자료, Wikimedia Commons(CC BY/CC0만), Pexels"},
+    {"id": "g_photo_jec", "kind": "photo", "role": "evidence", "need": "JEC타워(옛 제다타워) 공식 조감도(Jeddah Economic Company 제공), 공사 현장 공식 사진이 있으면 함께", "viewer_gets": "1km 건물이 계획된 모습(조감도임을 유지)", "where": "Jeddah Economic Company / jec.sa 공식, 설계사 Adrian Smith + Gordon Gill 공식 프레스, CTBUH"},
+    {"id": "g_photo_towers", "kind": "photo", "role": "evidence", "need": "부르즈칼리파·메르데카118·상하이타워·선전 핑안금융센터 고해상 사진(영상 대체·높이 비교 도해 기준 외형 참고용)", "viewer_gets": "높이 비교 도해에서 대상 식별", "where": "Pexels, Unsplash, Wikimedia Commons(CC BY/CC0만), 공식 운영사"},
+    {"id": "g_music", "kind": "music", "role": "tone", "need": "60~80초 배경음악. 도입은 웅장하고 상승감 있는 현대적 비트, 중반(중국·선전·1km)까지 추진력, 「중요한 한 가지」 이후 차분하게 가라앉으며 질문을 남기는 여운. 내레이션을 덮지 않는 저밀도. 가사 없음", "viewer_gets": "치솟는 경쟁의 고양감 → 대가를 생각하게 하는 전환", "where": "공용 음원 폴더(npm run music -- list) 먼저, 없으면 CC0·Pixabay·Incompetech(CC BY) 등"}
+  ]
+}

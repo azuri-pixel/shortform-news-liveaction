@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0",
+  "preset": "editorial-concept-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "caption": {
+    "preset": "betelgeuse-v1"
+  },
+  "text": {
+    "persistent_top_text": false,
+    "explanatory_notes": false,
+    "allowed_roles": [
+      "necessary-label",
+      "condition",
+      "provenance"
+    ]
+  },
+  "media": {
+    "full_bleed_default": true,
+    "assets": [
+      {
+        "id": "project_logo",
+        "source": "02_production/brand/logo.png",
+        "file": "editorial/brand-logo.png"
+      },
+      {
+        "id": "burj_v",
+        "source": "01_input/05_참고자료/video/envato/burj-khalifa-day-time-lapse-dubai-pan-up-2026-10-02-22-44-11-utc.mp4",
+        "file": "editorial/burj.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 8
+        },
+        "crop": {
+          "x": 640,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Burj Khalifa Day Time Lapse Dubai Pan Up",
+        "license": "Envato Elements (사용자 다운로드, 인증서 미첨부)"
+      },
+      {
+        "id": "merdeka_v",
+        "source": "01_input/05_참고자료/video/envato/aerial-warisan-merdeka-tower-merdeka-118-in-kual-2026-10-02-22-33-16-utc.mp4",
+        "file": "editorial/merdeka.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 8
+        },
+        "crop": {
+          "x": 658,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Aerial Warisan Merdeka Tower (Merdeka 118)",
+        "license": "Envato Elements (사용자 다운로드, 인증서 미첨부)"
+      },
+      {
+        "id": "shanghai_v",
+        "source": "01_input/05_참고자료/video/envato/aerial-drone-view-of-the-shanghai-tower-and-shangh-2026-10-03-05-58-10-utc.mp4",
+        "file": "editorial/shanghai.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 8.2
+        },
+        "crop": {
+          "x": 548,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Aerial Drone View of the Shanghai Tower and Shanghai World Financial Center Skyscrapers Dominating",
+        "license": "Envato Elements license BD9VMCXWG6"
+      },
+      {
+        "id": "sh_rise_v",
+        "source": "01_input/05_참고자료/video/envato/shanghai-at-sunrise-2026-10-02-10-48-20-utc.mov",
+        "file": "editorial/sh_rise.mp4",
+        "trim": {
+          "from_sec": 8,
+          "duration_sec": 6
+        },
+        "crop": {
+          "x": 530,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Shanghai at Sunrise",
+        "license": "Envato Elements license E5LQTW8GC7"
+      },
+      {
+        "id": "jpm_p",
+        "source": "02_production/external_assets/derived/jpm.jpg",
+        "file": "editorial/jpm.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.jpmorganchase.com/newsroom/stories/jpmc-celebrates-new-global-hq-at-270-park-ave",
+        "credit": "JPMorganChase (Photo: Nigel Young, courtesy of Foster + Partners)"
+      },
+      {
+        "id": "con1_v",
+        "source": "01_input/05_참고자료/video/envato/aerial-view-of-city-skyscraper-under-construction-2026-10-04-08-38-02-utc.mp4",
+        "file": "editorial/con1.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 10
+        },
+        "crop": {
+          "x": 658,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Aerial View of City Skyscraper Under Construction",
+        "license": "Envato Elements license PX39A8BRUF"
+      },
+      {
+        "id": "con2_v",
+        "source": "01_input/05_참고자료/video/envato/aerial-view-of-tower-cranes-on-a-skyscraper-at-sun-2026-10-03-14-51-39-utc.mp4",
+        "file": "editorial/con2.mp4",
+        "trim": {
+          "from_sec": 2,
+          "duration_sec": 10
+        },
+        "crop": {
+          "x": 467,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Aerial View of Tower Cranes on a Skyscraper at Sunset",
+        "license": "Envato Elements license 7RGB4ZK3UN"
+      },
+      {
+        "id": "futian_v",
+        "source": "01_input/05_참고자료/video/envato/aerial-photography-of-high-rise-buildings-in-shenz-2026-10-03-13-13-06-utc.mp4",
+        "file": "editorial/futian.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 7
+        },
+        "crop": {
+          "x": 208,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Aerial photography of high-rise buildings in Shenzhen, Guangdong, China, with CBD buildings",
+        "license": "Envato Elements license JFCX5BHQ9G"
+      },
+      {
+        "id": "pudong_v",
+        "source": "01_input/05_참고자료/video/commons_Timelapse_de_nuit_de_la_vue_du_quartier_de_Lujiazui.webm",
+        "file": "editorial/pudong.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 8
+        },
+        "crop": {
+          "x": 658,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Tomtoom03 / Wikimedia Commons (CC0)"
+      },
+      {
+        "id": "con5_v",
+        "source": "01_input/05_참고자료/video/envato/skyscraper-construction-with-towering-cranes-aeria-2026-10-02-11-46-42-utc.mov",
+        "file": "editorial/con5.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 10
+        },
+        "crop": {
+          "x": 520,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Skyscraper Construction with Towering Cranes",
+        "license": "Envato Elements (사용자 다운로드, 인증서 미첨부)"
+      },
+      {
+        "id": "std_v",
+        "source": "02_production/external_assets/generated/std_facade.mp4",
+        "file": "editorial/std.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 4
+        },
+        "generation_job": "g_std_facade",
+        "attribution_kind": "generated",
+        "credit": "Higgsfield (생성 영상, 가상 건물)"
+      },
+      {
+        "id": "jec_site_p",
+        "source": "02_production/external_assets/derived/jec_site.jpg",
+        "file": "editorial/jec_site.jpg",
+        "attribution_kind": "stock",
+        "credit": "Omarnizar05 / Wikimedia Commons (CC0)"
+      },
+      {
+        "id": "jec_render_p",
+        "source": "02_production/external_assets/derived/jec_render.jpg",
+        "file": "editorial/jec_render.jpg",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.smithgill.com/work/jeddah_tower/",
+        "credit": "Adrian Smith + Gordon Gill Architecture"
+      },
+      {
+        "id": "facade_p",
+        "source": "02_production/external_assets/generated/facade_tile.png",
+        "file": "editorial/facade_tile.png",
+        "generation_job": "g_facade_tile",
+        "attribution_kind": "generated",
+        "credit": "Higgsfield (생성 이미지, 가상 외벽)"
+      },
+      {
+        "id": "energy_p",
+        "source": "02_production/external_assets/generated/energy_tower.png",
+        "file": "editorial/energy_tower.png",
+        "generation_job": "g_energy_tower",
+        "attribution_kind": "generated",
+        "credit": "Higgsfield (생성 이미지, 가상 건물)"
+      },
+      {
+        "id": "kl_tl_v",
+        "source": "01_input/05_참고자료/video/envato/time-lapse-of-the-kuala-lumpur-skyline-2026-10-03-13-43-11-utc.mp4",
+        "file": "editorial/kl_tl.mp4",
+        "trim": {
+          "from_sec": 0,
+          "duration_sec": 8.8
+        },
+        "crop": {
+          "x": 505,
+          "y": 4,
+          "width": 603,
+          "height": 1072
+        },
+        "attribution_kind": "stock",
+        "credit": "Envato Elements · Time Lapse of the Kuala Lumpur Skyline",
+        "license": "Envato Elements license HZ6D7B2FAJ"
+      }
+    ]
+  },
+  "mobile": {
+    "max_simultaneous_labels": 3,
+    "review_scale": 0.3333333333
+  },
+  "motion": {
+    "enter": "ease-out",
+    "move": "ease-in-out",
+    "exit": "ease-in",
+    "quantitative_overshoot": false
+  },
+  "production_profile": {
+    "id": "hani-shortform",
+    "version": "1.5.0"
+  },
+  "visual_contract": "visual-explanation@1",
+  "generation_jobs": [
+    {
+      "id": "g_energy_tower",
+      "kind": "image",
+      "purpose": "에너지 구간 배경: 가상 초고층의 투시 단면(은유, 실존 건물 아님)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_5",
+      "job_id": "e0bef702-a883-497b-9621-14d39d6d9eee",
+      "prompt_path": "02_production/prompts/energy_tower.txt",
+      "output": "02_production/external_assets/generated/energy_tower.png",
+      "observation": "752x1344. 화면 중앙 세로축에 끝이 뾰족한 가상 유리 초고층, 내부 층판·코어가 청록 선으로 보임. 글자·로고 없음. 탑 몸체 x 약 28~72%, 하단 약 97%~꼭대기 약 1%"
+    },
+    {
+      "id": "g_facade_tile",
+      "kind": "image",
+      "purpose": "141개 장면 Cut3·Cut4: 3D 선택 동 정면 외벽 텍스처(가상 외벽, 실존 건물 아님). 마지막에 JP모건 실사로 전환",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_5",
+      "job_id": "6b746dfe-262c-4513-a0f7-824be0b19e61",
+      "prompt_path": "02_production/prompts/facade_tile.txt",
+      "output": "02_production/external_assets/generated/facade_tile.png",
+      "observation": "752x1344. 정면 입면, 2열×6층 창, 금색 세로 멀리언, 회색 루버 띠, 창 안 사무실 조명·책상·화분. 글자·로고·사람 없음. 위아래 반복 이음은 대략 맞음"
+    },
+    {
+      "id": "g_std_facade",
+      "kind": "video",
+      "purpose": "결론(s13) 배경: 특정 건물로 읽히지 않는 가상 초고층 유리 외벽(분위기)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "seedance_2_5",
+      "job_id": "68098e60-f57b-425b-9e9b-064a35c4db09",
+      "prompt_path": "02_production/prompts/std_facade.txt",
+      "output": "02_production/external_assets/generated/std_facade.mp4",
+      "observation": "720x1280 24fps 5.06s. 불 켜진 유리 외벽을 따라 위로 틸트. 4초 이후 꼭대기 왕관이 보여 실존 건물(원월드트레이드센터) 연상 위험 → 0~4초만 확대해 사용"
+    }
+  ],
+  "hook_style": {
+    "version": "hook-style@3"
+  },
+  "attribution_style": {
+    "version": "1.0.0"
+  },
+  "attribution": {
+    "sources": [
+      {
+        "asset_ids": [
+          "jpm_p"
+        ],
+        "text": "Photo credit: Nigel Young,\ncourtesy of Foster + Partners",
+        "start": 16.2,
+        "end": 19.01
+      },
+      {
+        "asset_ids": [
+          "jec_render_p"
+        ],
+        "text": "Adrian Smith + Gordon Gill Architecture",
+        "start": 53.5,
+        "end": 54.87
+      }
+    ],
+    "pages": [
+      {
+        "duration": 0.5,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필 선임기자",
+              "꺾이지 않는 초고층 건축 바람…12년 연속 100개 돌파"
+            ]
+          },
+          {
+            "title": "이미지·관측 근거",
+            "lines": [
+              "수치: 세계초고층도시건축학회(CTBUH) 수직도시위원회(CVU)",
+              "Wikimedia Commons(CC0: Tomtoom03, Omarnizar05)",
+              "Envato Elements"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  }
+}

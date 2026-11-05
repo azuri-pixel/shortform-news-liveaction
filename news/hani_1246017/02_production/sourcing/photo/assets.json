@@ -1,0 +1,142 @@
+{
+ "schema_version": "1.0",
+ "pilot": "hani_1246017",
+ "assets": [
+  {
+   "id": "tw_shanghai_ermell",
+   "path": "01_input/05_참고자료/photo/towers/tw_shanghai_ermell.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Shanghai_Shanghai_Tower_5166304.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Shanghai_Tower_5166304.jpg",
+   "credit": "Ermell / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_pingan_granger",
+   "path": "01_input/05_참고자료/photo/towers/tw_pingan_granger.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ping_An_Finance_Center_-_2018-11-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Ping_An_Finance_Center_-_2018-11-30.jpg",
+   "credit": "Mx. Granger / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_merdeka_full3",
+   "path": "01_input/05_참고자료/photo/towers/tw_merdeka_full3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Merdeka_Tower_20241022_-_full_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Merdeka_Tower_20241022_-_full_3.jpg",
+   "credit": "Ahmad Ali Karim / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_merdeka_full2",
+   "path": "01_input/05_참고자료/photo/towers/tw_merdeka_full2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Merdeka_Tower_20241022_-_full_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Merdeka_Tower_20241022_-_full_2.jpg",
+   "credit": "Ahmad Ali Karim / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "jpm_commons_wobbanight",
+   "path": "01_input/05_참고자료/photo/jpm/jpm_commons_wobbanight.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/JPMorgan_Chase_Headquarters_New_York_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:JPMorgan_Chase_Headquarters_New_York_City.jpg",
+   "credit": "Wobbanight / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_shanghai_supanut",
+   "path": "01_input/05_참고자료/photo/towers/tw_shanghai_supanut.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Shanghai_Tower_20251126.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Shanghai_Tower_20251126.jpg",
+   "credit": "This Photo was taken by Supanut Arunoprayote. Feel free to use any of my images, but please mention me as the author and may send me a message. (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. / CC BY 4.0 / Wikimedia Commons",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "tw_merdeka_pasarseni",
+   "path": "01_input/05_참고자료/photo/towers/tw_merdeka_pasarseni.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Merdeka_118_Pasar_Seni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Merdeka_118_Pasar_Seni.jpg",
+   "credit": "ThopazProductions / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "jec_site_88f_20260205",
+   "path": "01_input/05_참고자료/photo/jec/jec_site_88f_20260205.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jeddah_Tower_in_its_88th_floor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jeddah_Tower_in_its_88th_floor.jpg",
+   "credit": "Omarnizar05 / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "jec_site_100f_20260504",
+   "path": "01_input/05_참고자료/photo/jec/jec_site_100f_20260504.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Jeddah_Tower_in_its_100th_floor_on_4th_of_May%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jeddah_Tower_in_its_100th_floor_on_4th_of_May,_2026.jpg",
+   "credit": "Omarnizar05 / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_shanghai_melvinloi",
+   "path": "01_input/05_참고자료/photo/towers/tw_shanghai_melvinloi.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/20211125_Shanghai_Tower_%2851713673194%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:20211125_Shanghai_Tower_(51713673194).jpg",
+   "credit": "Melvin Loi from Macau, Macau / CC BY 4.0 / Wikimedia Commons",
+   "license": "CC BY 4.0"
+  },
+  {
+   "id": "tw_burj_bock_night",
+   "path": "01_input/05_참고자료/photo/towers/tw_burj_bock_night.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Long_exposure_photo_of_Burj_Khalifa_in_Dubai_at_night_by_Robert_Bock%2C_2016_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Long_exposure_photo_of_Burj_Khalifa_in_Dubai_at_night_by_Robert_Bock,_2016_(Unsplash).jpg",
+   "credit": "Robert Bock robertbock / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "tw_burj_aspere",
+   "path": "01_input/05_참고자료/photo/towers/tw_burj_aspere.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Front_view_from_Burj_Khalifa_Metro_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Front_view_from_Burj_Khalifa_Metro_Station.jpg",
+   "credit": "Aspere / CC0 / Wikimedia Commons",
+   "license": "CC0"
+  },
+  {
+   "id": "jec_asgg_from_the_water",
+   "path": "01_input/05_참고자료/photo/jec/jec_asgg_from_the_water.jpg",
+   "url": "https://www.smithgill.com/media/images/project_images/560/1-from_the_water.jpg",
+   "page_url": "https://www.smithgill.com/work/jeddah_tower/",
+   "credit": "Adrian Smith + Gordon Gill Architecture (project page image, no license text)",
+   "license": "unspecified - official design-firm rendering"
+  },
+  {
+   "id": "jec_asgg_aerial_view",
+   "path": "01_input/05_참고자료/photo/jec/jec_asgg_aerial_view.jpg",
+   "url": "https://www.smithgill.com/media/images/project_images/560/3-aerial_view.jpg",
+   "page_url": "https://www.smithgill.com/work/jeddah_tower/",
+   "credit": "Adrian Smith + Gordon Gill Architecture (project page image, no license text)",
+   "license": "unspecified - official design-firm rendering"
+  },
+  {
+   "id": "jec_asgg_from_the_air",
+   "path": "01_input/05_참고자료/photo/jec/jec_asgg_from_the_air.jpg",
+   "url": "https://www.smithgill.com/media/images/project_images/560/5-from_the_air.jpg",
+   "page_url": "https://www.smithgill.com/work/jeddah_tower/",
+   "credit": "Adrian Smith + Gordon Gill Architecture (project page image, no license text)",
+   "license": "unspecified - official design-firm rendering"
+  },
+  {
+   "id": "jec_asgg_view_from_the_clouds",
+   "path": "01_input/05_참고자료/photo/jec/jec_asgg_view_from_the_clouds.jpg",
+   "url": "https://www.smithgill.com/media/images/project_images/560/11-view_from_the_clouds.jpg",
+   "page_url": "https://www.smithgill.com/work/jeddah_tower/",
+   "credit": "Adrian Smith + Gordon Gill Architecture (project page image, no license text)",
+   "license": "unspecified - official design-firm rendering"
+  },
+  {
+   "id": "jec_asgg_model_photo",
+   "path": "01_input/05_참고자료/photo/jec/jec_asgg_model_photo.jpg",
+   "url": "https://www.smithgill.com/media/images/project_images/560/4-model_photo.jpg",
+   "page_url": "https://www.smithgill.com/work/jeddah_tower/",
+   "credit": "Adrian Smith + Gordon Gill Architecture (project page image, no license text)",
+   "license": "unspecified - official design-firm rendering"
+  }
+ ]
+}

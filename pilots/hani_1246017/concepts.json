@@ -1,0 +1,1136 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1246017",
+  "concepts": [
+    {
+      "id": "hook_towers",
+      "question": "이런 건물이 매년 100개?",
+      "takeaway": "세계 최고층 셋을 보여 주고 매년 100개 넘게라는 의외의 규모를 던진다",
+      "narration_lines": [
+        "s01"
+      ],
+      "prerequisites": [],
+      "representation": {
+        "kind": "footage",
+        "role": "evidence",
+        "why": "부르즈칼리파·메르데카118·상하이타워 실물을 발화 순서대로 이어 붙여 대표 초고층을 눈으로 확인시킨다. 둘째 문장에서 공통 후킹 문구",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "burj_v",
+          "merdeka_v",
+          "shanghai_v",
+          "sh_rise_v",
+          "opening_hook"
+        ],
+        "remove": []
+      },
+      "elements": [
+        {
+          "id": "burj_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "merdeka_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "shanghai_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "sh_rise_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "opening_hook",
+          "kind": "text",
+          "role": "hook",
+          "text": "초고층 빌딩이\n매년 100개 넘게"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": [
+          "opening_hook"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "건물 이름이 불릴 때마다 그 건물이 화면을 채운다",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "burj_v",
+            "merdeka_v",
+            "shanghai_v",
+            "sh_rise_v"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "count_2025",
+      "question": "지난해 몇 개나?",
+      "takeaway": "2025년 200m 이상 완공 141개, 그중 하나가 뉴욕 JP모건 체이스 타워",
+      "narration_lines": [
+        "s02",
+        "s03"
+      ],
+      "prerequisites": [
+        "hook_towers"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "사용자 4컷 구성안(2026-11-05): 141동 3D 군집이 솟고(전체 뷰) → 사선 Z축 플라이스루와 141 카운팅 → 한 동만 앰버 골드·네온 시안 발광, 전면 타이트 줌인 → 그 창문 면에서 JP모건 체이스 타워 실사로 전환",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "grid141",
+          "tag_done",
+          "tag_141",
+          "cond_200m",
+          "facade_p",
+          "jpm_p",
+          "tag_jpm"
+        ],
+        "remove": [
+          "burj_v",
+          "merdeka_v",
+          "shanghai_v",
+          "sh_rise_v",
+          "opening_hook"
+        ]
+      },
+      "elements": [
+        {
+          "id": "grid141",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_done",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "2025년 완공"
+        },
+        {
+          "id": "tag_141",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "141개"
+        },
+        {
+          "id": "cond_200m",
+          "kind": "text",
+          "role": "condition",
+          "text": "(높이 200m 이상)"
+        },
+        {
+          "id": "facade_p",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "jpm_p",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_jpm",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "JP모건 본사"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_done",
+          "tag_141",
+          "cond_200m"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "141칸 격자 → 그중 한 칸 → 실제 건물",
+        "moments": [
+          {
+            "id": "m_141",
+            "narration_lines": [
+              "s02"
+            ],
+            "subject": "2025년 완공된 200m 이상 건물 141개",
+            "action": "141동 3D 군집이 바닥 격자에서 솟고 카메라가 사선으로 군집을 스치며 수가 141까지 오른다",
+            "result": "141이라는 수가 도시 규모의 덩어리로 보인다",
+            "motion_required": true
+          },
+          {
+            "id": "m_jpm",
+            "narration_lines": [
+              "s03"
+            ],
+            "subject": "141칸 중 한 칸",
+            "action": "한 동만 금색으로 발광하고 카메라가 그 전면 창문까지 파고든 뒤 실제 JP모건 체이스 타워 사진으로 바뀐다",
+            "result": "141개 중 하나가 실제 건물이라는 연결",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "facade_p",
+            "jpm_p"
+          ],
+          "job_ids": [
+            "g_facade_tile"
+          ],
+          "generated_role": "선택 동 정면 외벽(창 안 사무실) 텍스처",
+          "code_role": "3D 군집·카메라·발광·카운팅·실사 전환"
+        }
+      }
+    },
+    {
+      "id": "doubling",
+      "question": "전체는 얼마나 늘었나",
+      "takeaway": "전 세계 2583개, 2017년 이후 두 배",
+      "narration_lines": [
+        "s04"
+      ],
+      "prerequisites": [
+        "count_2025"
+      ],
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "why": "앞 141동 군집과 같은 3D 도시가 2583동(정확한 개수)으로 펼쳐지며 카메라가 고공으로 빠져 규모를 보이고, 「2017년 이후 두 배」에 왼쪽 절반은 2017년 회색, 오른쪽 절반은 금색 — 면적 1:2로 두 배가 무음으로 읽힌다(2026-11-05 사용자 「3D 도시 확장」)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "bars_double",
+          "tag_2017",
+          "tag_now",
+          "tag_x2",
+          "cond_feb"
+        ],
+        "remove": [
+          "grid141",
+          "tag_done",
+          "tag_141",
+          "cond_200m",
+          "facade_p",
+          "jpm_p",
+          "tag_jpm"
+        ]
+      },
+      "elements": [
+        {
+          "id": "bars_double",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_2017",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "2017년"
+        },
+        {
+          "id": "tag_now",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "2583개"
+        },
+        {
+          "id": "tag_x2",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "×2"
+        },
+        {
+          "id": "cond_feb",
+          "kind": "text",
+          "role": "condition",
+          "text": "2026년 2월 발표"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_2017",
+          "tag_now",
+          "tag_x2"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "3D 도시 2583동, 절반이 2017년",
+        "moments": [
+          {
+            "id": "m_double",
+            "narration_lines": [
+              "s04"
+            ],
+            "subject": "2017년과 지금의 초고층 누계",
+            "action": "2583동 도시가 가운데부터 솟고 고공으로 빠진 뒤 왼쪽 절반이 2017년 회색, 오른쪽 절반이 금색으로 갈린다",
+            "result": "지금 전체가 2017년의 두 배라는 면적 차이와 규모가 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "3D 도시·카운팅·절반 구분·표기"
+        }
+      }
+    },
+    {
+      "id": "pipeline",
+      "question": "경기가 식었는데도?",
+      "takeaway": "보류된 곳이 많아도 2026년 약 140개 예정",
+      "narration_lines": [
+        "s05"
+      ],
+      "prerequisites": [
+        "doubling"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "크레인이 선 골조 실사 위에 2025년 141개와 2026년 약 140개(전망) 두 막대를 나란히 — 「올해에도」 같은 속도가 무음으로 읽힌다. 전망 막대는 점선. 특정 건물로 소개하지 않는다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "con1_v",
+          "con2_v",
+          "pace_bars",
+          "tag_141b",
+          "tag_140",
+          "cond_feb3"
+        ],
+        "remove": [
+          "bars_double",
+          "tag_2017",
+          "tag_now",
+          "tag_x2",
+          "cond_feb"
+        ]
+      },
+      "elements": [
+        {
+          "id": "con1_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "con2_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "pace_bars",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_141b",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "2025년 141개"
+        },
+        {
+          "id": "tag_140",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "2026년 → 약 140개"
+        },
+        {
+          "id": "cond_feb3",
+          "kind": "text",
+          "role": "condition",
+          "text": "지난 2월 전망"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_141b",
+          "tag_140",
+          "cond_feb3"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "크레인 현장 위 141과 ~140 두 막대",
+        "moments": [
+          {
+            "id": "m_pace",
+            "narration_lines": [
+              "s05"
+            ],
+            "subject": "2025년 완공 141개와 2026년 예정 약 140개",
+            "action": "같은 바닥선에서 두 막대가 거의 같은 높이로 솟고 2026년 막대는 점선(전망)",
+            "result": "보류가 많아도 올해도 비슷한 수가 들어선다는 비교",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "con1_v",
+            "con2_v"
+          ],
+          "job_ids": [],
+          "code_role": "141·~140 두 막대와 전망 점선"
+        }
+      }
+    },
+    {
+      "id": "china",
+      "question": "누가 짓나",
+      "takeaway": "지난해 새 초고층 141개 중 91개(65%)가 중국",
+      "narration_lines": [
+        "s06",
+        "s07"
+      ],
+      "prerequisites": [
+        "pipeline"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "푸둥 실사 위 큰 「중국」으로 주체를 세우고, 0:10에서 본 같은 3D 141동 군집이 돌아와 91동만 중국 빨강으로 물들며 솟는다(65% 원형 게이지). 같은 기준이라 비율이 무음으로 읽힌다(2026-11-05 사용자 「3D 141동 재등장」, 「중국 강조」)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "pudong_v",
+          "tag_cn",
+          "grid141b",
+          "tag_china91",
+          "tag_65"
+        ],
+        "remove": [
+          "con1_v",
+          "con2_v",
+          "pace_bars",
+          "tag_141b",
+          "tag_140",
+          "cond_feb3"
+        ]
+      },
+      "elements": [
+        {
+          "id": "pudong_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_cn",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "중국"
+        },
+        {
+          "id": "grid141b",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_china91",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "중국 91개"
+        },
+        {
+          "id": "tag_65",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "65%"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_cn",
+          "tag_china91",
+          "tag_65"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "3D 141동 중 빨갛게 솟는 91동",
+        "moments": [
+          {
+            "id": "m_91",
+            "narration_lines": [
+              "s07"
+            ],
+            "subject": "2025년 새 초고층 141개",
+            "action": "같은 3D 군집에서 91동이 물결처럼 빨갛게 바뀌며 솟고 나머지는 회색으로 가라앉는다, 65% 게이지가 찬다",
+            "result": "3분의 2가량이 중국이라는 비율이 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "pudong_v"
+          ],
+          "job_ids": [],
+          "code_role": "3D 141동 군집·91동 색 변화·카운터·65% 게이지·중국 강조"
+        }
+      }
+    },
+    {
+      "id": "shenzhen",
+      "question": "대표 도시는",
+      "takeaway": "선전, 세계 처음 200m 이상 200개 넘은 도시",
+      "narration_lines": [
+        "s08"
+      ],
+      "prerequisites": [
+        "china"
+      ],
+      "representation": {
+        "kind": "footage",
+        "role": "evidence",
+        "why": "선전 푸톈(핑안금융센터) 넓은 실제 항공 영상 한 컷으로 초고층 숲의 밀도를 본다(observation 사례: 전체 맥락)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "futian_v",
+          "tag_sz",
+          "tag_sz200"
+        ],
+        "remove": [
+          "pudong_v",
+          "tag_cn",
+          "grid141b",
+          "tag_china91",
+          "tag_65"
+        ]
+      },
+      "elements": [
+        {
+          "id": "futian_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_sz",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "중국 선전"
+        },
+        {
+          "id": "tag_sz200",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "200m 이상 200개"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "tag_sz",
+          "tag_sz200"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "도시 전체를 덮은 초고층",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "futian_v"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "underway",
+      "question": "지금 짓는 중인 것은",
+      "takeaway": "공사 중 400개, 그중 300m 넘는 88개",
+      "narration_lines": [
+        "s09"
+      ],
+      "prerequisites": [
+        "shenzhen"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "공사 현장 실사에서 3D 「공사 중인 도시」(위쪽이 골조로 끊긴 400동 + 타워크레인)로 넘어가고, 「300m가 넘는」에 300m 면이 깔려 88동만 면을 뚫고 금색으로 솟는다 — 전체와 일부, 기준을 한 화면에서(2026-11-05 사용자 선택 1번)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "con5_v",
+          "dots400",
+          "tag_400",
+          "tag_300p",
+          "tag_88",
+          "cond_feb2"
+        ],
+        "remove": [
+          "futian_v",
+          "tag_sz",
+          "tag_sz200"
+        ]
+      },
+      "elements": [
+        {
+          "id": "con5_v",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "dots400",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_400",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "공사 중 400개"
+        },
+        {
+          "id": "tag_300p",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "300m"
+        },
+        {
+          "id": "tag_88",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "300m 초과 88개"
+        },
+        {
+          "id": "cond_feb2",
+          "kind": "text",
+          "role": "condition",
+          "text": "2026년 2월 발표"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_400",
+          "tag_300p",
+          "tag_88"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "공사 중 400동과 300m 면을 뚫는 88동",
+        "moments": [
+          {
+            "id": "m_88",
+            "narration_lines": [
+              "s09"
+            ],
+            "subject": "공사 중 초고층 400개",
+            "action": "골조·크레인 400동이 펼쳐지고 300m 면 위로 88동만 솟아 금색이 된다",
+            "result": "슈퍼초고층이 일부라는 비율",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "con5_v"
+          ],
+          "job_ids": [],
+          "code_role": "3D 공사 중 도시·300m 면·88동 강조·카운터"
+        }
+      }
+    },
+    {
+      "id": "jec",
+      "question": "어디까지 높아지나",
+      "takeaway": "사우디 JEC타워, 예정대로 2028년 완공되면 첫 1km — 아직 공사 중",
+      "narration_lines": [
+        "s10"
+      ],
+      "prerequisites": [
+        "underway"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "why": "실제 공사 현장(2026년 5월) → 조감도 → 같은 바닥선 위 높이 계보(JP모건 본사·상하이타워·메르데카118·부르즈칼리파·JEC타워) — 영상에 나온 건물과 200m(초고층)·300m(슈퍼초고층)·1km 기준선이 한 화면에 모인다. 높이 수치는 쓰지 않고 실제 비율(2차 출처 높이)만 맞춘다. 계획은 조감도와 점선 윤곽(계획)으로, 실재 부르즈칼리파는 채움으로 구분. 완공 연도는 발화·자막에 맡긴다(CVU 2030과 상충)",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "jec_site_p",
+          "jec_render_p",
+          "tag_render",
+          "height_cmp",
+          "tag_200",
+          "tag_300",
+          "tag_1km",
+          "tag_jpm_h",
+          "tag_sh_h",
+          "tag_mer_h",
+          "tag_burj",
+          "tag_jec"
+        ],
+        "remove": [
+          "con5_v",
+          "dots400",
+          "tag_400",
+          "tag_300p",
+          "tag_88",
+          "cond_feb2"
+        ]
+      },
+      "elements": [
+        {
+          "id": "jec_site_p",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "jec_render_p",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_render",
+          "kind": "text",
+          "role": "condition",
+          "text": "조감도"
+        },
+        {
+          "id": "height_cmp",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_200",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "200m"
+        },
+        {
+          "id": "tag_300",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "300m"
+        },
+        {
+          "id": "tag_1km",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "1km"
+        },
+        {
+          "id": "tag_jpm_h",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "JP모건 본사"
+        },
+        {
+          "id": "tag_sh_h",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "상하이타워"
+        },
+        {
+          "id": "tag_mer_h",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "메르데카118"
+        },
+        {
+          "id": "tag_burj",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "부르즈칼리파"
+        },
+        {
+          "id": "tag_jec",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "JEC타워(계획)"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_render",
+          "tag_200",
+          "tag_300"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "공사 중 현장 → 완성 계획 → 1km 선을 넘는 실루엣",
+        "moments": [
+          {
+            "id": "m_1km",
+            "narration_lines": [
+              "s10"
+            ],
+            "subject": "영상에 나온 초고층 다섯과 기준선",
+            "action": "200m·300m 기준선 위로 네 건물이 높이 순으로 서고, 마지막 JEC 점선 윤곽만 1km 선에 닿는다",
+            "result": "초고층 기준부터 현 최고층, 첫 1km 계획까지의 높이 관계가 한눈에 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "jec_site_p",
+            "jec_render_p"
+          ],
+          "job_ids": [],
+          "code_role": "다섯 건물 단순화 3D 모형(정밀 복제 아님, 높이 비율만 실제)·200m·300m·1km 반투명 면·크레인 카메라·표기(2026-11-05 사용자 「3d 실제 건물모양」)"
+        }
+      }
+    },
+    {
+      "id": "energy",
+      "question": "그런데 대가는",
+      "takeaway": "층이 높을수록 단위면적당 에너지 소비가 늘고 건축·유지비가 크다",
+      "narration_lines": [
+        "s11",
+        "s12"
+      ],
+      "prerequisites": [
+        "jec"
+      ],
+      "representation": {
+        "kind": "hybrid",
+        "role": "metaphor",
+        "why": "공통 강조 동안 가상 초고층 단면(생성 이미지, 실존 아님)으로 분위기를 바꾸고, 같은 바닥선 위 저층·고층·초고층 세 건물 꼭대기의 번개 수(1·2·3)로 층수가 많을수록 ㎡당 에너지가 많다는 경향을, 「건축비와 유지비」에서 건물 옆 동전 더미(작음→큼)로 비용을 보인다. 기사에 수치가 없어 눈금 없이 정성적으로",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "energy_p",
+          "xray_scan",
+          "energy_cmp",
+          "draft_ui",
+          "tag_energy",
+          "energy_bolts",
+          "cost_coins",
+          "tag_low",
+          "tag_mid",
+          "tag_high",
+          "tag_axis",
+          "tag_cost"
+        ],
+        "remove": [
+          "jec_site_p",
+          "jec_render_p",
+          "tag_render",
+          "height_cmp",
+          "tag_200",
+          "tag_300",
+          "tag_1km",
+          "tag_jpm_h",
+          "tag_sh_h",
+          "tag_mer_h",
+          "tag_burj",
+          "tag_jec"
+        ]
+      },
+      "elements": [
+        {
+          "id": "energy_p",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "xray_scan",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "energy_cmp",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "draft_ui",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_energy",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "㎡당 에너지"
+        },
+        {
+          "id": "energy_bolts",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "cost_coins",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_low",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "저층"
+        },
+        {
+          "id": "tag_mid",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "고층"
+        },
+        {
+          "id": "tag_high",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "초고층"
+        },
+        {
+          "id": "tag_axis",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "층수 →"
+        },
+        {
+          "id": "tag_cost",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "건축비·유지비 ↑"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_energy",
+          "tag_low",
+          "tag_mid"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "높이가 다른 세 건물의 에너지(번개)와 비용(동전) 차이",
+        "moments": [
+          {
+            "id": "m_energy",
+            "narration_lines": [
+              "s12"
+            ],
+            "subject": "층수가 다른 세 건물",
+            "action": "폭이 같은 세 건물이 저층→고층→초고층 순으로 솟고, 「단위면적당 에너지」에 꼭대기 번개가 1·2·3개로 늘며 색이 진해진다",
+            "result": "층수가 많은 건물일수록 단위면적당 에너지 소비가 크다는 경향",
+            "motion_required": true
+          },
+          {
+            "id": "m_cost",
+            "narration_lines": [
+              "s12"
+            ],
+            "subject": "같은 세 건물의 비용",
+            "action": "「건축비와 유지비」에 건물 옆 동전 더미가 저층 작게→초고층 크게 쌓이고 「건축비·유지비 ↑」가 붙는다",
+            "result": "높을수록 건축·유지 비용이 크다는 단점",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "energy_p"
+          ],
+          "job_ids": [
+            "g_energy_tower"
+          ],
+          "generated_role": "가상 초고층 투시 단면 외형",
+          "code_role": "엑스레이 스캔, 세 건물 와이어프레임 단면(코어·아웃트리거 형태, 이름표 없음), 수치 없는 도면 UI(축 A·B·C·레벨·치수 H·직각·절단선), 번개·동전·라벨"
+        }
+      }
+    },
+    {
+      "id": "standard",
+      "question": "그래서?",
+      "takeaway": "더 엄격한 에너지 기준이 필요하다는 지적",
+      "narration_lines": [
+        "s13"
+      ],
+      "prerequisites": [
+        "energy"
+      ],
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "why": "앞의 와이어프레임 세 건물을 그대로 두고 적음→많음 에너지 눈금에서 허용선(기준)이 많음 쪽에서 적음 쪽으로 내려오면 초고층(C) 표지가 선을 넘는다 — 「더 엄격한 기준」이 형태로 읽힌다. 수치 없음, 제안(지적)이지 시행 규제로 그리지 않는다",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "std_gauge",
+          "std_marker",
+          "tag_std",
+          "tag_few",
+          "tag_many"
+        ],
+        "remove": [
+          "energy_p",
+          "xray_scan",
+          "energy_cmp",
+          "draft_ui",
+          "tag_energy",
+          "energy_bolts",
+          "cost_coins",
+          "tag_low",
+          "tag_mid",
+          "tag_high",
+          "tag_axis",
+          "tag_cost"
+        ]
+      },
+      "elements": [
+        {
+          "id": "std_gauge",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "std_marker",
+          "kind": "shape",
+          "role": "evidence"
+        },
+        {
+          "id": "tag_std",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "에너지 기준"
+        },
+        {
+          "id": "tag_few",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "적음"
+        },
+        {
+          "id": "tag_many",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "많음"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "tag_std",
+          "tag_few",
+          "tag_many"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "에너지 눈금 위로 내려오는 기준선",
+        "moments": [
+          {
+            "id": "m_std",
+            "narration_lines": [
+              "s13"
+            ],
+            "subject": "에너지 눈금과 기준선",
+            "action": "「훨씬 엄격한」에 노란 점선 기준이 많음 쪽에서 적음 쪽으로 이동하고, 선을 넘는 초고층 표지와 건물 윤곽이 붉어진다",
+            "result": "더 엄격한 에너지 기준을 적용하면 초고층이 걸린다는 지적의 방향",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "code",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "눈금·기준선·초과 표시"
+        }
+      }
+    },
+    {
+      "id": "closing",
+      "question": "여러분은?",
+      "takeaway": "CTA",
+      "narration_lines": [
+        "s14"
+      ],
+      "prerequisites": [
+        "standard"
+      ],
+      "representation": {
+        "kind": "footage",
+        "role": "tone",
+        "why": "도시 스카이라인 타임랩스 위 공통 CTA",
+        "full_bleed": true
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "kl_tl_v"
+        ],
+        "remove": [
+          "std_gauge",
+          "std_marker",
+          "tag_std",
+          "tag_few",
+          "tag_many"
+        ]
+      },
+      "elements": [
+        {
+          "id": "kl_tl_v",
+          "kind": "media",
+          "role": "evidence"
+        }
+      ],
+      "mobile": {
+        "max_simultaneous_labels": 1,
+        "focal_priority": []
+      },
+      "visual": {
+        "purpose": "atmosphere",
+        "focus": "스카이라인",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "kl_tl_v"
+          ],
+          "job_ids": []
+        }
+      }
+    }
+  ]
+}

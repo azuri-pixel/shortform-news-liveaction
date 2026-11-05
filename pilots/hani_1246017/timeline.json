@@ -1,0 +1,7246 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1246017",
+  "fps": 30,
+  "total_frames": 2411,
+  "source": {
+    "narration_word_sha256": "6ebc6e7863b9f858adb6acd92ef271c27cc6ba86d3ea74f1fa2967497c135589",
+    "story_sha256": "fce96cea9bc31772fc03e42ad78afd62e51e2f83b756f9899a208d31235a7c01",
+    "concepts_sha256": "53b8f6b11196833a388ee56615bab3fef56f01610f871b76e0f12c1f97701b6c",
+    "motion_sha256": "33c033dcbb5a12bfbbcfc0be676b180f8a749b17c628763c6d2bf757428ea487",
+    "visual_system_sha256": "e4e9de8a59720f8983f3b4afb3a54e33205049a286f1c31f7bdb21402fe59c70",
+    "production_profile_sha256": "2056414125cc4b1f4c8656b0f93929a4c916804451294551c7e661ce50bbcc67"
+  },
+  "concepts": [
+    {
+      "id": "hook_towers",
+      "from": 0,
+      "end": 270,
+      "duration": 270,
+      "narration_lines": [
+        "s01"
+      ]
+    },
+    {
+      "id": "count_2025",
+      "from": 270,
+      "end": 571,
+      "duration": 301,
+      "narration_lines": [
+        "s02",
+        "s03"
+      ]
+    },
+    {
+      "id": "doubling",
+      "from": 571,
+      "end": 743,
+      "duration": 172,
+      "narration_lines": [
+        "s04"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "from": 743,
+      "end": 926,
+      "duration": 183,
+      "narration_lines": [
+        "s05"
+      ]
+    },
+    {
+      "id": "china",
+      "from": 926,
+      "end": 1142,
+      "duration": 216,
+      "narration_lines": [
+        "s06",
+        "s07"
+      ]
+    },
+    {
+      "id": "shenzhen",
+      "from": 1142,
+      "end": 1286,
+      "duration": 144,
+      "narration_lines": [
+        "s08"
+      ]
+    },
+    {
+      "id": "underway",
+      "from": 1286,
+      "end": 1530,
+      "duration": 244,
+      "narration_lines": [
+        "s09"
+      ]
+    },
+    {
+      "id": "jec",
+      "from": 1530,
+      "end": 1814,
+      "duration": 284,
+      "narration_lines": [
+        "s10"
+      ]
+    },
+    {
+      "id": "energy",
+      "from": 1814,
+      "end": 2148,
+      "duration": 334,
+      "narration_lines": [
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "id": "standard",
+      "from": 2148,
+      "end": 2290,
+      "duration": 142,
+      "narration_lines": [
+        "s13"
+      ]
+    },
+    {
+      "id": "closing",
+      "from": 2290,
+      "end": 2396,
+      "duration": 106,
+      "narration_lines": [
+        "s14"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "burj_in",
+      "concept_id": "hook_towers",
+      "element_id": "burj_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "부르즈칼리파와",
+            "edge": "start",
+            "offset_frames": -12
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "부르즈칼리파와",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 1,
+            "word": "메르데카",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 1,
+            "word": "메르데카",
+            "edge": "start",
+            "offset_frames": 14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "부르즈칼리파 이름과 함께 실물",
+      "from": 0,
+      "settled": 6,
+      "to": 43,
+      "end": 49
+    },
+    {
+      "id": "merdeka_in",
+      "concept_id": "hook_towers",
+      "element_id": "merdeka_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 1,
+            "word": "메르데카",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 1,
+            "word": "메르데카",
+            "edge": "start",
+            "offset_frames": 14
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "상하이타워로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "상하이타워로",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "메르데카118 이름과 함께 실물",
+      "from": 43,
+      "settled": 49,
+      "to": 81,
+      "end": 87
+    },
+    {
+      "id": "shanghai_in",
+      "concept_id": "hook_towers",
+      "element_id": "shanghai_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "상하이타워로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "상하이타워로",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "상하이타워 이름과 함께 실물(옆 SWFC로 식별)",
+      "from": 81,
+      "settled": 87,
+      "to": 158,
+      "end": 164
+    },
+    {
+      "id": "sh_rise_in",
+      "concept_id": "hook_towers",
+      "element_id": "sh_rise_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "세계",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "세계",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "후킹 문구 배경: 상하이 스카이라인 일출",
+      "from": 158,
+      "settled": 164,
+      "to": 273,
+      "end": 279
+    },
+    {
+      "id": "hook_text",
+      "concept_id": "hook_towers",
+      "element_id": "opening_hook",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "이런",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 17,
+            "word": "아시나요?",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 17,
+            "word": "아시나요?",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "둘째 문장(이런 초고층 빌딩이) 동안 한 번만",
+      "from": 161,
+      "settled": 172,
+      "to": 260,
+      "end": 264
+    },
+    {
+      "id": "hook_line",
+      "concept_id": "hook_towers",
+      "element_id": "opening_hook",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 11,
+            "word": "매년",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 14,
+            "word": "넘게",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 17,
+            "word": "아시나요?",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 17,
+            "word": "아시나요?",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "매년 100개 넘게 발화에 밑줄이 자란다",
+      "from": 191,
+      "settled": 221,
+      "to": 260,
+      "end": 264
+    },
+    {
+      "id": "grid_in",
+      "concept_id": "count_2025",
+      "element_id": "grid141",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "세계",
+            "edge": "start",
+            "offset_frames": -16
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 4,
+            "word": "지난해",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "건물 기호 141칸이 141 발화까지 차오른다",
+      "from": 265,
+      "settled": 355,
+      "to": 486,
+      "end": 490
+    },
+    {
+      "id": "tag_done_in",
+      "concept_id": "count_2025",
+      "element_id": "tag_done",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "세계",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "세계",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "Cut1 상단 고정 문구",
+      "from": 281,
+      "settled": 289,
+      "to": 350,
+      "end": 358
+    },
+    {
+      "id": "fly_in",
+      "concept_id": "count_2025",
+      "element_id": "grid141",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -40
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "Cut2 사선 Z축 플라이스루",
+      "from": 352,
+      "settled": 446,
+      "to": 541,
+      "end": 547
+    },
+    {
+      "id": "tag_141_in",
+      "concept_id": "count_2025",
+      "element_id": "tag_141",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 9,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -42
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -34
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "141 카운팅 롤링",
+      "from": 356,
+      "settled": 404,
+      "to": 444,
+      "end": 452
+    },
+    {
+      "id": "cond_200m_in",
+      "concept_id": "count_2025",
+      "element_id": "cond_200m",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "완공된",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -42
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -34
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "200m 이상 기준",
+      "from": 358,
+      "settled": 366,
+      "to": 444,
+      "end": 452
+    },
+    {
+      "id": "facade_in",
+      "concept_id": "count_2025",
+      "element_id": "facade_p",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -40
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -30
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "선택 동 정면 외벽(가상)",
+      "from": 446,
+      "settled": 456,
+      "to": 472,
+      "end": 486
+    },
+    {
+      "id": "rise_in",
+      "concept_id": "count_2025",
+      "element_id": "grid141",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -24
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "노란 건물을 올려다보며 위로·왼쪽으로 흐르는 무빙(실사 무빙과 같은 방향)",
+      "from": 462,
+      "settled": 486,
+      "to": 541,
+      "end": 547
+    },
+    {
+      "id": "pick_in",
+      "concept_id": "count_2025",
+      "element_id": "grid141",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -40
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -24
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "체이스타워가",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "한 칸이 노랗게 집힌다(그중 하나)",
+      "from": 446,
+      "settled": 462,
+      "to": 541,
+      "end": 547
+    },
+    {
+      "id": "jpm_in",
+      "concept_id": "count_2025",
+      "element_id": "jpm_p",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "미국",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "집힌 칸에서 실물 사진이 펼쳐진다",
+      "from": 472,
+      "settled": 486,
+      "to": 570,
+      "end": 580
+    },
+    {
+      "id": "tag_jpm_in",
+      "concept_id": "count_2025",
+      "element_id": "tag_jpm",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 2,
+            "word": "제이피모건",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 2,
+            "word": "제이피모건",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "건물 이름",
+      "from": 503,
+      "settled": 512,
+      "to": 570,
+      "end": 580
+    },
+    {
+      "id": "bars_in",
+      "concept_id": "doubling",
+      "element_id": "bars_double",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "이천오백팔십삼",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "지금 막대가 2583 발화까지 솟는다",
+      "from": 572,
+      "settled": 660,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "tag_now_in",
+      "concept_id": "doubling",
+      "element_id": "tag_now",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "이천오백팔십삼",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "이천오백팔십삼",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2583개",
+      "from": 627,
+      "settled": 636,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "cond_feb_in",
+      "concept_id": "doubling",
+      "element_id": "cond_feb",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "이천오백팔십삼",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "이천오백팔십삼",
+            "edge": "start",
+            "offset_frames": 12
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "발표 시점",
+      "from": 634,
+      "settled": 642,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "grow_in",
+      "concept_id": "doubling",
+      "element_id": "bars_double",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "이천십칠년",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "이후",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2017년 막대가 절반 높이로 솟는다",
+      "from": 676,
+      "settled": 706,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "tag_2017_in",
+      "concept_id": "doubling",
+      "element_id": "tag_2017",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "이천십칠년",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "이천십칠년",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2017년",
+      "from": 676,
+      "settled": 685,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "tag_x2_in",
+      "concept_id": "doubling",
+      "element_id": "tag_x2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 9,
+            "word": "두",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 10,
+            "word": "배로",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "두 배 괄호",
+      "from": 708,
+      "settled": 720,
+      "to": 744,
+      "end": 754
+    },
+    {
+      "id": "con1_in",
+      "concept_id": "pipeline",
+      "element_id": "con1_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -16
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "부동산",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "크레인 선 골조",
+      "from": 736,
+      "settled": 742,
+      "to": 843,
+      "end": 849
+    },
+    {
+      "id": "con2_in",
+      "concept_id": "pipeline",
+      "element_id": "con2_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "올해에도 — 크레인 실사",
+      "from": 843,
+      "settled": 849,
+      "to": 923,
+      "end": 929
+    },
+    {
+      "id": "pace_in",
+      "concept_id": "pipeline",
+      "element_id": "pace_bars",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 10,
+            "word": "개가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "141 막대, 이어 ~140 점선 막대",
+      "from": 843,
+      "settled": 895,
+      "to": 923,
+      "end": 931
+    },
+    {
+      "id": "tag_141b_in",
+      "concept_id": "pipeline",
+      "element_id": "tag_141b",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "올해에도",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "2025년 141개 기준",
+      "from": 845,
+      "settled": 855,
+      "to": 923,
+      "end": 931
+    },
+    {
+      "id": "tag_140_in",
+      "concept_id": "pipeline",
+      "element_id": "tag_140",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 8,
+            "word": "약",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 8,
+            "word": "약",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "약 140개 예정",
+      "from": 860,
+      "settled": 869,
+      "to": 923,
+      "end": 931
+    },
+    {
+      "id": "cond_feb3_in",
+      "concept_id": "pipeline",
+      "element_id": "cond_feb3",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 9,
+            "word": "백사십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 9,
+            "word": "백사십",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "전망 시점",
+      "from": 873,
+      "settled": 881,
+      "to": 923,
+      "end": 931
+    },
+    {
+      "id": "pudong_in",
+      "concept_id": "china",
+      "element_id": "pudong_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -16
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "중국 도시 야경, 격자 아래 깔림",
+      "from": 915,
+      "settled": 921,
+      "to": 1140,
+      "end": 1146
+    },
+    {
+      "id": "tag_cn_in",
+      "concept_id": "china",
+      "element_id": "tag_cn",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 4,
+            "word": "중국입니다.",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 4,
+            "word": "중국입니다.",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "지난해",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "지난해",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "중국 강조",
+      "from": 977,
+      "settled": 986,
+      "to": 999,
+      "end": 1009
+    },
+    {
+      "id": "grid_b_in",
+      "concept_id": "china",
+      "element_id": "grid141b",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "지난해",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "지난해",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "앞서 본 141칸이 그대로 돌아온다",
+      "from": 1001,
+      "settled": 1013,
+      "to": 1140,
+      "end": 1146
+    },
+    {
+      "id": "china_fill",
+      "concept_id": "china",
+      "element_id": "grid141b",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "육십오",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 7,
+            "word": "개가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "91칸이 노랗게",
+      "from": 1043,
+      "settled": 1104,
+      "to": 1140,
+      "end": 1146
+    },
+    {
+      "id": "tag_65_in",
+      "concept_id": "china",
+      "element_id": "tag_65",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "육십오",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "육십오",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "65%",
+      "from": 1042,
+      "settled": 1051,
+      "to": 1140,
+      "end": 1146
+    },
+    {
+      "id": "tag_china91_in",
+      "concept_id": "china",
+      "element_id": "tag_china91",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 6,
+            "word": "구십일",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 6,
+            "word": "구십일",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "중국 91개",
+      "from": 1081,
+      "settled": 1090,
+      "to": 1140,
+      "end": 1146
+    },
+    {
+      "id": "futian_in",
+      "concept_id": "shenzhen",
+      "element_id": "futian_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "특히",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "선전 푸톈 넓은 항공 — 도시 전체에 수치",
+      "from": 1140,
+      "settled": 1146,
+      "to": 1289,
+      "end": 1295
+    },
+    {
+      "id": "tag_sz_in",
+      "concept_id": "shenzhen",
+      "element_id": "tag_sz",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 1,
+            "word": "선전은",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 1,
+            "word": "선전은",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "도시 이름",
+      "from": 1153,
+      "settled": 1162,
+      "to": 1289,
+      "end": 1297
+    },
+    {
+      "id": "tag_sz200_in",
+      "concept_id": "shenzhen",
+      "element_id": "tag_sz200",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 8,
+            "word": "이백",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 9,
+            "word": "개를",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "200개 돌파",
+      "from": 1230,
+      "settled": 1247,
+      "to": 1289,
+      "end": 1297
+    },
+    {
+      "id": "con5_in",
+      "concept_id": "underway",
+      "element_id": "con5_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -16
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "현재",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "공사 현장 실사",
+      "from": 1281,
+      "settled": 1287,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "dots_in",
+      "concept_id": "underway",
+      "element_id": "dots400",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "공사",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "사백",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "400개 점",
+      "from": 1322,
+      "settled": 1383,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "tag_400_in",
+      "concept_id": "underway",
+      "element_id": "tag_400",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "사백",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "사백",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "공사 중 400개",
+      "from": 1371,
+      "settled": 1380,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "cond_feb2_in",
+      "concept_id": "underway",
+      "element_id": "cond_feb2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "사백",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "사백",
+            "edge": "start",
+            "offset_frames": 12
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "발표 시점",
+      "from": 1378,
+      "settled": 1386,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "tag_300p_in",
+      "concept_id": "underway",
+      "element_id": "tag_300p",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 11,
+            "word": "삼백",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 11,
+            "word": "삼백",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "300m 기준면",
+      "from": 1414,
+      "settled": 1424,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "rise88",
+      "concept_id": "underway",
+      "element_id": "dots400",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 11,
+            "word": "삼백",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 16,
+            "word": "팔십팔",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "그중 88개가 솟는다",
+      "from": 1414,
+      "settled": 1511,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "tag_88_in",
+      "concept_id": "underway",
+      "element_id": "tag_88",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 16,
+            "word": "팔십팔",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 16,
+            "word": "팔십팔",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "300m 초과 88개",
+      "from": 1494,
+      "settled": 1503,
+      "to": 1530,
+      "end": 1536
+    },
+    {
+      "id": "site_in",
+      "concept_id": "jec",
+      "element_id": "jec_site_p",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "사우디아라비아가",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실제 공사 현장(2026년 5월)",
+      "from": 1530,
+      "settled": 1536,
+      "to": 1599,
+      "end": 1605
+    },
+    {
+      "id": "render_in",
+      "concept_id": "jec",
+      "element_id": "jec_render_p",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "대표적인데요 — 조감도",
+      "from": 1599,
+      "settled": 1605,
+      "to": 1646,
+      "end": 1652
+    },
+    {
+      "id": "tag_render_in",
+      "concept_id": "jec",
+      "element_id": "tag_render",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "타워가",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "조감도 표기",
+      "from": 1599,
+      "settled": 1605,
+      "to": 1646,
+      "end": 1652
+    },
+    {
+      "id": "cmp_in",
+      "concept_id": "jec",
+      "element_id": "height_cmp",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "킬로미터를",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1km 발화까지 JEC 윤곽이 솟는다",
+      "from": 1646,
+      "settled": 1756,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_200_in",
+      "concept_id": "jec",
+      "element_id": "tag_200",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "초고층 기준선(앞서 본 200m)",
+      "from": 1652,
+      "settled": 1660,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_300_in",
+      "concept_id": "jec",
+      "element_id": "tag_300",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "예정대로",
+            "edge": "end",
+            "offset_frames": 14
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "슈퍼초고층 기준선(앞서 본 300m)",
+      "from": 1656,
+      "settled": 1664,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_jpm_h_in",
+      "concept_id": "jec",
+      "element_id": "tag_jpm_h",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "앞서 본 건물",
+      "from": 1655,
+      "settled": 1663,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_sh_h_in",
+      "concept_id": "jec",
+      "element_id": "tag_sh_h",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 16
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "도입의 건물",
+      "from": 1663,
+      "settled": 1671,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_mer_h_in",
+      "concept_id": "jec",
+      "element_id": "tag_mer_h",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 16
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "이천이십팔년",
+            "edge": "start",
+            "offset_frames": 24
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "도입의 건물",
+      "from": 1671,
+      "settled": 1679,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_burj_in",
+      "concept_id": "jec",
+      "element_id": "tag_burj",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 8,
+            "word": "완공되면",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 8,
+            "word": "완공되면",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "비교 기준 이름",
+      "from": 1678,
+      "settled": 1686,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_jec_in",
+      "concept_id": "jec",
+      "element_id": "tag_jec",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 9,
+            "word": "사상",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 9,
+            "word": "사상",
+            "edge": "start",
+            "offset_frames": 12
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "계획 건물 이름",
+      "from": 1709,
+      "settled": 1717,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "tag_1km_in",
+      "concept_id": "jec",
+      "element_id": "tag_1km",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 12,
+            "word": "일",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 13,
+            "word": "킬로미터를",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -10
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1km 눈금",
+      "from": 1734,
+      "settled": 1742,
+      "to": 1810,
+      "end": 1818
+    },
+    {
+      "id": "energy_bg_in",
+      "concept_id": "energy",
+      "element_id": "energy_p",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "강조 구간 배경: 가상 단면",
+      "from": 1812,
+      "settled": 1820,
+      "to": 1903,
+      "end": 1913
+    },
+    {
+      "id": "xray_in",
+      "concept_id": "energy",
+      "element_id": "xray_scan",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 2,
+            "word": "보여도,",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "엑스레이 스캔(아래→위)",
+      "from": 1818,
+      "settled": 1897,
+      "to": 1903,
+      "end": 1913
+    },
+    {
+      "id": "ui_in",
+      "concept_id": "energy",
+      "element_id": "draft_ui",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 5,
+            "word": "층수가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "도면 UI(축·레벨·치수·직각·절단선)",
+      "from": 1917,
+      "settled": 1950,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "energy_cmp_in",
+      "concept_id": "energy",
+      "element_id": "energy_cmp",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 3,
+            "word": "초고층",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 9,
+            "word": "소비가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "층수가 다른 세 건물이 솟으며 농도 차이",
+      "from": 1903,
+      "settled": 2024,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_energy_in",
+      "concept_id": "energy",
+      "element_id": "tag_energy",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 7,
+            "word": "단위면적당",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 7,
+            "word": "단위면적당",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "단위면적당",
+      "from": 1977,
+      "settled": 1986,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_low_in",
+      "concept_id": "energy",
+      "element_id": "tag_low",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "저층",
+      "from": 1923,
+      "settled": 1931,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_mid_in",
+      "concept_id": "energy",
+      "element_id": "tag_mid",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 12
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "고층",
+      "from": 1927,
+      "settled": 1935,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_high_in",
+      "concept_id": "energy",
+      "element_id": "tag_high",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 4,
+            "word": "건물은",
+            "edge": "start",
+            "offset_frames": 16
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "초고층",
+      "from": 1931,
+      "settled": 1939,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "bolts_in",
+      "concept_id": "energy",
+      "element_id": "energy_bolts",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 7,
+            "word": "단위면적당",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 9,
+            "word": "소비가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "꼭대기 번개 1·2·3개",
+      "from": 1977,
+      "settled": 2024,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_axis_in",
+      "concept_id": "energy",
+      "element_id": "tag_axis",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 5,
+            "word": "층수가",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 5,
+            "word": "층수가",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "층수 축",
+      "from": 1934,
+      "settled": 1943,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "coins_in",
+      "concept_id": "energy",
+      "element_id": "cost_coins",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 11,
+            "word": "등",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 13,
+            "word": "유지비가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "동전 더미 작음→큼",
+      "from": 2036,
+      "settled": 2087,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "tag_cost_in",
+      "concept_id": "energy",
+      "element_id": "tag_cost",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 12,
+            "word": "건축비와",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 12,
+            "word": "건축비와",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "건축비·유지비",
+      "from": 2050,
+      "settled": 2059,
+      "to": 2145,
+      "end": 2155
+    },
+    {
+      "id": "std_gauge_in",
+      "concept_id": "standard",
+      "element_id": "std_gauge",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "에너지 눈금",
+      "from": 2145,
+      "settled": 2157,
+      "to": 2291,
+      "end": 2299
+    },
+    {
+      "id": "tag_few_in",
+      "concept_id": "standard",
+      "element_id": "tag_few",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "눈금 적음",
+      "from": 2151,
+      "settled": 2159,
+      "to": 2291,
+      "end": 2299
+    },
+    {
+      "id": "tag_many_in",
+      "concept_id": "standard",
+      "element_id": "tag_many",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "그래서",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "눈금 많음",
+      "from": 2151,
+      "settled": 2159,
+      "to": 2291,
+      "end": 2299
+    },
+    {
+      "id": "std_marker_in",
+      "concept_id": "standard",
+      "element_id": "std_marker",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 1,
+            "word": "훨씬",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 2,
+            "word": "엄격한",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "훨씬 엄격한 — 기준선 이동",
+      "from": 2170,
+      "settled": 2199,
+      "to": 2291,
+      "end": 2299
+    },
+    {
+      "id": "tag_std_in",
+      "concept_id": "standard",
+      "element_id": "tag_std",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 1,
+            "word": "훨씬",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 1,
+            "word": "훨씬",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "에너지 기준",
+      "from": 2167,
+      "settled": 2176,
+      "to": 2291,
+      "end": 2299
+    },
+    {
+      "id": "kl_tl_in",
+      "concept_id": "closing",
+      "element_id": "kl_tl_v",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "CTA 배경",
+      "from": 2283,
+      "settled": 2291,
+      "to": 2396,
+      "end": 2396
+    }
+  ],
+  "audio_cues": [
+    {
+      "id": "sfx_hook_line",
+      "kind": "sfx",
+      "asset": "audio/sfx_snap.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "hook_line",
+        "point": "settled",
+        "offset_frames": 0
+      },
+      "frame": 221
+    },
+    {
+      "id": "sfx_grid",
+      "kind": "sfx",
+      "asset": "audio/sfx_chime.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "grid_in",
+        "point": "from",
+        "offset_frames": 6
+      },
+      "frame": 271
+    },
+    {
+      "id": "sfx_dial141",
+      "kind": "sfx",
+      "asset": "audio/sfx_dial_141.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_141_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 356
+    },
+    {
+      "id": "sfx_pick",
+      "kind": "sfx",
+      "asset": "audio/sfx_select.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "pick_in",
+        "point": "from",
+        "offset_frames": 10
+      },
+      "frame": 456
+    },
+    {
+      "id": "sfx_jpm",
+      "kind": "sfx",
+      "asset": "audio/sfx_whoosh.wav",
+      "gain_db": -14,
+      "bind": {
+        "event_id": "jpm_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 472
+    },
+    {
+      "id": "sfx_bars",
+      "kind": "sfx",
+      "asset": "audio/sfx_sweep_up.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "bars_in",
+        "point": "from",
+        "offset_frames": 4
+      },
+      "frame": 576
+    },
+    {
+      "id": "sfx_count2583",
+      "kind": "sfx",
+      "asset": "audio/sfx_data_2583.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_now_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 627
+    },
+    {
+      "id": "sfx_x2",
+      "kind": "sfx",
+      "asset": "audio/sfx_coin.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_x2_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 708
+    },
+    {
+      "id": "sfx_pace",
+      "kind": "sfx",
+      "asset": "audio/sfx_tock.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "pace_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 843
+    },
+    {
+      "id": "sfx_cn",
+      "kind": "sfx",
+      "asset": "audio/sfx_stamp.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_cn_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 977
+    },
+    {
+      "id": "sfx_grid_b",
+      "kind": "sfx",
+      "asset": "audio/sfx_bubble.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "grid_b_in",
+        "point": "from",
+        "offset_frames": 4
+      },
+      "frame": 1005
+    },
+    {
+      "id": "sfx_wave91",
+      "kind": "sfx",
+      "asset": "audio/sfx_cascade_91.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "china_fill",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 1043
+    },
+    {
+      "id": "sfx_dots",
+      "kind": "sfx",
+      "asset": "audio/sfx_scan.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "dots_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 1322
+    },
+    {
+      "id": "sfx_88",
+      "kind": "sfx",
+      "asset": "audio/sfx_levelup.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_88_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 1494
+    },
+    {
+      "id": "sfx_cmp",
+      "kind": "sfx",
+      "asset": "audio/sfx_arp_up.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "cmp_in",
+        "point": "from",
+        "offset_frames": 4
+      },
+      "frame": 1650
+    },
+    {
+      "id": "sfx_1km",
+      "kind": "sfx",
+      "asset": "audio/sfx_achieve.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_1km_in",
+        "point": "settled",
+        "offset_frames": 0
+      },
+      "frame": 1742
+    },
+    {
+      "id": "sfx_energy",
+      "kind": "sfx",
+      "asset": "audio/sfx_beep2.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "energy_cmp_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 1903
+    },
+    {
+      "id": "sfx_cost",
+      "kind": "sfx",
+      "asset": "audio/sfx_coins3.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "tag_cost_in",
+        "point": "from",
+        "offset_frames": 0
+      },
+      "frame": 2050
+    },
+    {
+      "id": "sfx_std",
+      "kind": "sfx",
+      "asset": "audio/sfx_lock.wav",
+      "gain_db": -11.5,
+      "bind": {
+        "event_id": "std_gauge_in",
+        "point": "from",
+        "offset_frames": 6
+      },
+      "frame": 2151
+    }
+  ],
+  "proof_frames": [
+    {
+      "id": "p001",
+      "frame": 0,
+      "labels": [
+        "concept:hook_towers:from",
+        "event:burj_in:from",
+        "event:burj_in:before"
+      ]
+    },
+    {
+      "id": "p002",
+      "frame": 3,
+      "labels": [
+        "event:burj_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p003",
+      "frame": 6,
+      "labels": [
+        "event:burj_in:settled"
+      ]
+    },
+    {
+      "id": "p004",
+      "frame": 42,
+      "labels": [
+        "event:merdeka_in:before"
+      ]
+    },
+    {
+      "id": "p005",
+      "frame": 43,
+      "labels": [
+        "event:burj_in:to",
+        "event:merdeka_in:from"
+      ]
+    },
+    {
+      "id": "p006",
+      "frame": 46,
+      "labels": [
+        "event:burj_in:exit-mid",
+        "event:merdeka_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p007",
+      "frame": 49,
+      "labels": [
+        "event:burj_in:end",
+        "event:merdeka_in:settled"
+      ]
+    },
+    {
+      "id": "p008",
+      "frame": 80,
+      "labels": [
+        "event:shanghai_in:before"
+      ]
+    },
+    {
+      "id": "p009",
+      "frame": 81,
+      "labels": [
+        "event:merdeka_in:to",
+        "event:shanghai_in:from"
+      ]
+    },
+    {
+      "id": "p010",
+      "frame": 84,
+      "labels": [
+        "event:merdeka_in:exit-mid",
+        "event:shanghai_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p011",
+      "frame": 87,
+      "labels": [
+        "event:merdeka_in:end",
+        "event:shanghai_in:settled"
+      ]
+    },
+    {
+      "id": "p012",
+      "frame": 157,
+      "labels": [
+        "event:sh_rise_in:before"
+      ]
+    },
+    {
+      "id": "p013",
+      "frame": 158,
+      "labels": [
+        "event:shanghai_in:to",
+        "event:sh_rise_in:from"
+      ]
+    },
+    {
+      "id": "p014",
+      "frame": 160,
+      "labels": [
+        "event:hook_text:before"
+      ]
+    },
+    {
+      "id": "p015",
+      "frame": 161,
+      "labels": [
+        "event:hook_text:from",
+        "event:shanghai_in:exit-mid",
+        "event:sh_rise_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p016",
+      "frame": 164,
+      "labels": [
+        "event:shanghai_in:end",
+        "event:sh_rise_in:settled"
+      ]
+    },
+    {
+      "id": "p017",
+      "frame": 167,
+      "labels": [
+        "event:hook_text:enter-mid"
+      ]
+    },
+    {
+      "id": "p018",
+      "frame": 172,
+      "labels": [
+        "event:hook_text:settled"
+      ]
+    },
+    {
+      "id": "p019",
+      "frame": 190,
+      "labels": [
+        "event:hook_line:before"
+      ]
+    },
+    {
+      "id": "p020",
+      "frame": 191,
+      "labels": [
+        "event:hook_line:from"
+      ]
+    },
+    {
+      "id": "p021",
+      "frame": 206,
+      "labels": [
+        "event:hook_line:enter-mid"
+      ]
+    },
+    {
+      "id": "p022",
+      "frame": 221,
+      "labels": [
+        "event:hook_line:settled"
+      ]
+    },
+    {
+      "id": "p023",
+      "frame": 260,
+      "labels": [
+        "event:hook_text:to",
+        "event:hook_line:to"
+      ]
+    },
+    {
+      "id": "p024",
+      "frame": 262,
+      "labels": [
+        "event:hook_text:exit-mid",
+        "event:hook_line:exit-mid"
+      ]
+    },
+    {
+      "id": "p025",
+      "frame": 264,
+      "labels": [
+        "event:hook_text:end",
+        "event:hook_line:end",
+        "event:grid_in:before"
+      ]
+    },
+    {
+      "id": "p026",
+      "frame": 265,
+      "labels": [
+        "event:grid_in:from"
+      ]
+    },
+    {
+      "id": "p027",
+      "frame": 269,
+      "labels": [
+        "concept:hook_towers:end"
+      ]
+    },
+    {
+      "id": "p028",
+      "frame": 270,
+      "labels": [
+        "concept:count_2025:from"
+      ]
+    },
+    {
+      "id": "p029",
+      "frame": 273,
+      "labels": [
+        "event:sh_rise_in:to"
+      ]
+    },
+    {
+      "id": "p030",
+      "frame": 276,
+      "labels": [
+        "event:sh_rise_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p031",
+      "frame": 279,
+      "labels": [
+        "event:sh_rise_in:end"
+      ]
+    },
+    {
+      "id": "p032",
+      "frame": 280,
+      "labels": [
+        "event:tag_done_in:before"
+      ]
+    },
+    {
+      "id": "p033",
+      "frame": 281,
+      "labels": [
+        "event:tag_done_in:from"
+      ]
+    },
+    {
+      "id": "p034",
+      "frame": 285,
+      "labels": [
+        "event:tag_done_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p035",
+      "frame": 289,
+      "labels": [
+        "event:tag_done_in:settled"
+      ]
+    },
+    {
+      "id": "p036",
+      "frame": 310,
+      "labels": [
+        "event:grid_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p037",
+      "frame": 350,
+      "labels": [
+        "event:tag_done_in:to"
+      ]
+    },
+    {
+      "id": "p038",
+      "frame": 351,
+      "labels": [
+        "event:fly_in:before"
+      ]
+    },
+    {
+      "id": "p039",
+      "frame": 352,
+      "labels": [
+        "event:fly_in:from"
+      ]
+    },
+    {
+      "id": "p040",
+      "frame": 354,
+      "labels": [
+        "event:tag_done_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p041",
+      "frame": 355,
+      "labels": [
+        "event:grid_in:settled",
+        "event:tag_141_in:before"
+      ]
+    },
+    {
+      "id": "p042",
+      "frame": 356,
+      "labels": [
+        "event:tag_141_in:from"
+      ]
+    },
+    {
+      "id": "p043",
+      "frame": 357,
+      "labels": [
+        "event:cond_200m_in:before"
+      ]
+    },
+    {
+      "id": "p044",
+      "frame": 358,
+      "labels": [
+        "event:tag_done_in:end",
+        "event:cond_200m_in:from"
+      ]
+    },
+    {
+      "id": "p045",
+      "frame": 362,
+      "labels": [
+        "event:cond_200m_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p046",
+      "frame": 366,
+      "labels": [
+        "event:cond_200m_in:settled"
+      ]
+    },
+    {
+      "id": "p047",
+      "frame": 380,
+      "labels": [
+        "event:tag_141_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p048",
+      "frame": 399,
+      "labels": [
+        "event:fly_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p049",
+      "frame": 404,
+      "labels": [
+        "event:tag_141_in:settled"
+      ]
+    },
+    {
+      "id": "p050",
+      "frame": 444,
+      "labels": [
+        "event:tag_141_in:to",
+        "event:cond_200m_in:to"
+      ]
+    },
+    {
+      "id": "p051",
+      "frame": 445,
+      "labels": [
+        "event:facade_in:before",
+        "event:pick_in:before"
+      ]
+    },
+    {
+      "id": "p052",
+      "frame": 446,
+      "labels": [
+        "event:fly_in:settled",
+        "event:facade_in:from",
+        "event:pick_in:from"
+      ]
+    },
+    {
+      "id": "p053",
+      "frame": 448,
+      "labels": [
+        "event:tag_141_in:exit-mid",
+        "event:cond_200m_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p054",
+      "frame": 451,
+      "labels": [
+        "event:facade_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p055",
+      "frame": 452,
+      "labels": [
+        "event:tag_141_in:end",
+        "event:cond_200m_in:end"
+      ]
+    },
+    {
+      "id": "p056",
+      "frame": 454,
+      "labels": [
+        "event:pick_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p057",
+      "frame": 456,
+      "labels": [
+        "event:facade_in:settled"
+      ]
+    },
+    {
+      "id": "p058",
+      "frame": 461,
+      "labels": [
+        "event:rise_in:before"
+      ]
+    },
+    {
+      "id": "p059",
+      "frame": 462,
+      "labels": [
+        "event:rise_in:from",
+        "event:pick_in:settled"
+      ]
+    },
+    {
+      "id": "p060",
+      "frame": 471,
+      "labels": [
+        "event:jpm_in:before"
+      ]
+    },
+    {
+      "id": "p061",
+      "frame": 472,
+      "labels": [
+        "event:facade_in:to",
+        "event:jpm_in:from"
+      ]
+    },
+    {
+      "id": "p062",
+      "frame": 474,
+      "labels": [
+        "event:rise_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p063",
+      "frame": 479,
+      "labels": [
+        "event:facade_in:exit-mid",
+        "event:jpm_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p064",
+      "frame": 486,
+      "labels": [
+        "event:grid_in:to",
+        "event:facade_in:end",
+        "event:rise_in:settled",
+        "event:jpm_in:settled"
+      ]
+    },
+    {
+      "id": "p065",
+      "frame": 488,
+      "labels": [
+        "event:grid_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p066",
+      "frame": 490,
+      "labels": [
+        "event:grid_in:end"
+      ]
+    },
+    {
+      "id": "p067",
+      "frame": 502,
+      "labels": [
+        "event:tag_jpm_in:before"
+      ]
+    },
+    {
+      "id": "p068",
+      "frame": 503,
+      "labels": [
+        "event:tag_jpm_in:from"
+      ]
+    },
+    {
+      "id": "p069",
+      "frame": 508,
+      "labels": [
+        "event:tag_jpm_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p070",
+      "frame": 512,
+      "labels": [
+        "event:tag_jpm_in:settled"
+      ]
+    },
+    {
+      "id": "p071",
+      "frame": 541,
+      "labels": [
+        "event:fly_in:to",
+        "event:rise_in:to",
+        "event:pick_in:to"
+      ]
+    },
+    {
+      "id": "p072",
+      "frame": 544,
+      "labels": [
+        "event:fly_in:exit-mid",
+        "event:rise_in:exit-mid",
+        "event:pick_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p073",
+      "frame": 547,
+      "labels": [
+        "event:fly_in:end",
+        "event:rise_in:end",
+        "event:pick_in:end"
+      ]
+    },
+    {
+      "id": "p074",
+      "frame": 570,
+      "labels": [
+        "concept:count_2025:end",
+        "event:jpm_in:to",
+        "event:tag_jpm_in:to"
+      ]
+    },
+    {
+      "id": "p075",
+      "frame": 571,
+      "labels": [
+        "concept:doubling:from",
+        "event:bars_in:before"
+      ]
+    },
+    {
+      "id": "p076",
+      "frame": 572,
+      "labels": [
+        "event:bars_in:from"
+      ]
+    },
+    {
+      "id": "p077",
+      "frame": 575,
+      "labels": [
+        "event:jpm_in:exit-mid",
+        "event:tag_jpm_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p078",
+      "frame": 580,
+      "labels": [
+        "event:jpm_in:end",
+        "event:tag_jpm_in:end"
+      ]
+    },
+    {
+      "id": "p079",
+      "frame": 616,
+      "labels": [
+        "event:bars_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p080",
+      "frame": 626,
+      "labels": [
+        "event:tag_now_in:before"
+      ]
+    },
+    {
+      "id": "p081",
+      "frame": 627,
+      "labels": [
+        "event:tag_now_in:from"
+      ]
+    },
+    {
+      "id": "p082",
+      "frame": 632,
+      "labels": [
+        "event:tag_now_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p083",
+      "frame": 633,
+      "labels": [
+        "event:cond_feb_in:before"
+      ]
+    },
+    {
+      "id": "p084",
+      "frame": 634,
+      "labels": [
+        "event:cond_feb_in:from"
+      ]
+    },
+    {
+      "id": "p085",
+      "frame": 636,
+      "labels": [
+        "event:tag_now_in:settled"
+      ]
+    },
+    {
+      "id": "p086",
+      "frame": 638,
+      "labels": [
+        "event:cond_feb_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p087",
+      "frame": 642,
+      "labels": [
+        "event:cond_feb_in:settled"
+      ]
+    },
+    {
+      "id": "p088",
+      "frame": 660,
+      "labels": [
+        "event:bars_in:settled"
+      ]
+    },
+    {
+      "id": "p089",
+      "frame": 675,
+      "labels": [
+        "event:grow_in:before",
+        "event:tag_2017_in:before"
+      ]
+    },
+    {
+      "id": "p090",
+      "frame": 676,
+      "labels": [
+        "event:grow_in:from",
+        "event:tag_2017_in:from"
+      ]
+    },
+    {
+      "id": "p091",
+      "frame": 681,
+      "labels": [
+        "event:tag_2017_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p092",
+      "frame": 685,
+      "labels": [
+        "event:tag_2017_in:settled"
+      ]
+    },
+    {
+      "id": "p093",
+      "frame": 691,
+      "labels": [
+        "event:grow_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p094",
+      "frame": 706,
+      "labels": [
+        "event:grow_in:settled"
+      ]
+    },
+    {
+      "id": "p095",
+      "frame": 707,
+      "labels": [
+        "event:tag_x2_in:before"
+      ]
+    },
+    {
+      "id": "p096",
+      "frame": 708,
+      "labels": [
+        "event:tag_x2_in:from"
+      ]
+    },
+    {
+      "id": "p097",
+      "frame": 714,
+      "labels": [
+        "event:tag_x2_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p098",
+      "frame": 720,
+      "labels": [
+        "event:tag_x2_in:settled"
+      ]
+    },
+    {
+      "id": "p099",
+      "frame": 735,
+      "labels": [
+        "event:con1_in:before"
+      ]
+    },
+    {
+      "id": "p100",
+      "frame": 736,
+      "labels": [
+        "event:con1_in:from"
+      ]
+    },
+    {
+      "id": "p101",
+      "frame": 739,
+      "labels": [
+        "event:con1_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p102",
+      "frame": 742,
+      "labels": [
+        "concept:doubling:end",
+        "event:con1_in:settled"
+      ]
+    },
+    {
+      "id": "p103",
+      "frame": 743,
+      "labels": [
+        "concept:pipeline:from"
+      ]
+    },
+    {
+      "id": "p104",
+      "frame": 744,
+      "labels": [
+        "event:bars_in:to",
+        "event:tag_now_in:to",
+        "event:cond_feb_in:to",
+        "event:grow_in:to",
+        "event:tag_2017_in:to",
+        "event:tag_x2_in:to"
+      ]
+    },
+    {
+      "id": "p105",
+      "frame": 749,
+      "labels": [
+        "event:bars_in:exit-mid",
+        "event:tag_now_in:exit-mid",
+        "event:cond_feb_in:exit-mid",
+        "event:grow_in:exit-mid",
+        "event:tag_2017_in:exit-mid",
+        "event:tag_x2_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p106",
+      "frame": 754,
+      "labels": [
+        "event:bars_in:end",
+        "event:tag_now_in:end",
+        "event:cond_feb_in:end",
+        "event:grow_in:end",
+        "event:tag_2017_in:end",
+        "event:tag_x2_in:end"
+      ]
+    },
+    {
+      "id": "p107",
+      "frame": 842,
+      "labels": [
+        "event:con2_in:before",
+        "event:pace_in:before"
+      ]
+    },
+    {
+      "id": "p108",
+      "frame": 843,
+      "labels": [
+        "event:con1_in:to",
+        "event:con2_in:from",
+        "event:pace_in:from"
+      ]
+    },
+    {
+      "id": "p109",
+      "frame": 844,
+      "labels": [
+        "event:tag_141b_in:before"
+      ]
+    },
+    {
+      "id": "p110",
+      "frame": 845,
+      "labels": [
+        "event:tag_141b_in:from"
+      ]
+    },
+    {
+      "id": "p111",
+      "frame": 846,
+      "labels": [
+        "event:con1_in:exit-mid",
+        "event:con2_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p112",
+      "frame": 849,
+      "labels": [
+        "event:con1_in:end",
+        "event:con2_in:settled"
+      ]
+    },
+    {
+      "id": "p113",
+      "frame": 850,
+      "labels": [
+        "event:tag_141b_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p114",
+      "frame": 855,
+      "labels": [
+        "event:tag_141b_in:settled"
+      ]
+    },
+    {
+      "id": "p115",
+      "frame": 859,
+      "labels": [
+        "event:tag_140_in:before"
+      ]
+    },
+    {
+      "id": "p116",
+      "frame": 860,
+      "labels": [
+        "event:tag_140_in:from"
+      ]
+    },
+    {
+      "id": "p117",
+      "frame": 865,
+      "labels": [
+        "event:tag_140_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p118",
+      "frame": 869,
+      "labels": [
+        "event:tag_140_in:settled",
+        "event:pace_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p119",
+      "frame": 872,
+      "labels": [
+        "event:cond_feb3_in:before"
+      ]
+    },
+    {
+      "id": "p120",
+      "frame": 873,
+      "labels": [
+        "event:cond_feb3_in:from"
+      ]
+    },
+    {
+      "id": "p121",
+      "frame": 877,
+      "labels": [
+        "event:cond_feb3_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p122",
+      "frame": 881,
+      "labels": [
+        "event:cond_feb3_in:settled"
+      ]
+    },
+    {
+      "id": "p123",
+      "frame": 895,
+      "labels": [
+        "event:pace_in:settled"
+      ]
+    },
+    {
+      "id": "p124",
+      "frame": 914,
+      "labels": [
+        "event:pudong_in:before"
+      ]
+    },
+    {
+      "id": "p125",
+      "frame": 915,
+      "labels": [
+        "event:pudong_in:from"
+      ]
+    },
+    {
+      "id": "p126",
+      "frame": 918,
+      "labels": [
+        "event:pudong_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p127",
+      "frame": 921,
+      "labels": [
+        "event:pudong_in:settled"
+      ]
+    },
+    {
+      "id": "p128",
+      "frame": 923,
+      "labels": [
+        "event:con2_in:to",
+        "event:pace_in:to",
+        "event:tag_141b_in:to",
+        "event:tag_140_in:to",
+        "event:cond_feb3_in:to"
+      ]
+    },
+    {
+      "id": "p129",
+      "frame": 925,
+      "labels": [
+        "concept:pipeline:end"
+      ]
+    },
+    {
+      "id": "p130",
+      "frame": 926,
+      "labels": [
+        "concept:china:from",
+        "event:con2_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p131",
+      "frame": 927,
+      "labels": [
+        "event:pace_in:exit-mid",
+        "event:tag_141b_in:exit-mid",
+        "event:tag_140_in:exit-mid",
+        "event:cond_feb3_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p132",
+      "frame": 929,
+      "labels": [
+        "event:con2_in:end"
+      ]
+    },
+    {
+      "id": "p133",
+      "frame": 931,
+      "labels": [
+        "event:pace_in:end",
+        "event:tag_141b_in:end",
+        "event:tag_140_in:end",
+        "event:cond_feb3_in:end"
+      ]
+    },
+    {
+      "id": "p134",
+      "frame": 976,
+      "labels": [
+        "event:tag_cn_in:before"
+      ]
+    },
+    {
+      "id": "p135",
+      "frame": 977,
+      "labels": [
+        "event:tag_cn_in:from"
+      ]
+    },
+    {
+      "id": "p136",
+      "frame": 982,
+      "labels": [
+        "event:tag_cn_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p137",
+      "frame": 986,
+      "labels": [
+        "event:tag_cn_in:settled"
+      ]
+    },
+    {
+      "id": "p138",
+      "frame": 999,
+      "labels": [
+        "event:tag_cn_in:to"
+      ]
+    },
+    {
+      "id": "p139",
+      "frame": 1000,
+      "labels": [
+        "event:grid_b_in:before"
+      ]
+    },
+    {
+      "id": "p140",
+      "frame": 1001,
+      "labels": [
+        "event:grid_b_in:from"
+      ]
+    },
+    {
+      "id": "p141",
+      "frame": 1004,
+      "labels": [
+        "event:tag_cn_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p142",
+      "frame": 1007,
+      "labels": [
+        "event:grid_b_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p143",
+      "frame": 1009,
+      "labels": [
+        "event:tag_cn_in:end"
+      ]
+    },
+    {
+      "id": "p144",
+      "frame": 1013,
+      "labels": [
+        "event:grid_b_in:settled"
+      ]
+    },
+    {
+      "id": "p145",
+      "frame": 1041,
+      "labels": [
+        "event:tag_65_in:before"
+      ]
+    },
+    {
+      "id": "p146",
+      "frame": 1042,
+      "labels": [
+        "event:tag_65_in:from",
+        "event:china_fill:before"
+      ]
+    },
+    {
+      "id": "p147",
+      "frame": 1043,
+      "labels": [
+        "event:china_fill:from"
+      ]
+    },
+    {
+      "id": "p148",
+      "frame": 1047,
+      "labels": [
+        "event:tag_65_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p149",
+      "frame": 1051,
+      "labels": [
+        "event:tag_65_in:settled"
+      ]
+    },
+    {
+      "id": "p150",
+      "frame": 1074,
+      "labels": [
+        "event:china_fill:enter-mid"
+      ]
+    },
+    {
+      "id": "p151",
+      "frame": 1080,
+      "labels": [
+        "event:tag_china91_in:before"
+      ]
+    },
+    {
+      "id": "p152",
+      "frame": 1081,
+      "labels": [
+        "event:tag_china91_in:from"
+      ]
+    },
+    {
+      "id": "p153",
+      "frame": 1086,
+      "labels": [
+        "event:tag_china91_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p154",
+      "frame": 1090,
+      "labels": [
+        "event:tag_china91_in:settled"
+      ]
+    },
+    {
+      "id": "p155",
+      "frame": 1104,
+      "labels": [
+        "event:china_fill:settled"
+      ]
+    },
+    {
+      "id": "p156",
+      "frame": 1139,
+      "labels": [
+        "event:futian_in:before"
+      ]
+    },
+    {
+      "id": "p157",
+      "frame": 1140,
+      "labels": [
+        "event:pudong_in:to",
+        "event:grid_b_in:to",
+        "event:china_fill:to",
+        "event:tag_65_in:to",
+        "event:tag_china91_in:to",
+        "event:futian_in:from"
+      ]
+    },
+    {
+      "id": "p158",
+      "frame": 1141,
+      "labels": [
+        "concept:china:end"
+      ]
+    },
+    {
+      "id": "p159",
+      "frame": 1142,
+      "labels": [
+        "concept:shenzhen:from"
+      ]
+    },
+    {
+      "id": "p160",
+      "frame": 1143,
+      "labels": [
+        "event:pudong_in:exit-mid",
+        "event:grid_b_in:exit-mid",
+        "event:china_fill:exit-mid",
+        "event:tag_65_in:exit-mid",
+        "event:tag_china91_in:exit-mid",
+        "event:futian_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p161",
+      "frame": 1146,
+      "labels": [
+        "event:pudong_in:end",
+        "event:grid_b_in:end",
+        "event:china_fill:end",
+        "event:tag_65_in:end",
+        "event:tag_china91_in:end",
+        "event:futian_in:settled"
+      ]
+    },
+    {
+      "id": "p162",
+      "frame": 1152,
+      "labels": [
+        "event:tag_sz_in:before"
+      ]
+    },
+    {
+      "id": "p163",
+      "frame": 1153,
+      "labels": [
+        "event:tag_sz_in:from"
+      ]
+    },
+    {
+      "id": "p164",
+      "frame": 1158,
+      "labels": [
+        "event:tag_sz_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p165",
+      "frame": 1162,
+      "labels": [
+        "event:tag_sz_in:settled"
+      ]
+    },
+    {
+      "id": "p166",
+      "frame": 1229,
+      "labels": [
+        "event:tag_sz200_in:before"
+      ]
+    },
+    {
+      "id": "p167",
+      "frame": 1230,
+      "labels": [
+        "event:tag_sz200_in:from"
+      ]
+    },
+    {
+      "id": "p168",
+      "frame": 1239,
+      "labels": [
+        "event:tag_sz200_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p169",
+      "frame": 1247,
+      "labels": [
+        "event:tag_sz200_in:settled"
+      ]
+    },
+    {
+      "id": "p170",
+      "frame": 1280,
+      "labels": [
+        "event:con5_in:before"
+      ]
+    },
+    {
+      "id": "p171",
+      "frame": 1281,
+      "labels": [
+        "event:con5_in:from"
+      ]
+    },
+    {
+      "id": "p172",
+      "frame": 1284,
+      "labels": [
+        "event:con5_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p173",
+      "frame": 1285,
+      "labels": [
+        "concept:shenzhen:end"
+      ]
+    },
+    {
+      "id": "p174",
+      "frame": 1286,
+      "labels": [
+        "concept:underway:from"
+      ]
+    },
+    {
+      "id": "p175",
+      "frame": 1287,
+      "labels": [
+        "event:con5_in:settled"
+      ]
+    },
+    {
+      "id": "p176",
+      "frame": 1289,
+      "labels": [
+        "event:futian_in:to",
+        "event:tag_sz_in:to",
+        "event:tag_sz200_in:to"
+      ]
+    },
+    {
+      "id": "p177",
+      "frame": 1292,
+      "labels": [
+        "event:futian_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p178",
+      "frame": 1293,
+      "labels": [
+        "event:tag_sz_in:exit-mid",
+        "event:tag_sz200_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p179",
+      "frame": 1295,
+      "labels": [
+        "event:futian_in:end"
+      ]
+    },
+    {
+      "id": "p180",
+      "frame": 1297,
+      "labels": [
+        "event:tag_sz_in:end",
+        "event:tag_sz200_in:end"
+      ]
+    },
+    {
+      "id": "p181",
+      "frame": 1321,
+      "labels": [
+        "event:dots_in:before"
+      ]
+    },
+    {
+      "id": "p182",
+      "frame": 1322,
+      "labels": [
+        "event:dots_in:from"
+      ]
+    },
+    {
+      "id": "p183",
+      "frame": 1353,
+      "labels": [
+        "event:dots_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p184",
+      "frame": 1370,
+      "labels": [
+        "event:tag_400_in:before"
+      ]
+    },
+    {
+      "id": "p185",
+      "frame": 1371,
+      "labels": [
+        "event:tag_400_in:from"
+      ]
+    },
+    {
+      "id": "p186",
+      "frame": 1376,
+      "labels": [
+        "event:tag_400_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p187",
+      "frame": 1377,
+      "labels": [
+        "event:cond_feb2_in:before"
+      ]
+    },
+    {
+      "id": "p188",
+      "frame": 1378,
+      "labels": [
+        "event:cond_feb2_in:from"
+      ]
+    },
+    {
+      "id": "p189",
+      "frame": 1380,
+      "labels": [
+        "event:tag_400_in:settled"
+      ]
+    },
+    {
+      "id": "p190",
+      "frame": 1382,
+      "labels": [
+        "event:cond_feb2_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p191",
+      "frame": 1383,
+      "labels": [
+        "event:dots_in:settled"
+      ]
+    },
+    {
+      "id": "p192",
+      "frame": 1386,
+      "labels": [
+        "event:cond_feb2_in:settled"
+      ]
+    },
+    {
+      "id": "p193",
+      "frame": 1413,
+      "labels": [
+        "event:tag_300p_in:before",
+        "event:rise88:before"
+      ]
+    },
+    {
+      "id": "p194",
+      "frame": 1414,
+      "labels": [
+        "event:tag_300p_in:from",
+        "event:rise88:from"
+      ]
+    },
+    {
+      "id": "p195",
+      "frame": 1419,
+      "labels": [
+        "event:tag_300p_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p196",
+      "frame": 1424,
+      "labels": [
+        "event:tag_300p_in:settled"
+      ]
+    },
+    {
+      "id": "p197",
+      "frame": 1463,
+      "labels": [
+        "event:rise88:enter-mid"
+      ]
+    },
+    {
+      "id": "p198",
+      "frame": 1493,
+      "labels": [
+        "event:tag_88_in:before"
+      ]
+    },
+    {
+      "id": "p199",
+      "frame": 1494,
+      "labels": [
+        "event:tag_88_in:from"
+      ]
+    },
+    {
+      "id": "p200",
+      "frame": 1499,
+      "labels": [
+        "event:tag_88_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p201",
+      "frame": 1503,
+      "labels": [
+        "event:tag_88_in:settled"
+      ]
+    },
+    {
+      "id": "p202",
+      "frame": 1511,
+      "labels": [
+        "event:rise88:settled"
+      ]
+    },
+    {
+      "id": "p203",
+      "frame": 1529,
+      "labels": [
+        "concept:underway:end",
+        "event:site_in:before"
+      ]
+    },
+    {
+      "id": "p204",
+      "frame": 1530,
+      "labels": [
+        "concept:jec:from",
+        "event:con5_in:to",
+        "event:dots_in:to",
+        "event:tag_400_in:to",
+        "event:cond_feb2_in:to",
+        "event:tag_300p_in:to",
+        "event:rise88:to",
+        "event:tag_88_in:to",
+        "event:site_in:from"
+      ]
+    },
+    {
+      "id": "p205",
+      "frame": 1533,
+      "labels": [
+        "event:con5_in:exit-mid",
+        "event:dots_in:exit-mid",
+        "event:tag_400_in:exit-mid",
+        "event:cond_feb2_in:exit-mid",
+        "event:tag_300p_in:exit-mid",
+        "event:rise88:exit-mid",
+        "event:tag_88_in:exit-mid",
+        "event:site_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p206",
+      "frame": 1536,
+      "labels": [
+        "event:con5_in:end",
+        "event:dots_in:end",
+        "event:tag_400_in:end",
+        "event:cond_feb2_in:end",
+        "event:tag_300p_in:end",
+        "event:rise88:end",
+        "event:tag_88_in:end",
+        "event:site_in:settled"
+      ]
+    },
+    {
+      "id": "p207",
+      "frame": 1598,
+      "labels": [
+        "event:render_in:before",
+        "event:tag_render_in:before"
+      ]
+    },
+    {
+      "id": "p208",
+      "frame": 1599,
+      "labels": [
+        "event:site_in:to",
+        "event:render_in:from",
+        "event:tag_render_in:from"
+      ]
+    },
+    {
+      "id": "p209",
+      "frame": 1602,
+      "labels": [
+        "event:site_in:exit-mid",
+        "event:render_in:enter-mid",
+        "event:tag_render_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p210",
+      "frame": 1605,
+      "labels": [
+        "event:site_in:end",
+        "event:render_in:settled",
+        "event:tag_render_in:settled"
+      ]
+    },
+    {
+      "id": "p211",
+      "frame": 1645,
+      "labels": [
+        "event:cmp_in:before"
+      ]
+    },
+    {
+      "id": "p212",
+      "frame": 1646,
+      "labels": [
+        "event:render_in:to",
+        "event:tag_render_in:to",
+        "event:cmp_in:from"
+      ]
+    },
+    {
+      "id": "p213",
+      "frame": 1649,
+      "labels": [
+        "event:render_in:exit-mid",
+        "event:tag_render_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p214",
+      "frame": 1651,
+      "labels": [
+        "event:tag_200_in:before"
+      ]
+    },
+    {
+      "id": "p215",
+      "frame": 1652,
+      "labels": [
+        "event:render_in:end",
+        "event:tag_render_in:end",
+        "event:tag_200_in:from"
+      ]
+    },
+    {
+      "id": "p216",
+      "frame": 1654,
+      "labels": [
+        "event:tag_jpm_h_in:before"
+      ]
+    },
+    {
+      "id": "p217",
+      "frame": 1655,
+      "labels": [
+        "event:tag_jpm_h_in:from",
+        "event:tag_300_in:before"
+      ]
+    },
+    {
+      "id": "p218",
+      "frame": 1656,
+      "labels": [
+        "event:tag_300_in:from",
+        "event:tag_200_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p219",
+      "frame": 1659,
+      "labels": [
+        "event:tag_jpm_h_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p220",
+      "frame": 1660,
+      "labels": [
+        "event:tag_200_in:settled",
+        "event:tag_300_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p221",
+      "frame": 1662,
+      "labels": [
+        "event:tag_sh_h_in:before"
+      ]
+    },
+    {
+      "id": "p222",
+      "frame": 1663,
+      "labels": [
+        "event:tag_jpm_h_in:settled",
+        "event:tag_sh_h_in:from"
+      ]
+    },
+    {
+      "id": "p223",
+      "frame": 1664,
+      "labels": [
+        "event:tag_300_in:settled"
+      ]
+    },
+    {
+      "id": "p224",
+      "frame": 1667,
+      "labels": [
+        "event:tag_sh_h_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p225",
+      "frame": 1670,
+      "labels": [
+        "event:tag_mer_h_in:before"
+      ]
+    },
+    {
+      "id": "p226",
+      "frame": 1671,
+      "labels": [
+        "event:tag_sh_h_in:settled",
+        "event:tag_mer_h_in:from"
+      ]
+    },
+    {
+      "id": "p227",
+      "frame": 1675,
+      "labels": [
+        "event:tag_mer_h_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p228",
+      "frame": 1677,
+      "labels": [
+        "event:tag_burj_in:before"
+      ]
+    },
+    {
+      "id": "p229",
+      "frame": 1678,
+      "labels": [
+        "event:tag_burj_in:from"
+      ]
+    },
+    {
+      "id": "p230",
+      "frame": 1679,
+      "labels": [
+        "event:tag_mer_h_in:settled"
+      ]
+    },
+    {
+      "id": "p231",
+      "frame": 1682,
+      "labels": [
+        "event:tag_burj_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p232",
+      "frame": 1686,
+      "labels": [
+        "event:tag_burj_in:settled"
+      ]
+    },
+    {
+      "id": "p233",
+      "frame": 1701,
+      "labels": [
+        "event:cmp_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p234",
+      "frame": 1708,
+      "labels": [
+        "event:tag_jec_in:before"
+      ]
+    },
+    {
+      "id": "p235",
+      "frame": 1709,
+      "labels": [
+        "event:tag_jec_in:from"
+      ]
+    },
+    {
+      "id": "p236",
+      "frame": 1713,
+      "labels": [
+        "event:tag_jec_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p237",
+      "frame": 1717,
+      "labels": [
+        "event:tag_jec_in:settled"
+      ]
+    },
+    {
+      "id": "p238",
+      "frame": 1733,
+      "labels": [
+        "event:tag_1km_in:before"
+      ]
+    },
+    {
+      "id": "p239",
+      "frame": 1734,
+      "labels": [
+        "event:tag_1km_in:from"
+      ]
+    },
+    {
+      "id": "p240",
+      "frame": 1738,
+      "labels": [
+        "event:tag_1km_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p241",
+      "frame": 1742,
+      "labels": [
+        "event:tag_1km_in:settled"
+      ]
+    },
+    {
+      "id": "p242",
+      "frame": 1756,
+      "labels": [
+        "event:cmp_in:settled"
+      ]
+    },
+    {
+      "id": "p243",
+      "frame": 1810,
+      "labels": [
+        "event:cmp_in:to",
+        "event:tag_200_in:to",
+        "event:tag_300_in:to",
+        "event:tag_jpm_h_in:to",
+        "event:tag_sh_h_in:to",
+        "event:tag_mer_h_in:to",
+        "event:tag_burj_in:to",
+        "event:tag_jec_in:to",
+        "event:tag_1km_in:to"
+      ]
+    },
+    {
+      "id": "p244",
+      "frame": 1811,
+      "labels": [
+        "event:energy_bg_in:before"
+      ]
+    },
+    {
+      "id": "p245",
+      "frame": 1812,
+      "labels": [
+        "event:energy_bg_in:from"
+      ]
+    },
+    {
+      "id": "p246",
+      "frame": 1813,
+      "labels": [
+        "concept:jec:end"
+      ]
+    },
+    {
+      "id": "p247",
+      "frame": 1814,
+      "labels": [
+        "concept:energy:from",
+        "event:cmp_in:exit-mid",
+        "event:tag_200_in:exit-mid",
+        "event:tag_300_in:exit-mid",
+        "event:tag_jpm_h_in:exit-mid",
+        "event:tag_sh_h_in:exit-mid",
+        "event:tag_mer_h_in:exit-mid",
+        "event:tag_burj_in:exit-mid",
+        "event:tag_jec_in:exit-mid",
+        "event:tag_1km_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p248",
+      "frame": 1816,
+      "labels": [
+        "event:energy_bg_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p249",
+      "frame": 1817,
+      "labels": [
+        "event:xray_in:before"
+      ]
+    },
+    {
+      "id": "p250",
+      "frame": 1818,
+      "labels": [
+        "event:cmp_in:end",
+        "event:tag_200_in:end",
+        "event:tag_300_in:end",
+        "event:tag_jpm_h_in:end",
+        "event:tag_sh_h_in:end",
+        "event:tag_mer_h_in:end",
+        "event:tag_burj_in:end",
+        "event:tag_jec_in:end",
+        "event:tag_1km_in:end",
+        "event:xray_in:from"
+      ]
+    },
+    {
+      "id": "p251",
+      "frame": 1820,
+      "labels": [
+        "event:energy_bg_in:settled"
+      ]
+    },
+    {
+      "id": "p252",
+      "frame": 1858,
+      "labels": [
+        "event:xray_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p253",
+      "frame": 1897,
+      "labels": [
+        "event:xray_in:settled"
+      ]
+    },
+    {
+      "id": "p254",
+      "frame": 1902,
+      "labels": [
+        "event:energy_cmp_in:before"
+      ]
+    },
+    {
+      "id": "p255",
+      "frame": 1903,
+      "labels": [
+        "event:energy_bg_in:to",
+        "event:xray_in:to",
+        "event:energy_cmp_in:from"
+      ]
+    },
+    {
+      "id": "p256",
+      "frame": 1908,
+      "labels": [
+        "event:energy_bg_in:exit-mid",
+        "event:xray_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p257",
+      "frame": 1913,
+      "labels": [
+        "event:energy_bg_in:end",
+        "event:xray_in:end"
+      ]
+    },
+    {
+      "id": "p258",
+      "frame": 1916,
+      "labels": [
+        "event:ui_in:before"
+      ]
+    },
+    {
+      "id": "p259",
+      "frame": 1917,
+      "labels": [
+        "event:ui_in:from"
+      ]
+    },
+    {
+      "id": "p260",
+      "frame": 1922,
+      "labels": [
+        "event:tag_low_in:before"
+      ]
+    },
+    {
+      "id": "p261",
+      "frame": 1923,
+      "labels": [
+        "event:tag_low_in:from"
+      ]
+    },
+    {
+      "id": "p262",
+      "frame": 1926,
+      "labels": [
+        "event:tag_mid_in:before"
+      ]
+    },
+    {
+      "id": "p263",
+      "frame": 1927,
+      "labels": [
+        "event:tag_mid_in:from",
+        "event:tag_low_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p264",
+      "frame": 1930,
+      "labels": [
+        "event:tag_high_in:before"
+      ]
+    },
+    {
+      "id": "p265",
+      "frame": 1931,
+      "labels": [
+        "event:tag_low_in:settled",
+        "event:tag_high_in:from",
+        "event:tag_mid_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p266",
+      "frame": 1933,
+      "labels": [
+        "event:tag_axis_in:before"
+      ]
+    },
+    {
+      "id": "p267",
+      "frame": 1934,
+      "labels": [
+        "event:tag_axis_in:from",
+        "event:ui_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p268",
+      "frame": 1935,
+      "labels": [
+        "event:tag_mid_in:settled",
+        "event:tag_high_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p269",
+      "frame": 1939,
+      "labels": [
+        "event:tag_high_in:settled",
+        "event:tag_axis_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p270",
+      "frame": 1943,
+      "labels": [
+        "event:tag_axis_in:settled"
+      ]
+    },
+    {
+      "id": "p271",
+      "frame": 1950,
+      "labels": [
+        "event:ui_in:settled"
+      ]
+    },
+    {
+      "id": "p272",
+      "frame": 1964,
+      "labels": [
+        "event:energy_cmp_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p273",
+      "frame": 1976,
+      "labels": [
+        "event:tag_energy_in:before",
+        "event:bolts_in:before"
+      ]
+    },
+    {
+      "id": "p274",
+      "frame": 1977,
+      "labels": [
+        "event:tag_energy_in:from",
+        "event:bolts_in:from"
+      ]
+    },
+    {
+      "id": "p275",
+      "frame": 1982,
+      "labels": [
+        "event:tag_energy_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p276",
+      "frame": 1986,
+      "labels": [
+        "event:tag_energy_in:settled"
+      ]
+    },
+    {
+      "id": "p277",
+      "frame": 2001,
+      "labels": [
+        "event:bolts_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p278",
+      "frame": 2024,
+      "labels": [
+        "event:energy_cmp_in:settled",
+        "event:bolts_in:settled"
+      ]
+    },
+    {
+      "id": "p279",
+      "frame": 2035,
+      "labels": [
+        "event:coins_in:before"
+      ]
+    },
+    {
+      "id": "p280",
+      "frame": 2036,
+      "labels": [
+        "event:coins_in:from"
+      ]
+    },
+    {
+      "id": "p281",
+      "frame": 2049,
+      "labels": [
+        "event:tag_cost_in:before"
+      ]
+    },
+    {
+      "id": "p282",
+      "frame": 2050,
+      "labels": [
+        "event:tag_cost_in:from"
+      ]
+    },
+    {
+      "id": "p283",
+      "frame": 2055,
+      "labels": [
+        "event:tag_cost_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p284",
+      "frame": 2059,
+      "labels": [
+        "event:tag_cost_in:settled"
+      ]
+    },
+    {
+      "id": "p285",
+      "frame": 2062,
+      "labels": [
+        "event:coins_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p286",
+      "frame": 2087,
+      "labels": [
+        "event:coins_in:settled"
+      ]
+    },
+    {
+      "id": "p287",
+      "frame": 2144,
+      "labels": [
+        "event:std_gauge_in:before"
+      ]
+    },
+    {
+      "id": "p288",
+      "frame": 2145,
+      "labels": [
+        "event:ui_in:to",
+        "event:energy_cmp_in:to",
+        "event:tag_energy_in:to",
+        "event:tag_low_in:to",
+        "event:tag_mid_in:to",
+        "event:tag_high_in:to",
+        "event:bolts_in:to",
+        "event:tag_axis_in:to",
+        "event:coins_in:to",
+        "event:tag_cost_in:to",
+        "event:std_gauge_in:from"
+      ]
+    },
+    {
+      "id": "p289",
+      "frame": 2147,
+      "labels": [
+        "concept:energy:end"
+      ]
+    },
+    {
+      "id": "p290",
+      "frame": 2148,
+      "labels": [
+        "concept:standard:from"
+      ]
+    },
+    {
+      "id": "p291",
+      "frame": 2150,
+      "labels": [
+        "event:ui_in:exit-mid",
+        "event:energy_cmp_in:exit-mid",
+        "event:tag_energy_in:exit-mid",
+        "event:tag_low_in:exit-mid",
+        "event:tag_mid_in:exit-mid",
+        "event:tag_high_in:exit-mid",
+        "event:bolts_in:exit-mid",
+        "event:tag_axis_in:exit-mid",
+        "event:coins_in:exit-mid",
+        "event:tag_cost_in:exit-mid",
+        "event:tag_few_in:before",
+        "event:tag_many_in:before"
+      ]
+    },
+    {
+      "id": "p292",
+      "frame": 2151,
+      "labels": [
+        "event:tag_few_in:from",
+        "event:tag_many_in:from",
+        "event:std_gauge_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p293",
+      "frame": 2155,
+      "labels": [
+        "event:ui_in:end",
+        "event:energy_cmp_in:end",
+        "event:tag_energy_in:end",
+        "event:tag_low_in:end",
+        "event:tag_mid_in:end",
+        "event:tag_high_in:end",
+        "event:bolts_in:end",
+        "event:tag_axis_in:end",
+        "event:coins_in:end",
+        "event:tag_cost_in:end",
+        "event:tag_few_in:enter-mid",
+        "event:tag_many_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p294",
+      "frame": 2157,
+      "labels": [
+        "event:std_gauge_in:settled"
+      ]
+    },
+    {
+      "id": "p295",
+      "frame": 2159,
+      "labels": [
+        "event:tag_few_in:settled",
+        "event:tag_many_in:settled"
+      ]
+    },
+    {
+      "id": "p296",
+      "frame": 2166,
+      "labels": [
+        "event:tag_std_in:before"
+      ]
+    },
+    {
+      "id": "p297",
+      "frame": 2167,
+      "labels": [
+        "event:tag_std_in:from"
+      ]
+    },
+    {
+      "id": "p298",
+      "frame": 2169,
+      "labels": [
+        "event:std_marker_in:before"
+      ]
+    },
+    {
+      "id": "p299",
+      "frame": 2170,
+      "labels": [
+        "event:std_marker_in:from"
+      ]
+    },
+    {
+      "id": "p300",
+      "frame": 2172,
+      "labels": [
+        "event:tag_std_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p301",
+      "frame": 2176,
+      "labels": [
+        "event:tag_std_in:settled"
+      ]
+    },
+    {
+      "id": "p302",
+      "frame": 2185,
+      "labels": [
+        "event:std_marker_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p303",
+      "frame": 2199,
+      "labels": [
+        "event:std_marker_in:settled"
+      ]
+    },
+    {
+      "id": "p304",
+      "frame": 2282,
+      "labels": [
+        "event:kl_tl_in:before"
+      ]
+    },
+    {
+      "id": "p305",
+      "frame": 2283,
+      "labels": [
+        "event:kl_tl_in:from"
+      ]
+    },
+    {
+      "id": "p306",
+      "frame": 2287,
+      "labels": [
+        "event:kl_tl_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p307",
+      "frame": 2289,
+      "labels": [
+        "concept:standard:end"
+      ]
+    },
+    {
+      "id": "p308",
+      "frame": 2290,
+      "labels": [
+        "concept:closing:from"
+      ]
+    },
+    {
+      "id": "p309",
+      "frame": 2291,
+      "labels": [
+        "event:std_gauge_in:to",
+        "event:tag_few_in:to",
+        "event:tag_many_in:to",
+        "event:std_marker_in:to",
+        "event:tag_std_in:to",
+        "event:kl_tl_in:settled"
+      ]
+    },
+    {
+      "id": "p310",
+      "frame": 2295,
+      "labels": [
+        "event:std_gauge_in:exit-mid",
+        "event:tag_few_in:exit-mid",
+        "event:tag_many_in:exit-mid",
+        "event:std_marker_in:exit-mid",
+        "event:tag_std_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p311",
+      "frame": 2299,
+      "labels": [
+        "event:std_gauge_in:end",
+        "event:tag_few_in:end",
+        "event:tag_many_in:end",
+        "event:std_marker_in:end",
+        "event:tag_std_in:end"
+      ]
+    },
+    {
+      "id": "p312",
+      "frame": 2395,
+      "labels": [
+        "concept:closing:end",
+        "event:kl_tl_in:to",
+        "event:kl_tl_in:end",
+        "event:kl_tl_in:exit-mid"
+      ]
+    },
+    {
+      "id": "source1",
+      "frame": 486,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source2",
+      "frame": 1605,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "credit1",
+      "frame": 2396,
+      "labels": [
+        "끝 크레딧"
+      ]
+    }
+  ],
+  "hook_overlay": {
+    "style": {
+      "version": "hook-style@3",
+      "center_x": 540,
+      "shadow": "0 3px 12px rgba(0,0,0,0.9)",
+      "underline_color": "#FFD16A",
+      "underline_height": 6,
+      "underline_gap": 14
+    },
+    "phrases": [
+      {
+        "id": "opening_hook",
+        "text": "초고층 빌딩이\n매년 100개 넘게",
+        "text_event": {
+          "id": "hook_text",
+          "concept_id": "hook_towers",
+          "element_id": "opening_hook",
+          "kind": "label",
+          "timing": {
+            "from": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 8,
+                "word": "이런",
+                "edge": "start",
+                "offset_frames": -3
+              }
+            },
+            "settled": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 8,
+                "word": "이런",
+                "edge": "start",
+                "offset_frames": 8
+              }
+            },
+            "to": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 17,
+                "word": "아시나요?",
+                "edge": "end",
+                "offset_frames": 0
+              }
+            },
+            "end": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 17,
+                "word": "아시나요?",
+                "edge": "end",
+                "offset_frames": 4
+              }
+            }
+          },
+          "easing": {
+            "enter": "ease-out",
+            "move": "ease-in-out",
+            "exit": "ease-in"
+          },
+          "depends_on": [],
+          "coexist_with": [],
+          "why": "둘째 문장(이런 초고층 빌딩이) 동안 한 번만",
+          "from": 161,
+          "settled": 172,
+          "to": 260,
+          "end": 264
+        },
+        "underline_event": {
+          "id": "hook_line",
+          "concept_id": "hook_towers",
+          "element_id": "opening_hook",
+          "kind": "motion",
+          "timing": {
+            "from": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 11,
+                "word": "매년",
+                "edge": "start",
+                "offset_frames": -2
+              }
+            },
+            "settled": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 14,
+                "word": "넘게",
+                "edge": "end",
+                "offset_frames": 0
+              }
+            },
+            "to": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 17,
+                "word": "아시나요?",
+                "edge": "end",
+                "offset_frames": 0
+              }
+            },
+            "end": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 17,
+                "word": "아시나요?",
+                "edge": "end",
+                "offset_frames": 4
+              }
+            }
+          },
+          "easing": {
+            "enter": "ease-out",
+            "move": "ease-in-out",
+            "exit": "ease-in"
+          },
+          "depends_on": [],
+          "coexist_with": [],
+          "why": "매년 100개 넘게 발화에 밑줄이 자란다",
+          "from": 191,
+          "settled": 221,
+          "to": 260,
+          "end": 264
+        },
+        "layout": {
+          "width": 1000,
+          "center_y": 800
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 72,
+            "gap_after": 18,
+            "runs": [
+              {
+                "text": "초고층 빌딩이",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 60,
+                "text_color": "#FFD16A",
+                "letter_spacing": -1
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 150,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "매년 100개 넘게",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 132,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "closing_cta": {
+    "policy": "closing-cta@1",
+    "text": "구독과 댓글 부탁드려요",
+    "from": 2350,
+    "end": 2396,
+    "style": {
+      "center_x": 540,
+      "center_y": 770,
+      "font_size": 60,
+      "font_weight": 700,
+      "color": "#FFD16A",
+      "outline_px": 2,
+      "background": "rgba(8,12,22,0.72)",
+      "padding_x": 52,
+      "padding_y": 24,
+      "radius": 999,
+      "max_width": 900,
+      "enter_frames": 8,
+      "exit_frames": 8,
+      "hold_after_frames": 12
+    }
+  },
+  "key_callouts": [
+    {
+      "policy": "key-callout@1",
+      "line": "s11",
+      "text": "중요한 한 가지!",
+      "from": 1817,
+      "end": 1866,
+      "style": {
+        "center_x": 540,
+        "center_y": 860,
+        "font_family": "Pretendard",
+        "font_size": 128,
+        "font_weight": 800,
+        "letter_spacing": -3,
+        "color": "#FFFFFF",
+        "shadow": "0 4px 24px rgba(0,0,0,0.65), 0 1px 3px rgba(0,0,0,0.8)",
+        "underline_color": "#FFD16A",
+        "underline_px": 9,
+        "underline_gap": 14,
+        "lead_frames": 3,
+        "enter_frames": 7,
+        "underline_delay_frames": 4,
+        "underline_frames": 10,
+        "hold_after_frames": 10,
+        "exit_frames": 6
+      }
+    }
+  ],
+  "attribution": {
+    "style": {
+      "version": "1.0.0",
+      "source": {
+        "left": 80,
+        "top": 320,
+        "width": 620,
+        "font_size": 32,
+        "line_height": 42,
+        "color": "#B8BEC5",
+        "shadow": "0 1px 3px rgba(0,0,0,.65)"
+      },
+      "end": {
+        "left": 80,
+        "top": 320,
+        "width": 780,
+        "height": 1220,
+        "font_size": 32,
+        "line_height": 44,
+        "category_gap": 20,
+        "color": "#EEEEEE",
+        "background": "#000000"
+      }
+    },
+    "sources": [
+      {
+        "asset_ids": [
+          "jpm_p"
+        ],
+        "text": "Photo credit: Nigel Young,\ncourtesy of Foster + Partners",
+        "start": 16.2,
+        "end": 570,
+        "from": 486
+      },
+      {
+        "asset_ids": [
+          "jec_render_p"
+        ],
+        "text": "Adrian Smith + Gordon Gill Architecture",
+        "start": 53.5,
+        "end": 1646,
+        "from": 1605
+      }
+    ],
+    "pages": [
+      {
+        "from": 2396,
+        "end": 2411,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필 선임기자",
+              "꺾이지 않는 초고층 건축 바람…12년 연속 100개 돌파"
+            ]
+          },
+          {
+            "title": "이미지·관측 근거",
+            "lines": [
+              "수치: 세계초고층도시건축학회(CTBUH) 수직도시위원회(CVU)",
+              "Wikimedia Commons(CC0: Tomtoom03, Omarnizar05)",
+              "Envato Elements"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "production_profile": {
+    "schema_version": "1.0",
+    "id": "hani-shortform",
+    "version": "1.5.0",
+    "canvas": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "caption": {
+      "max_lines": 1,
+      "preset": "betelgeuse-v1",
+      "font_family": "GmarketSans",
+      "font_size": 70,
+      "weight": 500,
+      "emphasis_weight": 700,
+      "color": "#FFFFFF",
+      "accent": "#f2b879",
+      "line_height": 1.2,
+      "top": 1400,
+      "side_inset": 150,
+      "backdrop": "rgba(0,0,0,0.72)",
+      "padding_y": 0,
+      "padding_x": 12,
+      "radius": 4,
+      "lead_frames": 3,
+      "enter_frames": 6,
+      "rise_px": 16,
+      "box_height": 94,
+      "segmentation": "font-semantic@2"
+    }
+  }
+}
