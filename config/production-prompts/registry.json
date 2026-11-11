@@ -16,6 +16,13 @@
       "archive": "config/production-prompts/v2-original@6.txt",
       "recorded_at": "2026-10-06",
       "note": "4. ‘위성공해’편 마지막 CTA가 다른 영상도 유지되게 필수 반영 부탁드립니다.\n“여러분은 어떻게 생각하시나요? 댓글로 의견 남겨주세요”"
+    },
+    {
+      "version": "v2-original@7",
+      "sha256": "6359f86b97a8c1347f9fd0b07fb4957dad5fb4569063ef282a9c6958232d8fa4",
+      "archive": "config/production-prompts/v2-original@7.txt",
+      "recorded_at": "2026-11-11",
+      "note": "가능하면 앞으로도 시각적 몰입도를 높일 수 있는 영상을 찾아야 해."
     }
   ]
 }
