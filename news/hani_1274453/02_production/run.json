@@ -50,7 +50,7 @@
       "provenance": "executed"
     },
     "timeline": {
-      "id": "b0893042-5be4-42b0-b368-e99e1f9c84b5",
+      "id": "7c98c41b-ccdc-4bff-8ffd-9ef6efb57e4b",
       "action": "timeline",
       "inputs": {
         "files": {
@@ -66,10 +66,10 @@
           "config/production-profiles/hani-shortform-1.2.0.json": "38eb5a242d6b5993c36fef1017dff0224185c2db6d1a0635ff0ddfd2e47d4af4",
           "config/production-profiles/hani-shortform-1.3.0.json": "45437fb0bbc7c3a71b8add36f0df4a8cdd41208511e8a08805027b57b473ae96",
           "config/production-profiles/hani-shortform-1.4.0.json": "c312a212b4f495aaa938273e1a04a67d146d114771fb6359fc3b7f9e3cc1cae8",
-          "news/hani_1274453/02_production/concepts.json": "3c341bec745a706711972d8e48bab2b8ab5ad2076dc217b8d27694758ad0ce1f",
-          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
+          "news/hani_1274453/02_production/motion.json": "b1611dcd18991d1526c80cb1100b1d0f776292d4f16aa6eade78df5789c19aba",
           "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
-          "news/hani_1274453/02_production/visual-system.json": "93813677f68abf9dae4164e956d36d257df52639b3101e876bf727258f23ec63",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
           "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
           "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
           "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
@@ -96,13 +96,13 @@
           "narration": "a7bb2026-b5e9-4cb8-8ee3-d11e9f8f0ad4"
         },
         "impact": "29f66516-0c38-48f0-a7ee-a1ae2f7f4261",
-        "sha256": "3936efba39086c2edc256373c96ee98bfd19c3701d61707e0d4cbd625f62c14f"
+        "sha256": "67af3b61579af9ccdc8e14bdaf45397f7ca304dd84dc21fbdc379b24b62f97a4"
       },
       "outputs": {
-        "news/hani_1274453/02_production/timeline.json": "5395cc704a71e1fc9fcf92a85da32c9df4f141e5a5ea18726cf641a8b046c979"
+        "news/hani_1274453/02_production/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc"
       },
       "validation": "기존 editorial 컴파일·sync 계약 대조",
-      "source_commit": "09409b70da6554c3ea7ebd3494884d7257c43afd",
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
       "execution": {
         "engine": {
           "id": "editorial-concept@1",
@@ -116,11 +116,11 @@
         "host_session_load": "unverified",
         "errors": []
       },
-      "finished_at": "2026-11-11T12:49:51.026Z",
+      "finished_at": "2026-11-11T13:35:20.069Z",
       "provenance": "executed"
     },
     "sync": {
-      "id": "defe691f-1e43-4366-8630-51480c645cd2",
+      "id": "f82ed5e1-7f7b-485c-9c8b-29c946713a1c",
       "action": "sync",
       "inputs": {
         "files": {
@@ -128,7 +128,7 @@
           "news/hani_1274453/02_production/audio.json": "2b470380e8f0547b9b06b0293adcdb53527541fb37b75f9ac7e7d8abd4974cb7",
           "news/hani_1274453/02_production/audio/narration.wav": "82e020a4dbb44c222b049a5da66437196be2bbaffe86bbded8f1489bf1d1eee3",
           "news/hani_1274453/02_production/brand/logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
-          "news/hani_1274453/02_production/concepts.json": "3c341bec745a706711972d8e48bab2b8ab5ad2076dc217b8d27694758ad0ce1f",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
           "news/hani_1274453/02_production/external_assets/audio/derived/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
           "news/hani_1274453/02_production/generated/disk_tilt_v2.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
           "news/hani_1274453/02_production/generated/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
@@ -136,38 +136,38 @@
           "news/hani_1274453/02_production/generated/gse_merger_v1.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
           "news/hani_1274453/02_production/generated/halo_close_v1.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
           "news/hani_1274453/02_production/generated/rw_1_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
-          "news/hani_1274453/02_production/generated/rw_2_dino.png": "96d36c2f6679af2c1a202b872b16d71e825ffabcfa3181eecc9b309ca321974c",
-          "news/hani_1274453/02_production/generated/rw_3_sun.png": "c8531b8115879c397b7529927ed63600884877cd7d16b30225c6af5b36cfecf9",
           "news/hani_1274453/02_production/media/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
           "news/hani_1274453/02_production/media/gaia_mix.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
           "news/hani_1274453/02_production/media/paranal_mw_vert.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
-          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/media/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+          "news/hani_1274453/02_production/media/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15",
+          "news/hani_1274453/02_production/motion.json": "b1611dcd18991d1526c80cb1100b1d0f776292d4f16aa6eade78df5789c19aba",
           "news/hani_1274453/02_production/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
           "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4": "55460b6948aeda0bd67e3fb938e119d5f2c432f114ab0094b6d420d49922eb96",
           "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4": "593d0bc4e87dcac0f30f15c76d6108e13fe3f8af89975315d81363171cb5c763",
           "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
-          "news/hani_1274453/02_production/timeline.json": "5395cc704a71e1fc9fcf92a85da32c9df4f141e5a5ea18726cf641a8b046c979",
-          "news/hani_1274453/02_production/visual-system.json": "93813677f68abf9dae4164e956d36d257df52639b3101e876bf727258f23ec63",
+          "news/hani_1274453/02_production/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
           "scripts/lib/engine.mjs": "b540bb22d828971f03f5a307c76b488c995df563866177b84671bd0ce0389c5c",
           "scripts/lib/pilot.mjs": "1cecb42744ebe79a5259e83dfa9b46c3819ea3c37077c9b7def5758507008b31",
           "scripts/lib/sync.mjs": "5782ccbad3755efbe5c439fe1f3e424b7531f6d67e0dfcba74bdf3082265aaa7",
           "scripts/sync-pilot.mjs": "d098d6f646eb213c6b8572c6a8c4261687d4574238fec6fcbb3bea84642dd552"
         },
         "dependencies": {
-          "timeline": "b0893042-5be4-42b0-b368-e99e1f9c84b5"
+          "timeline": "7c98c41b-ccdc-4bff-8ffd-9ef6efb57e4b"
         },
         "impact": "9b42a7c5-a9c0-45c5-ba05-b6022b67f803",
-        "sha256": "fdba509b597d0b95cbce8cdfde3515274dd0538983ce9dd64d91ee13ed094f7d"
+        "sha256": "668d1073b129d89d3ec0fcf676701b0fead9a2d0311d02397490cf2bf5f43f04"
       },
       "outputs": {
         "pilots/hani_1274453/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
         "pilots/hani_1274453/audio.json": "b7f9297bd1a3f4f0d75dd6f3d8be60ad079753ee32e0292305e2e5aa860e1a77",
-        "pilots/hani_1274453/concepts.json": "25f1345c9075dedecb6ea6005ea3cb695a041eb52a9e5a9c58521f8770c505a3",
-        "pilots/hani_1274453/motion.json": "9e845c4d07bcfb46e5fe981fa8a7a4db0a56840dd0962ee2e53f994cb40914a1",
+        "pilots/hani_1274453/concepts.json": "2b957df93299d5be0a65d63da112f42773eaf50dfe24ac44d195670f85d02cdc",
+        "pilots/hani_1274453/motion.json": "bb0a78537f44dd5721f958b8532f84913f0f632f8d56465ad7bb290c9a1cbff9",
         "pilots/hani_1274453/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
         "pilots/hani_1274453/story.json": "545ff5b3870d9cd2574202f9c523e5ee33422a786d8911cbe2fd2145dbcd1bd0",
-        "pilots/hani_1274453/timeline.json": "5395cc704a71e1fc9fcf92a85da32c9df4f141e5a5ea18726cf641a8b046c979",
-        "pilots/hani_1274453/visual-system.json": "c3d72ceb784b7baca12484fd2f08dd32411f6d7f5dfcad76b901fe73e85aba91",
+        "pilots/hani_1274453/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc",
+        "pilots/hani_1274453/visual-system.json": "2dc4581fcab47d5b1aa6d0bd7e45910cf6ecd99e85b4a00f74bfa44db0ab6cdb",
         "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
         "public/pilots/hani_1274453/audio/narration.wav": "5d9a4e7d61e2e655eac3240bec042c7b409c73ed1e98aaaaedeab77ecf2f0af9",
         "public/pilots/hani_1274453/editorial/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
@@ -181,12 +181,12 @@
         "public/pilots/hani_1274453/editorial/nasa_halo.mp4": "20c5b20e815e4185b860054ed297fa9b2375045a22c05857cca5b891f6c131b7",
         "public/pilots/hani_1274453/editorial/nasa_zoom.mp4": "0affdd361e4b25eaaf51ac28e5cc1048169f5209921215e54806e35cab445366",
         "public/pilots/hani_1274453/editorial/paranal.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
-        "public/pilots/hani_1274453/editorial/rw_dino.png": "96d36c2f6679af2c1a202b872b16d71e825ffabcfa3181eecc9b309ca321974c",
         "public/pilots/hani_1274453/editorial/rw_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
-        "public/pilots/hani_1274453/editorial/rw_sun.png": "c8531b8115879c397b7529927ed63600884877cd7d16b30225c6af5b36cfecf9"
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15"
       },
       "validation": "기존 editorial 컴파일·sync 계약 대조",
-      "source_commit": "09409b70da6554c3ea7ebd3494884d7257c43afd",
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
       "execution": {
         "engine": {
           "id": "editorial-concept@1",
@@ -200,11 +200,11 @@
         "host_session_load": "unverified",
         "errors": []
       },
-      "finished_at": "2026-11-11T12:50:10.163Z",
+      "finished_at": "2026-11-11T13:35:38.083Z",
       "provenance": "executed"
     },
     "render": {
-      "id": "66676703-4ef7-4400-9d72-27e43ba17475",
+      "id": "af7db471-e147-421b-9f69-a0dddf5981f3",
       "action": "render",
       "inputs": {
         "files": {
@@ -215,7 +215,7 @@
           "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
           "news/hani_1274453/00_brief/request.json": "a940515cb94c81a3dadc31a326c2814687bae501ff709416484939f8e0089ccf",
           "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
-          "pilots/hani_1274453/pilot.json": "b51b08d25e1c2f8c12f5645abdd44c8154c4e9f911ff23e5db6b0a698c226ff6",
+          "pilots/hani_1274453/pilot.json": "88f85fcf825536a0ee20b4e8af3564e32b70e59b60b16b782e283db2020bd051",
           "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
           "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
           "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
@@ -230,7 +230,7 @@
           "src/editorial/Composition.tsx": "7fa2185632edacfdb7a8b4ac0251369e0868fb059fd76b22a6c6fd32b77ccd58",
           "src/editorial/Proof.tsx": "454d81b7da28174eceea1ec4ea557dffba7f2effeb08491eb63789186c32eeed",
           "src/editorial/ScreenText.tsx": "6871df0664de0e733f698eb269f36c25ca799ad5e5c0b859b95cca36047132ba",
-          "src/editorial/episodes/hani_1274453.tsx": "8630268d6f7825fcea5545a7abefbd03e0ef1ef3b7ada6e94ee8fabffd077a33",
+          "src/editorial/episodes/hani_1274453.tsx": "c345f05eaa7dd6a81ba41039d11aa3bdeba864c668d4afc7b2496deba40a1cc0",
           "src/editorial/pilot.ts": "1cb0237b8fc324da00fb4520f8bf676d2542c7a7b43e43aa93c3cb928460cd4e",
           "src/editorial/registry.ts": "3daaca7ed5c61d0b4ce6824711c28c03c6ed12b163372f9a38f52513f90b9a75",
           "src/index.css": "8a760a784f79570e06fdcb0c6a2677ea66c304230b7925ea313d63b46d8ba407",
@@ -278,20 +278,20 @@
           "src/pilot/types.ts": "d2132d3f371dbf34f5503b0e319b7363bddb533c0c20d87afd1d27cb3b7a0595"
         },
         "dependencies": {
-          "sync": "defe691f-1e43-4366-8630-51480c645cd2"
+          "sync": "f82ed5e1-7f7b-485c-9c8b-29c946713a1c"
         },
         "impact": "05040b5c-5ff3-4c2d-a4d9-54441571fd91",
-        "sha256": "2183cded0faf8b103cccd1120af7cc9963d7c807827f3c3b35212c6a5f1a3c52"
+        "sha256": "5d7f4d1e0bcdac74cbed6ab234289fec78b2291b85034f35b91107c730811378"
       },
       "outputs": {
-        "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1"
+        "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a"
       },
       "validation": {
         "contract": "production-review@1",
         "kind": "render",
         "artifact": {
-          "path": "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4",
-          "sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1"
+          "path": "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4",
+          "sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a"
         },
         "media": {
           "width": 1080,
@@ -306,7 +306,7 @@
         "full_decode": true,
         "limitation": "스트림·전체 디코드 검사. 실제 시청·청취와 내용 일치는 독립 검수 대상"
       },
-      "source_commit": "09409b70da6554c3ea7ebd3494884d7257c43afd",
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
       "execution": {
         "engine": {
           "id": "editorial-concept@1",
@@ -320,7 +320,7 @@
         "host_session_load": "unverified",
         "errors": []
       },
-      "finished_at": "2026-11-11T12:54:47.988Z",
+      "finished_at": "2026-11-11T13:39:58.638Z",
       "provenance": "executed"
     }
   },
@@ -8925,6 +8925,1020 @@
       },
       "finished_at": "2026-11-11T12:54:47.988Z",
       "elapsed_ms": 274816
+    },
+    {
+      "id": "56b108f9-97d9-4c91-bbd2-0706ceac12e7",
+      "action": "timeline",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:10:59.676Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/attribution-styles/attribution-style-1.0.0.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v1.json": "054732dc71130abb0220b6e3171307f82fe6fed0f5074241927a3d1a8620cd66",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/hook-styles/hook-style-v3.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "config/production-profiles/hani-shortform-1.1.0.json": "d00220c5b619febff846dbaeb5b13c20ce27b18c4773e5ea229d281862b87787",
+          "config/production-profiles/hani-shortform-1.2.0.json": "38eb5a242d6b5993c36fef1017dff0224185c2db6d1a0635ff0ddfd2e47d4af4",
+          "config/production-profiles/hani-shortform-1.3.0.json": "45437fb0bbc7c3a71b8add36f0df4a8cdd41208511e8a08805027b57b473ae96",
+          "config/production-profiles/hani-shortform-1.4.0.json": "c312a212b4f495aaa938273e1a04a67d146d114771fb6359fc3b7f9e3cc1cae8",
+          "news/hani_1274453/02_production/concepts.json": "69fbb89b17f585839380b3b4b62370e564f45e30678b3c46ee8d1e148b554a5b",
+          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/visual-system.json": "ba3ff3a51066de329318876454c6a1f82bc648bf9f3e78ed73214a9a407f5229",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "scripts/compile-editorial-timeline.mjs": "d40c6174a76fda8e15efc5682054f84a94923796aeab0d87496439593ac0488e",
+          "scripts/lib/attribution.mjs": "d15c15109d8f3cd3ba84562f87bc7c359866b1a72ab56d20442b21c9876bfd88",
+          "scripts/lib/caption-metrics.mjs": "2b19ec27c39e565317cf15aa535407dddb381a524a7334e611e72a4347ecc87e",
+          "scripts/lib/caption-policy.mjs": "cd4c19f49fc469c28794fc4d754c4b742633ed29d1075a3d7b0a22faddc10c70",
+          "scripts/lib/caption-segmentation.mjs": "fb29b5297c10ed9ac7769706ccecb7a0121535f4efb2332c2db715a6ee8e83f2",
+          "scripts/lib/design-styles.mjs": "f582e33ec377aa2d9072fc7f190bf31310cb9b1cc71042165377cfbbb1cc35d4",
+          "scripts/lib/editorial.mjs": "d3375ac5336d4aabe5bfd4a21577b24afa0d859ff54c4de4faa8abf176548514",
+          "scripts/lib/hook-layout.mjs": "41cf02051720c5fa4e74a23f4fc86bf51dcb3457cb5a50b403aa08fa857c0020",
+          "scripts/lib/hook-overlay.mjs": "d7f156241f04b3e76a0885760ceb479d1decf8e64e9d98722dbc87b1dff19c14",
+          "scripts/lib/hook-typography.mjs": "da5c34e5cbebf6e60be61d23b3d3f14a38ff3015924ea098f7cedbce59687dd9",
+          "scripts/lib/production-profile.mjs": "fc79bef1cbedc8d1cdb7c1635a5aefeea48ecf516ffd9ce8628e6a63c40ab0cb",
+          "scripts/lib/screen-text-policy.mjs": "b6d7979082071a33694834c9ed12ef47130358d6f54100c0230fcebf9a321874",
+          "scripts/lib/visual-plan.mjs": "6da695372bae7d6724faca3c62e987aae3b0c38352b6d8d05bb4055dfa122782"
+        },
+        "dependencies": {
+          "narration": "a7bb2026-b5e9-4cb8-8ee3-d11e9f8f0ad4"
+        },
+        "impact": "29f66516-0c38-48f0-a7ee-a1ae2f7f4261",
+        "sha256": "a82b3bdc0e129b6144a25a76d04376db17993376b2d1bb07a794b72a3378fca9"
+      },
+      "outputs": [
+        "news/hani_1274453/02_production/timeline.json"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/compile-editorial-timeline.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/56b108f9-97d9-4c91-bbd2-0706ceac12e7.log",
+      "outputs_sha256": {
+        "news/hani_1274453/02_production/timeline.json": "cdccbf7f0343ba457eb023d4117963426fd2f129c5e085e7a97b03710bd3bce4"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:11:02.996Z",
+      "elapsed_ms": 3320
+    },
+    {
+      "id": "f4566f3a-090d-4b1a-9463-09d5b95291f6",
+      "action": "sync",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:11:05.844Z",
+      "inputs": {
+        "files": {
+          "news/hani_1274453/01_input/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+          "news/hani_1274453/02_production/audio.json": "2b470380e8f0547b9b06b0293adcdb53527541fb37b75f9ac7e7d8abd4974cb7",
+          "news/hani_1274453/02_production/audio/narration.wav": "82e020a4dbb44c222b049a5da66437196be2bbaffe86bbded8f1489bf1d1eee3",
+          "news/hani_1274453/02_production/brand/logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+          "news/hani_1274453/02_production/concepts.json": "69fbb89b17f585839380b3b4b62370e564f45e30678b3c46ee8d1e148b554a5b",
+          "news/hani_1274453/02_production/external_assets/audio/derived/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+          "news/hani_1274453/02_production/generated/disk_tilt_v2.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+          "news/hani_1274453/02_production/generated/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+          "news/hani_1274453/02_production/generated/galaxy_side_a.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+          "news/hani_1274453/02_production/generated/gse_merger_v1.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+          "news/hani_1274453/02_production/generated/halo_close_v1.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+          "news/hani_1274453/02_production/media/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+          "news/hani_1274453/02_production/media/gaia_mix.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+          "news/hani_1274453/02_production/media/paranal_mw_vert.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+          "news/hani_1274453/02_production/media/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+          "news/hani_1274453/02_production/media/rw_v_human.mp4": "83dd459ef286225be8789879e6010a57798a1a25926feecda9c75ea61dd4e990",
+          "news/hani_1274453/02_production/media/rw_v_sun.mp4": "5cb9ad1c9eb4db5552588f0055772a582c202b6acaa44ebaf9b30feeddc40f9f",
+          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4": "55460b6948aeda0bd67e3fb938e119d5f2c432f114ab0094b6d420d49922eb96",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4": "593d0bc4e87dcac0f30f15c76d6108e13fe3f8af89975315d81363171cb5c763",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/timeline.json": "cdccbf7f0343ba457eb023d4117963426fd2f129c5e085e7a97b03710bd3bce4",
+          "news/hani_1274453/02_production/visual-system.json": "ba3ff3a51066de329318876454c6a1f82bc648bf9f3e78ed73214a9a407f5229",
+          "scripts/lib/engine.mjs": "b540bb22d828971f03f5a307c76b488c995df563866177b84671bd0ce0389c5c",
+          "scripts/lib/pilot.mjs": "1cecb42744ebe79a5259e83dfa9b46c3819ea3c37077c9b7def5758507008b31",
+          "scripts/lib/sync.mjs": "5782ccbad3755efbe5c439fe1f3e424b7531f6d67e0dfcba74bdf3082265aaa7",
+          "scripts/sync-pilot.mjs": "d098d6f646eb213c6b8572c6a8c4261687d4574238fec6fcbb3bea84642dd552"
+        },
+        "dependencies": {
+          "timeline": "56b108f9-97d9-4c91-bbd2-0706ceac12e7"
+        },
+        "impact": "9b42a7c5-a9c0-45c5-ba05-b6022b67f803",
+        "sha256": "3aa9e7b17f38d410639d7937e6e0f990cd2e4ad91ea533fdf204c49d14b84886"
+      },
+      "outputs": [
+        "pilots/hani_1274453/assets.json",
+        "pilots/hani_1274453/audio.json",
+        "pilots/hani_1274453/concepts.json",
+        "pilots/hani_1274453/motion.json",
+        "pilots/hani_1274453/narration.json",
+        "pilots/hani_1274453/story.json",
+        "pilots/hani_1274453/timeline.json",
+        "pilots/hani_1274453/visual-system.json",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3",
+        "public/pilots/hani_1274453/audio/narration.wav",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png",
+        "public/pilots/hani_1274453/editorial/brand-logo.png",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4",
+        "public/pilots/hani_1274453/editorial/paranal.mp4",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4",
+        "public/pilots/hani_1274453/editorial/rw_v_human.mp4",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/sync-pilot.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/f4566f3a-090d-4b1a-9463-09d5b95291f6.log",
+      "outputs_sha256": {
+        "pilots/hani_1274453/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+        "pilots/hani_1274453/audio.json": "b7f9297bd1a3f4f0d75dd6f3d8be60ad079753ee32e0292305e2e5aa860e1a77",
+        "pilots/hani_1274453/concepts.json": "350e7b7a5d59738c2def09015905fbb9cb818565d7c846d8b31baf7d049a251f",
+        "pilots/hani_1274453/motion.json": "9e845c4d07bcfb46e5fe981fa8a7a4db0a56840dd0962ee2e53f994cb40914a1",
+        "pilots/hani_1274453/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+        "pilots/hani_1274453/story.json": "545ff5b3870d9cd2574202f9c523e5ee33422a786d8911cbe2fd2145dbcd1bd0",
+        "pilots/hani_1274453/timeline.json": "cdccbf7f0343ba457eb023d4117963426fd2f129c5e085e7a97b03710bd3bce4",
+        "pilots/hani_1274453/visual-system.json": "6ccebcc3c20d1a1908f7b0898090d88076ad6bb15e1750f364b2d9bd852f6bba",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+        "public/pilots/hani_1274453/audio/narration.wav": "5d9a4e7d61e2e655eac3240bec042c7b409c73ed1e98aaaaedeab77ecf2f0af9",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+        "public/pilots/hani_1274453/editorial/brand-logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4": "20c5b20e815e4185b860054ed297fa9b2375045a22c05857cca5b891f6c131b7",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4": "0affdd361e4b25eaaf51ac28e5cc1048169f5209921215e54806e35cab445366",
+        "public/pilots/hani_1274453/editorial/paranal.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+        "public/pilots/hani_1274453/editorial/rw_v_human.mp4": "83dd459ef286225be8789879e6010a57798a1a25926feecda9c75ea61dd4e990",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4": "5cb9ad1c9eb4db5552588f0055772a582c202b6acaa44ebaf9b30feeddc40f9f"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:11:20.323Z",
+      "elapsed_ms": 14479
+    },
+    {
+      "id": "6f4d4c2f-672d-4d2c-bccd-a5d527522468",
+      "action": "render",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:11:23.262Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "news/hani_1274453/00_brief/request.json": "a940515cb94c81a3dadc31a326c2814687bae501ff709416484939f8e0089ccf",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "pilots/hani_1274453/pilot.json": "88f85fcf825536a0ee20b4e8af3564e32b70e59b60b16b782e283db2020bd051",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "remotion.config.ts": "1dc3a4a57e6f8aa07197f2b7c0b625a78a740555e451fbbc83603d57b0ece20a",
+          "scripts/pilot-run.mjs": "e87024aec2368f6662bcc61135e796ec23f3d8df74752918144c259614efa0d1",
+          "src/Composition.tsx": "77def6e0fa834d4e8058b102a561ef2ad2179a789f3e160558fb4bbe53ce18fa",
+          "src/Root.tsx": "29dad115a1c49b8f60fcaf28b841138ba1b615bc351e35c7d84cefc4d1e46d2d",
+          "src/editorial/Composition.tsx": "7fa2185632edacfdb7a8b4ac0251369e0868fb059fd76b22a6c6fd32b77ccd58",
+          "src/editorial/Proof.tsx": "454d81b7da28174eceea1ec4ea557dffba7f2effeb08491eb63789186c32eeed",
+          "src/editorial/ScreenText.tsx": "6871df0664de0e733f698eb269f36c25ca799ad5e5c0b859b95cca36047132ba",
+          "src/editorial/episodes/hani_1274453.tsx": "297b7f2f27b163dd861b46dc82e07364c794416cb7e3afb3479574ad16c45459",
+          "src/editorial/pilot.ts": "1cb0237b8fc324da00fb4520f8bf676d2542c7a7b43e43aa93c3cb928460cd4e",
+          "src/editorial/registry.ts": "3daaca7ed5c61d0b4ce6824711c28c03c6ed12b163372f9a38f52513f90b9a75",
+          "src/index.css": "8a760a784f79570e06fdcb0c6a2677ea66c304230b7925ea313d63b46d8ba407",
+          "src/index.ts": "9add656193bc0a61896d26d3067000fcff56ef7b69270af1f8883b0e4ce65cc4",
+          "src/lib/editorial/AttributionTrack.tsx": "53001512df3ab739fc1679061656e400855d3e5c47cf4f2e7f7536dd4a8a4b9a",
+          "src/lib/editorial/CaptionPreflight.tsx": "09bdb93330dea37f89df27099091892c82421f5d9d3ae0699ad5d3c9840fb451",
+          "src/lib/editorial/ClosingCtaTrack.tsx": "b1b67ee27a38e103d32433862094dfebf0b3c2ac4da2a30863cd18c048e022a9",
+          "src/lib/editorial/HookComposition.tsx": "33b42ad30e9cebdd8925ba2e7f4e5e1109c63f230a709c3979ab7148a1047c9e",
+          "src/lib/editorial/HookOverlayTrack.tsx": "e947c8fcf0280e4418de3eedac194c585c83f4560d3aa25b26e3db5d647da2e0",
+          "src/lib/editorial/KeyCalloutTrack.tsx": "574627299e70129f30874bc4868134c6a71572baad819ed3e3955874e75e756a",
+          "src/lib/editorial/caption-text.ts": "ccb9f21737d9037bd81eacd955c4510cccadb00a90969153b49a3985ebcf7691",
+          "src/lib/editorial/index.ts": "c22f19e9437a7db26daf61178c9ea50008ae0f7fa575d59572043008e0c04707",
+          "src/lib/editorial/motion.tsx": "2cedc068fc8e77ae768f41d2f22b16a74e69c832d2dcd17e7c0b5347ded91418",
+          "src/lib/editorial/profile.ts": "f0bf033a35acb1986c85e2d13a6b933215756573ad8cf6836a5f4eafacd1cfdc",
+          "src/lib/editorial/proof-time.ts": "d2cd814d14bfd5037b1e2f9f99bc0fee6f8a55ca9528ffce3a09fe7a4f379524",
+          "src/lib/editorial/timing.ts": "11db9af277b8776346292d2b52f20d5bdf105c53099fb91fcbfe8157f354e9a6",
+          "src/lib/editorial/types.ts": "910e52e17897745960c9634d897edc361a918d71724c2e82af82b3da86f8657e",
+          "src/lib/editorial/visual.tsx": "15eb2578346e795c6531281bc5b8bde74bc12964ac88392e834441ea84489fa8",
+          "src/lib/genBadge.mjs": "2e19ce41d325cbd86ebc96c649549df708761bdcd228ead46323085f92f3fba1",
+          "src/lib/primitives/Background.tsx": "1be7dc67ff16bb3a384aeeb63f068f40365690c7ab3f34df2f48a604905cc5b2",
+          "src/lib/primitives/Caption.tsx": "d2f7316344385f25f5837339cd35c5bafe01f750e181ea10385a0cebabd37b2b",
+          "src/lib/primitives/Cards.tsx": "61c821d9f6351d1830517ff4bedd19a09b9eb81f952c86ae5cf871e4d8e20ff8",
+          "src/lib/primitives/Graphics.tsx": "f77096b0e3a23aa409b7bf940c82ac584b967dcd3dc40bff487831b8df46e57b",
+          "src/lib/primitives/Graphics3D.tsx": "d5facb79d73a72bd919d920feddc1e4b05b97c8f2b2006372043277d1d75d0e2",
+          "src/lib/primitives/Onscreen.tsx": "11890441f54e2c6d5dac8d39b4ac73f16e8ae60f616a5dc9643025f80b646a7e",
+          "src/lib/primitives/Tags.tsx": "5d47214863fce84c069514eae96999dff15d3976fe4707f1179751e97c7cde32",
+          "src/lib/primitives/clock.ts": "425356e768012b797900e032d7ab9eab2dea2b9da5cc3d462174b0e183e43fb3",
+          "src/lib/primitives/diagram.tsx": "488ae7a39ecb3d236e935aeb01cf6e9639c46ddb37abf1549c28e799f2ea8589",
+          "src/lib/primitives/graphics/common.tsx": "aaec72f3fd77c4b8458b5be97c1e23860cfcd6b7ce2f7e307702d34fc7eb9a19",
+          "src/lib/primitives/graphics/contracts.tsx": "2e55e977dacdfc3467b79daaa4052ca29ca9d600eebbda444762da1d3bafb4b5",
+          "src/lib/primitives/graphics/p3-space-mirror.tsx": "63817e89a29372c75f936a14485f627753d193f594fba65b73ec6fd28c2cf358",
+          "src/lib/primitives/graphics/p4-starfall.tsx": "f60c51e29e646959cf220d28dd02202540b2757979f7e63d2108dc7e8d784867",
+          "src/lib/primitives/graphics/p5-solar-swirl.tsx": "ede05564b7c25e9ce132207e20c160911a2916cbe0d239e9f567ee6ab633f153",
+          "src/lib/primitives/graphics/p6-disc-flip.tsx": "a26cef09090871b4dace5e1df60a40222e72e74c085a087933349a254129055f",
+          "src/lib/primitives/graphics/p7-roman-eye.tsx": "f21a26a729c40d26715c99a36dd41e94677b8191d10f48e0c3ce2b0798248b1c",
+          "src/lib/primitives/graphics/p8-dark-flash.tsx": "30d731bf15a6c09460271fef3cadd002b8a27bf8104d1394673e381274bddeb1",
+          "src/lib/primitives/graphics/p9-betelgeuse.tsx": "737f11b00df05bb6049592e37b64415f821b76dc76a793caaa2f69db209fa280",
+          "src/lib/primitives/index.ts": "74607a32871752ffefb881b59ec97f8ac69c71ada3f740395cbb84f980ef5e2e",
+          "src/pilot/Beat.tsx": "d932f0704437b5c26e3e50ab881d2ba8ab85aa3e3df32a5275a53d32c9e97762",
+          "src/pilot/BeatSheet.tsx": "cf4678ebb485eb7977cf600778c2975b66d67d25ca51b8d9f79dcd4e108fc95e",
+          "src/pilot/BeatStill.tsx": "8f114833a6218bc54d8fe2ec6a978b706beec9084ea7c2761fb31690e99f3993",
+          "src/pilot/Slides.tsx": "9aff120ce52dff9ba7a1641a5bb8d1f772d10a5354dec5ccef8792a58eac2a32",
+          "src/pilot/pilot.ts": "068db482f4fecf552e5e3f163f75fd87ce52ba39bf1225e738610bbe5e2903b9",
+          "src/pilot/registry.ts": "853acd83a62ef1ddcc4b9fa37155439e6188cfde94f91cd9e8c51eef99882581",
+          "src/pilot/types.ts": "d2132d3f371dbf34f5503b0e319b7363bddb533c0c20d87afd1d27cb3b7a0595"
+        },
+        "dependencies": {
+          "sync": "f4566f3a-090d-4b1a-9463-09d5b95291f6"
+        },
+        "impact": "05040b5c-5ff3-4c2d-a4d9-54441571fd91",
+        "sha256": "70162fe0bcc598a42d78d82801c2462f2a9338a9826f6418eee28f58d0fb85b6"
+      },
+      "outputs": [
+        "out/pilots/hani_1274453/qa/production-afd2fb40-0708-45b4-b20f-2fcb8ba8687f.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/pilot-run.mjs",
+          "render",
+          "hani_1274453",
+          "out/pilots/hani_1274453/qa/production-afd2fb40-0708-45b4-b20f-2fcb8ba8687f.mp4"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/6f4d4c2f-672d-4d2c-bccd-a5d527522468.log",
+      "outputs_sha256": {
+        "out/pilots/hani_1274453/qa/production-afd2fb40-0708-45b4-b20f-2fcb8ba8687f.mp4": "d7aa2bd6cecf82cacd4645b7db66dc6c360aa5b046bd92fc7f335f7f10529fcb"
+      },
+      "validation": {
+        "contract": "production-review@1",
+        "kind": "render",
+        "artifact": {
+          "path": "out/pilots/hani_1274453/qa/production-afd2fb40-0708-45b4-b20f-2fcb8ba8687f.mp4",
+          "sha256": "d7aa2bd6cecf82cacd4645b7db66dc6c360aa5b046bd92fc7f335f7f10529fcb"
+        },
+        "media": {
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "total_frames": 2313,
+          "duration": 77.1,
+          "content_duration": 77.1,
+          "duration_basis": "total",
+          "audio_duration": 77.162667
+        },
+        "full_decode": true,
+        "limitation": "스트림·전체 디코드 검사. 실제 시청·청취와 내용 일치는 독립 검수 대상"
+      },
+      "finished_at": "2026-11-11T13:16:10.009Z",
+      "elapsed_ms": 286747
+    },
+    {
+      "id": "8cd120a5-cd65-48bc-809f-3bd083c97593",
+      "action": "timeline",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:26:01.634Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/attribution-styles/attribution-style-1.0.0.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v1.json": "054732dc71130abb0220b6e3171307f82fe6fed0f5074241927a3d1a8620cd66",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/hook-styles/hook-style-v3.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "config/production-profiles/hani-shortform-1.1.0.json": "d00220c5b619febff846dbaeb5b13c20ce27b18c4773e5ea229d281862b87787",
+          "config/production-profiles/hani-shortform-1.2.0.json": "38eb5a242d6b5993c36fef1017dff0224185c2db6d1a0635ff0ddfd2e47d4af4",
+          "config/production-profiles/hani-shortform-1.3.0.json": "45437fb0bbc7c3a71b8add36f0df4a8cdd41208511e8a08805027b57b473ae96",
+          "config/production-profiles/hani-shortform-1.4.0.json": "c312a212b4f495aaa938273e1a04a67d146d114771fb6359fc3b7f9e3cc1cae8",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
+          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "scripts/compile-editorial-timeline.mjs": "d40c6174a76fda8e15efc5682054f84a94923796aeab0d87496439593ac0488e",
+          "scripts/lib/attribution.mjs": "d15c15109d8f3cd3ba84562f87bc7c359866b1a72ab56d20442b21c9876bfd88",
+          "scripts/lib/caption-metrics.mjs": "2b19ec27c39e565317cf15aa535407dddb381a524a7334e611e72a4347ecc87e",
+          "scripts/lib/caption-policy.mjs": "cd4c19f49fc469c28794fc4d754c4b742633ed29d1075a3d7b0a22faddc10c70",
+          "scripts/lib/caption-segmentation.mjs": "fb29b5297c10ed9ac7769706ccecb7a0121535f4efb2332c2db715a6ee8e83f2",
+          "scripts/lib/design-styles.mjs": "f582e33ec377aa2d9072fc7f190bf31310cb9b1cc71042165377cfbbb1cc35d4",
+          "scripts/lib/editorial.mjs": "d3375ac5336d4aabe5bfd4a21577b24afa0d859ff54c4de4faa8abf176548514",
+          "scripts/lib/hook-layout.mjs": "41cf02051720c5fa4e74a23f4fc86bf51dcb3457cb5a50b403aa08fa857c0020",
+          "scripts/lib/hook-overlay.mjs": "d7f156241f04b3e76a0885760ceb479d1decf8e64e9d98722dbc87b1dff19c14",
+          "scripts/lib/hook-typography.mjs": "da5c34e5cbebf6e60be61d23b3d3f14a38ff3015924ea098f7cedbce59687dd9",
+          "scripts/lib/production-profile.mjs": "fc79bef1cbedc8d1cdb7c1635a5aefeea48ecf516ffd9ce8628e6a63c40ab0cb",
+          "scripts/lib/screen-text-policy.mjs": "b6d7979082071a33694834c9ed12ef47130358d6f54100c0230fcebf9a321874",
+          "scripts/lib/visual-plan.mjs": "6da695372bae7d6724faca3c62e987aae3b0c38352b6d8d05bb4055dfa122782"
+        },
+        "dependencies": {
+          "narration": "a7bb2026-b5e9-4cb8-8ee3-d11e9f8f0ad4"
+        },
+        "impact": "29f66516-0c38-48f0-a7ee-a1ae2f7f4261",
+        "sha256": "78a8aa047f35300be2d1d5c99ff8171cb2c38f6073c9f8b14c5264a0f416d70c"
+      },
+      "outputs": [
+        "news/hani_1274453/02_production/timeline.json"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/compile-editorial-timeline.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/8cd120a5-cd65-48bc-809f-3bd083c97593.log",
+      "outputs_sha256": {
+        "news/hani_1274453/02_production/timeline.json": "63d490eeb20043fb4134a9a3212a7293ae2515fcf839dd07775b9a0d31d4b0a1"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:26:04.945Z",
+      "elapsed_ms": 3311
+    },
+    {
+      "id": "80e7bb65-86b4-4f71-96b3-09803e79709c",
+      "action": "sync",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:26:07.659Z",
+      "inputs": {
+        "files": {
+          "news/hani_1274453/01_input/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+          "news/hani_1274453/02_production/audio.json": "2b470380e8f0547b9b06b0293adcdb53527541fb37b75f9ac7e7d8abd4974cb7",
+          "news/hani_1274453/02_production/audio/narration.wav": "82e020a4dbb44c222b049a5da66437196be2bbaffe86bbded8f1489bf1d1eee3",
+          "news/hani_1274453/02_production/brand/logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
+          "news/hani_1274453/02_production/external_assets/audio/derived/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+          "news/hani_1274453/02_production/generated/disk_tilt_v2.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+          "news/hani_1274453/02_production/generated/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+          "news/hani_1274453/02_production/generated/galaxy_side_a.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+          "news/hani_1274453/02_production/generated/gse_merger_v1.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+          "news/hani_1274453/02_production/generated/halo_close_v1.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+          "news/hani_1274453/02_production/generated/rw_1_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
+          "news/hani_1274453/02_production/media/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+          "news/hani_1274453/02_production/media/gaia_mix.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+          "news/hani_1274453/02_production/media/paranal_mw_vert.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+          "news/hani_1274453/02_production/media/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+          "news/hani_1274453/02_production/media/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15",
+          "news/hani_1274453/02_production/motion.json": "0242ed5c4bcde917af3772bdb2d02e8e2e268deff8fe21ca6b70c6589ee7c0ff",
+          "news/hani_1274453/02_production/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4": "55460b6948aeda0bd67e3fb938e119d5f2c432f114ab0094b6d420d49922eb96",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4": "593d0bc4e87dcac0f30f15c76d6108e13fe3f8af89975315d81363171cb5c763",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/timeline.json": "63d490eeb20043fb4134a9a3212a7293ae2515fcf839dd07775b9a0d31d4b0a1",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
+          "scripts/lib/engine.mjs": "b540bb22d828971f03f5a307c76b488c995df563866177b84671bd0ce0389c5c",
+          "scripts/lib/pilot.mjs": "1cecb42744ebe79a5259e83dfa9b46c3819ea3c37077c9b7def5758507008b31",
+          "scripts/lib/sync.mjs": "5782ccbad3755efbe5c439fe1f3e424b7531f6d67e0dfcba74bdf3082265aaa7",
+          "scripts/sync-pilot.mjs": "d098d6f646eb213c6b8572c6a8c4261687d4574238fec6fcbb3bea84642dd552"
+        },
+        "dependencies": {
+          "timeline": "8cd120a5-cd65-48bc-809f-3bd083c97593"
+        },
+        "impact": "9b42a7c5-a9c0-45c5-ba05-b6022b67f803",
+        "sha256": "1345b1009a172a3566bf1ee87df7024f93ba58cff2508b92bc6dd201c01b032a"
+      },
+      "outputs": [
+        "pilots/hani_1274453/assets.json",
+        "pilots/hani_1274453/audio.json",
+        "pilots/hani_1274453/concepts.json",
+        "pilots/hani_1274453/motion.json",
+        "pilots/hani_1274453/narration.json",
+        "pilots/hani_1274453/story.json",
+        "pilots/hani_1274453/timeline.json",
+        "pilots/hani_1274453/visual-system.json",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3",
+        "public/pilots/hani_1274453/audio/narration.wav",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png",
+        "public/pilots/hani_1274453/editorial/brand-logo.png",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4",
+        "public/pilots/hani_1274453/editorial/paranal.mp4",
+        "public/pilots/hani_1274453/editorial/rw_human.png",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/sync-pilot.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/80e7bb65-86b4-4f71-96b3-09803e79709c.log",
+      "outputs_sha256": {
+        "pilots/hani_1274453/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+        "pilots/hani_1274453/audio.json": "b7f9297bd1a3f4f0d75dd6f3d8be60ad079753ee32e0292305e2e5aa860e1a77",
+        "pilots/hani_1274453/concepts.json": "2b957df93299d5be0a65d63da112f42773eaf50dfe24ac44d195670f85d02cdc",
+        "pilots/hani_1274453/motion.json": "9e845c4d07bcfb46e5fe981fa8a7a4db0a56840dd0962ee2e53f994cb40914a1",
+        "pilots/hani_1274453/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+        "pilots/hani_1274453/story.json": "545ff5b3870d9cd2574202f9c523e5ee33422a786d8911cbe2fd2145dbcd1bd0",
+        "pilots/hani_1274453/timeline.json": "63d490eeb20043fb4134a9a3212a7293ae2515fcf839dd07775b9a0d31d4b0a1",
+        "pilots/hani_1274453/visual-system.json": "2dc4581fcab47d5b1aa6d0bd7e45910cf6ecd99e85b4a00f74bfa44db0ab6cdb",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+        "public/pilots/hani_1274453/audio/narration.wav": "5d9a4e7d61e2e655eac3240bec042c7b409c73ed1e98aaaaedeab77ecf2f0af9",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+        "public/pilots/hani_1274453/editorial/brand-logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4": "20c5b20e815e4185b860054ed297fa9b2375045a22c05857cca5b891f6c131b7",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4": "0affdd361e4b25eaaf51ac28e5cc1048169f5209921215e54806e35cab445366",
+        "public/pilots/hani_1274453/editorial/paranal.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+        "public/pilots/hani_1274453/editorial/rw_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:26:21.650Z",
+      "elapsed_ms": 13991
+    },
+    {
+      "id": "a4bb0419-7b77-4b21-aa09-74ace6ac6ca6",
+      "action": "render",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:26:24.536Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "news/hani_1274453/00_brief/request.json": "a940515cb94c81a3dadc31a326c2814687bae501ff709416484939f8e0089ccf",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "pilots/hani_1274453/pilot.json": "88f85fcf825536a0ee20b4e8af3564e32b70e59b60b16b782e283db2020bd051",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "remotion.config.ts": "1dc3a4a57e6f8aa07197f2b7c0b625a78a740555e451fbbc83603d57b0ece20a",
+          "scripts/pilot-run.mjs": "e87024aec2368f6662bcc61135e796ec23f3d8df74752918144c259614efa0d1",
+          "src/Composition.tsx": "77def6e0fa834d4e8058b102a561ef2ad2179a789f3e160558fb4bbe53ce18fa",
+          "src/Root.tsx": "29dad115a1c49b8f60fcaf28b841138ba1b615bc351e35c7d84cefc4d1e46d2d",
+          "src/editorial/Composition.tsx": "7fa2185632edacfdb7a8b4ac0251369e0868fb059fd76b22a6c6fd32b77ccd58",
+          "src/editorial/Proof.tsx": "454d81b7da28174eceea1ec4ea557dffba7f2effeb08491eb63789186c32eeed",
+          "src/editorial/ScreenText.tsx": "6871df0664de0e733f698eb269f36c25ca799ad5e5c0b859b95cca36047132ba",
+          "src/editorial/episodes/hani_1274453.tsx": "c345f05eaa7dd6a81ba41039d11aa3bdeba864c668d4afc7b2496deba40a1cc0",
+          "src/editorial/pilot.ts": "1cb0237b8fc324da00fb4520f8bf676d2542c7a7b43e43aa93c3cb928460cd4e",
+          "src/editorial/registry.ts": "3daaca7ed5c61d0b4ce6824711c28c03c6ed12b163372f9a38f52513f90b9a75",
+          "src/index.css": "8a760a784f79570e06fdcb0c6a2677ea66c304230b7925ea313d63b46d8ba407",
+          "src/index.ts": "9add656193bc0a61896d26d3067000fcff56ef7b69270af1f8883b0e4ce65cc4",
+          "src/lib/editorial/AttributionTrack.tsx": "53001512df3ab739fc1679061656e400855d3e5c47cf4f2e7f7536dd4a8a4b9a",
+          "src/lib/editorial/CaptionPreflight.tsx": "09bdb93330dea37f89df27099091892c82421f5d9d3ae0699ad5d3c9840fb451",
+          "src/lib/editorial/ClosingCtaTrack.tsx": "b1b67ee27a38e103d32433862094dfebf0b3c2ac4da2a30863cd18c048e022a9",
+          "src/lib/editorial/HookComposition.tsx": "33b42ad30e9cebdd8925ba2e7f4e5e1109c63f230a709c3979ab7148a1047c9e",
+          "src/lib/editorial/HookOverlayTrack.tsx": "e947c8fcf0280e4418de3eedac194c585c83f4560d3aa25b26e3db5d647da2e0",
+          "src/lib/editorial/KeyCalloutTrack.tsx": "574627299e70129f30874bc4868134c6a71572baad819ed3e3955874e75e756a",
+          "src/lib/editorial/caption-text.ts": "ccb9f21737d9037bd81eacd955c4510cccadb00a90969153b49a3985ebcf7691",
+          "src/lib/editorial/index.ts": "c22f19e9437a7db26daf61178c9ea50008ae0f7fa575d59572043008e0c04707",
+          "src/lib/editorial/motion.tsx": "2cedc068fc8e77ae768f41d2f22b16a74e69c832d2dcd17e7c0b5347ded91418",
+          "src/lib/editorial/profile.ts": "f0bf033a35acb1986c85e2d13a6b933215756573ad8cf6836a5f4eafacd1cfdc",
+          "src/lib/editorial/proof-time.ts": "d2cd814d14bfd5037b1e2f9f99bc0fee6f8a55ca9528ffce3a09fe7a4f379524",
+          "src/lib/editorial/timing.ts": "11db9af277b8776346292d2b52f20d5bdf105c53099fb91fcbfe8157f354e9a6",
+          "src/lib/editorial/types.ts": "910e52e17897745960c9634d897edc361a918d71724c2e82af82b3da86f8657e",
+          "src/lib/editorial/visual.tsx": "15eb2578346e795c6531281bc5b8bde74bc12964ac88392e834441ea84489fa8",
+          "src/lib/genBadge.mjs": "2e19ce41d325cbd86ebc96c649549df708761bdcd228ead46323085f92f3fba1",
+          "src/lib/primitives/Background.tsx": "1be7dc67ff16bb3a384aeeb63f068f40365690c7ab3f34df2f48a604905cc5b2",
+          "src/lib/primitives/Caption.tsx": "d2f7316344385f25f5837339cd35c5bafe01f750e181ea10385a0cebabd37b2b",
+          "src/lib/primitives/Cards.tsx": "61c821d9f6351d1830517ff4bedd19a09b9eb81f952c86ae5cf871e4d8e20ff8",
+          "src/lib/primitives/Graphics.tsx": "f77096b0e3a23aa409b7bf940c82ac584b967dcd3dc40bff487831b8df46e57b",
+          "src/lib/primitives/Graphics3D.tsx": "d5facb79d73a72bd919d920feddc1e4b05b97c8f2b2006372043277d1d75d0e2",
+          "src/lib/primitives/Onscreen.tsx": "11890441f54e2c6d5dac8d39b4ac73f16e8ae60f616a5dc9643025f80b646a7e",
+          "src/lib/primitives/Tags.tsx": "5d47214863fce84c069514eae96999dff15d3976fe4707f1179751e97c7cde32",
+          "src/lib/primitives/clock.ts": "425356e768012b797900e032d7ab9eab2dea2b9da5cc3d462174b0e183e43fb3",
+          "src/lib/primitives/diagram.tsx": "488ae7a39ecb3d236e935aeb01cf6e9639c46ddb37abf1549c28e799f2ea8589",
+          "src/lib/primitives/graphics/common.tsx": "aaec72f3fd77c4b8458b5be97c1e23860cfcd6b7ce2f7e307702d34fc7eb9a19",
+          "src/lib/primitives/graphics/contracts.tsx": "2e55e977dacdfc3467b79daaa4052ca29ca9d600eebbda444762da1d3bafb4b5",
+          "src/lib/primitives/graphics/p3-space-mirror.tsx": "63817e89a29372c75f936a14485f627753d193f594fba65b73ec6fd28c2cf358",
+          "src/lib/primitives/graphics/p4-starfall.tsx": "f60c51e29e646959cf220d28dd02202540b2757979f7e63d2108dc7e8d784867",
+          "src/lib/primitives/graphics/p5-solar-swirl.tsx": "ede05564b7c25e9ce132207e20c160911a2916cbe0d239e9f567ee6ab633f153",
+          "src/lib/primitives/graphics/p6-disc-flip.tsx": "a26cef09090871b4dace5e1df60a40222e72e74c085a087933349a254129055f",
+          "src/lib/primitives/graphics/p7-roman-eye.tsx": "f21a26a729c40d26715c99a36dd41e94677b8191d10f48e0c3ce2b0798248b1c",
+          "src/lib/primitives/graphics/p8-dark-flash.tsx": "30d731bf15a6c09460271fef3cadd002b8a27bf8104d1394673e381274bddeb1",
+          "src/lib/primitives/graphics/p9-betelgeuse.tsx": "737f11b00df05bb6049592e37b64415f821b76dc76a793caaa2f69db209fa280",
+          "src/lib/primitives/index.ts": "74607a32871752ffefb881b59ec97f8ac69c71ada3f740395cbb84f980ef5e2e",
+          "src/pilot/Beat.tsx": "d932f0704437b5c26e3e50ab881d2ba8ab85aa3e3df32a5275a53d32c9e97762",
+          "src/pilot/BeatSheet.tsx": "cf4678ebb485eb7977cf600778c2975b66d67d25ca51b8d9f79dcd4e108fc95e",
+          "src/pilot/BeatStill.tsx": "8f114833a6218bc54d8fe2ec6a978b706beec9084ea7c2761fb31690e99f3993",
+          "src/pilot/Slides.tsx": "9aff120ce52dff9ba7a1641a5bb8d1f772d10a5354dec5ccef8792a58eac2a32",
+          "src/pilot/pilot.ts": "068db482f4fecf552e5e3f163f75fd87ce52ba39bf1225e738610bbe5e2903b9",
+          "src/pilot/registry.ts": "853acd83a62ef1ddcc4b9fa37155439e6188cfde94f91cd9e8c51eef99882581",
+          "src/pilot/types.ts": "d2132d3f371dbf34f5503b0e319b7363bddb533c0c20d87afd1d27cb3b7a0595"
+        },
+        "dependencies": {
+          "sync": "80e7bb65-86b4-4f71-96b3-09803e79709c"
+        },
+        "impact": "05040b5c-5ff3-4c2d-a4d9-54441571fd91",
+        "sha256": "64a55a0342d114dbe03971a423d075e9ba9e266e5e8710cfd7220e012663f9d9"
+      },
+      "outputs": [
+        "out/pilots/hani_1274453/qa/production-3be60c5e-ba1c-49b7-a835-4e8bc52ff0cb.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/pilot-run.mjs",
+          "render",
+          "hani_1274453",
+          "out/pilots/hani_1274453/qa/production-3be60c5e-ba1c-49b7-a835-4e8bc52ff0cb.mp4"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/a4bb0419-7b77-4b21-aa09-74ace6ac6ca6.log",
+      "outputs_sha256": {
+        "out/pilots/hani_1274453/qa/production-3be60c5e-ba1c-49b7-a835-4e8bc52ff0cb.mp4": "7d4e708cd505de6cb9e2f6414cffde711846f5a5972e15ef6e00602fd1a2f4c8"
+      },
+      "validation": {
+        "contract": "production-review@1",
+        "kind": "render",
+        "artifact": {
+          "path": "out/pilots/hani_1274453/qa/production-3be60c5e-ba1c-49b7-a835-4e8bc52ff0cb.mp4",
+          "sha256": "7d4e708cd505de6cb9e2f6414cffde711846f5a5972e15ef6e00602fd1a2f4c8"
+        },
+        "media": {
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "total_frames": 2313,
+          "duration": 77.1,
+          "content_duration": 77.1,
+          "duration_basis": "total",
+          "audio_duration": 77.162667
+        },
+        "full_decode": true,
+        "limitation": "스트림·전체 디코드 검사. 실제 시청·청취와 내용 일치는 독립 검수 대상"
+      },
+      "finished_at": "2026-11-11T13:30:37.293Z",
+      "elapsed_ms": 252757
+    },
+    {
+      "id": "7c98c41b-ccdc-4bff-8ffd-9ef6efb57e4b",
+      "action": "timeline",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:35:16.660Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/attribution-styles/attribution-style-1.0.0.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v1.json": "054732dc71130abb0220b6e3171307f82fe6fed0f5074241927a3d1a8620cd66",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/hook-styles/hook-style-v3.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "config/production-profiles/hani-shortform-1.1.0.json": "d00220c5b619febff846dbaeb5b13c20ce27b18c4773e5ea229d281862b87787",
+          "config/production-profiles/hani-shortform-1.2.0.json": "38eb5a242d6b5993c36fef1017dff0224185c2db6d1a0635ff0ddfd2e47d4af4",
+          "config/production-profiles/hani-shortform-1.3.0.json": "45437fb0bbc7c3a71b8add36f0df4a8cdd41208511e8a08805027b57b473ae96",
+          "config/production-profiles/hani-shortform-1.4.0.json": "c312a212b4f495aaa938273e1a04a67d146d114771fb6359fc3b7f9e3cc1cae8",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
+          "news/hani_1274453/02_production/motion.json": "b1611dcd18991d1526c80cb1100b1d0f776292d4f16aa6eade78df5789c19aba",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "scripts/compile-editorial-timeline.mjs": "d40c6174a76fda8e15efc5682054f84a94923796aeab0d87496439593ac0488e",
+          "scripts/lib/attribution.mjs": "d15c15109d8f3cd3ba84562f87bc7c359866b1a72ab56d20442b21c9876bfd88",
+          "scripts/lib/caption-metrics.mjs": "2b19ec27c39e565317cf15aa535407dddb381a524a7334e611e72a4347ecc87e",
+          "scripts/lib/caption-policy.mjs": "cd4c19f49fc469c28794fc4d754c4b742633ed29d1075a3d7b0a22faddc10c70",
+          "scripts/lib/caption-segmentation.mjs": "fb29b5297c10ed9ac7769706ccecb7a0121535f4efb2332c2db715a6ee8e83f2",
+          "scripts/lib/design-styles.mjs": "f582e33ec377aa2d9072fc7f190bf31310cb9b1cc71042165377cfbbb1cc35d4",
+          "scripts/lib/editorial.mjs": "d3375ac5336d4aabe5bfd4a21577b24afa0d859ff54c4de4faa8abf176548514",
+          "scripts/lib/hook-layout.mjs": "41cf02051720c5fa4e74a23f4fc86bf51dcb3457cb5a50b403aa08fa857c0020",
+          "scripts/lib/hook-overlay.mjs": "d7f156241f04b3e76a0885760ceb479d1decf8e64e9d98722dbc87b1dff19c14",
+          "scripts/lib/hook-typography.mjs": "da5c34e5cbebf6e60be61d23b3d3f14a38ff3015924ea098f7cedbce59687dd9",
+          "scripts/lib/production-profile.mjs": "fc79bef1cbedc8d1cdb7c1635a5aefeea48ecf516ffd9ce8628e6a63c40ab0cb",
+          "scripts/lib/screen-text-policy.mjs": "b6d7979082071a33694834c9ed12ef47130358d6f54100c0230fcebf9a321874",
+          "scripts/lib/visual-plan.mjs": "6da695372bae7d6724faca3c62e987aae3b0c38352b6d8d05bb4055dfa122782"
+        },
+        "dependencies": {
+          "narration": "a7bb2026-b5e9-4cb8-8ee3-d11e9f8f0ad4"
+        },
+        "impact": "29f66516-0c38-48f0-a7ee-a1ae2f7f4261",
+        "sha256": "67af3b61579af9ccdc8e14bdaf45397f7ca304dd84dc21fbdc379b24b62f97a4"
+      },
+      "outputs": [
+        "news/hani_1274453/02_production/timeline.json"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/compile-editorial-timeline.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/7c98c41b-ccdc-4bff-8ffd-9ef6efb57e4b.log",
+      "outputs_sha256": {
+        "news/hani_1274453/02_production/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:35:20.069Z",
+      "elapsed_ms": 3409
+    },
+    {
+      "id": "f82ed5e1-7f7b-485c-9c8b-29c946713a1c",
+      "action": "sync",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:35:22.935Z",
+      "inputs": {
+        "files": {
+          "news/hani_1274453/01_input/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+          "news/hani_1274453/02_production/audio.json": "2b470380e8f0547b9b06b0293adcdb53527541fb37b75f9ac7e7d8abd4974cb7",
+          "news/hani_1274453/02_production/audio/narration.wav": "82e020a4dbb44c222b049a5da66437196be2bbaffe86bbded8f1489bf1d1eee3",
+          "news/hani_1274453/02_production/brand/logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+          "news/hani_1274453/02_production/concepts.json": "b766bd851c4179ac14945e165a5dceddaba2141bb3faa8d327cdd89fed9bfa6b",
+          "news/hani_1274453/02_production/external_assets/audio/derived/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+          "news/hani_1274453/02_production/generated/disk_tilt_v2.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+          "news/hani_1274453/02_production/generated/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+          "news/hani_1274453/02_production/generated/galaxy_side_a.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+          "news/hani_1274453/02_production/generated/gse_merger_v1.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+          "news/hani_1274453/02_production/generated/halo_close_v1.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+          "news/hani_1274453/02_production/generated/rw_1_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
+          "news/hani_1274453/02_production/media/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+          "news/hani_1274453/02_production/media/gaia_mix.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+          "news/hani_1274453/02_production/media/paranal_mw_vert.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+          "news/hani_1274453/02_production/media/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+          "news/hani_1274453/02_production/media/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15",
+          "news/hani_1274453/02_production/motion.json": "b1611dcd18991d1526c80cb1100b1d0f776292d4f16aa6eade78df5789c19aba",
+          "news/hani_1274453/02_production/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4": "55460b6948aeda0bd67e3fb938e119d5f2c432f114ab0094b6d420d49922eb96",
+          "news/hani_1274453/02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4": "593d0bc4e87dcac0f30f15c76d6108e13fe3f8af89975315d81363171cb5c763",
+          "news/hani_1274453/02_production/story.json": "06efcc522f5385dbb6194dfd62c2999f5d6fee06b577a57e9143a7c3e16c6561",
+          "news/hani_1274453/02_production/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc",
+          "news/hani_1274453/02_production/visual-system.json": "8638f0ef4d76538a8c0a04ef511bd5b349fa222fdb1817feb21b4652b458db00",
+          "scripts/lib/engine.mjs": "b540bb22d828971f03f5a307c76b488c995df563866177b84671bd0ce0389c5c",
+          "scripts/lib/pilot.mjs": "1cecb42744ebe79a5259e83dfa9b46c3819ea3c37077c9b7def5758507008b31",
+          "scripts/lib/sync.mjs": "5782ccbad3755efbe5c439fe1f3e424b7531f6d67e0dfcba74bdf3082265aaa7",
+          "scripts/sync-pilot.mjs": "d098d6f646eb213c6b8572c6a8c4261687d4574238fec6fcbb3bea84642dd552"
+        },
+        "dependencies": {
+          "timeline": "7c98c41b-ccdc-4bff-8ffd-9ef6efb57e4b"
+        },
+        "impact": "9b42a7c5-a9c0-45c5-ba05-b6022b67f803",
+        "sha256": "668d1073b129d89d3ec0fcf676701b0fead9a2d0311d02397490cf2bf5f43f04"
+      },
+      "outputs": [
+        "pilots/hani_1274453/assets.json",
+        "pilots/hani_1274453/audio.json",
+        "pilots/hani_1274453/concepts.json",
+        "pilots/hani_1274453/motion.json",
+        "pilots/hani_1274453/narration.json",
+        "pilots/hani_1274453/story.json",
+        "pilots/hani_1274453/timeline.json",
+        "pilots/hani_1274453/visual-system.json",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3",
+        "public/pilots/hani_1274453/audio/narration.wav",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png",
+        "public/pilots/hani_1274453/editorial/brand-logo.png",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4",
+        "public/pilots/hani_1274453/editorial/paranal.mp4",
+        "public/pilots/hani_1274453/editorial/rw_human.png",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/sync-pilot.mjs",
+          "news/hani_1274453"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/f82ed5e1-7f7b-485c-9c8b-29c946713a1c.log",
+      "outputs_sha256": {
+        "pilots/hani_1274453/assets.json": "87141ccadcf573f96a5de448c9c906a0e200ed1bcbba81cc722c329f7d269238",
+        "pilots/hani_1274453/audio.json": "b7f9297bd1a3f4f0d75dd6f3d8be60ad079753ee32e0292305e2e5aa860e1a77",
+        "pilots/hani_1274453/concepts.json": "2b957df93299d5be0a65d63da112f42773eaf50dfe24ac44d195670f85d02cdc",
+        "pilots/hani_1274453/motion.json": "bb0a78537f44dd5721f958b8532f84913f0f632f8d56465ad7bb290c9a1cbff9",
+        "pilots/hani_1274453/narration.json": "91ef2f6cdd632ce3564a6733dd342f728ab2d120fdad19a1745282097939f25d",
+        "pilots/hani_1274453/story.json": "545ff5b3870d9cd2574202f9c523e5ee33422a786d8911cbe2fd2145dbcd1bd0",
+        "pilots/hani_1274453/timeline.json": "e31ffa5d1fde87d5a073ddcb4bd89c3f728d596e62d5fcf386e2f00eaec3f7cc",
+        "pilots/hani_1274453/visual-system.json": "2dc4581fcab47d5b1aa6d0bd7e45910cf6ecd99e85b4a00f74bfa44db0ab6cdb",
+        "public/pilots/hani_1274453/audio/bgm_impact_lento.mp3": "3224c191463d25225a9013f63888f78fb111b1d41db5a92d26279d68660a5f55",
+        "public/pilots/hani_1274453/audio/narration.wav": "5d9a4e7d61e2e655eac3240bec042c7b409c73ed1e98aaaaedeab77ecf2f0af9",
+        "public/pilots/hani_1274453/editorial/auriga_halo18.png": "6f8d516c5746027adc2a0c6b94a66a466f3a58a68d08dda1452b1f321faf3687",
+        "public/pilots/hani_1274453/editorial/brand-logo.png": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+        "public/pilots/hani_1274453/editorial/disk_tilt.mp4": "57696722ccb38f6ca22b2a99da8b7f18a9ca692edc72bb10a6051212a35f6a83",
+        "public/pilots/hani_1274453/editorial/gaia_esa.mp4": "1c33a68fd33d98f6b384877f4acaf6c72adb60d702fde3e3d74de3d4e553cccc",
+        "public/pilots/hani_1274453/editorial/galaxy_face.png": "544e27a4662ed2aade320a3ee967042c13de7b2492c7c6aea355736869a5643c",
+        "public/pilots/hani_1274453/editorial/galaxy_side.png": "6e0b63773092aab7e2e9526764b7d88b2d78958c3b20142d0a70d481ecd47617",
+        "public/pilots/hani_1274453/editorial/gse_merger.mp4": "086de0696f798e26f1e34334b82c2a67118bb9421634330e4c6d47ac3661a0f9",
+        "public/pilots/hani_1274453/editorial/halo_close.mp4": "789440d120ac67d56593868e776b21965f570a52a672998d722ed51443100b10",
+        "public/pilots/hani_1274453/editorial/nasa_halo.mp4": "20c5b20e815e4185b860054ed297fa9b2375045a22c05857cca5b891f6c131b7",
+        "public/pilots/hani_1274453/editorial/nasa_zoom.mp4": "0affdd361e4b25eaaf51ac28e5cc1048169f5209921215e54806e35cab445366",
+        "public/pilots/hani_1274453/editorial/paranal.mp4": "26290e591a821482482a43cc3a0d08f8b0a5312f60d3846f9c5f1075fd911979",
+        "public/pilots/hani_1274453/editorial/rw_human.png": "7c94f4cf7f4e1ddc150e4adb92ad780e2d3f5c02e186204f5023b7e2b3dbcffe",
+        "public/pilots/hani_1274453/editorial/rw_v_dino.mp4": "9c27fedbc754c40ef7e5d31c675bded3e9db0d12b27128cf11795b527ff22ed1",
+        "public/pilots/hani_1274453/editorial/rw_v_sun.mp4": "a70392b6515df987b2a4a13de80c2e230f4962a760c77b2a211bf31fb8c46b15"
+      },
+      "validation": "기존 editorial 컴파일·sync 계약 대조",
+      "finished_at": "2026-11-11T13:35:38.083Z",
+      "elapsed_ms": 15148
+    },
+    {
+      "id": "af7db471-e147-421b-9f69-a0dddf5981f3",
+      "action": "render",
+      "status": "succeeded",
+      "started_at": "2026-11-11T13:35:41.194Z",
+      "inputs": {
+        "files": {
+          "config/attribution-style.json": "06ed81edadeaff8c7713e6bcc17be6c995eac786103bb993b68c6422b1f9f37d",
+          "config/hook-style.json": "013ee7daf1822c84c7ae10ceb0ea3efe0b6e2615d908cb7496b1aabacf2859ce",
+          "config/hook-styles/hook-style-v2.json": "0358a87640a07c7623efd6118ca9c161a2f8c7bdb43e0eb6a436703596ebc37e",
+          "config/production-profile.json": "3ee63e585412d6fbe5d194f44f056a9cc1fab24a830dfccb3cfec022d9f14981",
+          "config/production-profiles/hani-shortform-1.0.0.json": "d9fc8716bd4f364fd322b8492a7b0f6e408034abdc90ef1758c22964a41d06b7",
+          "news/hani_1274453/00_brief/request.json": "a940515cb94c81a3dadc31a326c2814687bae501ff709416484939f8e0089ccf",
+          "package-lock.json": "348ca3168d26e7cda50e049b6e8c8a382b3d8831fb471dd9dafdfe508ca8aec3",
+          "pilots/hani_1274453/pilot.json": "88f85fcf825536a0ee20b4e8af3564e32b70e59b60b16b782e283db2020bd051",
+          "public/fonts/GmarketSans-LICENSE.md": "e62a01ddc808808968b0b15d5d24c60086554504b9d2b01fa3a2be671e619608",
+          "public/fonts/GmarketSansTTFBold.ttf": "ff7c354dd1a324e4cecc1223c4f71e74fa81be7027e0c7f6324c475909cacefc",
+          "public/fonts/GmarketSansTTFLight.ttf": "7e8e8c70349ed94acf3ea4c6962a56417fdfa0a8803bc6cf9dc36324d5656849",
+          "public/fonts/GmarketSansTTFMedium.ttf": "c6b9a2c10bfdb55975948ce191f9cf638955b5cfdc99149969add5b579262fc1",
+          "public/fonts/Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+          "public/fonts/Pretendard-ExtraBold.otf": "c35fe941b7568d52a96010561540e47f9d3948dfde66ba25bc1908233e0a40cd",
+          "public/fonts/Pretendard-Regular.otf": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+          "remotion.config.ts": "1dc3a4a57e6f8aa07197f2b7c0b625a78a740555e451fbbc83603d57b0ece20a",
+          "scripts/pilot-run.mjs": "e87024aec2368f6662bcc61135e796ec23f3d8df74752918144c259614efa0d1",
+          "src/Composition.tsx": "77def6e0fa834d4e8058b102a561ef2ad2179a789f3e160558fb4bbe53ce18fa",
+          "src/Root.tsx": "29dad115a1c49b8f60fcaf28b841138ba1b615bc351e35c7d84cefc4d1e46d2d",
+          "src/editorial/Composition.tsx": "7fa2185632edacfdb7a8b4ac0251369e0868fb059fd76b22a6c6fd32b77ccd58",
+          "src/editorial/Proof.tsx": "454d81b7da28174eceea1ec4ea557dffba7f2effeb08491eb63789186c32eeed",
+          "src/editorial/ScreenText.tsx": "6871df0664de0e733f698eb269f36c25ca799ad5e5c0b859b95cca36047132ba",
+          "src/editorial/episodes/hani_1274453.tsx": "c345f05eaa7dd6a81ba41039d11aa3bdeba864c668d4afc7b2496deba40a1cc0",
+          "src/editorial/pilot.ts": "1cb0237b8fc324da00fb4520f8bf676d2542c7a7b43e43aa93c3cb928460cd4e",
+          "src/editorial/registry.ts": "3daaca7ed5c61d0b4ce6824711c28c03c6ed12b163372f9a38f52513f90b9a75",
+          "src/index.css": "8a760a784f79570e06fdcb0c6a2677ea66c304230b7925ea313d63b46d8ba407",
+          "src/index.ts": "9add656193bc0a61896d26d3067000fcff56ef7b69270af1f8883b0e4ce65cc4",
+          "src/lib/editorial/AttributionTrack.tsx": "53001512df3ab739fc1679061656e400855d3e5c47cf4f2e7f7536dd4a8a4b9a",
+          "src/lib/editorial/CaptionPreflight.tsx": "09bdb93330dea37f89df27099091892c82421f5d9d3ae0699ad5d3c9840fb451",
+          "src/lib/editorial/ClosingCtaTrack.tsx": "b1b67ee27a38e103d32433862094dfebf0b3c2ac4da2a30863cd18c048e022a9",
+          "src/lib/editorial/HookComposition.tsx": "33b42ad30e9cebdd8925ba2e7f4e5e1109c63f230a709c3979ab7148a1047c9e",
+          "src/lib/editorial/HookOverlayTrack.tsx": "e947c8fcf0280e4418de3eedac194c585c83f4560d3aa25b26e3db5d647da2e0",
+          "src/lib/editorial/KeyCalloutTrack.tsx": "574627299e70129f30874bc4868134c6a71572baad819ed3e3955874e75e756a",
+          "src/lib/editorial/caption-text.ts": "ccb9f21737d9037bd81eacd955c4510cccadb00a90969153b49a3985ebcf7691",
+          "src/lib/editorial/index.ts": "c22f19e9437a7db26daf61178c9ea50008ae0f7fa575d59572043008e0c04707",
+          "src/lib/editorial/motion.tsx": "2cedc068fc8e77ae768f41d2f22b16a74e69c832d2dcd17e7c0b5347ded91418",
+          "src/lib/editorial/profile.ts": "f0bf033a35acb1986c85e2d13a6b933215756573ad8cf6836a5f4eafacd1cfdc",
+          "src/lib/editorial/proof-time.ts": "d2cd814d14bfd5037b1e2f9f99bc0fee6f8a55ca9528ffce3a09fe7a4f379524",
+          "src/lib/editorial/timing.ts": "11db9af277b8776346292d2b52f20d5bdf105c53099fb91fcbfe8157f354e9a6",
+          "src/lib/editorial/types.ts": "910e52e17897745960c9634d897edc361a918d71724c2e82af82b3da86f8657e",
+          "src/lib/editorial/visual.tsx": "15eb2578346e795c6531281bc5b8bde74bc12964ac88392e834441ea84489fa8",
+          "src/lib/genBadge.mjs": "2e19ce41d325cbd86ebc96c649549df708761bdcd228ead46323085f92f3fba1",
+          "src/lib/primitives/Background.tsx": "1be7dc67ff16bb3a384aeeb63f068f40365690c7ab3f34df2f48a604905cc5b2",
+          "src/lib/primitives/Caption.tsx": "d2f7316344385f25f5837339cd35c5bafe01f750e181ea10385a0cebabd37b2b",
+          "src/lib/primitives/Cards.tsx": "61c821d9f6351d1830517ff4bedd19a09b9eb81f952c86ae5cf871e4d8e20ff8",
+          "src/lib/primitives/Graphics.tsx": "f77096b0e3a23aa409b7bf940c82ac584b967dcd3dc40bff487831b8df46e57b",
+          "src/lib/primitives/Graphics3D.tsx": "d5facb79d73a72bd919d920feddc1e4b05b97c8f2b2006372043277d1d75d0e2",
+          "src/lib/primitives/Onscreen.tsx": "11890441f54e2c6d5dac8d39b4ac73f16e8ae60f616a5dc9643025f80b646a7e",
+          "src/lib/primitives/Tags.tsx": "5d47214863fce84c069514eae96999dff15d3976fe4707f1179751e97c7cde32",
+          "src/lib/primitives/clock.ts": "425356e768012b797900e032d7ab9eab2dea2b9da5cc3d462174b0e183e43fb3",
+          "src/lib/primitives/diagram.tsx": "488ae7a39ecb3d236e935aeb01cf6e9639c46ddb37abf1549c28e799f2ea8589",
+          "src/lib/primitives/graphics/common.tsx": "aaec72f3fd77c4b8458b5be97c1e23860cfcd6b7ce2f7e307702d34fc7eb9a19",
+          "src/lib/primitives/graphics/contracts.tsx": "2e55e977dacdfc3467b79daaa4052ca29ca9d600eebbda444762da1d3bafb4b5",
+          "src/lib/primitives/graphics/p3-space-mirror.tsx": "63817e89a29372c75f936a14485f627753d193f594fba65b73ec6fd28c2cf358",
+          "src/lib/primitives/graphics/p4-starfall.tsx": "f60c51e29e646959cf220d28dd02202540b2757979f7e63d2108dc7e8d784867",
+          "src/lib/primitives/graphics/p5-solar-swirl.tsx": "ede05564b7c25e9ce132207e20c160911a2916cbe0d239e9f567ee6ab633f153",
+          "src/lib/primitives/graphics/p6-disc-flip.tsx": "a26cef09090871b4dace5e1df60a40222e72e74c085a087933349a254129055f",
+          "src/lib/primitives/graphics/p7-roman-eye.tsx": "f21a26a729c40d26715c99a36dd41e94677b8191d10f48e0c3ce2b0798248b1c",
+          "src/lib/primitives/graphics/p8-dark-flash.tsx": "30d731bf15a6c09460271fef3cadd002b8a27bf8104d1394673e381274bddeb1",
+          "src/lib/primitives/graphics/p9-betelgeuse.tsx": "737f11b00df05bb6049592e37b64415f821b76dc76a793caaa2f69db209fa280",
+          "src/lib/primitives/index.ts": "74607a32871752ffefb881b59ec97f8ac69c71ada3f740395cbb84f980ef5e2e",
+          "src/pilot/Beat.tsx": "d932f0704437b5c26e3e50ab881d2ba8ab85aa3e3df32a5275a53d32c9e97762",
+          "src/pilot/BeatSheet.tsx": "cf4678ebb485eb7977cf600778c2975b66d67d25ca51b8d9f79dcd4e108fc95e",
+          "src/pilot/BeatStill.tsx": "8f114833a6218bc54d8fe2ec6a978b706beec9084ea7c2761fb31690e99f3993",
+          "src/pilot/Slides.tsx": "9aff120ce52dff9ba7a1641a5bb8d1f772d10a5354dec5ccef8792a58eac2a32",
+          "src/pilot/pilot.ts": "068db482f4fecf552e5e3f163f75fd87ce52ba39bf1225e738610bbe5e2903b9",
+          "src/pilot/registry.ts": "853acd83a62ef1ddcc4b9fa37155439e6188cfde94f91cd9e8c51eef99882581",
+          "src/pilot/types.ts": "d2132d3f371dbf34f5503b0e319b7363bddb533c0c20d87afd1d27cb3b7a0595"
+        },
+        "dependencies": {
+          "sync": "f82ed5e1-7f7b-485c-9c8b-29c946713a1c"
+        },
+        "impact": "05040b5c-5ff3-4c2d-a4d9-54441571fd91",
+        "sha256": "5d7f4d1e0bcdac74cbed6ab234289fec78b2291b85034f35b91107c730811378"
+      },
+      "outputs": [
+        "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4"
+      ],
+      "source_commit": "bbc2a04480c0513b7ac5143cb329bf9bc32dd928",
+      "execution": {
+        "engine": {
+          "id": "editorial-concept@1",
+          "entry_api": "production-entry@2",
+          "path": "C:\\Users\\hani\\new shorts\\shortform-news-liveaction",
+          "contract_sha256": "11d69477eb62331bab800b55e9e3d24e2fd03a2705e7772d0510bd0095cc508b",
+          "entry_sha256": "01d79fae7cdde390ea46c9b0b1823f6b4e211b83fa7456b364a996b4ad4f638a"
+        },
+        "plugin": null,
+        "invocation": "direct-engine",
+        "host_session_load": "unverified",
+        "errors": []
+      },
+      "command": {
+        "executable": "node",
+        "args": [
+          "scripts/pilot-run.mjs",
+          "render",
+          "hani_1274453",
+          "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4"
+        ]
+      },
+      "log": "out/pilots/hani_1274453/production/af7db471-e147-421b-9f69-a0dddf5981f3.log",
+      "outputs_sha256": {
+        "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a"
+      },
+      "validation": {
+        "contract": "production-review@1",
+        "kind": "render",
+        "artifact": {
+          "path": "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4",
+          "sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a"
+        },
+        "media": {
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "total_frames": 2313,
+          "duration": 77.1,
+          "content_duration": 77.1,
+          "duration_basis": "total",
+          "audio_duration": 77.162667
+        },
+        "full_decode": true,
+        "limitation": "스트림·전체 디코드 검사. 실제 시청·청취와 내용 일치는 독립 검수 대상"
+      },
+      "finished_at": "2026-11-11T13:39:58.638Z",
+      "elapsed_ms": 257444
     }
   ],
   "impacts": {

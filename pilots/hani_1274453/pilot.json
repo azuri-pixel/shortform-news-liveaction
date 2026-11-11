@@ -59,6 +59,26 @@
         "report": "news/hani_1274453/02_production/reviews/audio-loudness.json"
       },
       "note": null
+    },
+    {
+      "version": "v3",
+      "label": "final_v3",
+      "master": "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4",
+      "sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a",
+      "file": "out/pilots/hani_1274453/deliver/v3/hani_1274453_v3.mp4",
+      "file_sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a",
+      "duration_sec": 77.1,
+      "confirmed_by": "user",
+      "confirmed_at": "2026-11-11T22:43:07+09:00",
+      "basis": "user",
+      "audio_loudness": {
+        "contract": "audio-loudness@1",
+        "status": "pass",
+        "verdict": "pass",
+        "listening": "청취 미확인",
+        "report": "news/hani_1274453/02_production/reviews/audio-loudness.json"
+      },
+      "note": null
     }
   ],
   "gates_open": [],
@@ -81,5 +101,36 @@
         "from_sec": 70
       }
     }
+  },
+  "thumbnails": {
+    "method": "image_generation",
+    "target": "youtube_shorts",
+    "manifest": "design/thumbnails/hani_1274453/v2/manifest.json",
+    "candidates": [
+      {
+        "id": "A",
+        "file": "out/pilots/hani_1274453/thumbnails/v2/A.png",
+        "status": "reviewed"
+      },
+      {
+        "id": "B",
+        "file": "out/pilots/hani_1274453/thumbnails/v2/B.png",
+        "status": "approved"
+      },
+      {
+        "id": "C",
+        "file": "out/pilots/hani_1274453/thumbnails/v2/C.png",
+        "status": "reviewed"
+      }
+    ],
+    "history": [
+      {
+        "version": "v1",
+        "manifest": "design/thumbnails/hani_1274453/v1/manifest.json",
+        "status": "superseded"
+      }
+    ],
+    "approved_by": "user",
+    "approved_raw": "B로 할게"
   }
 }

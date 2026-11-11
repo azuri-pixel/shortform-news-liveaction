@@ -113,23 +113,23 @@
         "generation_job": "gen_disk_tilt"
       },
       {
+        "id": "rw_v_dino",
+        "source": "02_production/media/rw_v_dino.mp4",
+        "file": "editorial/rw_v_dino.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_rewind"
+      },
+      {
+        "id": "rw_v_sun",
+        "source": "02_production/media/rw_v_sun.mp4",
+        "file": "editorial/rw_v_sun.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_rewind"
+      },
+      {
         "id": "rw_human",
         "source": "02_production/generated/rw_1_human.png",
         "file": "editorial/rw_human.png",
-        "attribution_kind": "generated",
-        "generation_job": "gen_rewind"
-      },
-      {
-        "id": "rw_dino",
-        "source": "02_production/generated/rw_2_dino.png",
-        "file": "editorial/rw_dino.png",
-        "attribution_kind": "generated",
-        "generation_job": "gen_rewind"
-      },
-      {
-        "id": "rw_sun",
-        "source": "02_production/generated/rw_3_sun.png",
-        "file": "editorial/rw_sun.png",
         "attribution_kind": "generated",
         "generation_job": "gen_rewind"
       }
@@ -197,7 +197,7 @@
       "prompt_path": "02_production/prompts/gen_rewind.txt",
       "output": "02_production/generated/rw_1_human.png",
       "job_id": "f09048ac-cae1-4f10-866e-2a0d2bbf7cea,2cdade46-7d07-4b6e-9a1c-ad4c1d4e0cbd,c506e60d-72f0-4878-b9af-d71ee653038f",
-      "observation": "T1 1.1~2.1초·T3 2.4~3.1초 제거 후 1.0/1.0/1.44초로 배속해 3.43초로 붙임(첫 버전 media/rewind.mp4는 47~53초용 5.53초판, 사용자 제안으로 도입부로 이동). 끝 프레임=기울어짐 영상 시작 프레임. 오제출 ed261039 미사용 / 2026-11-11 사용자 요청으로 사람 장면 1.0초(T1 0~1.1초 원속), 공룡 0.6·태양 0.8·은하 1.03초로 재배분(합 3.43초) / 2026-11-11 사용자 피드백('줌인 줌아웃 회전 트랜지션이 다양해서 되감기 느낌이 잘 들지 않아')으로 생성 전환 영상 대신 키프레임 3장+기준 은하를 같은 줌아웃과 같은 테이프 되감기 전환으로 코드 편집"
+      "observation": "T1 1.1~2.1초·T3 2.4~3.1초 제거 후 1.0/1.0/1.44초로 배속해 3.43초로 붙임(첫 버전 media/rewind.mp4는 47~53초용 5.53초판, 사용자 제안으로 도입부로 이동). 끝 프레임=기울어짐 영상 시작 프레임. 오제출 ed261039 미사용 / 2026-11-11 사용자 요청으로 사람 장면 1.0초(T1 0~1.1초 원속), 공룡 0.6·태양 0.8·은하 1.03초로 재배분(합 3.43초) / 2026-11-11 사용자 피드백('줌인 줌아웃 회전 트랜지션이 다양해서 되감기 느낌이 잘 들지 않아')으로 생성 전환 영상 대신 키프레임 3장+기준 은하를 같은 줌아웃과 같은 테이프 되감기 전환으로 코드 편집 / 2026-11-11 사용자 피드백('영상이 아니네. 고개를 들어올리던 공룡 움직임이 없네')으로 정지 키프레임 대신 전환 영상의 머무는 구간을 사용: 사람 T1 0~0.93초, 공룡 T1 2.6~4.0초(고개 드는 움직임), 태양 T3 0~1.0초. 전환은 흐림·줄무늬로 통일 유지 / 사람 장면은 회전이 들어간 영상 대신 키프레임 정지 이미지+코드 별 반짝임(사용자 선택 '사진+별 반짝임')"
     },
     {
       "id": "gen_halo_close",

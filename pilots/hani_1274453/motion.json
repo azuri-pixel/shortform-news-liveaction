@@ -188,19 +188,19 @@
         "to": {
           "anchor": {
             "line": "s01",
-            "token_index": 6,
-            "word": "대충돌로",
+            "token_index": 7,
+            "word": "구십",
             "edge": "start",
-            "offset_frames": 7
+            "offset_frames": -2
           }
         },
         "end": {
           "anchor": {
             "line": "s01",
-            "token_index": 6,
-            "word": "대충돌로",
+            "token_index": 7,
+            "word": "구십",
             "edge": "start",
-            "offset_frames": 8
+            "offset_frames": -1
           }
         }
       },
@@ -222,19 +222,19 @@
         "from": {
           "anchor": {
             "line": "s01",
-            "token_index": 6,
-            "word": "대충돌로",
+            "token_index": 7,
+            "word": "구십",
             "edge": "start",
-            "offset_frames": 8
+            "offset_frames": -1
           }
         },
         "settled": {
           "anchor": {
             "line": "s01",
-            "token_index": 6,
-            "word": "대충돌로",
+            "token_index": 7,
+            "word": "구십",
             "edge": "start",
-            "offset_frames": 8
+            "offset_frames": -1
           }
         },
         "to": {
@@ -243,7 +243,7 @@
             "token_index": 7,
             "word": "구십",
             "edge": "start",
-            "offset_frames": -1
+            "offset_frames": 0
           }
         },
         "end": {
@@ -263,7 +263,7 @@
       },
       "depends_on": [],
       "coexist_with": [],
-      "why": "되감기 시대 장면 구간"
+      "why": "은하는 '구십 도'에서 처음 등장(기울어짐 영상으로 바로 이어짐) — 사용자 요청"
     },
     {
       "id": "tilt_in",

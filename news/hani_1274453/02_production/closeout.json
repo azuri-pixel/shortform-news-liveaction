@@ -3,16 +3,20 @@
   "pilot": "hani_1274453",
   "status": "closed",
   "basis": "user-confirmed",
-  "recorded_at": "2026-11-11T13:00:30+00:00",
+  "recorded_at": "2026-11-11T13:43:06+00:00",
   "raw_request": {
-    "path": "news/hani_1274453/00_brief/closeout-request-2.txt",
-    "sha256": "0c23479177d320fa575e677409014b07b8e1f3542f7f558170499a37c2d3cbb9"
+    "path": "news/hani_1274453/00_brief/closeout-request-3.txt",
+    "sha256": "753fa2068d146137a427e4658b8453160f65b950dd41c93961f19f1ff41983d7"
   },
   "artifacts": [
     {
-      "path": "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4",
-      "sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1"
+      "path": "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4",
+      "sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a"
+    },
+    {
+      "path": "out/pilots/hani_1274453/thumbnails/v2/B.png",
+      "sha256": "e8f794ba1a71f5a79c406c13f3703a215202229655e7b91ea33d04cda7fd80e1"
     }
   ],
-  "note": "사용자 원문 'v2로 확정해줘'. 내레이션 전체 1.09배(77.2초), 되감기 통일(◀◀·옆 쓸림 제거), 헤일로 달무리, Auriga Project · Halo 18 출처, 옆에서 본 기울어짐. 썸네일 미선택. 바뀐 구간 독립 화면·사실 재검수 미수행."
+  "note": "사용자 원문 'v3로 확정해줘'. v2 대비 되감기: 사람 정지+별 반짝임, 공룡 고개 드는 영상, 원시 태양 소용돌이 생성 영상('대충돌로'까지), 은하는 '구십 도'에서 등장. 썸네일 B(사용자 'B로 할게'). 바뀐 구간 독립 재검수 미수행."
 }

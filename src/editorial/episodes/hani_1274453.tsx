@@ -80,16 +80,36 @@ const Hook: React.FC<{ pilot: EditorialPilotData }> = ({ pilot }) => {
       {frame < sky.end ? (() => {
         const eras = ["era1", "era2", "era3", "era4"].map((id) => useEvent(pilot.timeline, "hook", id));
         const cuts = [sky.from, eras[1].from, eras[2].from, eras[3].from, sky.end];
-        const files = ["editorial/rw_human.png", "editorial/rw_dino.png", "editorial/rw_sun.png", "editorial/galaxy_side.png"];
+        const vids = ["editorial/rw_v_human.mp4", "editorial/rw_v_dino.mp4", "editorial/rw_v_sun.mp4"];
+        const vdur = [0.93, 1.4, 1.6];
         const idx = Math.min(3, Math.max(0, cuts.findIndex((c, i) => frame >= c && frame < cuts[i + 1])));
         const local = interpolate(frame, [cuts[idx], cuts[idx + 1]], [0, 1], clamp);
-        const zoom = idx === 3 ? interpolate(local, [0, 1], [1.06, 1.0], clamp) : interpolate(local, [0, 1], [1.12, 1.0], clamp);
+        const zoom = idx === 3 ? interpolate(local, [0, 1], [1.06, 1.0], clamp) : interpolate(local, [0, 1], [1.06, 1.0], clamp);
         // 전환: 각 경계 앞뒤 4프레임
         const tr = Math.max(...cuts.slice(1, 4).map((c) => interpolate(frame, [c - 4, c, c + 4], [0, 1, 0], clamp)));
         return (
           <AbsoluteFill>
             <AbsoluteFill style={{ filter: tr > 0 ? `blur(${tr * 6}px)` : undefined }}>
-              <Img src={pilot.file(files[idx])} style={{ width: 1080, height: 1920, objectFit: "cover", scale: String(zoom), transformOrigin: "50% 46%" }} />
+              {idx === 0 ? (
+                <>
+                  <Img src={pilot.file("editorial/rw_human.png")} style={{ width: 1080, height: 1920, objectFit: "cover", scale: String(zoom), transformOrigin: "50% 46%" }} />
+                  {/* 별 반짝임(하늘 영역) — 회전 없음 */}
+                  <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+                    {Array.from({ length: 70 }, (_, i) => {
+                      const x = rand(i + 7001) * 1080, y = rand(i + 7101) * 1250;
+                      const tw = 0.5 + 0.5 * Math.sin(frame * (0.35 + rand(i + 7201) * 0.5) + rand(i + 7301) * 6.28);
+                      const r = 1.6 + rand(i + 7401) * 2.4;
+                      return <circle key={i} cx={x} cy={y} r={r * (0.7 + 0.6 * tw)} fill="#FFFFFF" opacity={0.25 + 0.75 * tw} />;
+                    })}
+                  </svg>
+                </>
+              ) : idx < 3 ? (
+                <Sequence from={Math.round(cuts[idx])} durationInFrames={Math.max(1, Math.round(cuts[idx + 1] - cuts[idx]))} layout="none">
+                  <OffthreadVideo src={pilot.file(vids[idx])} muted playbackRate={Math.max(0.5, Math.min(2, (vdur[idx] * 30) / Math.max(1, cuts[idx + 1] - cuts[idx])))} style={{ width: 1080, height: 1920, objectFit: "cover", scale: String(zoom), transformOrigin: "50% 46%" }} />
+                </Sequence>
+              ) : (
+                <Img src={pilot.file("editorial/galaxy_side.png")} style={{ width: 1080, height: 1920, objectFit: "cover", scale: String(zoom), transformOrigin: "50% 46%" }} />
+              )}
             </AbsoluteFill>
             <AbsoluteFill style={{ opacity: tr * 0.85, background: "repeating-linear-gradient(0deg, rgba(255,255,255,0.18) 0px, rgba(255,255,255,0.18) 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 14px)" }} />
             <AbsoluteFill style={{ opacity: tr * 0.5, background: `linear-gradient(0deg, rgba(0,0,0,0) ${30 + (frame % 7) * 8}%, rgba(255,255,255,0.35) ${32 + (frame % 7) * 8}%, rgba(0,0,0,0) ${36 + (frame % 7) * 8}%)` }} />

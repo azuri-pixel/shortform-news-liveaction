@@ -2,11 +2,11 @@
   "schema_version": "audio-loudness-report@1",
   "pilot": "hani_1274453",
   "contract": "audio-loudness@1",
-  "measured_at": "2026-11-11T12:56:05.334Z",
+  "measured_at": "2026-11-11T13:41:27.647Z",
   "render": {
-    "path": "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4"
+    "path": "out/pilots/hani_1274453/qa/production-04de629b-f15a-4c42-858d-98eb3eda2af4.mp4"
   },
-  "render_sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1",
+  "render_sha256": "6aee2d142197d4e165748879d3e56a41f52a4689aaf26a2c6090bd9690a48e9a",
   "gains": {
     "bgm_gain_db": 4.5,
     "duck_db": -6,
@@ -33,11 +33,11 @@
   "stems": {
     "narration": {
       "path": "out/pilots/hani_1274453/qa/audio-stems/narration.wav",
-      "sha256": "9c3926f380b9589972bfa5c5895c71f6775c13c20db6a1159f4a86493cf1289a"
+      "sha256": "0aa0e171b934676b603521c38b338aecb730e1a38f6ef7f516ed49c891ff1cf7"
     },
     "bgm": {
       "path": "out/pilots/hani_1274453/qa/audio-stems/bgm.wav",
-      "sha256": "cdc8858599879f4ad175900a0196bb6e1a4a88acbb921118334f65b7d1dda846"
+      "sha256": "4d1cae408c70f0eeb1a61c42ee52fb2b0ddd1c59ec3d387e890aeb3918932381"
     },
     "sfx": {
       "path": "out/pilots/hani_1274453/qa/audio-stems/sfx.wav",

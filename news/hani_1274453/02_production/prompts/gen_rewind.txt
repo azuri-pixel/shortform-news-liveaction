@@ -16,3 +16,7 @@ T3 K3→K4 job c506e60d-72f0-4878-b9af-d71ee653038f: Time rapidly rewinding even
 오제출(기각): job ed261039-8ab6-4ebd-8474-537897a0efd4 — 비용 조회 인자를 잘못 넣어 프롬프트 "placeholder"로 실제 제출됨. 사용하지 않음.
 
 [파생] 발화 구간에 맞춰 T1 1.769s, T2 1.501s, T3 2.261s로 배속해 이어 붙임 → media/rewind.mp4
+
+[원시 태양 소용돌이 — 2026-11-11] 사용자: "원시태양 둘레 원반이 소용돌이 치며 움직이진 않아" → 생성(사용자가 중간에 말리려 했으나 이미 생성 중이라 "이미 생성중이니 쓰자")
+model seedance_2_5, start_image rw_3_sun (job 26531512), 9:16, 4s, 1080p — job d134ab9f-9e68-4b0e-87d5-3ce9e5df259a → generated/sun_swirl_v1.mp4 (앞 1.6초 사용 → media/rw_v_sun.mp4)
+Locked-off camera, no zoom, no camera movement. The young glowing proto-Sun stays fixed in the center while its surrounding disk of gas and dust clearly rotates around it, swirling counterclockwise with visible spiral motion, bright rings and dust streaks flowing around the Sun; the small molten protoplanet orbits along the disk. Glowing surface flickers. Continuous, smooth, realistic. No text, no flashes.
