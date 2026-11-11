@@ -1,0 +1,164 @@
+{
+  "schema_version": "audio-loudness-report@1",
+  "pilot": "hani_1274453",
+  "contract": "audio-loudness@1",
+  "measured_at": "2026-11-11T03:21:18.734Z",
+  "render": {
+    "path": "out/pilots/hani_1274453/qa/production-dfdb154f-bd2e-44c8-9c07-716e4b9a4f87.mp4"
+  },
+  "render_sha256": "cb3592ead23c90aa2ff5203f328da9fb757c82a47254e01af45d6fddb09799da",
+  "gains": {
+    "bgm_gain_db": 4.5,
+    "duck_db": -6,
+    "master_gain_db": -2,
+    "normalization": {
+      "contract": "audio-loudness@1",
+      "reference": {
+        "bgm_lufs": -23,
+        "sfx_peak_dbfs": -6,
+        "_comment": "정규화 기준점. 원본마다 보정값을 sync 가 재서 audio.json 의 gain_db 가 이 기준 대비 상대값이 되게 한다. BGM gain_db 0 = 원본 구간이 -23 LUFS 가 되는 지점(내레이션 -16 보다 7 LU 아래), SFX gain_db 0 = 원본 sample peak 가 -6 dBFS 가 되는 지점"
+      },
+      "bgm_offset_db": -8.6,
+      "sfx_offset_db_by_file": {},
+      "sources": {
+        "audio/bgm_impact_lento.mp3": {
+          "integrated_lufs": -14.4,
+          "true_peak_dbtp": -1.5,
+          "lra_lu": 8.6,
+          "from_sec": 70
+        }
+      }
+    }
+  },
+  "stems": {
+    "narration": {
+      "path": "out/pilots/hani_1274453/qa/audio-stems/narration.wav",
+      "sha256": "16835a9748cfdfbb083944e1cb6c3ef688e7e36ee4ea9126c73f8084f6d7d818"
+    },
+    "bgm": {
+      "path": "out/pilots/hani_1274453/qa/audio-stems/bgm.wav",
+      "sha256": "89757b5a83b0df055a6b2bb9fa5cb4f41bfecd06bcfff71d83af409744487579"
+    },
+    "sfx": {
+      "path": "out/pilots/hani_1274453/qa/audio-stems/sfx.wav",
+      "sha256": "9871330b2614cda539553719a47f3f667b2b57d6d4dad90ad910b8c10920c6a2"
+    }
+  },
+  "measured": {
+    "narration_speech_lufs": -13.9,
+    "narration_integrated_lufs": -14,
+    "narration_peak_dbfs": -3.5,
+    "narration_true_peak_dbtp": -3.5,
+    "bgm_speech_lufs": -26.8,
+    "bgm_gap_lufs": null,
+    "speech_seconds": 75.3,
+    "gap_seconds": 0,
+    "windows": {
+      "speech": [
+        [
+          1.5,
+          6.765
+        ],
+        [
+          7.169,
+          13.756
+        ],
+        [
+          13.982,
+          18.713
+        ],
+        [
+          18.891,
+          23.961
+        ],
+        [
+          24.187,
+          31
+        ],
+        [
+          31.226,
+          35.957
+        ],
+        [
+          36.248,
+          41.543
+        ],
+        [
+          41.77,
+          47.614
+        ],
+        [
+          47.824,
+          51.457
+        ],
+        [
+          51.667,
+          57.673
+        ],
+        [
+          57.851,
+          61.968
+        ],
+        [
+          62.162,
+          67.216
+        ],
+        [
+          67.415,
+          74.288
+        ],
+        [
+          74.54,
+          78.095
+        ],
+        [
+          78.406,
+          80.133
+        ]
+      ],
+      "gaps": []
+    },
+    "sfx": []
+  },
+  "mix_full": {
+    "integrated_lufs": -13.8,
+    "lra_lu": 1.8,
+    "true_peak_dbtp": -1.4
+  },
+  "verdict": {
+    "status": "pass",
+    "checks": [
+      {
+        "id": "bgm_vs_narration_during_speech_lu",
+        "value": -12.9,
+        "range": {
+          "min": -15,
+          "max": -12
+        },
+        "status": "pass"
+      },
+      {
+        "id": "bgm_vs_narration_in_gaps_lu",
+        "value": null,
+        "range": {
+          "min": -10,
+          "max": -4
+        },
+        "status": "n/a",
+        "note": "말 없는 구간 0s < 1s"
+      },
+      {
+        "id": "sfx_peak_vs_narration_peak_db",
+        "value": null,
+        "range": {
+          "min": -14,
+          "max": -4
+        },
+        "status": "n/a",
+        "note": "SFX 없음"
+      }
+    ]
+  },
+  "listening": "청취 미확인",
+  "note": "측정 통과는 청취 통과가 아니다. 청취 확인은 review_audio 보고서(listened_ranges)가 증명한다."
+}

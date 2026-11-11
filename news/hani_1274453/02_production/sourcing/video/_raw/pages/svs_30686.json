@@ -1,0 +1,339 @@
+{
+    "id": 30686,
+    "url": "http://svs.gsfc.nasa.gov/30686/",
+    "page_type": "Hyperwall Visual",
+    "title": "Galaxy Collisions: Simulation vs Observations",
+    "description": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble || gc_sim_vs_obs_example_frame-1920x1080.jpg (1920x1080) [66.6 KB] || gc_sim_vs_obs_example_frame-1920x1080.png (1920x1080) [378.2 KB] || gc_sim_vs_obs_example_frame-1920x1080_searchweb.png (180x320) [21.0 KB] || gc_sim_vs_obs_example_frame-1920x1080_thm.png (80x40) [2.4 KB] || gc_sim_vs_obs-b-1280x720.wmv (1280x720) [34.4 MB] || gc_sim_vs_obs-b-1920x1080.m4v (1920x1080) [29.4 MB] || gc_sim_vs_obs-b-1280x720.m4v (1280x720) [12.6 MB] || gc_sim_vs_obs-b-1920x1080.wmv (1920x1080) [65.7 MB] || gc_sim_vs_obs-b-1920x1080p30.webm (1920x1080) [9.3 MB] || gc_sim_vs_obs-b-30686.key [15.1 MB] || gc_sim_vs_obs-b-30686.pptx [12.7 MB] || gc_sim_vs_obs-b-1920x1080p30.mov (1920x1080) [108.5 MB] || galaxy-collisions-simulation-vs-observations.hwshow [240 bytes] || ",
+    "release_date": "2015-09-25T16:00:00-04:00",
+    "update_date": "2024-10-10T00:24:24.609377-04:00",
+    "main_image": {
+        "id": 432872,
+        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs_example_frame-1920x1080.jpg",
+        "filename": "gc_sim_vs_obs_example_frame-1920x1080.jpg",
+        "media_type": "Image",
+        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+    },
+    "main_video": null,
+    "main_credits": {
+        "Visualizations by": [
+            {
+                "name": "Frank Summers",
+                "employer": "STScI"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 336489,
+            "url": "http://svs.gsfc.nasa.gov/30686/#media_group_336489",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+            "items": [
+                {
+                    "id": 276950,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432872,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs_example_frame-1920x1080.jpg",
+                        "filename": "gc_sim_vs_obs_example_frame-1920x1080.jpg",
+                        "media_type": "Image",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 276951,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432873,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs_example_frame-1920x1080.png",
+                        "filename": "gc_sim_vs_obs_example_frame-1920x1080.png",
+                        "media_type": "Image",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 276957,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432879,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs_example_frame-1920x1080_searchweb.png",
+                        "filename": "gc_sim_vs_obs_example_frame-1920x1080_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 180,
+                        "height": 320,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 276958,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432880,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs_example_frame-1920x1080_thm.png",
+                        "filename": "gc_sim_vs_obs_example_frame-1920x1080_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 276952,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432874,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1280x720.wmv",
+                        "filename": "gc_sim_vs_obs-b-1280x720.wmv",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 276954,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432876,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1920x1080.m4v",
+                        "filename": "gc_sim_vs_obs-b-1920x1080.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 276955,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432877,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1280x720.m4v",
+                        "filename": "gc_sim_vs_obs-b-1280x720.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 276956,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432878,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1920x1080.wmv",
+                        "filename": "gc_sim_vs_obs-b-1920x1080.wmv",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 276959,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432881,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1920x1080p30.webm",
+                        "filename": "gc_sim_vs_obs-b-1920x1080p30.webm",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 276960,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432882,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-30686.key",
+                        "filename": "gc_sim_vs_obs-b-30686.key",
+                        "media_type": "Presentation",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": 0
+                    }
+                },
+                {
+                    "id": 276961,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432883,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-30686.pptx",
+                        "filename": "gc_sim_vs_obs-b-30686.pptx",
+                        "media_type": "Presentation",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": 0
+                    }
+                },
+                {
+                    "id": 276953,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 432875,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1920x1080p30.mov",
+                        "filename": "gc_sim_vs_obs-b-1920x1080p30.mov",
+                        "media_type": "Movie",
+                        "alt_text": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 439532,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1101188,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/galaxy-collisions-simulation-vs-observations.hwshow",
+                        "filename": "galaxy-collisions-simulation-vs-observations.hwshow",
+                        "media_type": "HyperwallShow",
+                        "alt_text": "",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 336488,
+            "url": "http://svs.gsfc.nasa.gov/30686/#media_group_336488",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Galaxies are vast swarms of billions of stars along with huge interstellar clouds of gas and dust. A spiral galaxy has a broad, thin disk shape, with a bulge of stars in its core, Within the disk are winding arms of dark dust lanes and bright star-forming regions, This structure is stable when left alone, but is relatively easily disturbed when another galaxy passes near. Astronomers have studied galaxy interactions for decades, and Hubble's keen vision has been particularly useful for examining new details.<br /><br>A 2008 Hubble press release unveiled 59 images of galaxy interactions. Each image, however, captures only one moment in a billion-year-long collision process. This visualization of a galaxy collision supercomputer simulation shows the entire collision sequence, and compares the different stages of the collision to different interacting galaxy pairs observed by Hubble. The two spiral galaxies in the simulation distort, twist, and merge together, matching different images at different times and different viewing angles. With this combination of research simulations and high resolution observations, these titanic crashes can be better illustrated and understood.",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 336490,
+            "url": "http://svs.gsfc.nasa.gov/30686/#media_group_336490",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [http://hubblesite.org/newscenter/archive/releases/2008/16/](http://hubblesite.org/newscenter/archive/releases/2008/16/)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "hw",
+    "funding_sources": [
+        "SMD"
+    ],
+    "credits": [
+        {
+            "role": "Visualizer",
+            "people": [
+                {
+                    "name": "Frank Summers",
+                    "employer": "STScI"
+                }
+            ]
+        },
+        {
+            "role": "Project support",
+            "people": [
+                {
+                    "name": "Lars Hernquist",
+                    "employer": "Harvard University"
+                },
+                {
+                    "name": "Chris Mihos",
+                    "employer": "Case Western Reserve University"
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Hubble"
+    ],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Astrophysics",
+        "Collisions in Space",
+        "Galaxy",
+        "HDTV",
+        "Hubble Space Telescope",
+        "Hyperwall",
+        "Presentation",
+        "Space",
+        "Universe"
+    ],
+    "recommended_pages": [],
+    "related": [],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

@@ -1,0 +1,18 @@
+시대 되감기 — Higgsfield (2026-11-11). 사용자 요청: "힉스필드로, 빠르게, 현생인류, 공룡멸종, 태양과지구탄생,전으로 되돌아가는 걸 만들어달라면 가능할까" → "만들어줘"
+
+[키프레임 이미지] model gpt_image_2_6, 9:16
+K1 job 0b8e6f8e-5420-4f8f-b39e-fa1f0581f466 → generated/rw_1_human.png
+Cinematic realistic photograph, vertical 9:16. Night scene: the silhouette of a single modern person standing on a dark rocky ridge, seen from behind, looking up at a brilliant Milky Way band arching across a deep starry sky. The person is small in the lower third; the sky fills most of the frame, the bright galactic core centered around the middle of the frame. Natural astrophotography colors, subtle, not stylized, no text, no logos, no city lights.
+K2 job f4fb20d1-d034-4cb4-9fa1-d589912605a9 → generated/rw_2_dino.png
+Cinematic realistic image, vertical 9:16, natural documentary look (not cartoon). Late Cretaceous landscape at dusk: silhouettes of a few large dinosaurs (long-necked and a tyrannosaur-like one) on a plain in the lower third, looking up as a huge glowing asteroid streaks down through the sky with a bright fiery trail, about to impact on the horizon. Dramatic but believable lighting, dark sky with faint stars above. No text, no logos.
+K3 job 26531512-76f0-45ac-8725-816aa80c0932 → generated/rw_3_sun.png
+Realistic astrophysical visualization, vertical 9:16, about 4.6 billion years ago: a young glowing proto-Sun at the center of the frame surrounded by a wide, slightly tilted disk of gas and dust (protoplanetary disk) with rings and gaps, a small molten red-hot young Earth-like protoplanet glowing in the foreground disk. Deep black space with faint stars. Scientific documentary style like NASA artist impressions, not cartoon. No text, no logos.
+K4 = galaxy_side_a.png (media 1729855f-3ba1-4c2b-b9d9-7130614ea2b4, 충돌 영상 시작 프레임과 동일)
+
+[전환 영상] model seedance_2_5, omni_reference start_image/end_image, 9:16, 4s, 1080p, no audio
+T1 K1→K2 job f09048ac-cae1-4f10-866e-2a0d2bbf7cea: Time rapidly rewinding: the stars streak and the night sky spins backwards fast, the person on the ridge dissolves away, the land transforms as ages rush backward, and the scene morphs smoothly into a prehistoric dusk landscape with dinosaurs as a fiery asteroid descends. One continuous fast time-lapse rewind transition, cinematic, realistic, no text.
+T2 K2→K3 job 2cdade46-7d07-4b6e-9a1c-ad4c1d4e0cbd: Time rapidly rewinding further: the camera rises fast from the prehistoric landscape up through the sky into space, Earth shrinks and melts back into a glowing molten protoplanet, and the scene morphs smoothly into a young glowing Sun surrounded by a swirling disk of gas and dust. One continuous fast rewind transition, cinematic, realistic, no text.
+T3 K3→K4 job c506e60d-72f0-4878-b9af-d71ee653038f: Time rapidly rewinding even further: the young Sun and its swirling disk shrink away fast into a single point of light as the camera pulls far back out of the solar neighborhood, past countless stars, until the whole young spiral galaxy appears edge-on as a thin bright disk with a golden core in deep space. One continuous fast pull-back rewind transition, cinematic, realistic, no text.
+오제출(기각): job ed261039-8ab6-4ebd-8474-537897a0efd4 — 비용 조회 인자를 잘못 넣어 프롬프트 "placeholder"로 실제 제출됨. 사용하지 않음.
+
+[파생] 발화 구간에 맞춰 T1 1.769s, T2 1.501s, T3 2.261s로 배속해 이어 붙임 → media/rewind.mp4

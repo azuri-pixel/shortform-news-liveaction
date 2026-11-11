@@ -1,0 +1,268 @@
+{
+    "id": 10687,
+    "url": "http://svs.gsfc.nasa.gov/10687/",
+    "page_type": "Produced Video",
+    "title": "JWST Science Simulation: Galaxy Collision",
+    "description": "The Advanced Visualization Laboratory (AVL) at the National Center for Supercomputing Applications (NCSA) collaborated with NASA and Drs. Brant Robertson and Lars Hernquist to visualize two colliding galaxies that interact and merge into a single elliptical galaxy over a period spanning two billion years of evolution. The scientific theoretical model and the computational data output were developed by Drs. Brant Robertson and Lars Hernquist. AVL rendered more than 80 gigabytes of this data using in-house rendering software and Virtual Director for camera choreography. This computation provides important research to understand galaxy mergers, and the James Webb Space Telescope (JWST) will provide data to test such theories. When two large disk-shaped galaxies merge — as will happen within the next few billion years with the Milky Way galaxy and its largest neighbor, the Andromeda Galaxy — the result will likely settle into a cloud-shaped elliptical galaxy. Most elliptical galaxies observed today formed from collisions that occurred billions of years ago. It is difficult to observe such collisions now with ground-based telescopes since these collisions are billions of light-years away. JWST will probe in unprecedented detail those distant epochs, and provide exquisite images of mergers caught in the act of destroying disk galaxies.AVL at NCSA University of Illinois || ",
+    "release_date": "2010-10-29T00:00:00-04:00",
+    "update_date": "2025-01-05T00:16:52.746914-05:00",
+    "main_image": {
+        "id": 489237,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p.00652_print.jpg",
+        "filename": "Galaxy_Collision-H264_720p.00652_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+    },
+    "main_video": null,
+    "main_credits": {
+        "Visualizations by": [
+            {
+                "name": "Donna Cox",
+                "employer": "AVL NCSA/University of Illinois"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 352519,
+            "url": "http://svs.gsfc.nasa.gov/10687/#media_group_352519",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "The Advanced Visualization Laboratory (AVL) at the National Center for Supercomputing Applications (NCSA) collaborated with NASA and Drs. Brant Robertson and Lars Hernquist to visualize two colliding galaxies that interact and merge into a single elliptical galaxy over a period spanning two billion years of evolution. The scientific theoretical model and the computational data output were developed by Drs. Brant Robertson and Lars Hernquist. AVL rendered more than 80 gigabytes of this data using in-house rendering software and Virtual Director for camera choreography. This computation provides important research to understand galaxy mergers, and the James Webb Space Telescope (JWST) will provide data to test such theories. When two large disk-shaped galaxies merge — as will happen within the next few billion years with the Milky Way galaxy and its largest neighbor, the Andromeda Galaxy — the result will likely settle into a cloud-shaped elliptical galaxy. Most elliptical galaxies observed today formed from collisions that occurred billions of years ago. It is difficult to observe such collisions now with ground-based telescopes since these collisions are billions of light-years away. JWST will probe in unprecedented detail those distant epochs, and provide exquisite images of mergers caught in the act of destroying disk galaxies.<p><p><a href='http://avl.ncsa.illinois.edu/'>AVL at NCSA University of Illinois</a>",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 352520,
+            "url": "http://svs.gsfc.nasa.gov/10687/#media_group_352520",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+            "items": [
+                {
+                    "id": 333860,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489237,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p.00652_print.jpg",
+                        "filename": "Galaxy_Collision-H264_720p.00652_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 333857,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489234,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p_web.png",
+                        "filename": "Galaxy_Collision-H264_720p_web.png",
+                        "media_type": "Image",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333858,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489235,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p_thm.png",
+                        "filename": "Galaxy_Collision-H264_720p_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 333859,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489236,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p.webmhd.webm",
+                        "filename": "Galaxy_Collision-H264_720p.webmhd.webm",
+                        "media_type": "Movie",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 960,
+                        "height": 540,
+                        "pixels": 518400
+                    }
+                },
+                {
+                    "id": 333855,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489232,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-1080p.mov",
+                        "filename": "Galaxy_Collision-1080p.mov",
+                        "media_type": "Movie",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 333856,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489233,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p.mov",
+                        "filename": "Galaxy_Collision-H264_720p.mov",
+                        "media_type": "Movie",
+                        "alt_text": "This visualization shows two colliding galaxies that merge into a single elliptical galaxy over a period spanning two billion years.  Credits:  NCSA, NASA, B. Robertson, L. Hernquist",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 440764,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1102306,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010687/Galaxy_Collision-H264_720p.hwshow",
+                        "filename": "Galaxy_Collision-H264_720p.hwshow",
+                        "media_type": "HyperwallShow",
+                        "alt_text": "",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                }
+            ],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "HST"
+    ],
+    "credits": [
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Donna Cox",
+                    "employer": "AVL NCSA/University of Illinois"
+                },
+                {
+                    "name": "Stuart Levy",
+                    "employer": "AVL NCSA/University of Illinois"
+                },
+                {
+                    "name": "Robert Patterson",
+                    "employer": "AVL NCSA/University of Illinois"
+                }
+            ]
+        },
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Donna Cox",
+                    "employer": "AVL NCSA/University of Illinois"
+                }
+            ]
+        },
+        {
+            "role": "Scientist",
+            "people": [
+                {
+                    "name": "Brant Robertson",
+                    "employer": "California Institute of Technology"
+                },
+                {
+                    "name": "Lars Hernquist",
+                    "employer": "Harvard University"
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "James Webb Space Telescope (JWST)"
+    ],
+    "series": [],
+    "tapes": [
+        "JWST Media Resource Reel 2010 (Produced by: Clay Anderson)",
+        "JWST Science Animations  (Produced by: Clay Anderson)"
+    ],
+    "papers": [
+        "<a href=\"http://adsabs.harvard.edu/abs/2006ApJ...641...21R\">http://adsabs.harvard.edu/abs/2006ApJ...641...21R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2006ApJ...641...90R\">http://adsabs.harvard.edu/abs/2006ApJ...641...90R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2010ApJ...713.1266R\">http://adsabs.harvard.edu/abs/2010ApJ...713.1266R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2010ApJ...716L.229R\">http://adsabs.harvard.edu/abs/2010ApJ...716L.229R</a>",
+        "<a href=\"http://adsabs.harvard.edu/abs/2006ApJ...641...21R\">http://adsabs.harvard.edu/abs/2006ApJ...641...21R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2006ApJ...641...90R\">http://adsabs.harvard.edu/abs/2006ApJ...641...90R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2010ApJ...713.1266R\">http://adsabs.harvard.edu/abs/2010ApJ...713.1266R</a> <br> <a href=\"http://adsabs.harvard.edu/abs/2010ApJ...716L.229R\">http://adsabs.harvard.edu/abs/2010ApJ...716L.229R</a>"
+    ],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Galaxy",
+        "HDTV",
+        "Hyperwall",
+        "James Webb Space Telescope",
+        "JWST",
+        "Star",
+        "Webb Telescope"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 10662,
+            "url": "http://svs.gsfc.nasa.gov/10662/",
+            "page_type": "Produced Video",
+            "title": "Webb Science Simulations: Planetary Systems and Origins of Life",
+            "description": "Supercomputer simulations of planeratry evolution. Part 1: Turbulent Molecular Cloud Nebula with Protostellar ObjectsThe Advanced Visualization Laboratory (AVL) at the National Center for Supercomputing Applications (NCSA) collaborated with NASA and Drs. Alexei Kritsuk and Michael Norman to visualize a computational data set of a turbulent molecular cloud nebula forming protostellar objects and accretion disks approximately 100 AU in diameter, on the order of the size of our solar system. AVL used its Amore software to interpolate and render the Adaptive Mesh Refinement (AMR) simulation generated from ENZO code for cosmology and astrophysics. The AMR simulation was developed by Drs. Kritsuk and Norman at the Laboratory for Computational Astrophysics. The AMR simulation generated more than 2 terabytes of data and follows star formation processes in a self-gravitating turbulent molecular cloud with a dynamic range of half-a-million in linear scale, resolving both the large-scale filamentary structure of the molecular cloud (~5 parsec) and accretion disks around emerging young protostellar objects (down to 2 AU).  Part 2: Protoplanetary Disk and Planet FormationThe Advanced Visualization Laboratory (AVL) at the National Center for Supercomputing Applications (NCSA) collaborated with NASA and Dr. Aaron Boley to visualize the 16,000 year evolution of a young, isolated protoplanetary disk which surrounds a newly-formed protostar. The disk forms spiral arms and a dense clump as a result of gravitational collapse. Dr. Aaron Boley developed this computational model to investigate the response of young disks to mass accretion from their surrounding envelopes, including the direct formation of planets and brown dwarfs through gravitational instability.  The main formation mechanism for gas giant planets has been debated within the scientific community for over a decade. One of these theories is 'direct formation through gravitational instability.' If the self-gravity of the gas overwhelms the disk's thermal pressure and the stabilizing effect of differential rotation, the gas closest to the protostar rotates faster than gas farther away. In this scenario, regions of the gaseous disk collapse and form a planet directly. The study, presented in Boley (2009), explores whether mass accretion in the outer regions of disks can lead to such disk fragmentation. The simulations show that clumps can form in situ at large disk radii. If the clumps survive, they can become gas giants on wide orbits, e.g., Fomalhaut b, or even more massive objects called brown dwarfs. Whether a disk forms planets at large radii and, if so, the number of planets that form, depend on how much of the envelope mass is distributed at large distances from the protostar.  The results of the simulations suggest that there are two modes of gas giant planet formation. The first mode occurs early in the disk's lifetime, at large radii, and through the disk instability mechanism. After the main accretion phase is over, gas giants can form in the inner disk, over a period of a million years, through the core accretion mechanism, which researchers are addressing in other studies.Thanks to R. H. Durisen, L. Mayer, and G. Lake for comments and discussions relating to this research. This study was supported in part by the University of Zurich, Institute for Theoretical Physics, and by a Swiss Federal Grant. Resources supporting this work were provided by the NASA High-End Computing (HEC) Program through the NASA Advanced Supercomputing (NAS) Division at Ames Research Center.AVL at NCSA, University of Illinois. || ",
+            "release_date": "2021-04-14T00:00:00-04:00",
+            "update_date": "2021-04-16T08:00:09-04:00",
+            "main_image": {
+                "id": 378967,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010662/Nebula_Tour_1.00002_print.jpg",
+                "filename": "Nebula_Tour_1.00002_print.jpg",
+                "media_type": "Image",
+                "alt_text": "JWST Science Simulations: Nebula Tour 1.This visualization shows a tour of a turbulent molecular cloud forming multiple protoplanetary disks.  Credits: NCSA, NASA, A. Kritsuk, M. Norman",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

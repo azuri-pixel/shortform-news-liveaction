@@ -1,0 +1,4 @@
+헤일로 근접 — Higgsfield (2026-11-11). 사용자 요청: "\"그 둘레를 드문드문 감싼 헤일로로\" 에서 더 근접한 영상을 찾아줘." → NASA 공식 영상에 더 가까운 헤일로 장면 없음(헤일로가 균일한 빛무리) → 생성 → "넣어줘"
+start_image: generated/nasa_halo_tilt_frame.png (NASA SVS 14935 Stellar_Halo_Pause_Unlabeled 4.2초 프레임, 810×1440 크롭, 퍼블릭 도메인) media 1efad92e-64d4-479a-aff0-786de908ba96
+model seedance_2_5, omni_reference, 9:16, 5s, 1080p, no audio — job d4c967d6-8ce8-4799-9dfc-62faf63aabb1 → generated/halo_close_v1.mp4
+Slow cinematic camera push-in and gentle orbit toward the outskirts of this spiral galaxy, moving into the faint halo around the disk: the smooth glow resolves into many individual, sparsely scattered old reddish and yellowish stars floating around and above the bright tilted disk, with lots of dark space between them, some passing by close to the camera with parallax. The disk stays visible in the background. Realistic, calm, majestic, no text, no flashes.

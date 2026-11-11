@@ -1,0 +1,154 @@
+incompetech_Impact_Lento.mp3 dur 210.6s
+  0- 10s  -30.8dBFS  low 99% mid  1% hi  0%
+ 10- 20s  -21.0dBFS  low 97% mid  3% hi  0%
+ 20- 30s  -20.7dBFS  low 89% mid 11% hi  0%
+ 30- 40s  -19.2dBFS  low 89% mid 11% hi  0%
+ 40- 50s  -21.4dBFS  low 85% mid 15% hi  0%
+ 50- 60s  -30.0dBFS  low 22% mid 78% hi  0%
+ 60- 70s  -25.6dBFS  low 59% mid 41% hi  0%
+ 70- 80s  -22.0dBFS  low 91% mid  8% hi  0%
+ 80- 90s  -24.3dBFS  low 64% mid 36% hi  0%
+ 90-100s  -24.1dBFS  low 21% mid 79% hi  0%
+100-110s  -26.6dBFS  low 74% mid 26% hi  0%
+110-120s  -22.0dBFS  low 98% mid  2% hi  0%
+120-130s  -20.2dBFS  low100% mid  0% hi  0%
+130-140s  -15.9dBFS  low100% mid  0% hi  0%
+140-150s  -16.1dBFS  low100% mid  0% hi  0%
+150-160s  -17.0dBFS  low100% mid  0% hi  0%
+160-170s  -16.9dBFS  low100% mid  0% hi  0%
+170-180s  -16.1dBFS  low100% mid  0% hi  0%
+180-190s  -16.3dBFS  low100% mid  0% hi  0%
+190-200s  -22.5dBFS  low100% mid  0% hi  0%
+200-210s  -34.6dBFS  low100% mid  0% hi  0%
+incompetech_Echoes_of_Time_v2.mp3 dur 285.2s
+  0- 10s  -26.6dBFS  low 97% mid  3% hi  0%
+ 10- 20s  -17.8dBFS  low 99% mid  1% hi  0%
+ 20- 30s  -18.3dBFS  low 99% mid  1% hi  0%
+ 30- 40s  -20.1dBFS  low 99% mid  1% hi  0%
+ 40- 50s  -17.7dBFS  low100% mid  0% hi  0%
+ 50- 60s  -18.9dBFS  low 99% mid  1% hi  0%
+ 60- 70s  -20.4dBFS  low 94% mid  6% hi  0%
+ 70- 80s  -15.0dBFS  low 98% mid  2% hi  0%
+ 80- 90s  -14.5dBFS  low 99% mid  1% hi  0%
+ 90-100s  -14.4dBFS  low100% mid  0% hi  0%
+100-110s  -15.4dBFS  low 99% mid  1% hi  0%
+110-120s  -14.6dBFS  low100% mid  0% hi  0%
+120-130s  -12.8dBFS  low 97% mid  3% hi  0%
+130-140s  -14.0dBFS  low 91% mid  9% hi  0%
+140-150s  -18.3dBFS  low 99% mid  1% hi  0%
+150-160s  -19.7dBFS  low100% mid  0% hi  0%
+160-170s  -14.2dBFS  low 99% mid  1% hi  0%
+170-180s  -15.5dBFS  low 99% mid  1% hi  0%
+180-190s  -13.8dBFS  low 99% mid  1% hi  0%
+190-200s  -13.7dBFS  low100% mid  0% hi  0%
+200-210s  -10.7dBFS  low100% mid  0% hi  0%
+210-220s  -10.8dBFS  low100% mid  0% hi  0%
+220-230s  -17.6dBFS  low 99% mid  1% hi  0%
+230-240s  -13.9dBFS  low 99% mid  1% hi  0%
+240-250s   -8.6dBFS  low 98% mid  2% hi  0%
+250-260s  -12.7dBFS  low 99% mid  1% hi  0%
+260-270s  -27.8dBFS  low 89% mid 11% hi  0%
+270-280s  -33.2dBFS  low 91% mid  9% hi  0%
+280-290s  -91.4dBFS  low  5% mid 95% hi  0%
+incompetech_Earth_Prelude.mp3 dur 229.2s
+  0- 10s  -30.1dBFS  low 92% mid  8% hi  0%
+ 10- 20s  -25.2dBFS  low 96% mid  4% hi  0%
+ 20- 30s  -24.7dBFS  low 96% mid  4% hi  0%
+ 30- 40s  -24.5dBFS  low 98% mid  2% hi  0%
+ 40- 50s  -26.3dBFS  low 97% mid  3% hi  0%
+ 50- 60s  -27.0dBFS  low 78% mid 22% hi  0%
+ 60- 70s  -26.1dBFS  low 81% mid 19% hi  0%
+ 70- 80s  -23.4dBFS  low 97% mid  3% hi  0%
+ 80- 90s  -23.4dBFS  low 86% mid 14% hi  0%
+ 90-100s  -24.7dBFS  low 50% mid 50% hi  0%
+100-110s  -24.2dBFS  low 49% mid 51% hi  0%
+110-120s  -24.2dBFS  low 59% mid 41% hi  0%
+120-130s  -23.3dBFS  low 63% mid 37% hi  0%
+130-140s  -28.6dBFS  low 48% mid 52% hi  0%
+140-150s  -28.7dBFS  low 34% mid 65% hi  0%
+150-160s  -30.2dBFS  low 64% mid 36% hi  0%
+160-170s  -30.7dBFS  low 57% mid 43% hi  0%
+170-180s  -30.5dBFS  low 53% mid 47% hi  0%
+180-190s  -31.2dBFS  low 72% mid 28% hi  0%
+190-200s  -28.7dBFS  low 72% mid 28% hi  0%
+200-210s  -27.3dBFS  low 55% mid 45% hi  0%
+210-220s  -25.5dBFS  low 81% mid 19% hi  0%
+220-230s  -35.9dBFS  low 79% mid 21% hi  0%
+incompetech_Infinite_Perspective.mp3 dur 345.1s
+  0- 10s  -18.3dBFS  low 87% mid 13% hi  0%
+ 10- 20s  -18.6dBFS  low 78% mid 22% hi  0%
+ 20- 30s  -18.0dBFS  low 85% mid 15% hi  0%
+ 30- 40s  -18.3dBFS  low 78% mid 22% hi  0%
+ 40- 50s  -17.9dBFS  low 71% mid 29% hi  0%
+ 50- 60s  -17.3dBFS  low 67% mid 33% hi  0%
+ 60- 70s  -17.3dBFS  low 61% mid 39% hi  0%
+ 70- 80s  -17.3dBFS  low 59% mid 41% hi  0%
+ 80- 90s  -17.4dBFS  low 58% mid 42% hi  0%
+ 90-100s  -17.4dBFS  low 74% mid 26% hi  0%
+100-110s  -17.3dBFS  low 64% mid 36% hi  0%
+110-120s  -16.8dBFS  low 55% mid 45% hi  0%
+120-130s  -16.4dBFS  low 66% mid 34% hi  0%
+130-140s  -16.9dBFS  low 51% mid 49% hi  0%
+140-150s  -17.2dBFS  low 69% mid 31% hi  0%
+150-160s  -17.3dBFS  low 67% mid 33% hi  0%
+160-170s  -16.1dBFS  low 61% mid 39% hi  0%
+170-180s  -16.0dBFS  low 70% mid 30% hi  0%
+180-190s  -16.7dBFS  low 61% mid 39% hi  0%
+190-200s  -17.4dBFS  low 79% mid 21% hi  0%
+200-210s  -18.0dBFS  low 81% mid 19% hi  0%
+210-220s  -17.0dBFS  low 81% mid 19% hi  0%
+220-230s  -17.5dBFS  low 71% mid 29% hi  0%
+230-240s  -17.4dBFS  low 70% mid 30% hi  0%
+240-250s  -17.8dBFS  low 54% mid 46% hi  0%
+250-260s  -18.3dBFS  low 51% mid 49% hi  0%
+260-270s  -17.9dBFS  low 52% mid 48% hi  0%
+270-280s  -17.7dBFS  low 52% mid 48% hi  0%
+280-290s  -18.3dBFS  low 70% mid 30% hi  0%
+290-300s  -17.5dBFS  low 48% mid 52% hi  0%
+300-310s  -17.4dBFS  low 45% mid 55% hi  0%
+310-320s  -16.6dBFS  low 49% mid 51% hi  0%
+320-330s  -17.5dBFS  low 46% mid 54% hi  0%
+330-340s  -19.1dBFS  low 38% mid 62% hi  0%
+340-350s  -61.0dBFS  low  0% mid100% hi  0%
+incompetech_Dreams_Become_Real.mp3 dur 410.1s
+  0- 10s  -29.1dBFS  low  1% mid 99% hi  0%
+ 10- 20s  -28.7dBFS  low  1% mid 99% hi  0%
+ 20- 30s  -27.9dBFS  low  1% mid 99% hi  0%
+ 30- 40s  -29.8dBFS  low  1% mid 99% hi  0%
+ 40- 50s  -26.1dBFS  low 41% mid 59% hi  0%
+ 50- 60s  -24.3dBFS  low 32% mid 68% hi  0%
+ 60- 70s  -23.9dBFS  low 42% mid 58% hi  0%
+ 70- 80s  -23.4dBFS  low 36% mid 64% hi  0%
+ 80- 90s  -23.1dBFS  low 36% mid 64% hi  0%
+ 90-100s  -23.3dBFS  low 34% mid 66% hi  0%
+100-110s  -25.5dBFS  low 49% mid 51% hi  0%
+110-120s  -26.5dBFS  low 42% mid 58% hi  0%
+120-130s  -25.6dBFS  low 51% mid 49% hi  0%
+130-140s  -25.8dBFS  low 51% mid 49% hi  0%
+140-150s  -24.9dBFS  low 47% mid 53% hi  0%
+150-160s  -24.4dBFS  low 37% mid 63% hi  0%
+160-170s  -22.3dBFS  low 20% mid 80% hi  0%
+170-180s  -22.1dBFS  low 19% mid 81% hi  0%
+180-190s  -24.7dBFS  low 46% mid 54% hi  0%
+190-200s  -25.4dBFS  low 39% mid 61% hi  0%
+200-210s  -22.7dBFS  low 18% mid 82% hi  0%
+210-220s  -23.5dBFS  low  1% mid 99% hi  0%
+220-230s  -25.5dBFS  low  1% mid 99% hi  0%
+230-240s  -28.3dBFS  low  2% mid 98% hi  0%
+240-250s  -25.0dBFS  low  3% mid 97% hi  0%
+250-260s  -21.4dBFS  low  1% mid 99% hi  0%
+260-270s  -23.7dBFS  low  1% mid 99% hi  0%
+270-280s  -24.2dBFS  low  1% mid 99% hi  0%
+280-290s  -28.2dBFS  low  2% mid 98% hi  0%
+290-300s  -27.5dBFS  low 60% mid 40% hi  0%
+300-310s  -28.5dBFS  low 70% mid 30% hi  0%
+310-320s  -26.0dBFS  low 43% mid 57% hi  0%
+320-330s  -24.5dBFS  low 28% mid 72% hi  0%
+330-340s  -24.7dBFS  low 43% mid 57% hi  0%
+340-350s  -25.4dBFS  low 60% mid 40% hi  0%
+350-360s  -23.9dBFS  low 38% mid 62% hi  0%
+360-370s  -26.5dBFS  low  1% mid 99% hi  0%
+370-380s  -25.2dBFS  low  1% mid 99% hi  0%
+380-390s  -27.0dBFS  low  1% mid 99% hi  0%
+390-400s  -28.2dBFS  low  1% mid 99% hi  0%
+400-410s  -49.0dBFS  low  6% mid 94% hi  0%

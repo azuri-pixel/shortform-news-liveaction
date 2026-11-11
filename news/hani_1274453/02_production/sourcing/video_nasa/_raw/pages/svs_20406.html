@@ -1,0 +1,1234 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta info -->
+		<meta charset="UTF-8">
+		<meta name="language" content="english">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="author" content="
+	
+		Adriana Manrique Gutierrez
+	
+		 and Joy Ng
+	
+">
+		<meta
+			name="description"
+			content="Our solar system is nestled inside the Milky Way galaxy, home to more than 100 billion stars. Stretching for millions of miles around the solar system is a protective bubble called the heliosphere. Created by particles and magnetic fields from the Sun, the heliosphere separates our solar system from the vast galaxy beyond — and much of its harsh space radiation that can be damaging to life on Earth. || "
+		>
+		<meta
+			name="keywords"
+			content="NASA, SVS, Scientific Visualization Studio, Scientific Visualization, Heliosphere, Imap, Milky Way"
+		>
+
+		<!-- Open graph protocol properties --> 
+		<meta property="og:title" content="NASA Scientific Visualization Studio | The Heliosphere Within The Milky Way Galaxy">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg">
+		<meta property="og:description" content="Our solar system is nestled inside the Milky Way galaxy, home to more than 100 billion stars. Stretching for millions of miles around the solar system is a protective bubble called the heliosphere. Created by particles and magnetic fields from the Sun, the heliosphere separates our solar system from the vast galaxy beyond — and much of its harsh space radiation that can be damaging to life on Earth. || ">
+		
+	<meta property="article:published_time" content="2025-08-22T09:00:00-04:00">
+	<meta property="article:modified_time" content="2025-08-22T16:32:28.946043-04:00">
+	
+	
+	
+	
+		<meta property="article:author" content="Adriana Manrique Gutierrez">
+	
+		<meta property="article:author" content="Joy Ng">
+	
+	
+	
+		<meta property="article:tag" content="Heliosphere">
+	
+		<meta property="article:tag" content="Imap">
+	
+		<meta property="article:tag" content="Milky Way">
+	
+
+		
+		<meta property="og:url" content="http://svs.gsfc.nasa.gov/20406/">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:site_name" content="NASA Scientific Visualization Studio">
+
+		<!-- json-ld properties -->
+		<script type="application/ld+json">
+			{"@context": "http://schema.org", "@type": "Article", "headline": "The Heliosphere Within The Milky Way Galaxy", "url": "http://svs.gsfc.nasa.gov/20406/", "thumbnailUrl": "/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg", "datePublished": "2025-08-22T09:00:00-04:00", "articleSection": "Animation", "creator": ["Adriana Manrique Gutierrez","Joy Ng"], "keywords": ["Heliosphere","Imap","Milky Way"]}
+		</script>
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-32x32.png">
+		<link rel="icon" sizes="57x57" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-57x57.png">
+		<link rel="icon" sizes="76x76" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-76x76.png">
+		<link rel="icon" sizes="96x96" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-96x96.png">
+		<link rel="icon" sizes="128x128" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-128x128.png">
+		<link rel="icon" sizes="192x192" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-192x192.png">
+		<link rel="icon" sizes="196x196" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-196x196.png">
+		<link rel="icon" sizes="228x228" type="image/png" href="https://nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/favicon-228x228.png">
+
+		<!-- Tab title -->
+		<title>NASA SVS | The Heliosphere Within The Milky Way Galaxy</title>
+
+		<!-- Resources -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+			onerror="document.write(`<script src='/static/svs/js/jquery-3.6.0.min.js'>\x3C/script>`)"
+		>
+		</script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-min.min.js"
+			onerror="document.write(`<script src='/static/svs/js/underscore-umd-min.js'>\x3C/script>`)"
+		>
+		</script>
+		
+	
+
+
+		<!-- Stylesheets -->
+		<link href="/static/svs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/svs/css/bootstrap-icons.min.css" rel="stylesheet">
+		<link href="/static/svs/css/style.css" rel="stylesheet">
+		
+	<link href="/static/detailspage/css/detailspage.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<!-- Top navigation bar -->
+			<nav id="top-navbar" class="navbar navbar-expand-md navbar-dark position-fixed">
+				<div class="container-fluid">
+					<!-- NASA brand -->
+					<a class="navbar-brand p-0 m-0" href="https://www.nasa.gov/">
+						<img
+							src="/static/svs/images/nasa-meatball.svg"
+							alt="NASA Logo"
+							height="40px"
+						>
+					</a>
+
+					<span class="d-flex flex-nowrap overflow-hidden">
+						
+							<!-- SVS brand -->
+							<a class="navbar-brand py-0 px-2 m-0 svs-brand svs-brand-svs" href="/">Scientific Visualization Studio</a>
+						
+
+						
+							
+						
+					</span>
+
+					<!-- Toggle button for collapsed navbar links -->
+					<button
+						class="navbar-toggler ms-auto"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#navbar-offcanvas"
+						aria-controls="navbar-offcanvas"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Nav links + search box -->
+					<div class="offcanvas offcanvas-end text-bg-dark flex-shrink-0 flex-grow-1" id="navbar-offcanvas">
+						<div class="offcanvas-header position-absolute top-0 end-0">
+							<button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<ul class="navbar-nav ms-auto justify-content-end">
+								<!-- Nav links -->
+								
+									
+										
+									
+									<li class="nav-item">
+										<a class="nav-link" href="/gallery/the-galleries/"><span class="bi bi-images" aria-hidden="true"></span> Galleries</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/help/"><span class="bi bi-question-circle" aria-hidden="true"></span> Help</a>
+									</li>
+								
+								
+								
+								
+									<!-- Search box -->
+									<form id="navbar_search_form" class="ps-0 ps-md-2" role="search" action="/search" method="get">
+										<div class="input-group flex-nowrap w-100">
+	
+		
+		<input
+			type="text"
+			id="navbar_search_box"
+			class="form-control ckempty border border-end-0  text-light bg-dark border-light"
+			name="search"
+			value=""
+			placeholder="Search..."
+			aria-label="Search..."
+		>
+		<label
+			for="navbar_search_box"
+			class="visually-hidden"
+		>
+			Search
+		</label>
+		<button
+			id="navbar_search_box_clear"
+			type="reset"
+			class="btn btn-primary border-start-0 border border-end-0 pe-1 bg-dark border-light"
+			title="Clear search text"
+			aria-label="Clear search text"
+			
+			onclick="$('#navbar_search_box').val('')"
+			
+		>
+			<span
+				class="bi bi-backspace text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+		<button
+			id="navbar_search_box_submit"
+			type="submit"
+			title="Search!"
+			aria-label="Search!"
+			class="btn btn-primary border border-start-0 pe-3 bg-dark border-light"
+		>
+			<span
+				class="bi bi-search text-light"
+				aria-hidden="true"
+			> </span>
+		</button>
+	
+</div>
+
+									</form>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="flex-fill">
+			<div id="alerts" class="position-fixed w-100 p-2" style="z-index: 999">
+				
+					
+
+
+				
+				
+					
+				
+			</div>
+			<div id="main-container" class="position-relative vstack container-md py-2">
+				
+	<article class="mt-2">
+		<!-- Header (Title, release date, etc.) -->
+		<section class="position-relative">
+			<!-- Navigation line -->
+			<nav class="row mb-2">
+				<div class="w-100 d-flex">
+					
+						
+							<span class="bi bi-chevron-left text-muted opacity-50" aria-hidden="true"></span>
+						
+						<a
+							href="/5575"
+							class="me-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Previous page"
+						>
+							5575: Powerful Hurricane Erin forms in the Atlanti...
+						</a>
+					
+					
+						<a
+							href="/20408"
+							class="ms-auto link text-muted opacity-50 text-truncate"
+							style="max-width: 30vw"
+							aria-label="Next page"
+						>
+							20408: Solar Particle Acceleration
+						</a>
+						
+						
+							<span class="bi bi-chevron-right text-muted opacity-50" aria-hidden="true"></span>
+						
+					
+					
+						<a
+							href="/15117"
+							class="link text-muted opacity-50 ms-3"
+							aria-label="Newest page"
+						><span class="bi bi-chevron-bar-right" aria-hidden="true"></span></a>
+					
+				</div>
+			</nav>
+
+			<!-- Alerts -->
+			
+			
+			
+
+			<!-- Title -->
+			<div class="row">
+				<h1 id="title" class="mb-0">The Heliosphere Within The Milky Way Galaxy</h1>
+			</div>
+
+			<!-- Release date + ID + social media icons -->
+			<div class="row">
+				<div class="hstack flex-wrap align-items-center">
+					<ul class="list-unstyled vstack gap-1 mb-1 justify-content-center">
+						
+						
+							<li class="mb-0 fs-5"><b>Released</b> Friday, August 22, 2025</li>
+						
+						
+					</ul>
+					<div>
+						<ul class="list-unstyled hstack gap-2 mb-1">
+							<li>
+								<span class="btn btn-secondary disabled">ID: 20406</span>
+							</li>
+							<li class="vr"></li>
+							
+
+							<li>
+								<a
+									href="/api/20406"
+									target="_blank"
+									class="btn btn-light btn-sm px-1"
+									title="View this page in our API"
+								> <span class="bi bi-file-earmark-code fs-4" aria-hidden="true"></span> </a>
+							</li>
+							<li class="vr"></li>
+							
+
+<li>
+	
+
+
+	<button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4"
+		title="Copy a link to this page"
+		tabindex="0"
+		aria-label="Copy a link to this page"
+		data-copy-url="http://svs.gsfc.nasa.gov/20406/"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button>
+
+
+</li>
+<li>
+	<a
+		href="https://twitter.com/intent/tweet"
+		target="_blank"
+		class="btn btn-light btn-sm px-1"
+		title="Share this page on Twitter"
+	> <span class="bi bi-twitter fs-4" aria-hidden="true"></span> </a>
+</li>
+<li>
+	 <a
+	href="https://www.facebook.com/share.php?u=http%3A//svs.gsfc.nasa.gov/20406/%3F"
+	target="_blank"
+	class="btn btn-light btn-sm px-1"
+	title="Share this page on Facebook"
+> <span class="bi bi-facebook fs-4" aria-hidden="true"></span> </a>
+</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main credits -->
+			<div class="row">
+				<div class="hstack flex-wrap gap-3">
+					
+
+
+	<ul class="hstack list-unstyled gap-1 mb-0 hide-last-vr flex-wrap">
+		
+			
+				<li>
+					<ul class="hstack list-unstyled gap-1 mb-0 flex-wrap">
+						
+							<li class="fw-bold">
+								Visualizations by:
+							</li>
+						
+						
+							
+								<li>
+									<a href="/search?people=Adriana%20Manrique%20Gutierrez" class="link fw-bold">Adriana Manrique Gutierrez</a>
+								</li>
+							
+						
+					</ul>
+				</li>
+				<li class="vr" aria-hidden="true">
+				</li>
+			
+		
+			
+				<li>
+					<ul class="hstack list-unstyled gap-1 mb-0 flex-wrap">
+						
+							<li class="fw-bold">
+								Produced by:
+							</li>
+						
+						
+							
+								<li>
+									<a href="/search?people=Joy%20Ng" class="link fw-bold">Joy Ng</a>
+								</li>
+							
+						
+					</ul>
+				</li>
+				<li class="vr" aria-hidden="true">
+				</li>
+			
+		
+	</ul>
+
+ <a href="#section_credits" class="link" onclick="$('#section_credits')[0].scrollTo({behavior: 'smooth'})"><span class="bi bi-arrow-bar-down me-1" aria-hidden="true"></span>View full credits</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+		
+		
+			<!-- Media groups -->
+			<div class="vstack gap-3">
+				
+					
+						
+
+<section id="media_group_378772" ><div class="px-0 px-md-3 px-lg-4 mb-0-last-p"><!-- Description --><p>Our solar system is nestled inside the Milky Way galaxy, home to more than 100 billion stars. Stretching for millions of miles around the solar system is a protective bubble called the heliosphere. Created by particles and magnetic fields from the Sun, the heliosphere separates our solar system from the vast galaxy beyond — and much of its harsh space radiation that can be damaging to life on Earth.</p></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_378704" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.00900_print.jpg"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.webm"
+						type="video/webm"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_wStars_v02.mov"
+						type="video/quicktime"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.mov"
+						type="video/quicktime"
+					><p class="text-white">
+					Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_378704"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_378704_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_378704_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_378704_download_movies_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.mp4" target="_blank">
+									iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.mp4 (1920x1080) [55.1 MB]
+								</a></li><li><a id="media_group_378704_download_movies_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.webm" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.webm (3840x2160) [14.5 MB]
+								</a></li><li><a id="media_group_378704_download_movies_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_wStars_v02.mov" target="_blank">
+									iMAP_Shot_1-2_30fps_1080_proRes_wStars_v02.mov (3840x2160) [3.0 GB]
+								</a></li><li><a id="media_group_378704_download_movies_3" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.mov" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.mov (3840x2160) [3.0 GB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_378704_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_378704_download_images_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.00900_print.jpg" target="_blank">
+									iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.00900_print.jpg (1024x576) [96.2 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p><b>Conceptual Animation</b><p><p>This conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.<p><p><p></p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_378708" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.00900_print.jpg"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_noStars_v02.mov"
+						type="video/quicktime"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.webm"
+						type="video/webm"
+					><source
+						src="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.mov"
+						type="video/quicktime"
+					><p class="text-white">
+					Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_378708"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_378708_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_378708_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_378708_download_movies_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.mp4" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.mp4 (1920x1080) [54.9 MB]
+								</a></li><li><a id="media_group_378708_download_movies_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_noStars_v02.mov" target="_blank">
+									iMAP_Shot_1-2_30fps_1080_proRes_noStars_v02.mov (1920x1080) [767.5 MB]
+								</a></li><li><a id="media_group_378708_download_movies_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.webm" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.webm (3840x2160) [14.1 MB]
+								</a></li><li><a id="media_group_378708_download_movies_3" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.mov" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.mov (3840x2160) [2.9 GB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_378708_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_378708_download_images_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.00900_print.jpg" target="_blank">
+									iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.00900_print.jpg (1024x576) [96.3 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p><b>Conceptual Animation</b><p><p>This conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_378758" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Video player --><video
+				controls
+				poster="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg"
+				preload="metadata"
+				class="img-fluid w-100"
+				style="min-height: 20vh; max-height: 65vh;"
+			><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_noStars.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_noStars.mov"
+						type="video/quicktime"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_wStars.mov"
+						type="video/quicktime"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.webm"
+						type="video/webm"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_wStars.mp4"
+						type="video/mp4"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_noStars.mov"
+						type="video/quicktime"
+					><source
+						src="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.mov"
+						type="video/quicktime"
+					><p class="text-white">
+					Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.
+				</p></video></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_378758"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_378758_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_378758_movies_download" class="dropdown-header"><h6 class="mb-0">Movies</h6></li><li><a id="media_group_378758_download_movies_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_noStars.mp4" target="_blank">
+									MilkyWayZoom_30fps_1080_h264_noStars.mp4 (1920x1080) [24.6 MB]
+								</a></li><li><a id="media_group_378758_download_movies_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_noStars.mov" target="_blank">
+									MilkyWayZoom_30fps_1080_proRes_noStars.mov (1920x1080) [337.9 MB]
+								</a></li><li><a id="media_group_378758_download_movies_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_wStars.mov" target="_blank">
+									MilkyWayZoom_30fps_1080_proRes_wStars.mov (1920x1080) [357.8 MB]
+								</a></li><li><a id="media_group_378758_download_movies_3" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.webm" target="_blank">
+									MilkyWayZoom_30fps_proRes_wStars.webm (3840x2160) [10.3 MB]
+								</a></li><li><a id="media_group_378758_download_movies_4" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_wStars.mp4" target="_blank">
+									MilkyWayZoom_30fps_1080_h264_wStars.mp4 (3840x2160) [26.3 MB]
+								</a></li><li><a id="media_group_378758_download_movies_5" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_noStars.mov" target="_blank">
+									MilkyWayZoom_30fps_proRes_noStars.mov (3840x2160) [1.3 GB]
+								</a></li><li><a id="media_group_378758_download_movies_6" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.mov" target="_blank">
+									MilkyWayZoom_30fps_proRes_wStars.mov (3840x2160) [1.3 GB]
+								</a></li><li><hr class="dropdown-divider"></li><li id="media_group_378758_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_378758_download_images_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg" target="_blank">
+									MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg (1024x576) [47.1 KB]
+								</a></li><li><a id="media_group_378758_download_images_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_searchweb.png" target="_blank">
+									MilkyWayZoom_30fps_proRes_wStars.00001_searchweb.png (320x180) [17.7 KB]
+								</a></li><li><a id="media_group_378758_download_images_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_thm.png" target="_blank">
+									MilkyWayZoom_30fps_proRes_wStars.00001_thm.png (80x40) [1.4 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p><b>Conceptual Animation</b><p><p>This conceptual animation highlights the Milky Way Galaxy only.</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_378783" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_print.jpg"
+						type="image/jpeg"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_searchweb.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_web.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_thm.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North"
+					alt="Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North"
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_378783"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_378783_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_378783_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_378783_download_images_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_print.jpg" target="_blank">
+									Helio_18x24_Print_nolabels_print.jpg (1024x768) [106.0 KB]
+								</a></li><li><a id="media_group_378783_download_images_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels.png" target="_blank">
+									Helio_18x24_Print_nolabels.png (7200x5400) [29.5 MB]
+								</a></li><li><a id="media_group_378783_download_images_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_searchweb.png" target="_blank">
+									Helio_18x24_Print_nolabels_searchweb.png (320x180) [67.0 KB]
+								</a></li><li><a id="media_group_378783_download_images_3" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_web.png" target="_blank">
+									Helio_18x24_Print_nolabels_web.png (320x240) [81.4 KB]
+								</a></li><li><a id="media_group_378783_download_images_4" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_thm.png" target="_blank">
+									Helio_18x24_Print_nolabels_thm.png (80x40) [5.3 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p><b>Graphic</b><p><p>A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. <p><p>Credit: NASA/Jonathan North</p></div></div></div></section>
+
+					
+				
+					
+						
+
+<section id="media_group_378784" ><div class="card bg-gray-300 position-relative rounded overflow-hidden p-0"><!-- Content --><div class="card-body p-0"><div class="d-flex justify-content-center position-relative bg-dark"><!-- Image --><picture><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_print.jpg"
+						type="image/jpeg"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_searchweb.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_web.png"
+						type="image/png"
+					><source
+						srcset="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_thm.png"
+						type="image/png"
+					><img
+					class="img-fluid w-100"
+					style="min-height: 20vh; max-height: 65vh;"
+					src="/static/svs/images/no_preview_web_black.png"
+					title="Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North"
+					alt="Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North"
+					loading="lazy"
+					type="image/png"
+				></picture></div><div class="p-2 p-md-3 mb-0-last-p clearfix"><div class="hstack gap-2 flex-wrap flex-lg-nowrap float-end"><ul class="hstack list-unstyled ms-auto gap-2 flex-shrink-0 mb-0"><li><button
+		type="button"
+		class="svs-copy-link-to-this-page-button btn btn-light px-1 py-0 fs-4 bg-transparent border-0"
+		title="Copy a link to this media item"
+		tabindex="0"
+		aria-label="Copy a link to this media item"
+		data-copy-url="{ current_url }#media_group_378784"
+		data-bs-title="Copied!"
+		data-bs-trigger="manual"
+	><span class="bi bi-link-45deg" aria-hidden="true"></span></button></li></ul><div class="vr"></div><!-- Download Options --><div class="dropdown flex-shrink-0"><button
+		class="btn btn-sm btn-secondary dropdown-toggle text-wrap"
+		data-bs-toggle="dropdown"
+		aria-expanded="false"
+		data-bs-popper-config='{"strategy":"fixed"}'
+	><span class="bi bi-download me-1" aria-hidden="true"></span> Download
+	</button><ul id="media_group_378784_download" class="dropdown-menu dropdown-menu-dark"><li id="media_group_378784_images_download" class="dropdown-header"><h6 class="mb-0">Images</h6></li><li><a id="media_group_378784_download_images_0" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_print.jpg" target="_blank">
+									Helio_18X24_BigText_Print_print.jpg (1024x768) [115.5 KB]
+								</a></li><li><a id="media_group_378784_download_images_1" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print.png" target="_blank">
+									Helio_18X24_BigText_Print.png (7201x5401) [23.2 MB]
+								</a></li><li><a id="media_group_378784_download_images_2" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_searchweb.png" target="_blank">
+									Helio_18X24_BigText_Print_searchweb.png (320x180) [70.1 KB]
+								</a></li><li><a id="media_group_378784_download_images_3" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_web.png" target="_blank">
+									Helio_18X24_BigText_Print_web.png (320x240) [84.6 KB]
+								</a></li><li><a id="media_group_378784_download_images_4" class="dropdown-item" href="/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_thm.png" target="_blank">
+									Helio_18X24_BigText_Print_thm.png (80x40) [5.5 KB]
+								</a></li><li><hr class="dropdown-divider"></li></ul></div></div><!-- Description --><p><b>Graphic With Labels</b><p><p>A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. <p><p>Credit: NASA/Jonathan North</p></div></div></div></section>
+
+					
+				
+			</div>
+			<hr>
+		
+
+		
+		
+			<section id="section_keywords" class="vstack gap-2">
+				
+					<!-- NASA science categories -->
+					<ul id="nasa_science_categories" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?nasa_science_categories=Sun"
+									class="btn btn-primary hover-grow fw-bold"
+								>
+									<span class="bi bi-sun-fill me-1" aria-hidden="true"></span> Sun
+								</a>
+							</li>
+						
+					</ul>
+				
+
+				
+					<!-- Keywords -->
+					<ul id="keywords" class="list-unstyled hstack flex-wrap gap-2 mb-0">
+						
+							<li>
+								<a
+									href="/search?keywords=Heliosphere"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Heliosphere</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Imap"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Imap</a>
+							</li>
+						
+							<li>
+								<a
+									href="/search?keywords=Milky Way"
+									class="btn btn-sm btn-secondary hover-grow"
+								>Milky Way</a>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+		
+		
+			<section id="section_credits">
+				<h2 class="fs-3">Credits</h2>
+				
+					<!-- Credit header box -->
+					<div class="card p-3 mb-2 mb-0-last-p">
+						<p><b>Please give credit for this item to:</b><br /> NASA's Goddard Space Flight Center Conceptual Image Lab</p>
+					</div>
+				
+				
+					<!-- Credit list -->
+					<ul class="list-unstyled vstack gap-2">
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Animators
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Adriana%20Manrique%20Gutierrez" class="link">
+		Adriana Manrique Gutierrez
+	</a>
+	
+		(eMITS)
+
+											</li>
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Jonathan%20North" class="link">
+		Jonathan North
+	</a>
+	
+		(eMITS)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+							<li class="row">
+								<div class="col-6 col-md-4 col-lg-3 text-end">
+									<h3 class="fs-6 mb-0 lh-base">
+										
+											Producer
+										
+									</h3>
+								</div>
+								<div class="col-6 col-md-8 col-lg-9 text-start border-start">
+									<ul class="list-unstyled">
+										
+											<li>
+												
+
+
+
+<a href="/search/?people=Joy%20Ng" class="link">
+		Joy Ng
+	</a>
+	
+		(eMITS)
+
+											</li>
+										
+									</ul>
+								</div>
+							</li>
+						
+					</ul>
+				
+			</section>
+			<hr>
+		
+
+
+
+		
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+			<!-- Related pages -->
+			<section id="section_related_pages">
+				
+
+<div class="row">
+	
+		<!-- Related pages -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Related</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_related_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_20409 --><li
+			id="tile_details_page_20409"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_20409_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/20409/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a020000/a020400/a020409/Cosmic_rays_Anim_V002_1080_Final.00543_print.jpg"
+									alt="Conceptual AnimationAs the heliosphere expands with the natural 11-year solar cycle, the number of galactic cosmic rays that penetrate the heliosphere decreases. As the heliosphere shrinks, more galactic cosmic rays can penetrate the heliosphere."
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 20409 </span></div><div
+					id="tile_details_page_20409_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-play-fill me-1" aria-hidden="true"></span> Animation
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_20409_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/20409/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											The Heliosphere and Galactic Cosmic Rays
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_20410 --><li
+			id="tile_details_page_20410"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_20410_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/20410/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a020000/a020400/a020410/20410_IMAP_5k_Spin_NoLogo_2-002.00001_print.jpg"
+									alt="Conceptual AnimationThe IMAP spacecraft, located at Lagrange Point 1, spins at four revolutions per minute as it surveys the heliosphere.Credit: NASA/Princeton/Patrick McPike"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 20410 </span></div><div
+					id="tile_details_page_20410_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-play-fill me-1" aria-hidden="true"></span> Animation
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_20410_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/20410/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											IMAP Beauty Passes
+										</a></h3></div></div></div></li>
+
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_20363 --><li
+			id="tile_details_page_20363"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_20363_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/20363/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a020000/a020300/a020363/H_0322_HeliopauseCycle_v01.00680_print.jpg"
+									alt="A conceptual animation showing the heliosphere — the vast bubble that is generated by the Sun’s magnetic field and envelops all the planets. "
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 20363 </span></div><div
+					id="tile_details_page_20363_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-play-fill me-1" aria-hidden="true"></span> Animation
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_20363_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/20363/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Animation: Heliosphere
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+	
+	
+	
+	
+	
+		<!-- Products -->
+		<div class="col-auto">
+			
+
+
+
+
+
+
+	
+		
+			<!-- Title -->
+			<h2 class="fs-3">Used as a Source In</h2>
+		
+		
+		
+		<div class="position-relative">
+			<ul id="accordion_related_pages_products_card_gallery" class="list-unstyled hstack flex-wrap">
+				<!-- Pages -->
+				
+					
+
+
+
+
+<!-- Tile tile_details_page_14895 --><li
+			id="tile_details_page_14895"
+			class="tile-gallery-tile card flex-shrink-0 rounded overflow-hidden position-relative p-0 m-0"
+			style="width: 320px; max-width: 80vw; flex: none;"
+		><!-- Card header --><div
+					id="tile_details_page_14895_header"
+					class="position-relative"
+				><!-- Image topper --><a
+							href="/14895/"
+							title="Go to this page"
+							class="card-img-top bg-dark"
+						><div class="ratio ratio-16x9"><img
+									src="/vis/a010000/a014800/a014895/14895_Thumbnail.jpg"
+									alt="Produced VideoWatch this video on the NASA Goddard YouTube channel.Complete transcript available.Music credit: &quot;Soaring Dreams” by Klas Johan Wahl and Anders Paul Niska [STIM], “Electric Works” by Philippe Lhommet [SACEM], and “Mercurial Temperment” by Christian Telfold [ASCAP] from Universal Production Music"
+									style="object-fit: cover"
+									loading="lazy"
+								></div></a><!-- ID Badge --><span class="position-absolute top-0 start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-bottom-right-radius: var(--bs-border-radius) !important;"> ID: 14895 </span></div><div
+					id="tile_details_page_14895_body"
+					class="position-absolute bottom-0 w-100"
+				><!-- Type badge --><span class="start-0 badge bg-dark bg-opacity-75 fs-6 fw-normal rounded-0" style="border-top-right-radius: var(--bs-border-radius) !important;"><span class="bi bi-person-video me-1" aria-hidden="true"></span> Produced Video
+							</span><!-- Card body --><div class="bg-dark bg-opacity-75 w-100 fs-6 text-white py-1 px-2"><div
+								style="max-height: 225px;"
+							><h3
+										id="tile_details_page_14895_body_title"
+										class="flex-shrink-0 mb-0 fs-6"
+									><a
+											href="/14895/"
+											title="Go to this page"
+											class="link link-light card-title overflow-hidden mb-0"
+											tabindex="-1"
+											style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"
+										>
+											Mapping the Boundaries of Our Home in Space with NASA’s IMAP Mission
+										</a></h3></div></div></div></li>
+
+				
+			</ul>
+		</div>
+	
+
+
+		</div>
+	
+</div>
+<hr>
+
+			</section>
+		
+
+		
+		<section id="release_time">
+			<h2 class="visually-hidden">Release date</h2>
+			<p class="text-muted mb-0">
+				
+					This page was originally published on Friday, August 22, 2025.
+					<br>
+				
+				This page was last updated on Friday, August 22, 2025 at 4:32 PM EDT.
+			</p>
+		</section>
+		<hr>
+
+		
+		<section id="section_recommended_pages">
+			 
+
+
+
+<div id="recommended_pages" class="card-gallery-ajax-wrapper">
+	<input type="hidden" id="recommended_pages_var_can_load" value="true">
+	<input type="hidden" id="recommended_pages_var_is_loading" value="false" class="card-gallery-ajax-trigger">
+	<input type="hidden" id="recommended_pages_var_url" value="/api/detailspage/20406/recommended/display">
+	<input type="hidden" id="recommended_pages_var_params" value="">
+	
+		<!-- Title -->
+		<h2 class="fs-3">You may also like...</h2>
+	
+	
+	<div class="position-relative" style="height: 480px; width: 100%">
+		<div id="recommended_pages_results">
+			<!-- This gets filled in dynamically via. AJAX -->
+		</div>
+		<div id="recommended_pages_loader" class="w-100 h-100 position-relative rounded">
+			<div class="position-absolute w-100 h-100">
+				<div class="d-flex justify-content-center align-items-center h-100">
+					<div class="loader"></div>
+				</div>
+			</div>
+			<div class="placeholder-wave w-100 h-100">
+				<div class="card bg-gray-300 placeholder w-100 h-100"></div>
+			</div>
+		</div>
+		<div id="recommended_pages_no_results_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">No results.</h4>
+			</div>
+		</div>
+		<div id="recommended_pages_error_warning" class="w-100 h-100 position-relative" style="display: none;">
+			<div class="d-flex justify-content-center align-items-center h-100">
+				<h4 class="fs-3 my-auto">An error occurred. Please reload this page and try again.</h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</section>
+	</article>
+
+			</div>
+		</main>
+		<footer>
+			<!-- Footer Javascript -->
+			
+				
+				<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&subagency=GSFC&yt=true&dclink=true"></script>
+				<script id="parsely-cfg" src="https://cdn.parsely.com/keys/svs.gsfc.nasa.gov/p.js" async="" defer=""></script>
+			
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+				onerror="document.write(`<script src='/static/svs/js/bootstrap.bundle.min.js'>\x3C/script>`)"
+			></script>
+
+			<script src="/static/svs/js/script.js"></script>
+			
+	<script src="/static/svs/js/card-galleries.js"></script>
+
+
+			<!-- Bottom navigation bar -->
+			<nav id="bottom-navbar" class="navbar navbar-dark text-light">
+				<div class="container">
+					<div class="row w-100">
+						<!-- Brands -->
+						<div class="col-12 col-lg d-flex justify-content-center align-items-center">
+							<!-- NASA brand -->
+							<a href="https://www.nasa.gov/" class="link">
+								<img src="/static/svs/images/nasa-meatball.svg" height="60" alt="NASA Home Page">
+							</a>
+							<!-- USA.gov brand -->
+							<a
+								href="https://www.usa.gov/" class="link"
+							>
+								<img src="/static/svs/images/USAgov_logo.svg" height="60" alt="USA.gov Home Page">
+							</a>
+						</div>
+						<hr class="d-block d-lg-none my-2">
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Privacy and guidelines links -->
+							<div class="text-sm-end w-100">
+								
+									<div class="navbar-text">
+										<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="link link-light">Privacy Policy and Important Notices</a>
+										<br>
+										<a href="https://www.nasa.gov/multimedia/guidelines/index.html" class="link link-light">Reproduction Guidelines</a>
+									</div>
+								
+							</div>
+						</div>
+						<div class="col-auto d-none d-sm-flex align-items-center justify-content-center">
+							<div class="vr h-100 start-50"></div>
+						</div>
+						<div class="col-12 col-sm d-flex align-items-center">
+							<!-- Contact links -->
+							<div class="text-sm-start w-100">
+								
+									<div id="site-contacts" class="navbar-text">
+										<div>
+	NASA Official: <span class="email-link flex-nowrap" data-user="mark.u.subbarao" data-linktext="Mark SubbaRao"></span>
+</div>
+ <div>
+	Site Curator: <span class="email-link flex-nowrap" data-user="ella.kaplan" data-linktext="Ella Kaplan"></span>
+</div>
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</body>
+</html>

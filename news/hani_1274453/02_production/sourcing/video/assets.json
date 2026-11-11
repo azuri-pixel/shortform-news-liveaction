@@ -1,0 +1,134 @@
+{
+ "schema_version": "1.0",
+ "pilot": "hani_1274453",
+ "assets": [
+  {
+   "id": "v_eso_paranal_bt01",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso_paranal_bt01.mp4",
+   "source_url": "https://cdn.eso.org/videos/hd_1080p25_screen/uhd_bt_paranal_01.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso_lasilla_horalek1",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso_lasilla_horalek1.mp4",
+   "source_url": "https://cdn.eso.org/videos/hd_1080p25_screen/la_silla_horalek_1.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso_chajnantor_mw",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso_chajnantor_mw.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/chajnantormilkyway.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso_skytimelapse",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso_skytimelapse.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/skytimelapse.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso_paranal_guisard",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso_paranal_guisard.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/paranaltimelapse.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso1339a_mw",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso1339a_mw.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/eso1339a.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso1217a_halo",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso1217a_halo.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/eso1217a.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_bestmw2025",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_bestmw2025.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2025/01/009/2501_009_AR_EN.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_gaiascan2013",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_gaiascan2013.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2013/06/032/1306_032_AR_X1.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_gaiaanim2019",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_gaiaanim2019.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2019/10/020/1910_020_BR_010.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_eso1908b_gaiaorbit",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_eso1908b_gaiaorbit.m4v",
+   "source_url": "https://cdn.eso.org/videos/hd_and_apple/eso1908b.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_merger2018",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_merger2018.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2018/10/061/1810_061_AR_EN.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_helmi2019",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_helmi2019.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2019/10/020/1910_020_BR_012.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_esa_dwarf2024",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_esa_dwarf2024.mp4",
+   "source_url": "https://media.esa.int/legacy/delivery/public/videos/2024/06/007/2406_007_AR_EN.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_svs30686_gcsim",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_svs30686_gcsim.m4v",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a030000/a030600/a030686/gc_sim_vs_obs-b-1920x1080.m4v",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "v_svs14847_vert",
+   "kind": "video",
+   "path": "02_production/sourcing/video/_raw/clips/v_svs14847_vert.mp4",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_VERT_MP4.mp4",
+   "normalize": false,
+   "status": "candidate"
+  }
+ ]
+}

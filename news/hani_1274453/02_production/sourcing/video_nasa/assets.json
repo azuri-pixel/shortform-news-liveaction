@@ -1,0 +1,38 @@
+{
+ "schema_version": "1.0",
+ "pilot": "hani_1274453",
+ "assets": [
+  {
+   "id": "vn_svs14935_mw_tilt",
+   "kind": "video",
+   "path": "02_production/sourcing/video_nasa/_raw/vn_svs14935_mw_tilt.mp4",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/MW_Anatomy_30fps_4k.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "vn_svs14935_stellar_halo",
+   "kind": "video",
+   "path": "02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_Pause_Unlabeled.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "vn_svs14935_dm_halo",
+   "kind": "video",
+   "path": "02_production/sourcing/video_nasa/_raw/vn_svs14935_dm_halo.mp4",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_Pause_Unlabeled.mp4",
+   "normalize": false,
+   "status": "candidate"
+  },
+  {
+   "id": "vn_svs20406_mw_zoom",
+   "kind": "video",
+   "path": "02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4",
+   "source_url": "https://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_wStars.mp4",
+   "normalize": false,
+   "status": "candidate"
+  }
+ ]
+}

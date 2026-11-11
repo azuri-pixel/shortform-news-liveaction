@@ -1,0 +1,738 @@
+{
+    "id": 20406,
+    "url": "http://svs.gsfc.nasa.gov/20406/",
+    "page_type": "Animation",
+    "title": "The Heliosphere Within The Milky Way Galaxy",
+    "description": "Our solar system is nestled inside the Milky Way galaxy, home to more than 100 billion stars. Stretching for millions of miles around the solar system is a protective bubble called the heliosphere. Created by particles and magnetic fields from the Sun, the heliosphere separates our solar system from the vast galaxy beyond — and much of its harsh space radiation that can be damaging to life on Earth. || ",
+    "release_date": "2025-08-22T09:00:00-04:00",
+    "update_date": "2025-08-22T16:32:28.946043-04:00",
+    "main_image": {
+        "id": 1157626,
+        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg",
+        "filename": "MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg",
+        "media_type": "Image",
+        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+        "width": 1024,
+        "height": 576,
+        "pixels": 589824
+    },
+    "main_video": null,
+    "main_credits": {
+        "Visualizations by": [
+            {
+                "name": "Adriana Manrique Gutierrez",
+                "employer": "eMITS"
+            }
+        ],
+        "Produced by": [
+            {
+                "name": "Joy Ng",
+                "employer": "eMITS"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 378772,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378772",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Our solar system is nestled inside the Milky Way galaxy, home to more than 100 billion stars. Stretching for millions of miles around the solar system is a protective bubble called the heliosphere. Created by particles and magnetic fields from the Sun, the heliosphere separates our solar system from the vast galaxy beyond — and much of its harsh space radiation that can be damaging to life on Earth.",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 378704,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378704",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Conceptual Animation</b><p><p>This conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.<p><p><p>",
+            "items": [
+                {
+                    "id": 490436,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157609,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.00900_print.jpg",
+                        "filename": "iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.00900_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 490433,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157606,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.mp4",
+                        "filename": "iMAP_Shot_1-2_30fps_1080_h264_wStars_v02.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490455,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157617,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.webm",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.webm",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490434,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157607,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_wStars_v02.mov",
+                        "filename": "iMAP_Shot_1-2_30fps_1080_proRes_wStars_v02.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490435,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157608,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.mov",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_proRes_wStars_v02.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version features a star field background.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 378708,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378708",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Conceptual Animation</b><p><p>This conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+            "items": [
+                {
+                    "id": 490752,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157833,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.00900_print.jpg",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.00900_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 490740,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157831,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.mp4",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_h264_noStars_v02.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490739,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157830,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_1080_proRes_noStars_v02.mov",
+                        "filename": "iMAP_Shot_1-2_30fps_1080_proRes_noStars_v02.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490789,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157855,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.webm",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.webm",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490741,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157832,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.mov",
+                        "filename": "iMAP_Shot_1-2_30fps_4k_proRes_noStars_v02.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation begins with a view of the Milky Way Galaxy. As we zoom in, we travel to the Local Interstellar Cloud, and then to the heliosphere, the protective bubble created by the solar wind. This version does not feature a star field background.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 378758,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378758",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Conceptual Animation</b><p><p>This conceptual animation highlights the Milky Way Galaxy only.",
+            "items": [
+                {
+                    "id": 490744,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157626,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg",
+                        "filename": "MilkyWayZoom_30fps_proRes_wStars.00001_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 490745,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157627,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_searchweb.png",
+                        "filename": "MilkyWayZoom_30fps_proRes_wStars.00001_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 490746,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157628,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.00001_thm.png",
+                        "filename": "MilkyWayZoom_30fps_proRes_wStars.00001_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 490748,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157630,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_noStars.mp4",
+                        "filename": "MilkyWayZoom_30fps_1080_h264_noStars.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490750,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157632,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_noStars.mov",
+                        "filename": "MilkyWayZoom_30fps_1080_proRes_noStars.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490751,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157633,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_proRes_wStars.mov",
+                        "filename": "MilkyWayZoom_30fps_1080_proRes_wStars.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 490747,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157629,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.webm",
+                        "filename": "MilkyWayZoom_30fps_proRes_wStars.webm",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490749,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157631,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_1080_h264_wStars.mp4",
+                        "filename": "MilkyWayZoom_30fps_1080_h264_wStars.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490742,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157624,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_noStars.mov",
+                        "filename": "MilkyWayZoom_30fps_proRes_noStars.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 490743,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157625,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/MilkyWayZoom_30fps_proRes_wStars.mov",
+                        "filename": "MilkyWayZoom_30fps_proRes_wStars.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Conceptual AnimationThis conceptual animation highlights the Milky Way Galaxy only.",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 378783,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378783",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "<b>Graphic</b> <p><p>A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. <p><p>Credit: NASA/Jonathan North",
+            "items": [
+                {
+                    "id": 490888,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157918,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_print.jpg",
+                        "filename": "Helio_18x24_Print_nolabels_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 1024,
+                        "height": 768,
+                        "pixels": 786432
+                    }
+                },
+                {
+                    "id": 490886,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157916,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels.png",
+                        "filename": "Helio_18x24_Print_nolabels.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 7200,
+                        "height": 5400,
+                        "pixels": 38880000
+                    }
+                },
+                {
+                    "id": 490889,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157919,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_searchweb.png",
+                        "filename": "Helio_18x24_Print_nolabels_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 490890,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157920,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_web.png",
+                        "filename": "Helio_18x24_Print_nolabels_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                },
+                {
+                    "id": 490891,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157921,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18x24_Print_nolabels_thm.png",
+                        "filename": "Helio_18x24_Print_nolabels_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 378784,
+            "url": "http://svs.gsfc.nasa.gov/20406/#media_group_378784",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "<b>Graphic With Labels</b> <p><p>A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. <p><p>Credit: NASA/Jonathan North",
+            "items": [
+                {
+                    "id": 490892,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157922,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_print.jpg",
+                        "filename": "Helio_18X24_BigText_Print_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 1024,
+                        "height": 768,
+                        "pixels": 786432
+                    }
+                },
+                {
+                    "id": 490887,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157917,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print.png",
+                        "filename": "Helio_18X24_BigText_Print.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 7201,
+                        "height": 5401,
+                        "pixels": 38892601
+                    }
+                },
+                {
+                    "id": 490893,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157923,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_searchweb.png",
+                        "filename": "Helio_18X24_BigText_Print_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 490894,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157924,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_web.png",
+                        "filename": "Helio_18X24_BigText_Print_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                },
+                {
+                    "id": 490895,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1157925,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020406/Helio_18X24_BigText_Print_thm.png",
+                        "filename": "Helio_18X24_BigText_Print_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "Graphic With Labels A still graphic showing the heliosphere, the protective bubble that is created by the solar wind and surrounds the solar system. Credit: NASA/Jonathan North",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                }
+            ],
+            "extra_data": {}
+        }
+    ],
+    "studio": "cil",
+    "funding_sources": [
+        "PAO"
+    ],
+    "credits": [
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Adriana Manrique Gutierrez",
+                    "employer": "eMITS"
+                },
+                {
+                    "name": "Jonathan North",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Joy Ng",
+                    "employer": "eMITS"
+                }
+            ]
+        }
+    ],
+    "missions": [],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Sun"
+    ],
+    "keywords": [
+        "Heliosphere",
+        "Imap",
+        "Milky Way"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 20409,
+            "url": "http://svs.gsfc.nasa.gov/20409/",
+            "page_type": "Animation",
+            "title": "The Heliosphere and Galactic Cosmic Rays",
+            "description": "Surrounding our solar system is a giant protective bubble created by particles and magnetic fields from the Sun called the heliosphere. Every 11 years, the Sun’s activity ramps up and down in what’s known as the solar cycle. As the Sun reaches its peak activity level, called solar maximum, the heliosphere expands. During this time, the heliosphere’s protective shield is strengthened by the increase in particles and magnetic fields from the Sun. As a result, fewer damaging particles from the galaxy, such as galactic cosmic rays, are able to penetrate into the heliosphere. As the Sun ramps down into a low level of activity, called solar minimum, the heliosphere shrinks and more cosmic rays are able to enter the heliosphere. || ",
+            "release_date": "2025-08-22T09:00:00-04:00",
+            "update_date": "2025-08-22T16:38:50-04:00",
+            "main_image": {
+                "id": 1157621,
+                "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020409/Cosmic_rays_Anim_V002_1080_Final.00543_print.jpg",
+                "filename": "Cosmic_rays_Anim_V002_1080_Final.00543_print.jpg",
+                "media_type": "Image",
+                "alt_text": "Conceptual AnimationAs the heliosphere expands with the natural 11-year solar cycle, the number of galactic cosmic rays that penetrate the heliosphere decreases. As the heliosphere shrinks, more galactic cosmic rays can penetrate the heliosphere.",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        },
+        {
+            "id": 20410,
+            "url": "http://svs.gsfc.nasa.gov/20410/",
+            "page_type": "Animation",
+            "title": "IMAP Beauty Passes",
+            "description": "NASA’s IMAP (Interstellar Mapping and Acceleration Probe) will explore and map the very boundaries of our heliosphere — a huge bubble created by the Sun's wind that encapsulates our entire solar system — and study how the heliosphere interacts with the local galactic neighborhood beyond.As a modern-day celestial cartographer, IMAP will also explore and chart the vast range of particles in interplanetary space, helping to investigate two of the most important overarching issues in heliophysics — the energization of charged particles from the Sun, and the interaction of the solar wind at its boundary with interstellar space. Additionally, IMAP will support real-time observations of the solar wind and energetic particles, which can produce hazardous conditions in the space environment near Earth. The IMAP spacecraft will be located at Lagrange Point 1, or L1. Lagrange points are positions in space where objects sent there tend to stay put. At L1, which is around 1 million miles from Earth towards the Sun, the gravitational pull of the Sun and Earth are balanced, allowing spacecraft to reduce fuel consumption needed to remain in position. At L1, IMAP will have a clear view of the heliosphere and will also be positioned to provide advanced warning of incoming solar storms headed to Earth. Learn more about IMAP.Below are conceptual animations highlighting the IMAP spacecraft. || ",
+            "release_date": "2025-08-14T00:00:00-04:00",
+            "update_date": "2025-09-17T16:58:27.554849-04:00",
+            "main_image": {
+                "id": 1158444,
+                "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020400/a020410/20410_IMAP_5k_Spin_NoLogo_2-002.00001_print.jpg",
+                "filename": "20410_IMAP_5k_Spin_NoLogo_2-002.00001_print.jpg",
+                "media_type": "Image",
+                "alt_text": "Conceptual AnimationThe IMAP spacecraft, located at Lagrange Point 1, spins at four revolutions per minute as it surveys the heliosphere.Credit: NASA/Princeton/Patrick McPike",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        },
+        {
+            "id": 20363,
+            "url": "http://svs.gsfc.nasa.gov/20363/",
+            "page_type": "Animation",
+            "title": "Animation: Heliosphere",
+            "description": "The sun sends out a constant flow of charged particles called the solar wind, which ultimately travels past all the planets to some three times the distance to Pluto before being impeded by the interstellar medium. This forms a giant bubble around the sun and its planets, known as the heliosphere. NASA studies the heliosphere to better understand the fundamental physics of the space surrounding us - which, in turn, provides information regarding space throughout the rest of the universe, as well as regarding what makes planets habitable.The solar wind is a gas of charged particles known as plasma, a state of matter governed by its own set physical laws just as the more common solids, liquids, and gases are. As the solar wind sweeps out into space, it creates a space environment filled with radiation as well as magnetic fields that trail all the way back to the sun. This space environment is augmented by interstellar cosmic rays and occasional concentrated clouds of solar material that burst off the sun, known as coronal mass ejections.This complex environment surrounds the planets and ultimately has a crucial effect on the formation, evolution, and destiny of planetary systems. For one thing, our heliosphere acts as a giant shield, protecting the planets from galactic cosmic radiation. Earth is additionally shielded by its own magnetic field, the magnetosphere, which protects us not only from solar and cosmic particle radiation but also from erosion of the atmosphere by the solar wind. Planets without a shielding magnetic field, such as Mars and Venus, are exposed to such processes and have evolved differently.NASA's studies of the heliosphere include research into: how the solar wind behaves near Earth; what causes and sustains magnetic and electric fields around other planets; how does the heliosphere interact with the interstellar medium; what do the boundaries of the heliosphere look like; what is the origin and evolution of the solar wind and the interstellar cosmic rays; and what contributes to the habitability of exoplanets.The field is, therefore, intensely cross-disciplinary. Heliospheric research often works hand in hand with planetary scientists, astrophysicists, astrobiologists, and space weather researchers.NASA heliophysics missions contributing to heliospheric research are: the Advanced Composition Explorer; NOAA's Deep Space Climate Observatory, the Interstellar Boundary Explorer, the Solar Terrestrial Relations Observatory; Voyager, and Wind. || ",
+            "release_date": "2022-03-09T18:00:00-05:00",
+            "update_date": "2025-06-23T00:18:39.136923-04:00",
+            "main_image": {
+                "id": 372595,
+                "url": "http://svs.gsfc.nasa.gov/vis/a020000/a020300/a020363/H_0322_HeliopauseCycle_v01.00680_print.jpg",
+                "filename": "H_0322_HeliopauseCycle_v01.00680_print.jpg",
+                "media_type": "Image",
+                "alt_text": "A conceptual animation showing the heliosphere — the vast bubble that is generated by the Sun’s magnetic field and envelops all the planets. ",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        }
+    ],
+    "sources": [],
+    "products": [
+        {
+            "id": 14895,
+            "url": "http://svs.gsfc.nasa.gov/14895/",
+            "page_type": "Produced Video",
+            "title": "Mapping the Boundaries of Our Home in Space with NASA’s IMAP Mission",
+            "description": "NASA’s new Interstellar Mapping and Acceleration Probe, or IMAP, will explore and map the very boundaries of our heliosphere — a huge bubble created by the Sun's wind that encapsulates our solar system — and study how that boundary interacts with the local galactic neighborhood beyond.As a modern-day celestial cartographer, IMAP will chart the vast range of particles in interplanetary space, helping to investigate two of the most important overarching issues in heliophysics — the energization of charged particles from the Sun, and the interaction of the solar wind with interstellar space. Additionally, IMAP will support near real-time observations of the solar wind and energetic particles, which can produce hazardous conditions in the space environment near Earth. IMAP is launching no earlier than Sept. 23, 2025, aboard a SpaceX Falcon 9 rocket from Launch Complex 39A at NASA’s Kennedy Space Center in Florida.Learn more about IMAP science: https://science.nasa.gov/missions/nasas-imap-mission-to-study-boundaries-of-our-home-in-space/Find out more about the IMAP mission: https://science.nasa.gov/mission/imap/ || ",
+            "release_date": "2025-09-17T10:00:00-04:00",
+            "update_date": "2025-11-21T09:51:30-05:00",
+            "main_image": {
+                "id": 1158230,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014895/14895_Thumbnail.jpg",
+                "filename": "14895_Thumbnail.jpg",
+                "media_type": "Image",
+                "alt_text": "Produced VideoWatch this video on the NASA Goddard YouTube channel.Complete transcript available.Music credit: \"Soaring Dreams” by Klas Johan Wahl and Anders Paul Niska [STIM], “Electric Works” by Philippe Lhommet [SACEM], and “Mercurial Temperment” by Christian Telfold [ASCAP] from Universal Production Music",
+                "width": 1280,
+                "height": 720,
+                "pixels": 921600
+            }
+        }
+    ],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

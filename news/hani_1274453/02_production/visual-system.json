@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "preset": "editorial-concept-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "caption": {
+    "preset": "betelgeuse-v1"
+  },
+  "text": {
+    "persistent_top_text": false,
+    "explanatory_notes": false,
+    "allowed_roles": [
+      "necessary-label",
+      "condition",
+      "provenance"
+    ]
+  },
+  "media": {
+    "full_bleed_default": true,
+    "assets": [
+      {
+        "id": "project_logo",
+        "source": "02_production/brand/logo.png",
+        "file": "editorial/brand-logo.png"
+      },
+      {
+        "id": "paranal",
+        "source": "02_production/media/paranal_mw_vert.mp4",
+        "file": "editorial/paranal.mp4",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.eso.org/public/videos/uhd_bt_paranal_01/"
+      },
+      {
+        "id": "auriga",
+        "source": "02_production/media/auriga_halo18.png",
+        "file": "editorial/auriga_halo18.png",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://ras.ac.uk/news-and-press/research-highlights/nam-2026-how-our-milky-way-once-underwent-dramatic-flip"
+      },
+      {
+        "id": "galaxy_side",
+        "source": "02_production/generated/galaxy_side_a.png",
+        "file": "editorial/galaxy_side.png",
+        "attribution_kind": "generated",
+        "generation_job": "gen_galaxy_side"
+      },
+      {
+        "id": "disk_tilt",
+        "source": "02_production/generated/disk_tilt_v2.mp4",
+        "file": "editorial/disk_tilt.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_disk_tilt"
+      },
+      {
+        "id": "gse_merger",
+        "source": "02_production/generated/gse_merger_v1.mp4",
+        "file": "editorial/gse_merger.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_gse_merger"
+      },
+      {
+        "id": "nasa_zoom",
+        "source": "02_production/sourcing/video_nasa/_raw/vn_svs20406_mw_zoom.mp4",
+        "file": "editorial/nasa_zoom.mp4",
+        "trim": {
+          "from_sec": 10,
+          "duration_sec": 10
+        },
+        "crop": {
+          "x": 1312,
+          "y": 0,
+          "width": 1215,
+          "height": 2160
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://svs.gsfc.nasa.gov/20406"
+      },
+      {
+        "id": "nasa_halo",
+        "source": "02_production/sourcing/video_nasa/_raw/vn_svs14935_stellar_halo.mp4",
+        "file": "editorial/nasa_halo.mp4",
+        "crop": {
+          "x": 472,
+          "y": 0,
+          "width": 1215,
+          "height": 2160
+        },
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://svs.gsfc.nasa.gov/14935"
+      },
+      {
+        "id": "rewind",
+        "source": "02_production/media/hook_rewind.mp4",
+        "file": "editorial/hook_rewind.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_rewind"
+      },
+      {
+        "id": "halo_close",
+        "source": "02_production/generated/halo_close_v1.mp4",
+        "file": "editorial/halo_close.mp4",
+        "attribution_kind": "generated",
+        "generation_job": "gen_halo_close"
+      },
+      {
+        "id": "gaia_esa",
+        "source": "02_production/media/gaia_mix.mp4",
+        "file": "editorial/gaia_esa.mp4",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://media.esa.int/legacy/delivery/public/videos/2013/06/032/1306_032_AR_X1.mp4"
+      },
+      {
+        "id": "galaxy_face",
+        "source": "02_production/generated/galaxy_face.png",
+        "file": "editorial/galaxy_face.png",
+        "attribution_kind": "generated",
+        "generation_job": "gen_disk_tilt"
+      }
+    ]
+  },
+  "mobile": {
+    "max_simultaneous_labels": 4,
+    "review_scale": 0.3333333333
+  },
+  "motion": {
+    "enter": "ease-out",
+    "move": "ease-in-out",
+    "exit": "ease-in",
+    "quantitative_overshoot": false
+  },
+  "production_profile": {
+    "id": "hani-shortform",
+    "version": "1.5.0"
+  },
+  "visual_contract": "visual-explanation@1",
+  "generation_jobs": [
+    {
+      "id": "gen_galaxy_side",
+      "kind": "image",
+      "purpose": "이후 장면의 기준 은하 옆모습 외형(구조·수수께끼·강조 배경, 기울어짐·충돌 영상의 시작 프레임)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_6",
+      "prompt_path": "02_production/prompts/gen_galaxy_side.txt",
+      "output": "02_production/generated/galaxy_side_a.png",
+      "job_id": "d9f040c5-cae8-4633-8920-072f4a05f5f8",
+      "observation": "752×1344, 얇은 옆모습 원반·황금빛 중심, 헤일로 별은 매우 희미. B안(579ee6ab)은 중심 광채가 커서 미채택"
+    },
+    {
+      "id": "gen_disk_tilt",
+      "kind": "video",
+      "purpose": "후킹: 원반이 옆모습에서 정면모습으로 90도 기우는 움직임",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "seedance_2_5",
+      "prompt_path": "02_production/prompts/gen_disk_tilt.txt",
+      "output": "02_production/generated/disk_tilt_v2.mp4",
+      "job_id": "c0cb6146-459b-48e7-9c29-6efafe2d1485",
+      "observation": "v1(1340432d)은 기울지 않아 기각. v2는 시작·끝 프레임 지정으로 5초 동안 옆모습→정면모습이 연속으로 보임"
+    },
+    {
+      "id": "gen_gse_merger",
+      "kind": "video",
+      "purpose": "노란 작은 은하가 원반에 정면 돌입해 별이 흩어지는 충돌 장면",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "seedance_2_5",
+      "prompt_path": "02_production/prompts/gen_gse_merger.txt",
+      "output": "02_production/generated/gse_merger_v1.mp4",
+      "job_id": "3da9628f-2263-4155-935a-d6b5d03b05c3",
+      "observation": "8초: 1~4초 접근, 4~5초 충돌, 5~8초 노란 별 고리가 원반을 둘러쌈. 고리가 지나치게 정돈된 형태라 실제 잔해 분포로 오인될 수 있음 — 검수 대상"
+    },
+    {
+      "id": "gen_rewind",
+      "kind": "video",
+      "purpose": "후킹 0~3.4초: 현생 인류→공룡 멸종→태양·지구 탄생→100억 년 전 우리 은하로 빠르게 되감기",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "gpt_image_2_6 + seedance_2_5",
+      "prompt_path": "02_production/prompts/gen_rewind.txt",
+      "output": "02_production/media/hook_rewind.mp4",
+      "job_id": "f09048ac-cae1-4f10-866e-2a0d2bbf7cea,2cdade46-7d07-4b6e-9a1c-ad4c1d4e0cbd,c506e60d-72f0-4878-b9af-d71ee653038f",
+      "observation": "T1 1.1~2.1초·T3 2.4~3.1초 제거 후 1.0/1.0/1.44초로 배속해 3.43초로 붙임(첫 버전 media/rewind.mp4는 47~53초용 5.53초판, 사용자 제안으로 도입부로 이동). 끝 프레임=기울어짐 영상 시작 프레임. 오제출 ed261039 미사용 / 2026-11-11 사용자 요청으로 사람 장면 1.0초(T1 0~1.1초 원속), 공룡 0.6·태양 0.8·은하 1.03초로 재배분(합 3.43초)"
+    },
+    {
+      "id": "gen_halo_close",
+      "kind": "video",
+      "purpose": "'그 둘레를 드문드문 감싼 헤일로' 근접 장면",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "seedance_2_5",
+      "prompt_path": "02_production/prompts/gen_halo_close.txt",
+      "output": "02_production/generated/halo_close_v1.mp4",
+      "job_id": "d4c967d6-8ce8-4799-9dfc-62faf63aabb1",
+      "observation": "NASA 헤일로 프레임에서 출발해 원반 바깥으로 다가가며 개별 별이 드문드문 보임. 4~5초에 원반이 화면을 크게 채움"
+    }
+  ],
+  "hook_style": {
+    "version": "hook-style@3"
+  },
+  "attribution_style": {
+    "version": "1.0.0"
+  },
+  "attribution": {
+    "sources": [
+      {
+        "asset_id": "nasa_zoom",
+        "text": "NASA's Goddard Space Flight Center",
+        "start": 6.95,
+        "end": 10.45
+      },
+      {
+        "asset_id": "nasa_halo",
+        "text": "NASA's Goddard Space Flight Center",
+        "start": 13.75,
+        "end": 18.6
+      },
+      {
+        "asset_id": "gaia_esa",
+        "text": "ESA – C. Carreau",
+        "start": 18.6,
+        "end": 24.15
+      },
+      {
+        "asset_id": "auriga",
+        "text": "Auriga Project",
+        "start": 31.0,
+        "end": 36.75
+      },
+      {
+        "asset_id": "auriga",
+        "text": "Auriga Project · Halo 18",
+        "start": 41.25,
+        "end": 45.7
+      },
+      {
+        "asset_id": "paranal",
+        "text": "ESO/B. Tafreshi",
+        "start": 74.3,
+        "end": 82.1
+      }
+    ],
+    "pages": [
+      {
+        "duration": 0.5,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필",
+              "100억년 전 대충돌, 우리 은하 90도 뒤집어버렸다"
+            ]
+          },
+          {
+            "title": "이미지·관측 근거",
+            "lines": [
+              "ESO/B. Tafreshi",
+              "Auriga Project"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  },
+  "attribution_policy": "attribution@4"
+}

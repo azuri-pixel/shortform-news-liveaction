@@ -1,0 +1,1148 @@
+{
+    "id": 10688,
+    "url": "http://svs.gsfc.nasa.gov/10688/",
+    "page_type": "Produced Video",
+    "title": "Fermi discovers giant gamma-ray bubbles in the Milky Way",
+    "description": "Using data from NASA's Fermi Gamma-ray Space Telescope, scientists have recently discovered a gigantic, mysterious structure in our galaxy. This never-before-seen feature looks like a pair of bubbles extending above and below our galaxy's center. But these enormous gamma-ray emitting lobes aren't immediately visible in the Fermi all-sky map. However, by processing the data, a group of scientists was able to bring these unexpected structures into sharp relief.  Each lobe is 25,000 light-years tall and the whole structure may be only a few million years old. Within the bubbles, extremely energetic electrons are interacting with lower-energy light to create gamma rays, but right now, no one knows the source of these electrons.Are the bubbles remnants of a massive burst of star formation? Leftovers from an eruption by the supermassive black hole at our galaxy's center? Or or did these forces work in tandem to produce them? Scientists aren't sure yet, but the more they learn about this amazing structure, the better we'll understand the Milky Way.For an animation that shows the inverse Compton scattering responsible for the gamma rays, go to #10690.For an animation that shows an artist's interpretation of the Milky Way galaxy and the lobes, go to#10691. || ",
+    "release_date": "2010-11-09T13:00:00-05:00",
+    "update_date": "2023-05-03T13:53:57.533439-04:00",
+    "main_image": {
+        "id": 489175,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_no_Labels_web.png",
+        "filename": "Fermi_Bubble_Graphic_Final_1_no_Labels_web.png",
+        "media_type": "Image",
+        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+        "width": 180,
+        "height": 320,
+        "pixels": 57600
+    },
+    "main_video": null,
+    "main_credits": {
+        "Visualizations by": [
+            {
+                "name": "Tyler Chase",
+                "employer": "UMBC"
+            }
+        ],
+        "Written by": [
+            {
+                "name": "Francis Reddy",
+                "employer": "University of Maryland College Park"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 352447,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352447",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Using data from NASA's Fermi Gamma-ray Space Telescope, scientists have recently discovered a gigantic, mysterious structure in our galaxy. This never-before-seen feature looks like a pair of bubbles extending above and below our galaxy's center.<p><p> But these enormous gamma-ray emitting lobes aren't immediately visible in the Fermi all-sky map. However, by processing the data, a group of scientists was able to bring these unexpected structures into sharp relief. <p><p> Each lobe is 25,000 light-years tall and the whole structure may be only a few million years old. Within the bubbles, extremely energetic electrons are interacting with lower-energy light to create gamma rays, but right now, no one knows the source of these electrons.<p><p>Are the bubbles remnants of a massive burst of star formation? Leftovers from an eruption by the supermassive black hole at our galaxy's center? Or or did these forces work in tandem to produce them? Scientists aren't sure yet, but the more they learn about this amazing structure, the better we'll understand the Milky Way.<p><p>For an animation that shows the inverse Compton scattering responsible for the gamma rays, go to <a href=\"/10690\">#10690</a>.<p><p>For an animation that shows an artist's interpretation of the Milky Way galaxy and the lobes, go to<a href=\"/10691\">#10691</a>.",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 352448,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352448",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Short, narrated video about the gamma-ray lobes.<p><p><p><p><p><b>Watch this video on the <a href=\"http://www.youtube.com/watch?v=sXmPxSP225Y\">NASAexplorer YouTube channel.</a></b><p><p><p>For complete transcript, click <a href=\"/vis/a010000/a010600/a010688/Fermi_lobes_captions_HTMLPara.html\">here</a>.",
+            "items": [
+                {
+                    "id": 333574,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489154,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_GR_Lobes_still_1280x720.jpg",
+                        "filename": "Fermi_GR_Lobes_still_1280x720.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333575,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489155,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_GR_Lobes_still_1280x720_web.png",
+                        "filename": "Fermi_GR_Lobes_still_1280x720_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333564,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489144,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_1280x720_30.mov",
+                        "filename": "10688_Fermi_GR_Lobes_H264_1280x720_30.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333565,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489145,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_Gamma-ray_Lobes_Short.wmv",
+                        "filename": "10688_Fermi_Gamma-ray_Lobes_Short.wmv",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333566,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489146,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_960x720_29.97_Apple_TV.m4v",
+                        "filename": "10688_Fermi_GR_Lobes_H264_960x720_29.97_Apple_TV.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 960,
+                        "height": 720,
+                        "pixels": 691200
+                    }
+                },
+                {
+                    "id": 333567,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489147,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_MPEG4_1280X720_29.97.mp4",
+                        "filename": "10688_Fermi_GR_Lobes_MPEG4_1280X720_29.97.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333568,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489148,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_120x720_59.94_YouTube.mov",
+                        "filename": "10688_Fermi_GR_Lobes_H264_120x720_59.94_YouTube.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333573,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489153,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_GR_Lobes_still_1280x720.tif",
+                        "filename": "Fermi_GR_Lobes_still_1280x720.tif",
+                        "media_type": "Image",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333576,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489156,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_960x720_29.97_Apple_TV.webmhd.webm",
+                        "filename": "10688_Fermi_GR_Lobes_H264_960x720_29.97_Apple_TV.webmhd.webm",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 960,
+                        "height": 540,
+                        "pixels": 518400
+                    }
+                },
+                {
+                    "id": 333569,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489149,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_640x360_29.97_iPhone.m4v",
+                        "filename": "10688_Fermi_GR_Lobes_H264_640x360_29.97_iPhone.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 640,
+                        "height": 360,
+                        "pixels": 230400
+                    }
+                },
+                {
+                    "id": 333563,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489143,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_ProRes_1280x720_59.94.mov",
+                        "filename": "10688_Fermi_GR_Lobes_ProRes_1280x720_59.94.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333570,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489150,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_Gamma-ray_Lobes_Short_ipod_sm.mp4",
+                        "filename": "10688_Fermi_Gamma-ray_Lobes_Short_ipod_sm.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                },
+                {
+                    "id": 333571,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489151,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_H264_320x180_29.97_iPhone.m4v",
+                        "filename": "10688_Fermi_GR_Lobes_H264_320x180_29.97_iPhone.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333572,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489152,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Fermi_GR_Lobes_MPEG1_320x240_29.97.mpg",
+                        "filename": "10688_Fermi_GR_Lobes_MPEG1_320x240_29.97.mpg",
+                        "media_type": "Movie",
+                        "alt_text": "Short, narrated video about the gamma-ray lobes.Watch this video on the NASAexplorer YouTube channel.For complete transcript, click here.",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352449,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352449",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.<p>Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+            "items": [
+                {
+                    "id": 333588,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489168,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Interpolation_Still_1280x720.jpg",
+                        "filename": "Interpolation_Still_1280x720.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1024,
+                        "height": 511,
+                        "pixels": 523264
+                    }
+                },
+                {
+                    "id": 333589,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489169,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Interpolation_Still_1280x720_web.png",
+                        "filename": "Interpolation_Still_1280x720_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 159,
+                        "pixels": 50880
+                    }
+                },
+                {
+                    "id": 333579,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489159,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-H264_1280x720_30.mov",
+                        "filename": "10688_Bubbles_Interpolation_Long_-H264_1280x720_30.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333580,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489160,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-H264_960x720_29.97_Apple_TV.m4v",
+                        "filename": "10688_Bubbles_Interpolation_Long_-H264_960x720_29.97_Apple_TV.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 960,
+                        "height": 720,
+                        "pixels": 691200
+                    }
+                },
+                {
+                    "id": 333581,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489161,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-H264_120x720_59.94_YouTube.mov",
+                        "filename": "10688_Bubbles_Interpolation_Long_-H264_120x720_59.94_YouTube.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333582,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489162,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-MPEG4_1280X720_29.97.mp4",
+                        "filename": "10688_Bubbles_Interpolation_Long_-MPEG4_1280X720_29.97.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333583,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489163,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation.wmv",
+                        "filename": "10688_Bubbles_Interpolation.wmv",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333590,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489170,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_mpg2.webmhd.webm",
+                        "filename": "10688_Bubbles_Interpolation_mpg2.webmhd.webm",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 960,
+                        "height": 540,
+                        "pixels": 518400
+                    }
+                },
+                {
+                    "id": 333577,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489157,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_.mov",
+                        "filename": "10688_Bubbles_Interpolation_Long_.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 333578,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489158,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_mpg2.m2v",
+                        "filename": "10688_Bubbles_Interpolation_mpg2.m2v",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 720,
+                        "height": 480,
+                        "pixels": 345600
+                    }
+                },
+                {
+                    "id": 333584,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489164,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-H264_640x360_29.97_iPhone.m4v",
+                        "filename": "10688_Bubbles_Interpolation_Long_-H264_640x360_29.97_iPhone.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 640,
+                        "height": 360,
+                        "pixels": 230400
+                    }
+                },
+                {
+                    "id": 333585,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489165,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_ipod_sm.mp4",
+                        "filename": "10688_Bubbles_Interpolation_ipod_sm.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                },
+                {
+                    "id": 333586,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489166,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-H264_320x180_29.97_iPhone.m4v",
+                        "filename": "10688_Bubbles_Interpolation_Long_-H264_320x180_29.97_iPhone.m4v",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333587,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489167,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/10688_Bubbles_Interpolation_Long_-MPEG1_320x240_29.97.mpg",
+                        "filename": "10688_Bubbles_Interpolation_Long_-MPEG1_320x240_29.97.mpg",
+                        "media_type": "Movie",
+                        "alt_text": "Data from the Fermi Large Area Telescope (LAT) unveil the new feature after several processing steps, illustrated here. First, the data are smoothed to eliminate features smaller than 2 degrees across, then the contrast is increased (stretched). Even without additional processing, the edge of the southern bubble can be seen. Next, astronomers mask out bright point sources, such as pulsars and distant galaxies. Then, using models developed from Fermi LAT observations, astronomers remove the diffuse gamma-ray emission from the image. This reveals the entire new structure, which is further brightened by another contrast stretch.Please credit: NASA/GSFC/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 240,
+                        "pixels": 76800
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352450,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352450",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+            "items": [
+                {
+                    "id": 333593,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489172,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_For_Print-4k.jpg",
+                        "filename": "Fermi_Bubble_Graphic_Final_For_Print-4k.jpg",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 4000,
+                        "height": 2250,
+                        "pixels": 9000000
+                    }
+                },
+                {
+                    "id": 333595,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489174,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_no_Labels.jpg",
+                        "filename": "Fermi_Bubble_Graphic_Final_1_no_Labels.jpg",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 2896,
+                        "height": 1629,
+                        "pixels": 4717584
+                    }
+                },
+                {
+                    "id": 333596,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489175,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_no_Labels_web.png",
+                        "filename": "Fermi_Bubble_Graphic_Final_1_no_Labels_web.png",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 180,
+                        "height": 320,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333597,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489176,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_no_Labels_thm.png",
+                        "filename": "Fermi_Bubble_Graphic_Final_1_no_Labels_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 333592,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489171,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_For_Print-4k.tif",
+                        "filename": "Fermi_Bubble_Graphic_Final_For_Print-4k.tif",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 4000,
+                        "height": 2250,
+                        "pixels": 9000000
+                    }
+                },
+                {
+                    "id": 333594,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489173,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_no_labels.tif",
+                        "filename": "Fermi_Bubble_Graphic_Final_no_labels.tif",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 2896,
+                        "height": 1629,
+                        "pixels": 4717584
+                    }
+                },
+                {
+                    "id": 333591,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489177,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_7111x4000.tif",
+                        "filename": "Fermi_Bubble_Graphic_7111x4000.tif",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane. No Labels.",
+                        "width": 7111,
+                        "height": 4000,
+                        "pixels": 28444000
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352451,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352451",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane.  Labels.",
+            "items": [
+                {
+                    "id": 333599,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489179,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_Labels.jpg",
+                        "filename": "Fermi_Bubble_Graphic_Final_1_Labels.jpg",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane.  Labels.",
+                        "width": 1629,
+                        "height": 2896,
+                        "pixels": 4717584
+                    }
+                },
+                {
+                    "id": 333600,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489180,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_1_Labels_web.png",
+                        "filename": "Fermi_Bubble_Graphic_Final_1_Labels_web.png",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane.  Labels.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 333598,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489178,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_Bubble_Graphic_Final_Labels.tif",
+                        "filename": "Fermi_Bubble_Graphic_Final_Labels.tif",
+                        "media_type": "Image",
+                        "alt_text": "From end to end, the gamma-ray bubbles extend 50,000 light-years, or roughly half of the Milky Way's diameter, as shown in this illustration. The bubbles stretch across 100 degrees, spanning the sky from the constellation Virgo to the constellation Grus. If the structure were rotated into the galaxy's plane, it would extend beyond our solar system. Hints of the bubbles' edges were first observed in X-rays (blue) by ROSAT (Röntgen Satellite), a Germany-led mission operating in the 1990s. The gamma rays mapped by Fermi (magenta) extend much farther from the galaxy's plane.  Labels.",
+                        "width": 2896,
+                        "height": 1629,
+                        "pixels": 4717584
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352452,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352452",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "A giant gamma-ray structure emerges by processing Fermi all-sky data at energies from 1 to 10 GeV. The dumbbell-shaped feature emerges from the galactic center and extends 50 degrees north and south from the plane of the Milky Way. A supermassive black hole weighing about 4 million times the sun's mass also lurks in the galactic center; these \"gamma-ray bubbles\" may have arisen as a result of a past eruption by the black hole or another source near the galactic center.<p>Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+            "items": [
+                {
+                    "id": 333601,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489181,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_all-sky_2-5_GeV.jpg",
+                        "filename": "Fermi_all-sky_2-5_GeV.jpg",
+                        "media_type": "Image",
+                        "alt_text": "A giant gamma-ray structure emerges by processing Fermi all-sky data at energies from 1 to 10 GeV. The dumbbell-shaped feature emerges from the galactic center and extends 50 degrees north and south from the plane of the Milky Way. A supermassive black hole weighing about 4 million times the sun's mass also lurks in the galactic center; these \"gamma-ray bubbles\" may have arisen as a result of a past eruption by the black hole or another source near the galactic center.Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 3325,
+                        "height": 1868,
+                        "pixels": 6211100
+                    }
+                },
+                {
+                    "id": 333602,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489182,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_all-sky_2-5_GeV_web.png",
+                        "filename": "Fermi_all-sky_2-5_GeV_web.png",
+                        "media_type": "Image",
+                        "alt_text": "A giant gamma-ray structure emerges by processing Fermi all-sky data at energies from 1 to 10 GeV. The dumbbell-shaped feature emerges from the galactic center and extends 50 degrees north and south from the plane of the Milky Way. A supermassive black hole weighing about 4 million times the sun's mass also lurks in the galactic center; these \"gamma-ray bubbles\" may have arisen as a result of a past eruption by the black hole or another source near the galactic center.Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 179,
+                        "pixels": 57280
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352453,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352453",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "This all-sky image, constructed from two years of observations by NASA's Fermi Gamma-ray Space Telescope, is the deepest and best-resolved portrait of the gamma-ray sky to date. The view shows how the sky appears at energies greater than 1 billion electron volts (1 GeV). For comparison, the energy of visible light is between 2 and 3 electron volts. A diffuse glow fills the sky and is brightest along the Milky Way (middle), the plane of our galaxy. Discrete gamma-ray sources include pulsars and supernovae remnants within our galaxy as well as distant galaxies powered by supermassive black holes.<p>Please credit: NASA/DOE/Fermi/LAT Collaboration",
+            "items": [
+                {
+                    "id": 333603,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489183,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_2-year-all-sky_GT1_GeV.jpg",
+                        "filename": "Fermi_2-year-all-sky_GT1_GeV.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This all-sky image, constructed from two years of observations by NASA's Fermi Gamma-ray Space Telescope, is the deepest and best-resolved portrait of the gamma-ray sky to date. The view shows how the sky appears at energies greater than 1 billion electron volts (1 GeV). For comparison, the energy of visible light is between 2 and 3 electron volts. A diffuse glow fills the sky and is brightest along the Milky Way (middle), the plane of our galaxy. Discrete gamma-ray sources include pulsars and supernovae remnants within our galaxy as well as distant galaxies powered by supermassive black holes.Please credit: NASA/DOE/Fermi/LAT Collaboration",
+                        "width": 3325,
+                        "height": 1868,
+                        "pixels": 6211100
+                    }
+                },
+                {
+                    "id": 333604,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489184,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Fermi_2-year-all-sky_GT1_GeV_web.png",
+                        "filename": "Fermi_2-year-all-sky_GT1_GeV_web.png",
+                        "media_type": "Image",
+                        "alt_text": "This all-sky image, constructed from two years of observations by NASA's Fermi Gamma-ray Space Telescope, is the deepest and best-resolved portrait of the gamma-ray sky to date. The view shows how the sky appears at energies greater than 1 billion electron volts (1 GeV). For comparison, the energy of visible light is between 2 and 3 electron volts. A diffuse glow fills the sky and is brightest along the Milky Way (middle), the plane of our galaxy. Discrete gamma-ray sources include pulsars and supernovae remnants within our galaxy as well as distant galaxies powered by supermassive black holes.Please credit: NASA/DOE/Fermi/LAT Collaboration",
+                        "width": 320,
+                        "height": 179,
+                        "pixels": 57280
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352454,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352454",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "The bubbles display a much more energetic (\"harder\") spectrum (left), with peak energies around 10 GeV, than the diffuse gamma-ray glow seen throughout the sky. Astronomers estimate that the electrons responsible for the bubble emission must have energies greater than 500 GeV. In addition, the bubbles display edges less than 2 degrees wide in Fermi LAT data. Both of these qualities suggest that the structure arose in a sudden, impulsive event, such as an eruption from the Milky Way's black hole or a rapid surge of star formation in the galactic center.<p>Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+            "items": [
+                {
+                    "id": 333605,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489185,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Bubbles_graphs.jpg",
+                        "filename": "Bubbles_graphs.jpg",
+                        "media_type": "Image",
+                        "alt_text": "The bubbles display a much more energetic (\"harder\") spectrum (left), with peak energies around 10 GeV, than the diffuse gamma-ray glow seen throughout the sky. Astronomers estimate that the electrons responsible for the bubble emission must have energies greater than 500 GeV. In addition, the bubbles display edges less than 2 degrees wide in Fermi LAT data. Both of these qualities suggest that the structure arose in a sudden, impulsive event, such as an eruption from the Milky Way's black hole or a rapid surge of star formation in the galactic center.Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 3325,
+                        "height": 1868,
+                        "pixels": 6211100
+                    }
+                },
+                {
+                    "id": 333606,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489186,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Bubbles_graphs_web.png",
+                        "filename": "Bubbles_graphs_web.png",
+                        "media_type": "Image",
+                        "alt_text": "The bubbles display a much more energetic (\"harder\") spectrum (left), with peak energies around 10 GeV, than the diffuse gamma-ray glow seen throughout the sky. Astronomers estimate that the electrons responsible for the bubble emission must have energies greater than 500 GeV. In addition, the bubbles display edges less than 2 degrees wide in Fermi LAT data. Both of these qualities suggest that the structure arose in a sudden, impulsive event, such as an eruption from the Milky Way's black hole or a rapid surge of star formation in the galactic center.Please credit: NASA/DOE/Fermi LAT/D. Finkbeiner et al.",
+                        "width": 320,
+                        "height": 179,
+                        "pixels": 57280
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352455,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352455",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "Electrons moving near the speed of light are an important source of the Milky Way's diffuse gamma-ray glow; they also power a new galactic structure uncovered in Fermi data. When a relativistic electron strikes a low-energy (radio or infrared) photon, the collision slightly slows the electron and ramps up the photon to gamma-ray energy.",
+            "items": [
+                {
+                    "id": 333607,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489187,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Inverse_Compton_scattering_graphic.jpg",
+                        "filename": "Inverse_Compton_scattering_graphic.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Electrons moving near the speed of light are an important source of the Milky Way's diffuse gamma-ray glow; they also power a new galactic structure uncovered in Fermi data. When a relativistic electron strikes a low-energy (radio or infrared) photon, the collision slightly slows the electron and ramps up the photon to gamma-ray energy.",
+                        "width": 3325,
+                        "height": 1868,
+                        "pixels": 6211100
+                    }
+                },
+                {
+                    "id": 333608,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 489188,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010688/Inverse_Compton_scattering_graphic_web.png",
+                        "filename": "Inverse_Compton_scattering_graphic_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Electrons moving near the speed of light are an important source of the Milky Way's diffuse gamma-ray glow; they also power a new galactic structure uncovered in Fermi data. When a relativistic electron strikes a low-energy (radio or infrared) photon, the collision slightly slows the electron and ramps up the photon to gamma-ray energy.",
+                        "width": 320,
+                        "height": 179,
+                        "pixels": 57280
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 352456,
+            "url": "http://svs.gsfc.nasa.gov/10688/#media_group_352456",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [http://www.nasa.gov/mission_pages/GLAST/news/new-structure.html](http://www.nasa.gov/mission_pages/GLAST/news/new-structure.html)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "NASA Astrophysics"
+    ],
+    "credits": [
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Tyler Chase",
+                    "employer": "UMBC"
+                },
+                {
+                    "name": "Walt Feimer",
+                    "employer": "HTSI"
+                },
+                {
+                    "name": "Dana Berry",
+                    "employer": "Skyworks Digital"
+                }
+            ]
+        },
+        {
+            "role": "Illustrator",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "KBR Wyle Services, LLC"
+                }
+            ]
+        },
+        {
+            "role": "Video editor",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "UMBC"
+                }
+            ]
+        },
+        {
+            "role": "Narrator",
+            "people": [
+                {
+                    "name": "Chris Smith",
+                    "employer": "UMBC"
+                }
+            ]
+        },
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "UMBC"
+                }
+            ]
+        },
+        {
+            "role": "Scientist",
+            "people": [
+                {
+                    "name": "Doug Finkbeiner",
+                    "employer": "Harvard-Smithsonian Center for Astrophysics"
+                }
+            ]
+        },
+        {
+            "role": "Science writer",
+            "people": [
+                {
+                    "name": "Francis Reddy",
+                    "employer": "University of Maryland College Park"
+                }
+            ]
+        },
+        {
+            "role": "Writer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "UMBC"
+                }
+            ]
+        },
+        {
+            "role": "Graphics",
+            "people": [
+                {
+                    "name": "Francis Reddy",
+                    "employer": "University of Maryland College Park"
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Fermi Gamma-ray Space Telescope",
+        "GLAST"
+    ],
+    "series": [
+        "Astrophysics Animations",
+        "Astrophysics Features",
+        "Astrophysics Stills",
+        "Narrated Movies"
+    ],
+    "tapes": [
+        "Fermi Gamma Ray Bubbles (Produced by: Robert Crippen)"
+    ],
+    "papers": [],
+    "datasets": [
+        {
+            "name": "",
+            "common_name": "",
+            "platform": "Fermi",
+            "sensor": "LAT",
+            "type": "Event List",
+            "organizations": [],
+            "description": "Fermi Gamma-ray Large Area Space Telescope (GLAST) Large Area Telescope (LAT)",
+            "credit": "",
+            "url": "http://fermi.gsfc.nasa.gov",
+            "date_range": null
+        },
+        {
+            "name": "",
+            "common_name": "",
+            "platform": "Fermi",
+            "sensor": null,
+            "type": "Other",
+            "organizations": [],
+            "description": "",
+            "credit": "",
+            "url": "",
+            "date_range": null
+        }
+    ],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Ast",
+        "Astrophysics",
+        "Black Hole",
+        "Earth Science",
+        "Edited Feature",
+        "Fermi",
+        "Galaxy",
+        "Gamma Ray",
+        "Gamma Ray Observatory",
+        "GLAST",
+        "HDTV",
+        "Milky Way",
+        "Narrated",
+        "Satellite",
+        "Space science",
+        "Spectral/Engineering"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 12019,
+            "url": "http://svs.gsfc.nasa.gov/12019/",
+            "page_type": "Produced Video",
+            "title": "NASA's Fermi Mission Sharpens its High-energy View",
+            "description": "Tour the best view of the high-energy gamma-ray sky yet seen. This video highlights the plane of our galaxy and identifies objects producing gamma rays with energies greater than 1 TeV. Watch this video on the NASA Goddard YouTube channel.For complete transcript, click here.Credit: NASA's Goddard Space Flight Center || 2FHL_Still_print.jpg (1024x576) [66.4 KB] || 2FHL_Still.png (3840x2160) [19.0 MB] || 2FHL_Still_searchweb.png (320x180) [55.9 KB] || 2FHL_Still_thm.png (80x40) [5.5 KB] || 12019_2FHL_H264_Good_1920x1080_2997.mov (1920x1080) [39.6 MB] || 12019_2FHL_H264_Good_1920x1080_2997.webm (1920x1080) [9.9 MB] || 12019_2FHL_3840x2160_FINAL_appletv.m4v (1280x720) [49.2 MB] || 12019_2FHL_3840x2160_FINAL_appletv_subtitles.m4v (1280x720) [49.3 MB] || 12019_2FHL_SRT_Captions.en_US.srt [330 bytes] || 12019_2FHL_SRT_Captions.en_US.vtt [343 bytes] || 12019_2FHL_3840x2160_2997_20mbps.mp4 (3840x2160) [190.4 MB] || 12019_2FHL_3840x2160_2997_40mbps.mp4 (3840x2160) [371.2 MB] || 12019_2FHL_3840x2160_FINAL_lowres.mp4 (480x272) [13.0 MB] || NASA_PODCAST_12019_2FHL_3840x2160_FINAL_ipod_sm.mp4 (320x240) [17.8 MB] || 12019_2FHL_ProRes_3840x2160_2997.mov (3840x2160) [3.8 GB] || ",
+            "release_date": "2016-01-07T14:15:00-05:00",
+            "update_date": "2025-04-24T00:24:44.958301-04:00",
+            "main_image": {
+                "id": 438982,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a012000/a012019/Pass_8_Interview_Still_print.jpg",
+                "filename": "Pass_8_Interview_Still_print.jpg",
+                "media_type": "Image",
+                "alt_text": "Watch Fermi scientists explain why they're so excited about Pass 8, a complete reprocessing of all data collected by the mission's Large Area Telescope. This analysis increased the LAT's sensitivity, widened its energy range, and effectively sharpened its view through improved backtracking of incoming gamma rays. Watch this video on the NASA Goddard YouTube channel.For complete transcript, click here.Credit: NASA's Goddard Space Flight Center",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        },
+        {
+            "id": 10690,
+            "url": "http://svs.gsfc.nasa.gov/10690/",
+            "page_type": "Produced Video",
+            "title": "How to make a gamma ray",
+            "description": "A series of animations showing how gamma rays can be created through various particle interactions. || ",
+            "release_date": "2010-11-09T13:00:00-05:00",
+            "update_date": "2019-06-07T12:35:11-04:00",
+            "main_image": {
+                "id": 489082,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010690/Inverse_Compton278.jpg",
+                "filename": "Inverse_Compton278.jpg",
+                "media_type": "Image",
+                "alt_text": "Inverse Compton scattering animation.  An electron travelling at close the speed of light has a head-on collision with a lower-energy photon (from microwave to ultraviolet).  The photon picks up energy from the electron and becomes a gamma ray.",
+                "width": 1280,
+                "height": 720,
+                "pixels": 921600
+            }
+        },
+        {
+            "id": 10691,
+            "url": "http://svs.gsfc.nasa.gov/10691/",
+            "page_type": "Produced Video",
+            "title": "Fermi gamma-ray lobes animation",
+            "description": "Using data from NASA's Fermi Gamma-ray Space Telescope, scientists have recently discovered a gigantic, mysterious structure in our galaxy. This never-before-seen feature looks like a pair of bubbles extending above and below our galaxy's center.  Each lobe is 25,000 light-years tall and the whole structure may be only a few million years old. Are the bubbles remnants of a massive burst of star formation? Leftovers from an eruption by the supermassive black hole at our galaxy's center? Or or did these forces work in tandem to produce them? Scientists aren't sure yet.For more content related to these bubbles, go to#10688. || ",
+            "release_date": "2010-11-09T13:00:00-05:00",
+            "update_date": "2023-05-03T13:53:57.751473-04:00",
+            "main_image": {
+                "id": 488965,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010691/Fermi_Lobes_animation_still_1280x720.jpg",
+                "filename": "Fermi_Lobes_animation_still_1280x720.jpg",
+                "media_type": "Image",
+                "alt_text": "Artist's interpretation of the Milky Way and the gamma-ray lobes.",
+                "width": 1280,
+                "height": 720,
+                "pixels": 921600
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

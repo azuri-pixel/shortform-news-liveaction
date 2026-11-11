@@ -1,0 +1,628 @@
+{
+    "id": 14935,
+    "url": "http://svs.gsfc.nasa.gov/14935/",
+    "page_type": "Infographic",
+    "title": "Milky Way Anatomy",
+    "description": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer. || Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg (1024x512) [118.4 KB] || Milky_Way_Anatomy_Infographic_Simple_Final.jpg (4320x2160) [1.2 MB] || Milky_Way_Anatomy_Infographic_Simple_Final.png (4320x2160) [6.5 MB] || Milky_Way_Anatomy_Infographic_Simple_Final_searchweb.png (320x180) [68.0 KB] || Milky_Way_Anatomy_Infographic_Simple_Final_thm.png (80x40) [5.1 KB] || ",
+    "release_date": "2025-12-18T13:00:00-05:00",
+    "update_date": "2025-12-18T22:23:06-05:00",
+    "main_image": {
+        "id": 1195143,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+        "media_type": "Image",
+        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+        "width": 1024,
+        "height": 512,
+        "pixels": 524288
+    },
+    "main_video": null,
+    "main_credits": {},
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 379253,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379253",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+            "items": [
+                {
+                    "id": 503169,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195143,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+                        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                        "width": 1024,
+                        "height": 512,
+                        "pixels": 524288
+                    }
+                },
+                {
+                    "id": 503146,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195141,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final.jpg",
+                        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                },
+                {
+                    "id": 503147,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195142,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final.png",
+                        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                },
+                {
+                    "id": 503170,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195144,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final_searchweb.png",
+                        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 503171,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195145,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final_thm.png",
+                        "filename": "Milky_Way_Anatomy_Infographic_Simple_Final_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379254,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379254",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Artist's concept animation of the Milky Way tilting from face-on to edge-on.",
+            "items": [
+                {
+                    "id": 503148,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195119,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/MW_Anatomy.gif",
+                        "filename": "MW_Anatomy.gif",
+                        "media_type": "Image",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on.",
+                        "width": 800,
+                        "height": 800,
+                        "pixels": 640000
+                    }
+                },
+                {
+                    "id": 503149,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195120,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/MW_Anatomy_30fps_4k.mp4",
+                        "filename": "MW_Anatomy_30fps_4k.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on.",
+                        "width": 4000,
+                        "height": 4000,
+                        "pixels": 16000000
+                    }
+                },
+                {
+                    "id": 503150,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195121,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/MW_Anatomy_30fps_4k_ProRes.mov",
+                        "filename": "MW_Anatomy_30fps_4k_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on.",
+                        "width": 4000,
+                        "height": 4000,
+                        "pixels": 16000000
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379255,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379255",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Artist's concept animation of the Milky Way tilting from face-on to edge-on with a label at the top.",
+            "items": [
+                {
+                    "id": 503151,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195122,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_800_v2.gif",
+                        "filename": "Milky_Way_800_v2.gif",
+                        "media_type": "Image",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on with a label at the top.",
+                        "width": 800,
+                        "height": 800,
+                        "pixels": 640000
+                    }
+                },
+                {
+                    "id": 503152,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195123,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Pause_Labeled.mp4",
+                        "filename": "Milky_Way_Pause_Labeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on with a label at the top.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503153,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195124,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Pause_Labeled_ProRes.mov",
+                        "filename": "Milky_Way_Pause_Labeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way tilting from face-on to edge-on with a label at the top.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379256,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379256",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+            "items": [
+                {
+                    "id": 503154,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195125,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Bulge_400.gif",
+                        "filename": "Bulge_400.gif",
+                        "media_type": "Image",
+                        "alt_text": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+                        "width": 400,
+                        "height": 400,
+                        "pixels": 160000
+                    }
+                },
+                {
+                    "id": 503155,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195126,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Bulge_Pause_Labeled.mp4",
+                        "filename": "Bulge_Pause_Labeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+                        "width": 1000,
+                        "height": 1000,
+                        "pixels": 1000000
+                    }
+                },
+                {
+                    "id": 503156,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195127,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Bulge_Pause_Unlabeled.mp4",
+                        "filename": "Bulge_Pause_Unlabeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+                        "width": 1000,
+                        "height": 1000,
+                        "pixels": 1000000
+                    }
+                },
+                {
+                    "id": 503157,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195128,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Bulge_Pause_Labeled_ProRes.mov",
+                        "filename": "Bulge_Pause_Labeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+                        "width": 1000,
+                        "height": 1000,
+                        "pixels": 1000000
+                    }
+                },
+                {
+                    "id": 503158,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195129,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Bulge_Pause_Unlabeled_ProRes.mov",
+                        "filename": "Bulge_Pause_Unlabeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the central bulge portion of the Milky Way tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions.",
+                        "width": 1000,
+                        "height": 1000,
+                        "pixels": 1000000
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379257,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379257",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+            "items": [
+                {
+                    "id": 503159,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195130,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_800_v2.gif",
+                        "filename": "Dark_Matter_Halo_800_v2.gif",
+                        "media_type": "Image",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+                        "width": 800,
+                        "height": 800,
+                        "pixels": 640000
+                    }
+                },
+                {
+                    "id": 503160,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195131,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_Pause_Unlabeled.mp4",
+                        "filename": "Dark_Matter_Halo_Pause_Unlabeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503161,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195132,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_Pause_Labeled.mp4",
+                        "filename": "Dark_Matter_Halo_Pause_Labeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503162,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195133,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_Pause_Unlabeled_ProRes.mov",
+                        "filename": "Dark_Matter_Halo_Pause_Unlabeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503163,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195134,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Dark_Matter_Halo_Pause_Labeled_ProRes.mov",
+                        "filename": "Dark_Matter_Halo_Pause_Labeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding dark matter halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The dark matter halo is roughly one million light-years across, or ten times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379260,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379260",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+            "items": [
+                {
+                    "id": 503164,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195135,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_800.gif",
+                        "filename": "Stellar_Halo_800.gif",
+                        "media_type": "Image",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+                        "width": 800,
+                        "height": 800,
+                        "pixels": 640000
+                    }
+                },
+                {
+                    "id": 503165,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195136,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_Pause_Labeled.mp4",
+                        "filename": "Stellar_Halo_Pause_Labeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503166,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195137,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_Pause_Unlabeled.mp4",
+                        "filename": "Stellar_Halo_Pause_Unlabeled.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503167,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195138,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_Pause_Labeled_ProRes.mov",
+                        "filename": "Stellar_Halo_Pause_Labeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                },
+                {
+                    "id": 503168,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1195139,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Stellar_Halo_Pause_Unlabeled_ProRes.mov",
+                        "filename": "Stellar_Halo_Pause_Unlabeled_ProRes.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Artist's concept animation of the Milky Way and its surrounding stellar halo tilting from face-on to edge-on. Includes looping GIF and labeled and unlabeled versions. The stellar halo is roughly 300,000 light-years across, or three times the width of the Milky Way's disk.",
+                        "width": 2160,
+                        "height": 2160,
+                        "pixels": 4665600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 379284,
+            "url": "http://svs.gsfc.nasa.gov/14935/#media_group_379284",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [https://nasa.tumblr.com/post/803306080335708160/milky-way-anatomy](https://nasa.tumblr.com/post/803306080335708160/milky-way-anatomy)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "NASA Astrophysics"
+    ],
+    "credits": [
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Graphic designer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Adriana Manrique Gutierrez",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Science writer",
+            "people": [
+                {
+                    "name": "Ashley Balzer",
+                    "employer": "eMITS"
+                }
+            ]
+        }
+    ],
+    "missions": [],
+    "series": [
+        "Astrophysics Animations",
+        "Astrophysics Stills"
+    ],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Dark Matter",
+        "Galaxy",
+        "Infographic",
+        "Milky Way"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 15047,
+            "url": "http://svs.gsfc.nasa.gov/15047/",
+            "page_type": "Produced Video",
+            "title": "Milky Way Habitable Zone",
+            "description": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. || MilkyWayZONES_Final_half.jpg (2160x1080) [438.6 KB] || MilkyWayZONES_Final.jpg (4320x2160) [1.2 MB] || MilkyWayZONES_Final.png (4320x2160) [5.9 MB] || MilkyWayZONES_Final_searchweb.png (320x180) [66.4 KB] || MilkyWayZONES_Final_thm.png (80x40) [5.1 KB] || ",
+            "release_date": "2026-05-28T10:00:00-04:00",
+            "update_date": "2026-05-28T11:11:33-04:00",
+            "main_image": {
+                "id": 1204095,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_half.jpg",
+                "filename": "MilkyWayZONES_Final_half.jpg",
+                "media_type": "Image",
+                "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                "width": 2160,
+                "height": 1080,
+                "pixels": 2332800
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

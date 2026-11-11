@@ -1,0 +1,611 @@
+{
+    "id": 11534,
+    "url": "http://svs.gsfc.nasa.gov/11534/",
+    "page_type": "Produced Video",
+    "title": "Galaxy Formation",
+    "description": "Galaxies are collections of stars, gas, dust and dark matter held together by gravity. Their appearance and composition are shaped over billions of years by interactions with groups of stars and other galaxies. Using supercomputers, scientists can look back in time and simulate how a galaxy may have formed in the early universe and grown into what we see today. Galaxies are thought to begin as small clouds of stars and dust swirling through space. As other clouds get close, gravity sends these objects careening into one another and knits them into larger spinning packs. Subsequent collisions can sling material toward a galaxy’s outskirts, creating extensive spiral arms filled with colonies of stars. Watch the video to see this process unfold. || ",
+    "release_date": "2014-05-13T00:00:00-04:00",
+    "update_date": "2023-05-03T13:50:55.529074-04:00",
+    "main_image": {
+        "id": 455214,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1920.jpg",
+        "filename": "c-1920.jpg",
+        "media_type": "Image",
+        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+    },
+    "main_video": null,
+    "main_credits": {
+        "Scientific consulting by": [
+            {
+                "name": "Brian O'Shea",
+                "employer": "Michigan State University"
+            },
+            {
+                "name": "Michael Norman",
+                "employer": "University of California, San Diego"
+            }
+        ],
+        "Written by": [
+            {
+                "name": "Matt Davenport",
+                "employer": "USRA"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 341205,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341205",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Galaxies are collections of stars, gas, dust and dark matter held together by gravity. Their appearance and composition are shaped over billions of years by interactions with groups of stars and other galaxies. Using supercomputers, scientists can look back in time and simulate how a galaxy may have formed in the early universe and grown into what we see today. Galaxies are thought to begin as small clouds of stars and dust swirling through space. As other clouds get close, gravity sends these objects careening into one another and knits them into larger spinning packs. Subsequent collisions can sling material toward a galaxy’s outskirts, creating extensive spiral arms filled with colonies of stars. Watch the video to see this process unfold.",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 341206,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341206",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "See 13.7 billion years of cosmic evolution in under a minute.",
+            "items": [
+                {
+                    "id": 292641,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455216,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1024.jpg",
+                        "filename": "c-1024.jpg",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 292642,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455214,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1920.jpg",
+                        "filename": "c-1920.jpg",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 292643,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455213,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1280.jpg",
+                        "filename": "c-1280.jpg",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 292644,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455215,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1024_web.png",
+                        "filename": "c-1024_web.png",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 292645,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455212,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1024_thm.png",
+                        "filename": "c-1024_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 292646,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455217,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/c-1920_searchweb.png",
+                        "filename": "c-1920_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "See 13.7 billion years of cosmic evolution in under a minute.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 341207,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341207",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+            "items": [
+                {
+                    "id": 292650,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455218,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/pf-1024.jpg",
+                        "filename": "pf-1024.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 292651,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455221,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/pf-1920.jpg",
+                        "filename": "pf-1920.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 292652,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455222,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/pf-1280.jpg",
+                        "filename": "pf-1280.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 292647,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455223,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/10661-540-MASTER_high.webmhd.webm",
+                        "filename": "10661-540-MASTER_high.webmhd.webm",
+                        "media_type": "Movie",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+                        "width": 960,
+                        "height": 540,
+                        "pixels": 518400
+                    }
+                },
+                {
+                    "id": 292649,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455219,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/10661-540-MASTER_high.mp4",
+                        "filename": "10661-540-MASTER_high.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years.",
+                        "width": 960,
+                        "height": 540,
+                        "pixels": 518400
+                    }
+                },
+                {
+                    "id": 292648,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 853364,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/a011534_iPad_movie_10661-540-MASTER/10661-540-MASTER.m3u8",
+                        "filename": "10661-540-MASTER.m3u8",
+                        "media_type": "File",
+                        "alt_text": "This supercomputer simulation shows the formation of galaxies similar to the Milky Way over 13.7 billion years."
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 341208,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341208",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "When galaxies get close, gravity pulls them together, causing a collision.\r",
+            "items": [
+                {
+                    "id": 292653,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455224,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s1-1920.jpg",
+                        "filename": "s1-1920.jpg",
+                        "media_type": "Image",
+                        "alt_text": "When galaxies get close, gravity pulls them together, causing a collision.\r",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 292654,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455225,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s1-1280.jpg",
+                        "filename": "s1-1280.jpg",
+                        "media_type": "Image",
+                        "alt_text": "When galaxies get close, gravity pulls them together, causing a collision.\r",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 292655,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455226,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s1-1024.jpg",
+                        "filename": "s1-1024.jpg",
+                        "media_type": "Image",
+                        "alt_text": "When galaxies get close, gravity pulls them together, causing a collision.\r",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 292656,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455227,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s1-1024_web.png",
+                        "filename": "s1-1024_web.png",
+                        "media_type": "Image",
+                        "alt_text": "When galaxies get close, gravity pulls them together, causing a collision.\r",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 341209,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341209",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "Following a collision, stars and other material begin settling into orbits around a new galactic core.",
+            "items": [
+                {
+                    "id": 292657,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455229,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s3-1920.jpg",
+                        "filename": "s3-1920.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Following a collision, stars and other material begin settling into orbits around a new galactic core.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 292658,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455230,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s3-1280.jpg",
+                        "filename": "s3-1280.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Following a collision, stars and other material begin settling into orbits around a new galactic core.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 292659,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455231,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s3-1024.jpg",
+                        "filename": "s3-1024.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Following a collision, stars and other material begin settling into orbits around a new galactic core.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 292660,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455228,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s3-1024_web.png",
+                        "filename": "s3-1024_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Following a collision, stars and other material begin settling into orbits around a new galactic core.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 341210,
+            "url": "http://svs.gsfc.nasa.gov/11534/#media_group_341210",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "Millions or even billions of years may pass before galaxies merge completely into a single larger galaxy.",
+            "items": [
+                {
+                    "id": 292661,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455233,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s4-1024.jpg",
+                        "filename": "s4-1024.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Millions or even billions of years may pass before galaxies merge completely into a single larger galaxy.",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 292662,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455234,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s4-1280.jpg",
+                        "filename": "s4-1280.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Millions or even billions of years may pass before galaxies merge completely into a single larger galaxy.",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 292663,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455235,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s4-1920.jpg",
+                        "filename": "s4-1920.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Millions or even billions of years may pass before galaxies merge completely into a single larger galaxy.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 292664,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 455232,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a011500/a011534/s4-1024_web.png",
+                        "filename": "s4-1024_web.png",
+                        "media_type": "Image",
+                        "alt_text": "Millions or even billions of years may pass before galaxies merge completely into a single larger galaxy.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                }
+            ],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "PAO"
+    ],
+    "credits": [
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Donna Cox",
+                    "employer": "AVL NCSA/University of Illinois"
+                },
+                {
+                    "name": "Robert Patterson",
+                    "employer": "AVL NCSA/University of Illinois"
+                },
+                {
+                    "name": "Matthew Hall",
+                    "employer": "AVL NCSA/University of Illinois"
+                },
+                {
+                    "name": "Stuart Levy",
+                    "employer": "AVL NCSA/University of Illinois"
+                }
+            ]
+        },
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Michael McClare",
+                    "employer": "HTSI"
+                },
+                {
+                    "name": "Donna Cox",
+                    "employer": "AVL NCSA/University of Illinois"
+                }
+            ]
+        },
+        {
+            "role": "Scientist",
+            "people": [
+                {
+                    "name": "Brian O'Shea",
+                    "employer": "Michigan State University"
+                },
+                {
+                    "name": "Michael Norman",
+                    "employer": "University of California, San Diego"
+                }
+            ]
+        },
+        {
+            "role": "Writer",
+            "people": [
+                {
+                    "name": "Matt Davenport",
+                    "employer": "USRA"
+                }
+            ]
+        }
+    ],
+    "missions": [],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "App"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 10661,
+            "url": "http://svs.gsfc.nasa.gov/10661/",
+            "page_type": "Produced Video",
+            "title": "JWST Science Simulations: Galaxy Formation",
+            "description": "Supercomputer Simulations of Galaxy Formation and Evolution. This visualization shows small galaxies forming, interacting, and merging to make ever-larger galaxies. This 'hierarchical structure formation' is driven by gravity and results in the creation of galaxies with spiral arms much like our own Milky Way galaxy. The Adaptive Mesh Refinement (AMR) simulation generated from ENZO code for cosmology and astrophysics was developed by Drs. Brian O'Shea and Michael Norman. The AMR code generated 1.8 terabytes of data and was computed at NCSA. AVL used Amore software (http://avl.ncsa.illinois.edu/what-we-do/software) to interpolate and render 2700 frames (42 gigabytes of HD images). The simulation spans a time period of 13.7 billion years. This visualization provides insight into the assembly and formation of galaxies. James Webb Space Telescope (JWST) will probe the earliest periods of galaxy formation by looking deep into space to see the first galaxies that form in the universe, only a few hundred million years after the Big Bang. The Advanced Visualization Laboratory (AVL) at the National Center for Supercomputing Applications (NCSA) collaborated with NASA and Drs. Brian O'Shea and Michael Norman to visualize the formation of a Milky Way-type galaxy. The Adaptive Mesh Refinement (AMR) simulation generated from ENZO code for cosmology and astrophysics was developed by Drs. Brian O'Shea and Michael Norman. The AMR code generated 1.8 terabytes of data and was computed at NCSA. AVL used Amore software (http://avl.ncsa.illinois.edu/what-we-do/software) to interpolate and render 2700 frames (42 gigabytes of HD images). The simulation spans a time period of 13.7 billion years. This visualization provides insight into the assembly and formation of galaxies. James Webb Space Telescope (JWST) will probe the earliest periods of galaxy formation by looking deep into space to see the first galaxies that form in the universe, only a few hundred million years after the Big Bang.AVL(http://avl.ncsa.illinois.edu/) at NCSA (http://ncsa.illinois.edu/), University of Illinois (www.illinois.edu) || ",
+            "release_date": "2010-11-01T00:00:00-04:00",
+            "update_date": "2025-01-06T01:14:37.073051-05:00",
+            "main_image": {
+                "id": 489947,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a010600/a010661/Galaxy_Evolution_wideshot-1080p.00170_print.jpg",
+                "filename": "Galaxy_Evolution_wideshot-1080p.00170_print.jpg",
+                "media_type": "Image",
+                "alt_text": "JWST Science Simulations: Galaxy Evolution wideshot.  This visualization shows small galaxies forming, interacting, and merging to form Milky Way-type galaxies with spiral arms.  ",
+                "width": 1024,
+                "height": 576,
+                "pixels": 589824
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

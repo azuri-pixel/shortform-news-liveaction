@@ -1,0 +1,441 @@
+{
+    "id": 14476,
+    "url": "http://svs.gsfc.nasa.gov/14476/",
+    "page_type": "Produced Video",
+    "title": "Fermi Mission Detects Surprising Gamma-Ray Feature Beyond Our Galaxy",
+    "description": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center || Dark_Fermi_Dipole.jpg (3840x2160) [506.2 KB] || Dark_Fermi_Dipole.png (3840x2160) [8.9 MB] || Dark_Fermi_Dipole_searchweb.png (320x180) [57.6 KB] || Dark_Fermi_Dipole_thm.png (80x40) [5.4 KB] || ",
+    "release_date": "2024-01-11T11:10:00-05:00",
+    "update_date": "2024-01-09T20:08:44.026420-05:00",
+    "main_image": {
+        "id": 1088230,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dark_Fermi_Dipole.jpg",
+        "filename": "Dark_Fermi_Dipole.jpg",
+        "media_type": "Image",
+        "alt_text": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center",
+        "width": 3840,
+        "height": 2160,
+        "pixels": 8294400
+    },
+    "main_video": {
+        "id": 2,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a001700/a001703/4559_Kepler_Neptune_Twitter_720.mp4",
+        "filename": "4559_Kepler_Neptune_Twitter_720.mp4",
+        "media_type": "Movie",
+        "alt_text": "",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+    },
+    "main_credits": {
+        "Written by": [
+            {
+                "name": "Francis Reddy",
+                "employer": "University of Maryland College Park"
+            }
+        ],
+        "Produced by": [
+            {
+                "name": "Scott Wiessinger",
+                "employer": "KBR Wyle Services, LLC"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 373079,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373079",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. <p><p>Credit: NASA’s Goddard Space Flight Center<p>",
+            "items": [
+                {
+                    "id": 417287,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088230,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dark_Fermi_Dipole.jpg",
+                        "filename": "Dark_Fermi_Dipole.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 417288,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088231,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dark_Fermi_Dipole.png",
+                        "filename": "Dark_Fermi_Dipole.png",
+                        "media_type": "Image",
+                        "alt_text": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                },
+                {
+                    "id": 418304,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088239,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dark_Fermi_Dipole_searchweb.png",
+                        "filename": "Dark_Fermi_Dipole_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 418305,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088240,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dark_Fermi_Dipole_thm.png",
+                        "filename": "Dark_Fermi_Dipole_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "This artist’s concept shows the entire sky in gamma rays with magenta circles illustrating the uncertainty in the direction from which more high-energy gamma rays than average seem to be arriving. In this view, the plane of our galaxy runs across the middle of the map. The circles enclose regions with a 68% (inner) and a 95% chance of containing the origin of these gamma rays. Credit: NASA’s Goddard Space Flight Center",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373188,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373188",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "Astronomers analyzing 13 years of data from NASA’s Fermi Gamma-ray Space Telescope have found an unexpected and as yet unexplained feature outside of our galaxy. <br><br>Intriguingly, the gamma-ray signal is found in a similar direction and with a nearly identical magnitude as another unexplained feature, one produced by some of the most energetic cosmic particles ever detected.<br><br>The team was searching for a gamma-ray feature related to the CMB (cosmic microwave background), the oldest light in the universe. A burst of visible light thought to have originated when the first atoms formed, the first time light could permeate the cosmos. Stretched by the subsequent expansion of space over the past 13 billion years, this light was first detected in the form of faint microwaves all over the sky in 1965.<br><br>In the 1970s, astronomers realized that the CMB had a so-called dipole structure, which was later measured at high precision by NASA's COBE (Cosmic Background Explorer) mission. The CMB is about 0.12% hotter, with more microwaves than average, toward the constellation Leo, and colder by the same amount, with fewer microwaves than average, in the opposite direction. Astronomers generally regard the pattern as a result of the motion of our own solar system relative to the CMB at about 230 miles (370 kilometers) per second.<br><br>This motion will give rise to a dipole signal in the light coming from any astrophysical source, but so far the CMB is the only one that has been precisely measured. A team led by Alexander Kashlinsky at the University of Maryland and NASA's Goddard Space Flight Center searched for the gamma-ray equivalent of this signal by adding together 13 years of data from Fermi’s Large Area Telescope.<br><br>Analysis of the resulting data revealed a part of the sky where more high-energy gamma rays are arriving than average, but at a level 10 times higher than expected &ndash; and in a different part of the sky than the CMB dipole. <br><br>The scientists note that the gamma-ray signal they uncovered is in roughly the same part of the sky &ndash; and at very similar levels to &ndash; an as yet unexplained dipole in the arrival direction of the highest-energy cosmic rays. They suggest the two may be related, with sources yet to be identified producing both signals.",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 373080,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373080",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "CMB Dipole yes/no slide",
+            "items": [
+                {
+                    "id": 417289,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088232,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/CMB_Dipole_Yes-No.jpg",
+                        "filename": "CMB_Dipole_Yes-No.jpg",
+                        "media_type": "Image",
+                        "alt_text": "CMB Dipole yes/no slide",
+                        "width": 3840,
+                        "height": 2160,
+                        "pixels": 8294400
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373081,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373081",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "The scientists combined 13 years of Fermi Large Area Telescope observations of gamma rays above about 3 billion electron volts (GeV), removed all discrete sources and stripped out the central plane of our Milky Way galaxy in order to analyze the extragalactic gamma-ray background. Analysis of the resulting data revealed a part of the sky where more high-energy gamma rays are arriving than average. The direction is not precisely known. The circles show regions where there is a 68% and a 95% chance of containing the origin of these gamma rays for one analysis approach. <p><p>Credit: NASA's Goddard Space Flight Center",
+            "items": [
+                {
+                    "id": 417298,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088241,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Fermi_LAT_AllSky_Transition_1080.00660_print.jpg",
+                        "filename": "Fermi_LAT_AllSky_Transition_1080.00660_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "The scientists combined 13 years of Fermi Large Area Telescope observations of gamma rays above about 3 billion electron volts (GeV), removed all discrete sources and stripped out the central plane of our Milky Way galaxy in order to analyze the extragalactic gamma-ray background. Analysis of the resulting data revealed a part of the sky where more high-energy gamma rays are arriving than average. The direction is not precisely known. The circles show regions where there is a 68% and a 95% chance of containing the origin of these gamma rays for one analysis approach. Credit: NASA's Goddard Space Flight Center",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 417290,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088233,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Fermi_LAT_AllSky_Transition_1080.mp4",
+                        "filename": "Fermi_LAT_AllSky_Transition_1080.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "The scientists combined 13 years of Fermi Large Area Telescope observations of gamma rays above about 3 billion electron volts (GeV), removed all discrete sources and stripped out the central plane of our Milky Way galaxy in order to analyze the extragalactic gamma-ray background. Analysis of the resulting data revealed a part of the sky where more high-energy gamma rays are arriving than average. The direction is not precisely known. The circles show regions where there is a 68% and a 95% chance of containing the origin of these gamma rays for one analysis approach. Credit: NASA's Goddard Space Flight Center",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373082,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373082",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "The team was searching for a gamma-ray signal related to our solar system's motion of about 230 miles (370 kilometers) per second relative to the CMB, which is widely regarded as being responsible for the dipole emission it displays. What they found instead was a gamma-ray signal 10 times stronger than expected from our galaxy's motion and located far from the CMB dipole. <p><p>Credit: NASA's Goddard Space Flight Center",
+            "items": [
+                {
+                    "id": 417299,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088242,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Graph_1080.00350_print.jpg",
+                        "filename": "Dipole_Graph_1080.00350_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "The team was searching for a gamma-ray signal related to our solar system's motion of about 230 miles (370 kilometers) per second relative to the CMB, which is widely regarded as being responsible for the dipole emission it displays. What they found instead was a gamma-ray signal 10 times stronger than expected from our galaxy's motion and located far from the CMB dipole. Credit: NASA's Goddard Space Flight Center",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 417291,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088234,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Graph_1080.mp4",
+                        "filename": "Dipole_Graph_1080.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "The team was searching for a gamma-ray signal related to our solar system's motion of about 230 miles (370 kilometers) per second relative to the CMB, which is widely regarded as being responsible for the dipole emission it displays. What they found instead was a gamma-ray signal 10 times stronger than expected from our galaxy's motion and located far from the CMB dipole. Credit: NASA's Goddard Space Flight Center",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 417292,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088235,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Graph_ProRes_1920x1080_2997.mov",
+                        "filename": "Dipole_Graph_ProRes_1920x1080_2997.mov",
+                        "media_type": "Movie",
+                        "alt_text": "The team was searching for a gamma-ray signal related to our solar system's motion of about 230 miles (370 kilometers) per second relative to the CMB, which is widely regarded as being responsible for the dipole emission it displays. What they found instead was a gamma-ray signal 10 times stronger than expected from our galaxy's motion and located far from the CMB dipole. Credit: NASA's Goddard Space Flight Center",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373083,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373083",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Top: An all-sky map of extragalactic gamma rays in which the central plane of our galaxy, shown in dark blue where data has been removed, runs across the middle. The red dot and circles indicate the approximate direction from which more gamma rays than average seem to be arriving. Bottom: A similar all-sky map showing the distribution of ultrahigh-energy cosmic rays detected by the Pierre Auger Observatory in Argentina. Red indicates directions from which greater than average numbers of particles arrive, blue indicates directions with fewer than average. This video superposes the Fermi map onto the cosmic ray map, illustrating the similarity of the dipole directions. <p><p>Credit: Kashlinsky et al. 2024 and the Pierre Auger Collaboration",
+            "items": [
+                {
+                    "id": 417300,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088243,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Overlay_1080.00001_print.jpg",
+                        "filename": "Dipole_Overlay_1080.00001_print.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Top: An all-sky map of extragalactic gamma rays in which the central plane of our galaxy, shown in dark blue where data has been removed, runs across the middle. The red dot and circles indicate the approximate direction from which more gamma rays than average seem to be arriving. Bottom: A similar all-sky map showing the distribution of ultrahigh-energy cosmic rays detected by the Pierre Auger Observatory in Argentina. Red indicates directions from which greater than average numbers of particles arrive, blue indicates directions with fewer than average. This video superposes the Fermi map onto the cosmic ray map, illustrating the similarity of the dipole directions. Credit: Kashlinsky et al. 2024 and the Pierre Auger Collaboration",
+                        "width": 1024,
+                        "height": 576,
+                        "pixels": 589824
+                    }
+                },
+                {
+                    "id": 417293,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088236,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Overlay_1080.mp4",
+                        "filename": "Dipole_Overlay_1080.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Top: An all-sky map of extragalactic gamma rays in which the central plane of our galaxy, shown in dark blue where data has been removed, runs across the middle. The red dot and circles indicate the approximate direction from which more gamma rays than average seem to be arriving. Bottom: A similar all-sky map showing the distribution of ultrahigh-energy cosmic rays detected by the Pierre Auger Observatory in Argentina. Red indicates directions from which greater than average numbers of particles arrive, blue indicates directions with fewer than average. This video superposes the Fermi map onto the cosmic ray map, illustrating the similarity of the dipole directions. Credit: Kashlinsky et al. 2024 and the Pierre Auger Collaboration",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 417294,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088237,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Overlay_ProRes_1920x1080_2997.mov",
+                        "filename": "Dipole_Overlay_ProRes_1920x1080_2997.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Top: An all-sky map of extragalactic gamma rays in which the central plane of our galaxy, shown in dark blue where data has been removed, runs across the middle. The red dot and circles indicate the approximate direction from which more gamma rays than average seem to be arriving. Bottom: A similar all-sky map showing the distribution of ultrahigh-energy cosmic rays detected by the Pierre Auger Observatory in Argentina. Red indicates directions from which greater than average numbers of particles arrive, blue indicates directions with fewer than average. This video superposes the Fermi map onto the cosmic ray map, illustrating the similarity of the dipole directions. Credit: Kashlinsky et al. 2024 and the Pierre Auger Collaboration",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373084,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373084",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "Both the gamma-ray and the cosmic ray dipoles have strikingly similar magnitudes &ndash; about 7% more gamma rays or particles than average coming from one direction and correspondingly smaller amounts arriving from the opposite direction.<p><p>Credit: NASA's Goddard Space Flight Center",
+            "items": [
+                {
+                    "id": 417295,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1088238,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014400/a014476/Dipole_Graph_CR.jpg",
+                        "filename": "Dipole_Graph_CR.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Both the gamma-ray and the cosmic ray dipoles have strikingly similar magnitudes &ndash; about 7% more gamma rays or particles than average coming from one direction and correspondingly smaller amounts arriving from the opposite direction.Credit: NASA's Goddard Space Flight Center",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373199,
+            "url": "http://svs.gsfc.nasa.gov/14476/#media_group_373199",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [NASA.gov](https://science.nasa.gov/missions/fermi/nasas-fermi-detects-surprise-gamma-ray-feature-beyond-our-galaxy/)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "PAO"
+    ],
+    "credits": [
+        {
+            "role": "Science writer",
+            "people": [
+                {
+                    "name": "Francis Reddy",
+                    "employer": "University of Maryland College Park"
+                }
+            ]
+        },
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "KBR Wyle Services, LLC"
+                }
+            ]
+        },
+        {
+            "role": "Graphics",
+            "people": [
+                {
+                    "name": "Francis Reddy",
+                    "employer": "University of Maryland College Park"
+                },
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "KBR Wyle Services, LLC"
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Fermi Gamma-ray Space Telescope"
+    ],
+    "series": [
+        "Astrophysics Stills",
+        "Astrophysics Visualizations"
+    ],
+    "tapes": [],
+    "papers": [
+        "<a href=\"https://iopscience.iop.org/article/10.3847/2041-8213/acfedd\">Probing the Dipole of the Diffuse Gamma-Ray Background. A. Kashlinsky et al. 2024, ApJL, 961 L1</a>",
+        "<a href=\"https://iopscience.iop.org/article/10.3847/2041-8213/acfedd\">Probing the Dipole of the Diffuse Gamma-Ray Background. A. Kashlinsky et al. 2024, ApJL, 961 L1</a>"
+    ],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "4K",
+        "Ast",
+        "Astrophysics",
+        "Galaxy",
+        "Gamma Ray Observatory",
+        "Produced video",
+        "Space",
+        "Universe",
+        "Video"
+    ],
+    "recommended_pages": [],
+    "related": [],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

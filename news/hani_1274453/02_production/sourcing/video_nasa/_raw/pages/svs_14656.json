@@ -1,0 +1,225 @@
+{
+    "id": 14656,
+    "url": "http://svs.gsfc.nasa.gov/14656/",
+    "page_type": "Produced Video",
+    "title": "Galaxy Collision Simulation (Dome Version)",
+    "description": "Galaxy Collision Simulation || PRINT.jpg (1920x1080) [62.5 KB] || THUMB.jpg (1920x1080) [62.5 KB] || SEARCH.jpg (320x180) [8.3 KB] || Galaxy_Collision_Simulation_Dome_Version.mp4 (1280x720) [28.6 MB] || 1024x1024_1x1_30p [128.0 KB] || 2048x2048_1x1_30p [128.0 KB] || 3200x3200_1x1_30p [128.0 KB] || 3800x3800_1x1_30p [128.0 KB] || ",
+    "release_date": "2024-08-14T11:00:00-04:00",
+    "update_date": "2024-08-14T11:58:19.302428-04:00",
+    "main_image": {
+        "id": 1096366,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/SEARCH.jpg",
+        "filename": "SEARCH.jpg",
+        "media_type": "Image",
+        "alt_text": "Galaxy Collision Simulation",
+        "width": 320,
+        "height": 180,
+        "pixels": 57600
+    },
+    "main_video": null,
+    "main_credits": {},
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 375271,
+            "url": "http://svs.gsfc.nasa.gov/14656/#media_group_375271",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Galaxy Collision Simulation</b>",
+            "items": [
+                {
+                    "id": 433316,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096365,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/PRINT.jpg",
+                        "filename": "PRINT.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 433318,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096367,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/THUMB.jpg",
+                        "filename": "THUMB.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 433317,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096366,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/SEARCH.jpg",
+                        "filename": "SEARCH.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 433306,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096355,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/Galaxy_Collision_Simulation_Dome_Version.mp4",
+                        "filename": "Galaxy_Collision_Simulation_Dome_Version.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 1280,
+                        "height": 720,
+                        "pixels": 921600
+                    }
+                },
+                {
+                    "id": 433319,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096368,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/frames/1024x1024_1x1_30p/",
+                        "filename": "1024x1024_1x1_30p",
+                        "media_type": "Frames",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                },
+                {
+                    "id": 433320,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096369,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/frames/2048x2048_1x1_30p/",
+                        "filename": "2048x2048_1x1_30p",
+                        "media_type": "Frames",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                },
+                {
+                    "id": 433321,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096370,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/frames/3200x3200_1x1_30p/",
+                        "filename": "3200x3200_1x1_30p",
+                        "media_type": "Frames",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                },
+                {
+                    "id": 433322,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1096371,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014600/a014656/frames/3800x3800_1x1_30p/",
+                        "filename": "3800x3800_1x1_30p",
+                        "media_type": "Frames",
+                        "alt_text": "Galaxy Collision Simulation",
+                        "width": 0,
+                        "height": 0,
+                        "pixels": null
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 375270,
+            "url": "http://svs.gsfc.nasa.gov/14656/#media_group_375270",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "In this scientific visualization, two spiral galaxies are set on a collision course. As one slices through the other, both are disrupted. The tidal forces of gravity produce long tails of material streaming away from the collision. The central regions relatively quickly fall together and merge. The visualization is based on research data from a supercomputer simulation, with stars shown in yellow and gas shown blue. Time passes at about 30 million years per second, lasting a total of about 1.5 billion years.<br><br>This version was rendered for a planetarium dome format (hemisphere projection to polar coordinates). The preview shown here has been matted on black to a widescreen aspect ratio. The \"Frame Set\" files (see links on the right hand side of the page) are the standard square aspect ratio dome masters.<br><br>The camera choreography was designed for uni-directional seating, where there is a common focus point of the audience (front and center, about 60 degrees up). The camera motion is somewhat complex, and can be discerned by watching the movement of the background galaxy field. The camera starts by dropping down to reveal the first galaxy in the front right and then the second galaxy to the front left. The camera also moves in toward the galaxies to get a closer view of the initial collision. After the initial collision, the camera continues to drop slowly, now increasing the distance to the galaxies and tilting a bit to keep the tidal tails on screen as much as possible. The camera also rotates slowly to increase the sweeping feel of the tidal tails passing above.",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "PAO"
+    ],
+    "credits": [
+        {
+            "role": "Support",
+            "people": [
+                {
+                    "name": "Paul Morris",
+                    "employer": "KBR Wyle Services, LLC"
+                }
+            ]
+        },
+        {
+            "role": "Technical support",
+            "people": [
+                {
+                    "name": "Aaron E. Lepsch",
+                    "employer": "ADNET Systems, Inc."
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Hubble"
+    ],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "HDTV"
+    ],
+    "recommended_pages": [],
+    "related": [],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

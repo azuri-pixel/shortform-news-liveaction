@@ -1,0 +1,304 @@
+{
+    "id": 14847,
+    "url": "http://svs.gsfc.nasa.gov/14847/",
+    "page_type": "Produced Video",
+    "title": "100,000 Computer Simulations Reveal Milky Way's Fate",
+    "description": "For decades, astronomers believed that one thing was as certain as death and taxes: the Milky Way and our neighboring Andromeda galaxy were on a crash course… destined to collide in less than 5 billion years.That galactic smash-up would spark massive star formation, scatter stars like cosmic billiard balls, and possibly throw our Sun into a whole new orbit.But now… that future may not be so certain.For more information, visit science.nasa.gov/mission/hubbleCredit: NASA's Goddard Space Flight Center Paul Morris: Lead ProducerVideo Credits:Milky Way TimelapseStock Footage Provided By Pond5/lovemushroomArtist Rendition of Gaia SpacecraftESAArtist’s animation of the Sun becoming a red giantESA/Hubble (M. Kornmesser & L. L. Christensen)Milky Way and Andromeda Collision SimulationVisualization Credit: NASA, ESA, and F. Summers (STScI) Simulation Credit: NASA, ESA, G. Besla (Columbia University), and R. van der Marel (STScI)Music Credit:\"Lost to Eternity\" by Timothy James Cornick [PRS] via BBC Production Music [PRS] and Universal Production Music || ",
+    "release_date": "2025-06-02T11:00:00-04:00",
+    "update_date": "2025-05-28T14:24:40.974398-04:00",
+    "main_image": {
+        "id": 1155513,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_PRINT.jpg",
+        "filename": "14847_COLLISION_WIDE_PRINT.jpg",
+        "media_type": "Image",
+        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+    },
+    "main_video": null,
+    "main_credits": {
+        "Produced by": [
+            {
+                "name": "Paul Morris",
+                "employer": "eMITS"
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 378134,
+            "url": "http://svs.gsfc.nasa.gov/14847/#media_group_378134",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "For decades, astronomers believed that one thing was as certain as death and taxes: the Milky Way and our neighboring Andromeda galaxy were on a crash course… destined to collide in less than 5 billion years.<br><br>That galactic smash-up would spark massive star formation, scatter stars like cosmic billiard balls, and possibly throw our Sun into a whole new orbit.<br><br>But now… that future may not be so certain.<br><br>For more information, visit science.nasa.gov/mission/hubble<br><br>Credit: NASA's Goddard Space Flight Center <br>Paul Morris: Lead Producer<br><br>Video Credits:<br>Milky Way Timelapse<br>Stock Footage Provided By Pond5/lovemushroom<br><br>Artist Rendition of Gaia Spacecraft<br>ESA<br><br>Artist’s animation of the Sun becoming a red giant<br>ESA/Hubble (M. Kornmesser & L. L. Christensen)<br><br>Milky Way and Andromeda Collision Simulation<br>Visualization Credit: NASA, ESA, and F. Summers (STScI) Simulation Credit: NASA, ESA, G. Besla (Columbia University), and R. van der Marel (STScI)<br><br><br>Music Credit:<br>\"Lost to Eternity\" by Timothy James Cornick [PRS] via BBC Production Music [PRS] and Universal Production Music<br>",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 378172,
+            "url": "http://svs.gsfc.nasa.gov/14847/#media_group_378172",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Master Version</b><p>Horizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+            "items": [
+                {
+                    "id": 470965,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155513,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_PRINT.jpg",
+                        "filename": "14847_COLLISION_WIDE_PRINT.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 470967,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155515,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_THUMB.jpg",
+                        "filename": "14847_COLLISION_WIDE_THUMB.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 470966,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155514,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_SEARCH.jpg",
+                        "filename": "14847_COLLISION_WIDE_SEARCH.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 470964,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155512,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_MP4.mp4",
+                        "filename": "14847_COLLISION_WIDE_MP4.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 470962,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155510,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_CAP.en_US.srt",
+                        "filename": "14847_COLLISION_WIDE_CAP.en_US.srt",
+                        "media_type": "Captions",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "label": "English",
+                        "language_code": "en-US"
+                    }
+                },
+                {
+                    "id": 470963,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155511,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_WIDE_CAP.en_US.vtt",
+                        "filename": "14847_COLLISION_WIDE_CAP.en_US.vtt",
+                        "media_type": "Captions",
+                        "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                        "label": "English",
+                        "language_code": "en-US"
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 378173,
+            "url": "http://svs.gsfc.nasa.gov/14847/#media_group_378173",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "<b>Vertical Version</b><p>This vertical version of the episode is for IGTV or Snapchat. The IGTV episode can be pulled into Instagram Stories and the regular Instagram feed.",
+            "items": [
+                {
+                    "id": 470971,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155519,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_VERT_THUMB.jpg",
+                        "filename": "14847_COLLISION_VERT_THUMB.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Vertical VersionThis vertical version of the episode is for IGTV or Snapchat. The IGTV episode can be pulled into Instagram Stories and the regular Instagram feed.",
+                        "width": 1080,
+                        "height": 1920,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 470970,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155518,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_VERT_MP4.mp4",
+                        "filename": "14847_COLLISION_VERT_MP4.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Vertical VersionThis vertical version of the episode is for IGTV or Snapchat. The IGTV episode can be pulled into Instagram Stories and the regular Instagram feed.",
+                        "width": 1080,
+                        "height": 1920,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 470968,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155516,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_VERT_CAP.en_US.srt",
+                        "filename": "14847_COLLISION_VERT_CAP.en_US.srt",
+                        "media_type": "Captions",
+                        "alt_text": "Vertical VersionThis vertical version of the episode is for IGTV or Snapchat. The IGTV episode can be pulled into Instagram Stories and the regular Instagram feed.",
+                        "label": "English",
+                        "language_code": "en-US"
+                    }
+                },
+                {
+                    "id": 470969,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1155517,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014800/a014847/14847_COLLISION_VERT_CAP.en_US.vtt",
+                        "filename": "14847_COLLISION_VERT_CAP.en_US.vtt",
+                        "media_type": "Captions",
+                        "alt_text": "Vertical VersionThis vertical version of the episode is for IGTV or Snapchat. The IGTV episode can be pulled into Instagram Stories and the regular Instagram feed.",
+                        "label": "English",
+                        "language_code": "en-US"
+                    }
+                }
+            ],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "PAO"
+    ],
+    "credits": [
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Paul Morris",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Visualizer",
+            "people": [
+                {
+                    "name": "Frank Summers",
+                    "employer": "STScI"
+                }
+            ]
+        },
+        {
+            "role": "Technical support",
+            "people": [
+                {
+                    "name": "Aaron E. Lepsch",
+                    "employer": "ADNET Systems, Inc."
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Hubble"
+    ],
+    "series": [],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Andromeda Galaxy",
+        "Collision",
+        "Milky Way"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 14762,
+            "url": "http://svs.gsfc.nasa.gov/14762/",
+            "page_type": "Produced Video",
+            "title": "2.5 Billion Pixel Image of Galaxy Shot by Hubble",
+            "description": "The Andromeda galaxy holds over 1 trillion stars and has been a key to unlocking the secrets of the universe. Thanks to NASA’s Hubble Space Telescope, we’re now seeing Andromeda in stunning new detail, revealing its dynamic history and unique structure.Recent Hubble surveys mapped the galaxy’s entire disk—an effort spanning a decade and over 1,000 orbits—showing everything from young stars to remnants of past galactic collisions. Learn how new information about Andromeda is reshaping our understanding of galactic evolution and what it reveals about the fate of our own galaxy. For more information, visit https://nasa.gov/hubble. Credit: NASA's Goddard Space Flight Center Paul Morris: Lead ProducerMusic Credit:“Vitava From Ma Vlast \"My Country\"” by Bedrich Smetana [PD] and Robert J Walsh [BMI], via First Digital Music [BMI] and Universal Production Music. || ",
+            "release_date": "2025-01-16T14:15:00-05:00",
+            "update_date": "2025-01-14T22:22:16.483189-05:00",
+            "main_image": {
+                "id": 1140931,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014700/a014762/14762_ANDROMEDA_WIDE_PRINT.jpg",
+                "filename": "14762_ANDROMEDA_WIDE_PRINT.jpg",
+                "media_type": "Image",
+                "alt_text": "Master VersionHorizontal version. This is for use on any YouTube or non-YouTube platform where you want to display the video horizontally.",
+                "width": 1920,
+                "height": 1080,
+                "pixels": 2073600
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

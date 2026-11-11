@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1274453",
+  "status": "closed",
+  "basis": "user-confirmed",
+  "recorded_at": "2026-11-11T04:57:59+00:00",
+  "raw_request": {
+    "path": "news/hani_1274453/00_brief/closeout-request.txt",
+    "sha256": "abeb034b5ba77d32a87476bb002cddb0610e3d6183727618754a620db4959c74"
+  },
+  "artifacts": [
+    {
+      "path": "out/pilots/hani_1274453/qa/production-dfdb154f-bd2e-44c8-9c07-716e4b9a4f87.mp4",
+      "sha256": "cb3592ead23c90aa2ff5203f328da9fb757c82a47254e01af45d6fddb09799da"
+    }
+  ],
+  "note": "사용자 원문 '확정해줘.'(음성 속도 설명 직후). 확정 대상은 현재 렌더(s13~s15 1.09배속 포함). 썸네일은 v2 후보 A·B·C 중 미선택 — 선택 후 별도 기록. 오늘 바뀐 구간의 독립 화면·사실 재검수는 수행하지 않음(review_visual/audio/facts 미기록)."
+}

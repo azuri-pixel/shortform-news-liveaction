@@ -1,0 +1,790 @@
+{
+ "schema_version": "1.0",
+ "pilot": "hani_1274453",
+ "concepts": [
+  {
+   "id": "hook",
+   "question": "우리 은하가 누웠다고?",
+   "takeaway": "100억 년 전 대충돌로 우리 은하 원반이 90도 넘게 누웠을 수 있다는 연구(추정)",
+   "narration_lines": [
+    "s01"
+   ],
+   "facts": [
+    "F6",
+    "F8"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s01",
+      "token_index": 0,
+      "word": "우리가",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s01",
+      "token_index": 14,
+      "word": "나왔습니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "evidence",
+    "full_bleed": true,
+    "assets": [
+     "V_milkyway_night",
+     "G_disk_tilt"
+    ],
+    "why": "실제 은하수 밤하늘(ESO 실사)로 '우리가 사는 은하'를 세우고, 원반이 옆으로 기우는 상상 장면(Higgsfield 생성, '상상도' 구분)으로 전환. 후킹 오버레이가 중앙에 얹힘"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "sky_real",
+     "tilt_gen",
+     "opening_hook"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "sky_real",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "tilt_gen",
+     "kind": "media",
+     "role": "metaphor"
+    },
+    {
+     "id": "opening_hook",
+     "kind": "text",
+     "role": "hook",
+     "text": "우리 은하가 100억 년 전\n90도 넘게 누웠다?"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "sky_real",
+     "tilt_gen",
+     "opening_hook"
+    ]
+   },
+   "visual": {
+    "purpose": "observe",
+    "focus": "실제 밤하늘 → 기우는 원반",
+    "moments": [],
+    "realization": {
+     "method": "source+generate",
+     "asset_ids": [
+      "V_milkyway_night",
+      "G_disk_tilt"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "structure",
+   "question": "우리 은하는 어떻게 생겼나?",
+   "takeaway": "납작한 원반과 그 둘레를 드문드문 감싼 헤일로",
+   "narration_lines": [
+    "s02"
+   ],
+   "facts": [
+    "F1"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s02",
+      "token_index": 0,
+      "word": "우리",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s02",
+      "token_index": 13,
+      "word": "있습니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "explanation",
+    "full_bleed": true,
+    "assets": [
+     "I_cfa_disk_halo",
+     "G_galaxy_side"
+    ],
+    "why": "원반·헤일로 두 구조를 한 화면에서 구분해야 이후 속도 비교가 읽힘. 은하 옆모습(공식 일러스트 또는 생성) 위에 헤일로 영역을 코드로 드러냄"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "galaxy_side",
+     "halo_region",
+     "lbl_disk",
+     "lbl_halo"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "galaxy_side",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "halo_region",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_disk",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "원반"
+    },
+    {
+     "id": "lbl_halo",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "헤일로"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "galaxy_side",
+     "halo_region",
+     "lbl_disk",
+     "lbl_halo"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "원반 → 둘레 헤일로로 시선 확장",
+    "moments": [],
+    "realization": {
+     "method": "source+code",
+     "asset_ids": [
+      "I_cfa_disk_halo",
+      "G_galaxy_side"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "puzzle",
+   "question": "무엇이 이상한가?",
+   "takeaway": "가이아 관측: 원반 별 초속 약 220km, 헤일로 별 약 25km — 같은 은하인데 훨씬 느림",
+   "narration_lines": [
+    "s03",
+    "s04"
+   ],
+   "facts": [
+    "F2"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s03",
+      "token_index": 0,
+      "word": "그런데",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s04",
+      "token_index": 12,
+      "word": "겁니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "evidence",
+    "full_bleed": true,
+    "assets": [
+     "I_esa_gaia",
+     "I_gaia_sky"
+    ],
+    "why": "s03 가이아(ESA 공식 이미지)로 관측 주체 확인 → s04 같은 은하 그림 위 두 궤도에서 별이 다른 속도로 돌고, 같은 영점의 막대 두 개로 220 vs 25를 형태로 비교(scale 레퍼런스: 공통 기준)"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "gaia_craft",
+     "orbit_fast",
+     "orbit_slow",
+     "speed_bars",
+     "lbl_220",
+     "lbl_25"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "gaia_craft",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "orbit_fast",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "orbit_slow",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "speed_bars",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_220",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "초속 약 220km"
+    },
+    {
+     "id": "lbl_25",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "초속 약 25km"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "gaia_craft",
+     "orbit_fast",
+     "orbit_slow",
+     "speed_bars",
+     "lbl_220",
+     "lbl_25"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "관측 위성 → 두 별의 속도 차",
+    "moments": [],
+    "realization": {
+     "method": "source+code",
+     "asset_ids": [
+      "I_esa_gaia",
+      "I_gaia_sky"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "simulation",
+   "question": "왜 느릴까 — 연구진은 어떻게 찾았나?",
+   "takeaway": "더럼대 연구진이 우리 은하 닮은 25개 시뮬레이션 은하에서, 헤일로가 가장 느린 은하의 공통점(정면충돌+원반 90도 이상 기울어짐)을 찾음",
+   "narration_lines": [
+    "s05",
+    "s06",
+    "s07"
+   ],
+   "facts": [
+    "F3",
+    "F4"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s05",
+      "token_index": 0,
+      "word": "영국",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s07",
+      "token_index": 11,
+      "word": "겁니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "evidence",
+    "full_bleed": true,
+    "assets": [
+     "I_auriga",
+     "G_collision"
+    ],
+    "why": "s05 오리가 시뮬레이션 실제 이미지로 '시뮬레이션' 근거 표시 → s06 25개 은하 격자에서 느린 은하만 남김 → s07 은하 정면충돌과 원반 기울어짐을 생성/도해로(시뮬레이션 재현 아님 구분)"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "auriga_frame",
+     "grid25",
+     "collision_gen",
+     "tilt_arc",
+     "lbl_25gal",
+     "lbl_90"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "auriga_frame",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "grid25",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "collision_gen",
+     "kind": "media",
+     "role": "metaphor"
+    },
+    {
+     "id": "tilt_arc",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_25gal",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "25개"
+    },
+    {
+     "id": "lbl_90",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "90°"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "auriga_frame",
+     "grid25",
+     "collision_gen",
+     "tilt_arc",
+     "lbl_25gal",
+     "lbl_90"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "시뮬레이션 화면 → 25개 → 공통점",
+    "moments": [],
+    "realization": {
+     "method": "source+code+generate",
+     "asset_ids": [
+      "I_auriga",
+      "G_collision"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "our_past",
+   "question": "우리 은하에도 그런 일이 있었나?",
+   "takeaway": "연구진: 100억~110억 년 전 GSE와 정면충돌·흡수, 태양질량 100억 배 이상, 당시 은하 질량 20%",
+   "narration_lines": [
+    "s08",
+    "s09",
+    "s10"
+   ],
+   "facts": [
+    "F5",
+    "F6",
+    "F7"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s08",
+      "token_index": 0,
+      "word": "연구진은",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s10",
+      "token_index": 11,
+      "word": "덩치였습니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "evidence",
+    "full_bleed": true,
+    "assets": [
+     "I_ras_gse"
+    ],
+    "why": "RAS의 GSE 병합 상상도(공식)로 실제 '그 충돌'을 지목하고, s10은 우리 은하 면적 1 대비 GSE 0.2를 같은 기준 위 원으로 비교(area 레퍼런스: 기준 먼저 세우기)"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "gse_art",
+     "lbl_gse",
+     "mass_compare",
+     "lbl_20"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "gse_art",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "lbl_gse",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "가이아-소시지-엔셀라두스"
+    },
+    {
+     "id": "mass_compare",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_20",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "20%"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "gse_art",
+     "lbl_gse",
+     "mass_compare",
+     "lbl_20"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "상상도 → 질량 비율",
+    "moments": [],
+    "realization": {
+     "method": "source+code",
+     "asset_ids": [
+      "I_ras_gse"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "key",
+   "question": "그래서 무엇이 중요한가?",
+   "takeaway": "헤일로 별의 느린 회전이 그 충돌의 흔적일 수 있음(추정), 원반이 누웠다면 별들은 과거 다른 궤도",
+   "narration_lines": [
+    "s11",
+    "s12"
+   ],
+   "facts": [
+    "F8",
+    "F9"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s11",
+      "token_index": 0,
+      "word": "여기서",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s12",
+      "token_index": 12,
+      "word": "설명합니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "diagram",
+    "role": "explanation",
+    "full_bleed": true,
+    "assets": [],
+    "why": "s11은 key-callout 공통 레이어가 화면 중심을 차지하므로 배경만 어둡게 유지. s12 원반이 기울며 헤일로 별 궤도는 옛 방향에 남는 모습 — 단, 기사 근거 범위('다른 궤도')만, 메커니즘을 단정하지 않음"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "bg_dim",
+     "orbit_before_after",
+     "lbl_orbit"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "bg_dim",
+     "kind": "diagram",
+     "role": "tone"
+    },
+    {
+     "id": "orbit_before_after",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_orbit",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "다른 궤도"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "bg_dim",
+     "orbit_before_after",
+     "lbl_orbit"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "강조 → 궤도 변화",
+    "moments": [],
+    "realization": {
+     "method": "code",
+     "asset_ids": [],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "future",
+   "question": "지금은? 앞으로는?",
+   "takeaway": "지금도 궁수자리 왜소은하를 흡수 중(영향 작음), GSE급 격변은 24억~30억 년 뒤 대마젤란운 합병 때로 예상",
+   "narration_lines": [
+    "s13",
+    "s14"
+   ],
+   "facts": [
+    "F10",
+    "F11"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s13",
+      "token_index": 0,
+      "word": "우리",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s14",
+      "token_index": 12,
+      "word": "보입니다.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "hybrid",
+    "role": "evidence",
+    "full_bleed": true,
+    "assets": [
+     "I_sgr_stream",
+     "I_lmc_eso"
+    ],
+    "why": "s13 궁수자리 왜소은하/조석 흐름(공식 관측 기반 이미지) → s14 대마젤란운 실사(ESO)와 '24억~30억 년 뒤' 키워드를 시간 화살표에 붙임(예측)"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "sgr_img",
+     "lmc_real",
+     "time_arrow",
+     "lbl_future"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "sgr_img",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "lmc_real",
+     "kind": "media",
+     "role": "evidence"
+    },
+    {
+     "id": "time_arrow",
+     "kind": "diagram",
+     "role": "explanation"
+    },
+    {
+     "id": "lbl_future",
+     "kind": "text",
+     "role": "necessary-label",
+     "text": "24억~30억 년 뒤"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "sgr_img",
+     "lmc_real",
+     "time_arrow",
+     "lbl_future"
+    ]
+   },
+   "visual": {
+    "purpose": "explain",
+    "focus": "작은 합병 → 다가올 큰 합병",
+    "moments": [],
+    "realization": {
+     "method": "source+code",
+     "asset_ids": [
+      "I_sgr_stream",
+      "I_lmc_eso"
+     ],
+     "job_ids": []
+    }
+   }
+  },
+  {
+   "id": "close",
+   "question": "그래서 남는 것은?",
+   "takeaway": "오늘 보는 은하수도 한때 다른 방향이었을지 모름 + CTA",
+   "narration_lines": [
+    "s15",
+    "s16"
+   ],
+   "facts": [
+    "F8"
+   ],
+   "prerequisites": [],
+   "range": {
+    "from": {
+     "anchor": {
+      "line": "s15",
+      "token_index": 0,
+      "word": "오늘",
+      "edge": "start",
+      "offset_frames": -8
+     }
+    },
+    "end": {
+     "anchor": {
+      "line": "s16",
+      "token_index": 5,
+      "word": "남겨주세요.",
+      "edge": "end",
+      "offset_frames": 8
+     }
+    }
+   },
+   "representation": {
+    "kind": "footage",
+    "role": "tone",
+    "full_bleed": true,
+    "assets": [
+     "V_milkyway_night"
+    ],
+    "why": "도입의 실제 밤하늘로 돌아와 수미상관. CTA 알약은 공통 레이어"
+   },
+   "state": {
+    "keep": [],
+    "add": [
+     "sky_real_end"
+    ],
+    "remove": []
+   },
+   "elements": [
+    {
+     "id": "sky_real_end",
+     "kind": "media",
+     "role": "tone"
+    }
+   ],
+   "semantic_pairs": [],
+   "mobile": {
+    "max_simultaneous_labels": 2,
+    "focal_priority": [
+     "sky_real_end"
+    ]
+   },
+   "visual": {
+    "purpose": "observe",
+    "focus": "은하수 실사",
+    "moments": [],
+    "realization": {
+     "method": "source",
+     "asset_ids": [
+      "V_milkyway_night"
+     ],
+     "job_ids": []
+    }
+   }
+  }
+ ]
+}

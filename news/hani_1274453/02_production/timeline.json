@@ -1,0 +1,3599 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1274453",
+  "fps": 30,
+  "total_frames": 2479,
+  "source": {
+    "narration_word_sha256": "c27e41bf6e454fcab60d9428695cfc67c29365b68b71055afd99b0930beee720",
+    "story_sha256": "27e49947b5d3e1499379a880fa1bdc6873eec8e2ddbb684fb1c2cb622b018510",
+    "concepts_sha256": "9863f6699a4f0d9c1dc1f7d2dc793d7e2daeb7e31cd2566b2392f94215cdd565",
+    "motion_sha256": "cfca8a8a14f54b544456097efc81cecc99447da083605bec7d94ec1151c39b4d",
+    "visual_system_sha256": "11ce0b4385ecce7849ac06e0356910aef8d550a32bd9047457503ac3d0ece83c",
+    "production_profile_sha256": "2056414125cc4b1f4c8656b0f93929a4c916804451294551c7e661ce50bbcc67"
+  },
+  "concepts": [
+    {
+      "id": "hook",
+      "from": -3,
+      "end": 211,
+      "duration": 214,
+      "narration_lines": [
+        "s01"
+      ]
+    },
+    {
+      "id": "structure",
+      "from": 207,
+      "end": 569,
+      "duration": 362,
+      "narration_lines": [
+        "s02",
+        "s03"
+      ]
+    },
+    {
+      "id": "puzzle",
+      "from": 559,
+      "end": 938,
+      "duration": 379,
+      "narration_lines": [
+        "s04",
+        "s05"
+      ]
+    },
+    {
+      "id": "simulation",
+      "from": 929,
+      "end": 1436,
+      "duration": 507,
+      "narration_lines": [
+        "s06",
+        "s07",
+        "s08"
+      ]
+    },
+    {
+      "id": "our_past",
+      "from": 1427,
+      "end": 1867,
+      "duration": 440,
+      "narration_lines": [
+        "s09",
+        "s10",
+        "s11"
+      ]
+    },
+    {
+      "id": "key",
+      "from": 1857,
+      "end": 2237,
+      "duration": 380,
+      "narration_lines": [
+        "s12",
+        "s13"
+      ]
+    },
+    {
+      "id": "close",
+      "from": 2228,
+      "end": 2464,
+      "duration": 236,
+      "narration_lines": [
+        "s14",
+        "s15"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "rewind_hook",
+      "concept_id": "hook",
+      "element_id": "rewind",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": -1
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "첫 3초 시간 되감기",
+      "from": -1,
+      "settled": -1,
+      "to": 102,
+      "end": 103
+    },
+    {
+      "id": "tilt_in",
+      "concept_id": "hook",
+      "element_id": "tilt_gen",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'대충돌로'에서 우주 공간 은하로 전환, 원반이 기운다",
+      "from": 103,
+      "settled": 103,
+      "to": 203,
+      "end": 211
+    },
+    {
+      "id": "ref_plane_in",
+      "concept_id": "hook",
+      "element_id": "ref_plane",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "도",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "기울기 전 원반 방향을 기준선으로 남긴다",
+      "from": 105,
+      "settled": 115,
+      "to": 203,
+      "end": 209
+    },
+    {
+      "id": "hook_text",
+      "concept_id": "hook",
+      "element_id": "opening_hook",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -3
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": 7
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "첫 문장 핵심을 큰 문구로",
+      "from": 2,
+      "settled": 12,
+      "to": 199,
+      "end": 209
+    },
+    {
+      "id": "hook_line",
+      "concept_id": "hook",
+      "element_id": "opening_hook",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 11,
+            "word": "누웠을",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'구십 도 넘게 누웠을'에 맞춰 밑줄",
+      "from": 103,
+      "settled": 154,
+      "to": 199,
+      "end": 209
+    },
+    {
+      "id": "zoom_in_ev",
+      "concept_id": "structure",
+      "element_id": "zoom_in",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "원반 속으로 들어가는 카메라",
+      "from": 207,
+      "settled": 207,
+      "to": 309,
+      "end": 317
+    },
+    {
+      "id": "halo_close_ev",
+      "concept_id": "structure",
+      "element_id": "halo_close",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "헤일로의",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "헤일로의",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'그 둘레를 드문드문' 헤일로 근접",
+      "from": 309,
+      "settled": 317,
+      "to": 411,
+      "end": 417
+    },
+    {
+      "id": "halo_vid_ev",
+      "concept_id": "structure",
+      "element_id": "halo_vid",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "헤일로의",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "헤일로의",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "옆모습 헤일로 위에서 흡수 도해",
+      "from": 411,
+      "settled": 417,
+      "to": 561,
+      "end": 569
+    },
+    {
+      "id": "disk_label",
+      "concept_id": "structure",
+      "element_id": "lbl_disk",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 5,
+            "word": "납작한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 6,
+            "word": "원반과,",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "그",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'원반과'에 원반 키워드",
+      "from": 275,
+      "settled": 293,
+      "to": 307,
+      "end": 313
+    },
+    {
+      "id": "halo_label",
+      "concept_id": "structure",
+      "element_id": "lbl_halo",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 11,
+            "word": "헤일로로",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 11,
+            "word": "헤일로로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'헤일로로'에 헤일로 키워드",
+      "from": 372,
+      "settled": 382,
+      "to": 561,
+      "end": 569
+    },
+    {
+      "id": "infall_move",
+      "concept_id": "structure",
+      "element_id": "infall",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "헤일로의",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 8,
+            "word": "은하에",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "진입→해체(조석 스트림·입자 터짐)→안착(주황 헤일로·구상성단) 3단계",
+      "from": 415,
+      "settled": 527,
+      "to": 561,
+      "end": 571
+    },
+    {
+      "id": "gaia_ev",
+      "concept_id": "puzzle",
+      "element_id": "gaia_vid",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "그런데",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "그런데",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 10,
+            "word": "달랐습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 10,
+            "word": "달랐습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'가이아 우주망원경으로 재 보니, 같은 은하인데 별들의 속도가 너무 달랐습니다'까지 가이아 위성(사용자 요청)",
+      "from": 559,
+      "settled": 559,
+      "to": 719,
+      "end": 727
+    },
+    {
+      "id": "galaxy_hold",
+      "concept_id": "puzzle",
+      "element_id": "galaxy_dim",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "그런데",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "그런데",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "기준 은하를 유지한 채 누른다",
+      "from": 559,
+      "settled": 559,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "disk_label_p",
+      "concept_id": "puzzle",
+      "element_id": "lbl_disk2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "원반의",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "원반의",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "원반 키워드를 막대 기준으로 옮긴다",
+      "from": 724,
+      "settled": 726,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "halo_label_p",
+      "concept_id": "puzzle",
+      "element_id": "lbl_halo2",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "원반의",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "원반의",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "헤일로 키워드를 막대 기준으로 옮긴다",
+      "from": 724,
+      "settled": 726,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "bars_grow",
+      "concept_id": "puzzle",
+      "element_id": "speed_bars",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "원반의",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 11,
+            "word": "이십오",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "원반 막대 먼저, 헤일로 막대는 '이십오'에서 멈춤",
+      "from": 722,
+      "settled": 897,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "v220_label",
+      "concept_id": "puzzle",
+      "element_id": "lbl_220",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 4,
+            "word": "이백이십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 5,
+            "word": "킬로미터로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "막대 끝 220",
+      "from": 775,
+      "settled": 791,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "v25_label",
+      "concept_id": "puzzle",
+      "element_id": "lbl_25",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 11,
+            "word": "이십오",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 12,
+            "word": "킬로미터에",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "막대 끝 25",
+      "from": 882,
+      "settled": 894,
+      "to": 930,
+      "end": 938
+    },
+    {
+      "id": "auriga_in",
+      "concept_id": "simulation",
+      "element_id": "auriga_frame",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "영국",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "영국",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "오리가 실제 시뮬레이션 그림",
+      "from": 929,
+      "settled": 929,
+      "to": 1428,
+      "end": 1436
+    },
+    {
+      "id": "grid_in",
+      "concept_id": "simulation",
+      "element_id": "grid25",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 9,
+            "word": "느린",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 12,
+            "word": "있었습니다.",
+            "edge": "end",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 12,
+            "word": "있었습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "25개 격자 → '느린'에서 일부만 남음",
+      "from": 1081,
+      "settled": 1192,
+      "to": 1240,
+      "end": 1246
+    },
+    {
+      "id": "grid_label",
+      "concept_id": "simulation",
+      "element_id": "lbl_25gal",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "스물다섯",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 5,
+            "word": "개",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "과거",
+            "edge": "start",
+            "offset_frames": -20
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "과거",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "25개",
+      "from": 1126,
+      "settled": 1147,
+      "to": 1233,
+      "end": 1239
+    },
+    {
+      "id": "panel_edge",
+      "concept_id": "simulation",
+      "element_id": "auriga_frame",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "과거",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "과거",
+            "edge": "start",
+            "offset_frames": -14
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "정면으로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "정면으로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "충돌 전 옆모습 패널(z=1.4)",
+      "from": 1239,
+      "settled": 1239,
+      "to": 1295,
+      "end": 1303
+    },
+    {
+      "id": "panel_crash",
+      "concept_id": "simulation",
+      "element_id": "auriga_frame",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "정면으로",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 3,
+            "word": "정면으로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 6,
+            "word": "충격에",
+            "edge": "end",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 6,
+            "word": "충격에",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'정면으로 부딪혔고'에 충돌 패널(z=1.2)",
+      "from": 1295,
+      "settled": 1303,
+      "to": 1345,
+      "end": 1351
+    },
+    {
+      "id": "panel_face",
+      "concept_id": "simulation",
+      "element_id": "auriga_frame",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 6,
+            "word": "충격에",
+            "edge": "end",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 6,
+            "word": "충격에",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 7,
+            "word": "원반이",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 7,
+            "word": "원반이",
+            "edge": "start",
+            "offset_frames": 12
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "'원반이 기울어졌다'에 정면 모습 패널(z=0.9)",
+      "from": 1345,
+      "settled": 1351,
+      "to": 1365,
+      "end": 1371
+    },
+    {
+      "id": "flip_arc",
+      "concept_id": "simulation",
+      "element_id": "tilt_arc",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 7,
+            "word": "원반이",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 10,
+            "word": "넘게",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "3D 원반이 거의 옆모습에서 약 100° 기울어지는 모습(잔상·회전축)",
+      "from": 1361,
+      "settled": 1397,
+      "to": 1428,
+      "end": 1436
+    },
+    {
+      "id": "deg_label",
+      "concept_id": "simulation",
+      "element_id": "lbl_90",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 8,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 10,
+            "word": "넘게",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "90°",
+      "from": 1377,
+      "settled": 1397,
+      "to": 1428,
+      "end": 1436
+    },
+    {
+      "id": "gse_in",
+      "concept_id": "our_past",
+      "element_id": "gse_gen",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "작은 은하의 정면 돌입",
+      "from": 1427,
+      "settled": 1427,
+      "to": 1859,
+      "end": 1867
+    },
+    {
+      "id": "gse_label",
+      "concept_id": "our_past",
+      "element_id": "lbl_gse",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 4,
+            "word": "가이아",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 6,
+            "word": "엔셀라두스라는",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 10,
+            "word": "삼켰습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 10,
+            "word": "삼켰습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "이름은 실제로 부를 때",
+      "from": 1596,
+      "settled": 1653,
+      "to": 1730,
+      "end": 1738
+    },
+    {
+      "id": "mass_cmp",
+      "concept_id": "our_past",
+      "element_id": "mass_compare",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 1,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 5,
+            "word": "일쯤",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "5칸 기준 → 1칸",
+      "from": 1747,
+      "settled": 1790,
+      "to": 1859,
+      "end": 1867
+    },
+    {
+      "id": "mw_label",
+      "concept_id": "our_past",
+      "element_id": "lbl_mw",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 1,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 2,
+            "word": "은하",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "5칸이 우리 은하임을 표시",
+      "from": 1747,
+      "settled": 1756,
+      "to": 1859,
+      "end": 1867
+    },
+    {
+      "id": "ratio_label",
+      "concept_id": "our_past",
+      "element_id": "lbl_ratio",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 4,
+            "word": "오분의",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 5,
+            "word": "일쯤",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "약 1/5",
+      "from": 1774,
+      "settled": 1790,
+      "to": 1859,
+      "end": 1867
+    },
+    {
+      "id": "dim_in",
+      "concept_id": "key",
+      "element_id": "bg_dim",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "강조 구간 배경",
+      "from": 1857,
+      "settled": 1857,
+      "to": 2229,
+      "end": 2237
+    },
+    {
+      "id": "orbit_turn",
+      "concept_id": "key",
+      "element_id": "orbit_before_after",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 1,
+            "word": "원반이",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 2,
+            "word": "누워버렸다는",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "원반이 기울며 궤도선이 갈라진다",
+      "from": 2044,
+      "settled": 2083,
+      "to": 2229,
+      "end": 2237
+    },
+    {
+      "id": "orbit_label",
+      "concept_id": "key",
+      "element_id": "lbl_orbit",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 9,
+            "word": "다른",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 10,
+            "word": "궤도로",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "다른 궤도",
+      "from": 2159,
+      "settled": 2180,
+      "to": 2229,
+      "end": 2237
+    },
+    {
+      "id": "sky_end_in",
+      "concept_id": "close",
+      "element_id": "sky_real_end",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실제 은하수로 수미상관",
+      "from": 2228,
+      "settled": 2228,
+      "to": 2460,
+      "end": 2464
+    }
+  ],
+  "audio_cues": [],
+  "proof_frames": [
+    {
+      "id": "p001",
+      "frame": 0,
+      "labels": [
+        "concept:hook:from",
+        "event:rewind_hook:from",
+        "event:rewind_hook:settled",
+        "event:rewind_hook:before",
+        "event:rewind_hook:enter-mid"
+      ]
+    },
+    {
+      "id": "p002",
+      "frame": 1,
+      "labels": [
+        "event:hook_text:before"
+      ]
+    },
+    {
+      "id": "p003",
+      "frame": 2,
+      "labels": [
+        "event:hook_text:from"
+      ]
+    },
+    {
+      "id": "p004",
+      "frame": 7,
+      "labels": [
+        "event:hook_text:enter-mid"
+      ]
+    },
+    {
+      "id": "p005",
+      "frame": 12,
+      "labels": [
+        "event:hook_text:settled"
+      ]
+    },
+    {
+      "id": "p006",
+      "frame": 102,
+      "labels": [
+        "event:rewind_hook:to",
+        "event:tilt_in:before",
+        "event:hook_line:before"
+      ]
+    },
+    {
+      "id": "p007",
+      "frame": 103,
+      "labels": [
+        "event:rewind_hook:end",
+        "event:tilt_in:from",
+        "event:tilt_in:settled",
+        "event:hook_line:from",
+        "event:rewind_hook:exit-mid",
+        "event:tilt_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p008",
+      "frame": 104,
+      "labels": [
+        "event:ref_plane_in:before"
+      ]
+    },
+    {
+      "id": "p009",
+      "frame": 105,
+      "labels": [
+        "event:ref_plane_in:from"
+      ]
+    },
+    {
+      "id": "p010",
+      "frame": 110,
+      "labels": [
+        "event:ref_plane_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p011",
+      "frame": 115,
+      "labels": [
+        "event:ref_plane_in:settled"
+      ]
+    },
+    {
+      "id": "p012",
+      "frame": 129,
+      "labels": [
+        "event:hook_line:enter-mid"
+      ]
+    },
+    {
+      "id": "p013",
+      "frame": 154,
+      "labels": [
+        "event:hook_line:settled"
+      ]
+    },
+    {
+      "id": "p014",
+      "frame": 199,
+      "labels": [
+        "event:hook_text:to",
+        "event:hook_line:to"
+      ]
+    },
+    {
+      "id": "p015",
+      "frame": 203,
+      "labels": [
+        "event:tilt_in:to",
+        "event:ref_plane_in:to"
+      ]
+    },
+    {
+      "id": "p016",
+      "frame": 204,
+      "labels": [
+        "event:hook_text:exit-mid",
+        "event:hook_line:exit-mid"
+      ]
+    },
+    {
+      "id": "p017",
+      "frame": 206,
+      "labels": [
+        "event:ref_plane_in:exit-mid",
+        "event:zoom_in_ev:before"
+      ]
+    },
+    {
+      "id": "p018",
+      "frame": 207,
+      "labels": [
+        "concept:structure:from",
+        "event:zoom_in_ev:from",
+        "event:zoom_in_ev:settled",
+        "event:tilt_in:exit-mid",
+        "event:zoom_in_ev:enter-mid"
+      ]
+    },
+    {
+      "id": "p019",
+      "frame": 209,
+      "labels": [
+        "event:ref_plane_in:end",
+        "event:hook_text:end",
+        "event:hook_line:end"
+      ]
+    },
+    {
+      "id": "p020",
+      "frame": 210,
+      "labels": [
+        "concept:hook:end"
+      ]
+    },
+    {
+      "id": "p021",
+      "frame": 211,
+      "labels": [
+        "event:tilt_in:end"
+      ]
+    },
+    {
+      "id": "p022",
+      "frame": 274,
+      "labels": [
+        "event:disk_label:before"
+      ]
+    },
+    {
+      "id": "p023",
+      "frame": 275,
+      "labels": [
+        "event:disk_label:from"
+      ]
+    },
+    {
+      "id": "p024",
+      "frame": 284,
+      "labels": [
+        "event:disk_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p025",
+      "frame": 293,
+      "labels": [
+        "event:disk_label:settled"
+      ]
+    },
+    {
+      "id": "p026",
+      "frame": 307,
+      "labels": [
+        "event:disk_label:to"
+      ]
+    },
+    {
+      "id": "p027",
+      "frame": 308,
+      "labels": [
+        "event:halo_close_ev:before"
+      ]
+    },
+    {
+      "id": "p028",
+      "frame": 309,
+      "labels": [
+        "event:zoom_in_ev:to",
+        "event:halo_close_ev:from"
+      ]
+    },
+    {
+      "id": "p029",
+      "frame": 310,
+      "labels": [
+        "event:disk_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p030",
+      "frame": 313,
+      "labels": [
+        "event:disk_label:end",
+        "event:zoom_in_ev:exit-mid",
+        "event:halo_close_ev:enter-mid"
+      ]
+    },
+    {
+      "id": "p031",
+      "frame": 317,
+      "labels": [
+        "event:zoom_in_ev:end",
+        "event:halo_close_ev:settled"
+      ]
+    },
+    {
+      "id": "p032",
+      "frame": 371,
+      "labels": [
+        "event:halo_label:before"
+      ]
+    },
+    {
+      "id": "p033",
+      "frame": 372,
+      "labels": [
+        "event:halo_label:from"
+      ]
+    },
+    {
+      "id": "p034",
+      "frame": 377,
+      "labels": [
+        "event:halo_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p035",
+      "frame": 382,
+      "labels": [
+        "event:halo_label:settled"
+      ]
+    },
+    {
+      "id": "p036",
+      "frame": 410,
+      "labels": [
+        "event:halo_vid_ev:before"
+      ]
+    },
+    {
+      "id": "p037",
+      "frame": 411,
+      "labels": [
+        "event:halo_close_ev:to",
+        "event:halo_vid_ev:from"
+      ]
+    },
+    {
+      "id": "p038",
+      "frame": 414,
+      "labels": [
+        "event:halo_close_ev:exit-mid",
+        "event:halo_vid_ev:enter-mid",
+        "event:infall_move:before"
+      ]
+    },
+    {
+      "id": "p039",
+      "frame": 415,
+      "labels": [
+        "event:infall_move:from"
+      ]
+    },
+    {
+      "id": "p040",
+      "frame": 417,
+      "labels": [
+        "event:halo_close_ev:end",
+        "event:halo_vid_ev:settled"
+      ]
+    },
+    {
+      "id": "p041",
+      "frame": 471,
+      "labels": [
+        "event:infall_move:enter-mid"
+      ]
+    },
+    {
+      "id": "p042",
+      "frame": 527,
+      "labels": [
+        "event:infall_move:settled"
+      ]
+    },
+    {
+      "id": "p043",
+      "frame": 558,
+      "labels": [
+        "event:gaia_ev:before",
+        "event:galaxy_hold:before"
+      ]
+    },
+    {
+      "id": "p044",
+      "frame": 559,
+      "labels": [
+        "concept:puzzle:from",
+        "event:gaia_ev:from",
+        "event:gaia_ev:settled",
+        "event:galaxy_hold:from",
+        "event:galaxy_hold:settled",
+        "event:gaia_ev:enter-mid",
+        "event:galaxy_hold:enter-mid"
+      ]
+    },
+    {
+      "id": "p045",
+      "frame": 561,
+      "labels": [
+        "event:halo_vid_ev:to",
+        "event:halo_label:to",
+        "event:infall_move:to"
+      ]
+    },
+    {
+      "id": "p046",
+      "frame": 565,
+      "labels": [
+        "event:halo_vid_ev:exit-mid",
+        "event:halo_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p047",
+      "frame": 566,
+      "labels": [
+        "event:infall_move:exit-mid"
+      ]
+    },
+    {
+      "id": "p048",
+      "frame": 568,
+      "labels": [
+        "concept:structure:end"
+      ]
+    },
+    {
+      "id": "p049",
+      "frame": 569,
+      "labels": [
+        "event:halo_vid_ev:end",
+        "event:halo_label:end"
+      ]
+    },
+    {
+      "id": "p050",
+      "frame": 571,
+      "labels": [
+        "event:infall_move:end"
+      ]
+    },
+    {
+      "id": "p051",
+      "frame": 719,
+      "labels": [
+        "event:gaia_ev:to"
+      ]
+    },
+    {
+      "id": "p052",
+      "frame": 721,
+      "labels": [
+        "event:bars_grow:before"
+      ]
+    },
+    {
+      "id": "p053",
+      "frame": 722,
+      "labels": [
+        "event:bars_grow:from"
+      ]
+    },
+    {
+      "id": "p054",
+      "frame": 723,
+      "labels": [
+        "event:gaia_ev:exit-mid",
+        "event:disk_label_p:before",
+        "event:halo_label_p:before"
+      ]
+    },
+    {
+      "id": "p055",
+      "frame": 724,
+      "labels": [
+        "event:disk_label_p:from",
+        "event:halo_label_p:from"
+      ]
+    },
+    {
+      "id": "p056",
+      "frame": 725,
+      "labels": [
+        "event:disk_label_p:enter-mid",
+        "event:halo_label_p:enter-mid"
+      ]
+    },
+    {
+      "id": "p057",
+      "frame": 726,
+      "labels": [
+        "event:disk_label_p:settled",
+        "event:halo_label_p:settled"
+      ]
+    },
+    {
+      "id": "p058",
+      "frame": 727,
+      "labels": [
+        "event:gaia_ev:end"
+      ]
+    },
+    {
+      "id": "p059",
+      "frame": 774,
+      "labels": [
+        "event:v220_label:before"
+      ]
+    },
+    {
+      "id": "p060",
+      "frame": 775,
+      "labels": [
+        "event:v220_label:from"
+      ]
+    },
+    {
+      "id": "p061",
+      "frame": 783,
+      "labels": [
+        "event:v220_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p062",
+      "frame": 791,
+      "labels": [
+        "event:v220_label:settled"
+      ]
+    },
+    {
+      "id": "p063",
+      "frame": 810,
+      "labels": [
+        "event:bars_grow:enter-mid"
+      ]
+    },
+    {
+      "id": "p064",
+      "frame": 881,
+      "labels": [
+        "event:v25_label:before"
+      ]
+    },
+    {
+      "id": "p065",
+      "frame": 882,
+      "labels": [
+        "event:v25_label:from"
+      ]
+    },
+    {
+      "id": "p066",
+      "frame": 888,
+      "labels": [
+        "event:v25_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p067",
+      "frame": 894,
+      "labels": [
+        "event:v25_label:settled"
+      ]
+    },
+    {
+      "id": "p068",
+      "frame": 897,
+      "labels": [
+        "event:bars_grow:settled"
+      ]
+    },
+    {
+      "id": "p069",
+      "frame": 928,
+      "labels": [
+        "event:auriga_in:before"
+      ]
+    },
+    {
+      "id": "p070",
+      "frame": 929,
+      "labels": [
+        "concept:simulation:from",
+        "event:auriga_in:from",
+        "event:auriga_in:settled",
+        "event:auriga_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p071",
+      "frame": 930,
+      "labels": [
+        "event:galaxy_hold:to",
+        "event:disk_label_p:to",
+        "event:halo_label_p:to",
+        "event:bars_grow:to",
+        "event:v220_label:to",
+        "event:v25_label:to"
+      ]
+    },
+    {
+      "id": "p072",
+      "frame": 934,
+      "labels": [
+        "event:galaxy_hold:exit-mid",
+        "event:disk_label_p:exit-mid",
+        "event:halo_label_p:exit-mid",
+        "event:bars_grow:exit-mid",
+        "event:v220_label:exit-mid",
+        "event:v25_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p073",
+      "frame": 937,
+      "labels": [
+        "concept:puzzle:end"
+      ]
+    },
+    {
+      "id": "p074",
+      "frame": 938,
+      "labels": [
+        "event:galaxy_hold:end",
+        "event:disk_label_p:end",
+        "event:halo_label_p:end",
+        "event:bars_grow:end",
+        "event:v220_label:end",
+        "event:v25_label:end"
+      ]
+    },
+    {
+      "id": "p075",
+      "frame": 1080,
+      "labels": [
+        "event:grid_in:before"
+      ]
+    },
+    {
+      "id": "p076",
+      "frame": 1081,
+      "labels": [
+        "event:grid_in:from"
+      ]
+    },
+    {
+      "id": "p077",
+      "frame": 1125,
+      "labels": [
+        "event:grid_label:before"
+      ]
+    },
+    {
+      "id": "p078",
+      "frame": 1126,
+      "labels": [
+        "event:grid_label:from"
+      ]
+    },
+    {
+      "id": "p079",
+      "frame": 1137,
+      "labels": [
+        "event:grid_in:enter-mid",
+        "event:grid_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p080",
+      "frame": 1147,
+      "labels": [
+        "event:grid_label:settled"
+      ]
+    },
+    {
+      "id": "p081",
+      "frame": 1192,
+      "labels": [
+        "event:grid_in:settled"
+      ]
+    },
+    {
+      "id": "p082",
+      "frame": 1233,
+      "labels": [
+        "event:grid_label:to"
+      ]
+    },
+    {
+      "id": "p083",
+      "frame": 1236,
+      "labels": [
+        "event:grid_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p084",
+      "frame": 1238,
+      "labels": [
+        "event:panel_edge:before"
+      ]
+    },
+    {
+      "id": "p085",
+      "frame": 1239,
+      "labels": [
+        "event:grid_label:end",
+        "event:panel_edge:from",
+        "event:panel_edge:settled",
+        "event:panel_edge:enter-mid"
+      ]
+    },
+    {
+      "id": "p086",
+      "frame": 1240,
+      "labels": [
+        "event:grid_in:to"
+      ]
+    },
+    {
+      "id": "p087",
+      "frame": 1243,
+      "labels": [
+        "event:grid_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p088",
+      "frame": 1246,
+      "labels": [
+        "event:grid_in:end"
+      ]
+    },
+    {
+      "id": "p089",
+      "frame": 1294,
+      "labels": [
+        "event:panel_crash:before"
+      ]
+    },
+    {
+      "id": "p090",
+      "frame": 1295,
+      "labels": [
+        "event:panel_edge:to",
+        "event:panel_crash:from"
+      ]
+    },
+    {
+      "id": "p091",
+      "frame": 1299,
+      "labels": [
+        "event:panel_edge:exit-mid",
+        "event:panel_crash:enter-mid"
+      ]
+    },
+    {
+      "id": "p092",
+      "frame": 1303,
+      "labels": [
+        "event:panel_edge:end",
+        "event:panel_crash:settled"
+      ]
+    },
+    {
+      "id": "p093",
+      "frame": 1344,
+      "labels": [
+        "event:panel_face:before"
+      ]
+    },
+    {
+      "id": "p094",
+      "frame": 1345,
+      "labels": [
+        "event:panel_crash:to",
+        "event:panel_face:from"
+      ]
+    },
+    {
+      "id": "p095",
+      "frame": 1348,
+      "labels": [
+        "event:panel_crash:exit-mid",
+        "event:panel_face:enter-mid"
+      ]
+    },
+    {
+      "id": "p096",
+      "frame": 1351,
+      "labels": [
+        "event:panel_crash:end",
+        "event:panel_face:settled"
+      ]
+    },
+    {
+      "id": "p097",
+      "frame": 1360,
+      "labels": [
+        "event:flip_arc:before"
+      ]
+    },
+    {
+      "id": "p098",
+      "frame": 1361,
+      "labels": [
+        "event:flip_arc:from"
+      ]
+    },
+    {
+      "id": "p099",
+      "frame": 1365,
+      "labels": [
+        "event:panel_face:to"
+      ]
+    },
+    {
+      "id": "p100",
+      "frame": 1368,
+      "labels": [
+        "event:panel_face:exit-mid"
+      ]
+    },
+    {
+      "id": "p101",
+      "frame": 1371,
+      "labels": [
+        "event:panel_face:end"
+      ]
+    },
+    {
+      "id": "p102",
+      "frame": 1376,
+      "labels": [
+        "event:deg_label:before"
+      ]
+    },
+    {
+      "id": "p103",
+      "frame": 1377,
+      "labels": [
+        "event:deg_label:from"
+      ]
+    },
+    {
+      "id": "p104",
+      "frame": 1379,
+      "labels": [
+        "event:flip_arc:enter-mid"
+      ]
+    },
+    {
+      "id": "p105",
+      "frame": 1387,
+      "labels": [
+        "event:deg_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p106",
+      "frame": 1397,
+      "labels": [
+        "event:flip_arc:settled",
+        "event:deg_label:settled"
+      ]
+    },
+    {
+      "id": "p107",
+      "frame": 1426,
+      "labels": [
+        "event:gse_in:before"
+      ]
+    },
+    {
+      "id": "p108",
+      "frame": 1427,
+      "labels": [
+        "concept:our_past:from",
+        "event:gse_in:from",
+        "event:gse_in:settled",
+        "event:gse_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p109",
+      "frame": 1428,
+      "labels": [
+        "event:auriga_in:to",
+        "event:flip_arc:to",
+        "event:deg_label:to"
+      ]
+    },
+    {
+      "id": "p110",
+      "frame": 1432,
+      "labels": [
+        "event:auriga_in:exit-mid",
+        "event:flip_arc:exit-mid",
+        "event:deg_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p111",
+      "frame": 1435,
+      "labels": [
+        "concept:simulation:end"
+      ]
+    },
+    {
+      "id": "p112",
+      "frame": 1436,
+      "labels": [
+        "event:auriga_in:end",
+        "event:flip_arc:end",
+        "event:deg_label:end"
+      ]
+    },
+    {
+      "id": "p113",
+      "frame": 1595,
+      "labels": [
+        "event:gse_label:before"
+      ]
+    },
+    {
+      "id": "p114",
+      "frame": 1596,
+      "labels": [
+        "event:gse_label:from"
+      ]
+    },
+    {
+      "id": "p115",
+      "frame": 1625,
+      "labels": [
+        "event:gse_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p116",
+      "frame": 1653,
+      "labels": [
+        "event:gse_label:settled"
+      ]
+    },
+    {
+      "id": "p117",
+      "frame": 1730,
+      "labels": [
+        "event:gse_label:to"
+      ]
+    },
+    {
+      "id": "p118",
+      "frame": 1734,
+      "labels": [
+        "event:gse_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p119",
+      "frame": 1738,
+      "labels": [
+        "event:gse_label:end"
+      ]
+    },
+    {
+      "id": "p120",
+      "frame": 1746,
+      "labels": [
+        "event:mass_cmp:before",
+        "event:mw_label:before"
+      ]
+    },
+    {
+      "id": "p121",
+      "frame": 1747,
+      "labels": [
+        "event:mass_cmp:from",
+        "event:mw_label:from"
+      ]
+    },
+    {
+      "id": "p122",
+      "frame": 1752,
+      "labels": [
+        "event:mw_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p123",
+      "frame": 1756,
+      "labels": [
+        "event:mw_label:settled"
+      ]
+    },
+    {
+      "id": "p124",
+      "frame": 1769,
+      "labels": [
+        "event:mass_cmp:enter-mid"
+      ]
+    },
+    {
+      "id": "p125",
+      "frame": 1773,
+      "labels": [
+        "event:ratio_label:before"
+      ]
+    },
+    {
+      "id": "p126",
+      "frame": 1774,
+      "labels": [
+        "event:ratio_label:from"
+      ]
+    },
+    {
+      "id": "p127",
+      "frame": 1782,
+      "labels": [
+        "event:ratio_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p128",
+      "frame": 1790,
+      "labels": [
+        "event:mass_cmp:settled",
+        "event:ratio_label:settled"
+      ]
+    },
+    {
+      "id": "p129",
+      "frame": 1856,
+      "labels": [
+        "event:dim_in:before"
+      ]
+    },
+    {
+      "id": "p130",
+      "frame": 1857,
+      "labels": [
+        "concept:key:from",
+        "event:dim_in:from",
+        "event:dim_in:settled",
+        "event:dim_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p131",
+      "frame": 1859,
+      "labels": [
+        "event:gse_in:to",
+        "event:mass_cmp:to",
+        "event:mw_label:to",
+        "event:ratio_label:to"
+      ]
+    },
+    {
+      "id": "p132",
+      "frame": 1863,
+      "labels": [
+        "event:gse_in:exit-mid",
+        "event:mass_cmp:exit-mid",
+        "event:mw_label:exit-mid",
+        "event:ratio_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p133",
+      "frame": 1866,
+      "labels": [
+        "concept:our_past:end"
+      ]
+    },
+    {
+      "id": "p134",
+      "frame": 1867,
+      "labels": [
+        "event:gse_in:end",
+        "event:mass_cmp:end",
+        "event:mw_label:end",
+        "event:ratio_label:end"
+      ]
+    },
+    {
+      "id": "p135",
+      "frame": 2043,
+      "labels": [
+        "event:orbit_turn:before"
+      ]
+    },
+    {
+      "id": "p136",
+      "frame": 2044,
+      "labels": [
+        "event:orbit_turn:from"
+      ]
+    },
+    {
+      "id": "p137",
+      "frame": 2064,
+      "labels": [
+        "event:orbit_turn:enter-mid"
+      ]
+    },
+    {
+      "id": "p138",
+      "frame": 2083,
+      "labels": [
+        "event:orbit_turn:settled"
+      ]
+    },
+    {
+      "id": "p139",
+      "frame": 2158,
+      "labels": [
+        "event:orbit_label:before"
+      ]
+    },
+    {
+      "id": "p140",
+      "frame": 2159,
+      "labels": [
+        "event:orbit_label:from"
+      ]
+    },
+    {
+      "id": "p141",
+      "frame": 2170,
+      "labels": [
+        "event:orbit_label:enter-mid"
+      ]
+    },
+    {
+      "id": "p142",
+      "frame": 2180,
+      "labels": [
+        "event:orbit_label:settled"
+      ]
+    },
+    {
+      "id": "p143",
+      "frame": 2227,
+      "labels": [
+        "event:sky_end_in:before"
+      ]
+    },
+    {
+      "id": "p144",
+      "frame": 2228,
+      "labels": [
+        "concept:close:from",
+        "event:sky_end_in:from",
+        "event:sky_end_in:settled",
+        "event:sky_end_in:enter-mid"
+      ]
+    },
+    {
+      "id": "p145",
+      "frame": 2229,
+      "labels": [
+        "event:dim_in:to",
+        "event:orbit_turn:to",
+        "event:orbit_label:to"
+      ]
+    },
+    {
+      "id": "p146",
+      "frame": 2233,
+      "labels": [
+        "event:dim_in:exit-mid",
+        "event:orbit_turn:exit-mid",
+        "event:orbit_label:exit-mid"
+      ]
+    },
+    {
+      "id": "p147",
+      "frame": 2236,
+      "labels": [
+        "concept:key:end"
+      ]
+    },
+    {
+      "id": "p148",
+      "frame": 2237,
+      "labels": [
+        "event:dim_in:end",
+        "event:orbit_turn:end",
+        "event:orbit_label:end"
+      ]
+    },
+    {
+      "id": "p149",
+      "frame": 2460,
+      "labels": [
+        "event:sky_end_in:to"
+      ]
+    },
+    {
+      "id": "p150",
+      "frame": 2462,
+      "labels": [
+        "event:sky_end_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p151",
+      "frame": 2463,
+      "labels": [
+        "concept:close:end",
+        "event:sky_end_in:end"
+      ]
+    },
+    {
+      "id": "source1",
+      "frame": 209,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source2",
+      "frame": 413,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source3",
+      "frame": 558,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source4",
+      "frame": 930,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source5",
+      "frame": 1238,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "source6",
+      "frame": 2229,
+      "labels": [
+        "자료 출처"
+      ]
+    },
+    {
+      "id": "credit1",
+      "frame": 2464,
+      "labels": [
+        "끝 크레딧"
+      ]
+    }
+  ],
+  "hook_overlay": {
+    "style": {
+      "version": "hook-style@3",
+      "center_x": 540,
+      "shadow": "0 3px 12px rgba(0,0,0,0.9)",
+      "underline_color": "#FFD16A",
+      "underline_height": 6,
+      "underline_gap": 14
+    },
+    "phrases": [
+      {
+        "id": "opening_hook",
+        "text": "우리 은하가\n90도 넘게 누웠다?",
+        "text_event": {
+          "id": "hook_text",
+          "concept_id": "hook",
+          "element_id": "opening_hook",
+          "kind": "label",
+          "timing": {
+            "from": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 0,
+                "word": "우리가",
+                "edge": "start",
+                "offset_frames": -3
+              }
+            },
+            "settled": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 0,
+                "word": "우리가",
+                "edge": "start",
+                "offset_frames": 7
+              }
+            },
+            "to": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 15,
+                "word": "나왔습니다.",
+                "edge": "end",
+                "offset_frames": -4
+              }
+            },
+            "end": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 15,
+                "word": "나왔습니다.",
+                "edge": "end",
+                "offset_frames": 6
+              }
+            }
+          },
+          "easing": {
+            "enter": "ease-out",
+            "move": "ease-in-out",
+            "exit": "ease-in"
+          },
+          "depends_on": [],
+          "coexist_with": [],
+          "why": "첫 문장 핵심을 큰 문구로",
+          "from": 2,
+          "settled": 12,
+          "to": 199,
+          "end": 209
+        },
+        "underline_event": {
+          "id": "hook_line",
+          "concept_id": "hook",
+          "element_id": "opening_hook",
+          "kind": "motion",
+          "timing": {
+            "from": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 7,
+                "word": "구십",
+                "edge": "start",
+                "offset_frames": 0
+              }
+            },
+            "settled": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 11,
+                "word": "누웠을",
+                "edge": "end",
+                "offset_frames": 0
+              }
+            },
+            "to": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 15,
+                "word": "나왔습니다.",
+                "edge": "end",
+                "offset_frames": -4
+              }
+            },
+            "end": {
+              "anchor": {
+                "line": "s01",
+                "token_index": 15,
+                "word": "나왔습니다.",
+                "edge": "end",
+                "offset_frames": 6
+              }
+            }
+          },
+          "easing": {
+            "enter": "ease-out",
+            "move": "ease-in-out",
+            "exit": "ease-in"
+          },
+          "depends_on": [],
+          "coexist_with": [],
+          "why": "'구십 도 넘게 누웠을'에 맞춰 밑줄",
+          "from": 103,
+          "settled": 154,
+          "to": 199,
+          "end": 209
+        },
+        "layout": {
+          "width": 980,
+          "center_y": 560
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 62,
+            "gap_after": 18,
+            "runs": [
+              {
+                "text": "우리 은하가",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 52,
+                "text_color": "#FFD16A",
+                "letter_spacing": 0
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 136,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "90도 넘게 누웠다?",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 116,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "closing_cta": {
+    "policy": "closing-cta@1",
+    "text": "구독과 댓글 부탁드려요",
+    "from": 2404,
+    "end": 2464,
+    "style": {
+      "center_x": 540,
+      "center_y": 770,
+      "font_size": 60,
+      "font_weight": 700,
+      "color": "#FFD16A",
+      "outline_px": 2,
+      "background": "rgba(8,12,22,0.72)",
+      "padding_x": 52,
+      "padding_y": 24,
+      "radius": 999,
+      "max_width": 900,
+      "enter_frames": 8,
+      "exit_frames": 8,
+      "hold_after_frames": 12
+    }
+  },
+  "key_callouts": [
+    {
+      "policy": "key-callout@1",
+      "line": "s12",
+      "text": "중요한 한 가지!",
+      "from": 1862,
+      "end": 2026,
+      "style": {
+        "center_x": 540,
+        "center_y": 860,
+        "font_family": "Pretendard",
+        "font_size": 128,
+        "font_weight": 800,
+        "letter_spacing": -3,
+        "color": "#FFFFFF",
+        "shadow": "0 4px 24px rgba(0,0,0,0.65), 0 1px 3px rgba(0,0,0,0.8)",
+        "underline_color": "#FFD16A",
+        "underline_px": 9,
+        "underline_gap": 14,
+        "lead_frames": 3,
+        "enter_frames": 7,
+        "underline_delay_frames": 4,
+        "underline_frames": 10,
+        "hold_after_frames": 10,
+        "exit_frames": 6
+      }
+    }
+  ],
+  "attribution": {
+    "style": {
+      "version": "1.0.0",
+      "source": {
+        "left": 80,
+        "top": 320,
+        "width": 620,
+        "font_size": 32,
+        "line_height": 42,
+        "color": "#B8BEC5",
+        "shadow": "0 1px 3px rgba(0,0,0,.65)"
+      },
+      "end": {
+        "left": 80,
+        "top": 320,
+        "width": 780,
+        "height": 1220,
+        "font_size": 32,
+        "line_height": 44,
+        "category_gap": 20,
+        "color": "#EEEEEE",
+        "background": "#000000"
+      }
+    },
+    "sources": [
+      {
+        "asset_id": "nasa_zoom",
+        "text": "NASA's Goddard Space Flight Center",
+        "start": 6.95,
+        "end": 314,
+        "from": 209
+      },
+      {
+        "asset_id": "nasa_halo",
+        "text": "NASA's Goddard Space Flight Center",
+        "start": 13.75,
+        "end": 558,
+        "from": 413
+      },
+      {
+        "asset_id": "gaia_esa",
+        "text": "ESA – C. Carreau",
+        "start": 18.6,
+        "end": 725,
+        "from": 558
+      },
+      {
+        "asset_id": "auriga",
+        "text": "Auriga Project",
+        "start": 31,
+        "end": 1103,
+        "from": 930
+      },
+      {
+        "asset_id": "auriga",
+        "text": "Auriga Project · Halo 18",
+        "start": 41.25,
+        "end": 1371,
+        "from": 1238
+      },
+      {
+        "asset_id": "paranal",
+        "text": "ESO/B. Tafreshi",
+        "start": 74.3,
+        "end": 2463,
+        "from": 2229
+      }
+    ],
+    "pages": [
+      {
+        "from": 2464,
+        "end": 2479,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필",
+              "100억년 전 대충돌, 우리 은하 90도 뒤집어버렸다"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "production_profile": {
+    "schema_version": "1.0",
+    "id": "hani-shortform",
+    "version": "1.5.0",
+    "canvas": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30
+    },
+    "caption": {
+      "max_lines": 1,
+      "preset": "betelgeuse-v1",
+      "font_family": "GmarketSans",
+      "font_size": 70,
+      "weight": 500,
+      "emphasis_weight": 700,
+      "color": "#FFFFFF",
+      "accent": "#f2b879",
+      "line_height": 1.2,
+      "top": 1400,
+      "side_inset": 150,
+      "backdrop": "rgba(0,0,0,0.72)",
+      "padding_y": 0,
+      "padding_x": 12,
+      "radius": 4,
+      "lead_frames": 3,
+      "enter_frames": 6,
+      "rise_px": 16,
+      "box_height": 94,
+      "segmentation": "font-semantic@2"
+    }
+  }
+}

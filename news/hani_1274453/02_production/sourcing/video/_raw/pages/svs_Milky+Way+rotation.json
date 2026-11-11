@@ -1,0 +1,79 @@
+{
+    "count": 12,
+    "next": "http://svs.gsfc.nasa.gov/api/search/?limit=8&offset=8&search=Milky+Way+rotation",
+    "previous": null,
+    "results": [
+        {
+            "id": 14928,
+            "url": "http://svs.gsfc.nasa.gov/14928/",
+            "result_type": "Produced Video",
+            "release_date": "2025-11-20T10:00:00-05:00",
+            "title": "TESS Triples Size of Pleiades Star Cluster",
+            "description": "These young, hot blue stars are members of the Pleiades open star cluster and reside about 430 light-years away in the northern constellation Taurus. The brightest stars are visible to the unaided eye during evenings from October to April. A new study finds the cluster to be triple the size previously thought — and shows that its stars are scattered across the night sky. The Schmidt telescope at the Palomar Observatory in California captured this color-composite image. Credit: NASA, ESA, and AURA/CaltechAlt text: Members of the Pleiades shine in blue. Image description: The Pleiades are shown in this image. Six of the stars, all blue-white, are larger than the others and have diffraction spikes and faint blue circles around them. Other, smaller blue stars are also scattered across the image. Patches of swirling blue dust surround some of the stars. || STScI-01EVVEYWX1TA3MGBK5F6EFQVGQ.jpg (4877x3513) [1.1 MB] || ",
+            "hits": 267
+        },
+        {
+            "id": 40518,
+            "url": "http://svs.gsfc.nasa.gov/gallery/hyperwall-power-playlist-astrophysics-focus/",
+            "result_type": "Gallery",
+            "release_date": "2023-08-28T00:00:00-04:00",
+            "title": "Hyperwall Power Playlist - Astrophysics Focus",
+            "description": "This is a collection of our most powerful, newsworthy, and frequently used Hyperwall-ready visualizations, along with several that haven't gotten the attention they deserve. They're especially great for more general or top-level science talks, or to \"set the scene\" before a deep dive into a more focused subject or dataset. We've tried to cover the subject areas our speakers focus on most. \n\nIf you're not seeing what you're looking for, there is a huge library of visualizations more localized or specialized in subject - please use the Search function above, and filter \"Result type\" for \"Hyperwall Visual.\"\n\n If you'd like to use one of these visualizations in your Hyperwall presentation, we'll need to know which element on which page. On the visualization's web page, below the visual you'd like to use, you'll see a Link icon next to the Download button. All we need is for you to click on that icon and include that link in your presentation Powerpoint/Keynote or visualization list. Additionally, please check our Hyperwall How-To Guide  for tips on designing your Hyperwall presentation, file specifications, and Powerpoint/Keynote templates.",
+            "hits": 208
+        },
+        {
+            "id": 13794,
+            "url": "http://svs.gsfc.nasa.gov/13794/",
+            "result_type": "Infographic",
+            "release_date": "2021-02-12T14:00:00-05:00",
+            "title": "NASA’s TESS Finds New Worlds in a River of Stars",
+            "description": "This illustration sketches out the main features of TOI 451, a triple-planet system located 400 light-years away in the constellation Eridanus.Credit: NASA’s Goddard Space Flight Center || TOI_451_infographic_1920.png (1920x1080) [2.6 MB] || TOI_451_infographic_1920_print.jpg (1024x576) [129.4 KB] || TOI_451_infographic_3840.png (3840x2160) [8.2 MB] || TOI_451_infographic_1920_searchweb.png (320x180) [73.0 KB] || TOI_451_infographic_1920_thm.png (80x40) [6.5 KB] || ",
+            "hits": 74
+        },
+        {
+            "id": 40409,
+            "url": "http://svs.gsfc.nasa.gov/gallery/fermi-stills/",
+            "result_type": "Gallery",
+            "release_date": "2020-01-22T00:00:00-05:00",
+            "title": "Fermi Stills",
+            "description": "A collection of Fermi-related still images, illustrations, graphics and short clips.",
+            "hits": 148
+        },
+        {
+            "id": 30969,
+            "url": "http://svs.gsfc.nasa.gov/30969/",
+            "result_type": "Hyperwall Visual",
+            "release_date": "2018-06-18T10:00:00-04:00",
+            "title": "M101 (Pinwheel Galaxy)",
+            "description": "This animation shows the Messier 101 (Pinwheel) Galaxy, with simulated rotation, in visible, then infrared, then X-ray, and finally all three combined. || STScI-H-M101_1x-1920x1080.00001_print.jpg (1024x576) [150.4 KB] || STScI-H-M101_1x-1920x1080.00001_searchweb.png (320x180) [99.4 KB] || STScI-H-M101_1x-1920x1080.00001_thm.png (80x40) [6.3 KB] || STScI-H-M101_1x-1280x720.mp4 (1280x720) [18.1 MB] || STScI-H-M101_1x-1920x1080.mp4 (1920x1080) [50.6 MB] || 1920x1080_16x9_30p (1920x1080) [0 Item(s)] || STScI-H-M101_1x-1920x1080.webm (1920x1080) [5.6 MB] || STScI-H-M101_1x-640x360.mp4 (640x360) [7.8 MB] || STScI-H-M101_1x-3840x2160.mp4 (3840x2160) [32.3 MB] || STScI-H-M101_1x-H265-3840x2160.mp4 (3840x2160) [11.2 MB] || 3840x2160_16x9_30p (3840x2160) [0 Item(s)] || ",
+            "hits": 157
+        },
+        {
+            "id": 12317,
+            "url": "http://svs.gsfc.nasa.gov/12317/",
+            "result_type": "Produced Video",
+            "release_date": "2016-08-12T13:00:00-04:00",
+            "title": "NASA's Fermi Mission Broadens its Dark Matter Search",
+            "description": "Top: Gamma rays (magenta lines) coming from a bright source like NGC 1275 in the Perseus galaxy cluster should form a particular type of spectrum (right). Bottom: Gamma rays convert into hypothetical axion-like particles (green dashes) and back again when they encounter magnetic fields (gray curves). The resulting gamma-ray spectrum (lower curve at right) would show unusual steps and gaps not seen in Fermi data, which means a range of these particles cannot make up a portion of dark matter.Credit: SLAC National Accelerator Laboratory/Chris Smith || ALP_2_sequences.gif (1074x580) [211.8 KB] || ",
+            "hits": 63
+        },
+        {
+            "id": 12101,
+            "url": "http://svs.gsfc.nasa.gov/12101/",
+            "result_type": "Produced Video",
+            "release_date": "2016-01-04T00:00:00-05:00",
+            "title": "Fermi Hyperwall--2016 AAS Technical",
+            "description": "Upresed 5760x3240 animation of the Fermi spacecraft.Credit: NASA's Goddard Space Flight Center/CI Lab || frame-000020_print.jpg (1024x576) [147.2 KB] || Fermi_Beauty_EarthandStars_1080p.webm (1920x1080) [1.4 MB] || Fermi_Beauty_EarthandStars_1080p.mov (1920x1080) [25.4 MB] || FermiBeautyDraft (5760x3240) [0 Item(s)] || Fermi_Beauty_EarthandStars_4k.mov (4096x2304) [47.9 MB] || Fermi_Beauty_EarthandStars_4k_ProRes.mov (5760x3240) [808.7 MB] || ",
+            "hits": 99
+        },
+        {
+            "id": 40111,
+            "url": "http://svs.gsfc.nasa.gov/gallery/astro-star/",
+            "result_type": "Gallery",
+            "release_date": "2015-09-18T00:00:00-04:00",
+            "title": "Astrophysics Star Listing",
+            "description": "No description available.",
+            "hits": 52
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "count": 37,
+    "next": "http://svs.gsfc.nasa.gov/api/search/?limit=8&offset=8&search=Magellanic+Cloud",
+    "previous": null,
+    "results": [
+        {
+            "id": 15101,
+            "url": "http://svs.gsfc.nasa.gov/15101/",
+            "result_type": "Produced Video",
+            "release_date": "2026-09-23T11:00:00-04:00",
+            "title": "NASA’s OSIRIS-APEX Mission Will Explore Asteroid Apophis",
+            "description": "NASA’s OSIRIS-APEX mission will rendezvous with Apophis in mid-2029, following the asteroid’s historically close flyby of Earth.",
+            "hits": 821
+        },
+        {
+            "id": 5648,
+            "url": "http://svs.gsfc.nasa.gov/5648/",
+            "result_type": "Visualization",
+            "release_date": "2026-07-02T09:00:00-04:00",
+            "title": "The Moon Passes In and Out of Earth's Magnetosphere",
+            "description": "The Moon orbits Earth at a distance of more than 200,000 miles. Earth's magnetosphere, the protective magnetic bubble that surrounds us, is shaped like a tadpole. The Sun-facing side of the magnetosphere does not reach the distance of the Moon's orbit, but the tail extends far beyond it. This visualization shows how the Moon moves in and out of the magnetosphere.",
+            "hits": 226
+        },
+        {
+            "id": 14985,
+            "url": "http://svs.gsfc.nasa.gov/14985/",
+            "result_type": "Produced Video",
+            "release_date": "2026-05-13T09:00:00-04:00",
+            "title": "TESS Reveals Dazzling Night Sky",
+            "description": "This view of the whole sky was constructed from 96 TESS sectors. By the end of September 2025, when the last image of this mosaic was captured, TESS had discovered 679 exoplanets (blue dots) and 5,165 candidates (orange dots). The glowing arc running through the center is the plane of the Milky Way. The Large Magellanic Cloud can be seen along the bottom edge just left of center. Black areas within the oval indicate regions TESS has not yet imaged.Credit: NASA/MIT/TESS and Veselin Kostov (University of Maryland College Park)Alt text: Oval projection of the TESS night sky with exoplanet markersImage description: This oval view of the night sky features a U-shaped band of greyish white running downward from top left to bottom center and then upward to top right. The left side of the U is brighter than the right. Blue and orange dots speckle the image, representing confirmed and candidate exoplanets, respectively. Along the oval’s equator, there are a few black lines and blocks of the sky that are a slightly different shade than the rest of the image. There is an empty black block in the upper left. || TESS_both_bin4_planets-Half.jpg (7740x3900) [11.9 MB] || TESS_both_bin4_planets.jpg (15480x7800) [51.2 MB] || TESS_both_bin4_planets.png (15480x7800) [107.6 MB] || TESS_both_bin4_planets-Half_searchweb.png (320x180) [90.2 KB] || TESS_both_bin4_planets-Half_thm.png (80x40) [5.6 KB] || ",
+            "hits": 205
+        },
+        {
+            "id": 14992,
+            "url": "http://svs.gsfc.nasa.gov/14992/",
+            "result_type": "Animation",
+            "release_date": "2026-03-24T15:00:00-04:00",
+            "title": "Lunar Near and Far Side Phases",
+            "description": "These animations illustrate opposite lunar phases on the near and far sides of the Moon.",
+            "hits": 744
+        },
+        {
+            "id": 14866,
+            "url": "http://svs.gsfc.nasa.gov/14866/",
+            "result_type": "Produced Video",
+            "release_date": "2025-07-15T00:00:00-04:00",
+            "title": "Cosmic Desktop & Phone Wallpapers",
+            "description": "We can’t clean up your messy desktop, but we can provide a bit of beauty from the universe to act as a backdrop to it. Here you’ll find a collection of images from across the universe. Download these phone and desktop wallpapers for your screens. ||",
+            "hits": 6351
+        },
+        {
+            "id": 31302,
+            "url": "http://svs.gsfc.nasa.gov/31302/",
+            "result_type": "Hyperwall Visual",
+            "release_date": "2024-08-02T00:00:00-04:00",
+            "title": "NASA's Balloon Program",
+            "description": "Scientific Balloon Program Infographic || nasa-scientific-balloon-facts_print.jpg (1024x576) [171.2 KB] || nasa-scientific-balloon-facts.png (3840x2160) [3.0 MB] || nasa-scientific-balloon-facts_searchweb.png (320x180) [58.8 KB] || nasa-scientific-balloon-facts_thm.png (80x40) [6.3 KB] || nasas-balloon-program-infographic.hwshow [280 bytes] || ",
+            "hits": 205
+        },
+        {
+            "id": 31295,
+            "url": "http://svs.gsfc.nasa.gov/31295/",
+            "result_type": "Hyperwall Visual",
+            "release_date": "2024-06-21T00:00:00-04:00",
+            "title": "Hubble Observes a Cosmic Fossil",
+            "description": "Credits: ESA/Hubble & NASA, F. Niederhofer, L. Girardi || 31295-hubble-ngc2005-potw2424a-hw.jpg (3840x2160) [4.1 MB] || 31295-hubble-ngc2005-potw2424a-hw_searchweb.png (320x180) [108.5 KB] || 31295-hubble-ngc2005-potw2424a-hw_thm.png (80x40) [12.8 KB] || hubble-observes-a-cosmic-fossil.hwshow [321 bytes] || ",
+            "hits": 40
+        },
+        {
+            "id": 14585,
+            "url": "http://svs.gsfc.nasa.gov/14585/",
+            "result_type": "Visualization",
+            "release_date": "2024-05-06T00:00:00-04:00",
+            "title": "Beyond the Brink: Tracking a Simulated Plunge into a Black Hole",
+            "description": "In this all-sky view, the camera approaches a supermassive black hole weighing 4.3 million Suns. It is about 70 million miles (113 million kilometers) from the black hole’s event horizon, the boundary of no return. It’s moving inward at 19% the speed of light —  nearly 127 million mph (205 million kph). A flat, swirling cloud of hot, glowing gas called an accretion disk surrounds the black hole and serves as a visual reference during the fall, as do glowing structures called photon rings, which form closer to the black hole from light that has orbited it one or more times. A backdrop of the starry sky completes the scene.Credit: NASA's Goddard Space Flight Center/J. Schnittman and B. Powell || 1_BH_Viz_20_rg_019c.jpg (8192x4096) [6.1 MB] || ",
+            "hits": 664
+        }
+    ]
+}

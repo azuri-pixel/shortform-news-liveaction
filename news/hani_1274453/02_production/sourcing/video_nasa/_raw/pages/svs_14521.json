@@ -1,0 +1,373 @@
+{
+    "id": 14521,
+    "url": "http://svs.gsfc.nasa.gov/14521/",
+    "page_type": "Produced Video",
+    "title": "Using Infrared to Survey Our Galaxy’s Far Side",
+    "description": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available. || GalacticPlaneIR_Split_Still.jpg (1920x1080) [430.6 KB] || GalacticPlaneIR_Split_Still_searchweb.png (320x180) [103.4 KB] || GalacticPlaneIR_Split_Still_thm.png (80x40) [7.6 KB] || 14521_Galactic_Plane_Infrared_good.mp4 (1920x1080) [51.0 MB] || 14521_GalacticPlaneIR_SRT_Captions.en_US.srt [1.0 KB] || 14521_GalacticPlaneIR_SRT_Captions.en_US.vtt [1.0 KB] || 14521_Galactic_Plane_Infrared_ProRes_1920x1080_30.mov (1920x1080) [923.1 MB] || 14521_Galactic_Plane_Infrared_Best.mp4 (1920x1080) [106.4 MB] || ",
+    "release_date": "2024-03-12T10:00:00-04:00",
+    "update_date": "2024-02-29T08:39:42.599568-05:00",
+    "main_image": {
+        "id": 1089698,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/GalacticPlaneIR_Split_Still.jpg",
+        "filename": "GalacticPlaneIR_Split_Still.jpg",
+        "media_type": "Image",
+        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+        "width": 1920,
+        "height": 1080,
+        "pixels": 2073600
+    },
+    "main_video": {
+        "id": 2,
+        "url": "http://svs.gsfc.nasa.gov/vis/a000000/a001700/a001703/4559_Kepler_Neptune_Twitter_720.mp4",
+        "filename": "4559_Kepler_Neptune_Twitter_720.mp4",
+        "media_type": "Movie",
+        "alt_text": "",
+        "width": 1280,
+        "height": 720,
+        "pixels": 921600
+    },
+    "main_credits": {
+        "Produced by": [
+            {
+                "name": "Scott Wiessinger",
+                "employer": "KBR Wyle Services, LLC"
+            }
+        ],
+        "Written by": [
+            {
+                "name": "Ashley Balzer",
+                "employer": "ADNET Systems, Inc."
+            }
+        ]
+    },
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 373563,
+            "url": "http://svs.gsfc.nasa.gov/14521/#media_group_373563",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.<p><p>Credit: NASA's Goddard Space Flight Center<p><p>Music: \"Time Shift Equalibrium\" from Universal Production Music<p><p><p><b>Watch this video on the <a href=\"https://www.youtube.com/watch?v=nH0GceKNtfA\" target=\"_blank\" >NASA Goddard YouTube channel</a>.</b><p><p><p><p><p><p><a href=\"/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_HTML_Transcript.html\">Complete transcript</a> available.</p>",
+            "items": [
+                {
+                    "id": 422071,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089698,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/GalacticPlaneIR_Split_Still.jpg",
+                        "filename": "GalacticPlaneIR_Split_Still.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422083,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089710,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/GalacticPlaneIR_Split_Still_searchweb.png",
+                        "filename": "GalacticPlaneIR_Split_Still_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 422084,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089711,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/GalacticPlaneIR_Split_Still_thm.png",
+                        "filename": "GalacticPlaneIR_Split_Still_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                },
+                {
+                    "id": 422074,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089702,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_good.mp4",
+                        "filename": "14521_Galactic_Plane_Infrared_good.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422075,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089699,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_SRT_Captions.en_US.srt",
+                        "filename": "14521_GalacticPlaneIR_SRT_Captions.en_US.srt",
+                        "media_type": "Captions",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "label": "English",
+                        "language_code": ""
+                    }
+                },
+                {
+                    "id": 422076,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089703,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_SRT_Captions.en_US.vtt",
+                        "filename": "14521_GalacticPlaneIR_SRT_Captions.en_US.vtt",
+                        "media_type": "Captions",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "label": "English",
+                        "language_code": ""
+                    }
+                },
+                {
+                    "id": 422072,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089700,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_ProRes_1920x1080_30.mov",
+                        "filename": "14521_Galactic_Plane_Infrared_ProRes_1920x1080_30.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422073,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089701,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_Best.mp4",
+                        "filename": "14521_Galactic_Plane_Infrared_Best.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.Credit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373570,
+            "url": "http://svs.gsfc.nasa.gov/14521/#media_group_373570",
+            "widget": "Basic text with HTML",
+            "title": "",
+            "caption": "",
+            "description": "NASA’s Nancy Grace Roman Space Telescope team has announced plans for an unprecedented survey of the plane of our Milky Way galaxy. It will peer deeper into this region than any other survey, mapping more of our galaxy’s stars than all previous observations combined.<br><br>Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.<br><br>Observatories like NASA’s Spitzer Space Telescope have conducted shallower surveys of the galactic plane and revealed some star-forming regions on the far side of the galaxy. But it couldn’t resolve fine details like Roman will do.\r<br>\r<br>Roman’s combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.<br><br>Roman’s sharp vision will help astronomers see individual stars even in stellar nurseries on the far side of the galaxy. That will help Roman generate a huge new catalog of stars since it will be able to map 10 times farther than previous precision mapping by ESA’s (the European Space Agency’s) Gaia space mission. Gaia mapped over 1 billion stars in 3D largely within about 10,000 light-years. Roman could map up to 100 billion stars 100,000 light-years away or more (stretching out to the most distant edge of our galaxy and beyond).",
+            "items": [],
+            "extra_data": {}
+        },
+        {
+            "id": 373564,
+            "url": "http://svs.gsfc.nasa.gov/14521/#media_group_373564",
+            "widget": "Video player",
+            "title": "",
+            "caption": "",
+            "description": "Similar to above video, but with a specific Roman Space Telescope reference<p>Observatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.<p>The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r<p>\r<p>Roman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\r<p><p><p>Credit: NASA's Goddard Space Flight Center<p><p>Music: \"Time Shift Equalibrium\" from Universal Production Music<p><p><p><a href=\"/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_ROMAN_HTML_Transcript.html\">Complete transcript</a> available.</p>",
+            "items": [
+                {
+                    "id": 422077,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089704,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/GalacticPlaneStill.jpg",
+                        "filename": "GalacticPlaneStill.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422080,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089708,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_Roman_good.mp4",
+                        "filename": "14521_Galactic_Plane_Infrared_Roman_good.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422081,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089705,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_Roman_SRT_Captions.en_US.srt",
+                        "filename": "14521_GalacticPlaneIR_Roman_SRT_Captions.en_US.srt",
+                        "media_type": "Captions",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "label": "English",
+                        "language_code": ""
+                    }
+                },
+                {
+                    "id": 422082,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089709,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_GalacticPlaneIR_Roman_SRT_Captions.en_US.vtt",
+                        "filename": "14521_GalacticPlaneIR_Roman_SRT_Captions.en_US.vtt",
+                        "media_type": "Captions",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "label": "English",
+                        "language_code": ""
+                    }
+                },
+                {
+                    "id": 422078,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089706,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_Roman_ProRes_1920x1080_30.mov",
+                        "filename": "14521_Galactic_Plane_Infrared_Roman_ProRes_1920x1080_30.mov",
+                        "media_type": "Movie",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                },
+                {
+                    "id": 422079,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1089707,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014500/a014521/14521_Galactic_Plane_Infrared_Roman_Best.mp4",
+                        "filename": "14521_Galactic_Plane_Infrared_Roman_Best.mp4",
+                        "media_type": "Movie",
+                        "alt_text": "Similar to above video, but with a specific Roman Space Telescope referenceObservatories with smaller views of space have provided exquisite images of other galaxies, revealing complex structures. But studying our own galaxy’s anatomy is surprisingly difficult. The plane of the Milky Way covers such a large area on the sky that studying it in detail can take a very long time. Astronomers also must peer through thick dust that obscures distant starlight.  Infrared light can pass through that dust and is a key tool for learning about the far side of our galaxy.The Nancy Grace Roman Space Telescope's combination of a large field of view, crisp resolution, and the ability to peer through dust make it the ideal instrument to study the Milky Way. And seeing stars in different wavelengths of light – optical and infrared – will help astronomers learn things such as the stars’ temperatures. That one piece of information unlocks much more data, from the star’s evolutionary stage and composition to its luminosity and size.\r\rRoman will offer new insights about the structure of the central region known as the bulge, the “bar” that stretches across it, and the spiral arms that extend from it.\rCredit: NASA's Goddard Space Flight CenterMusic: \"Time Shift Equalibrium\" from Universal Production MusicComplete transcript available.",
+                        "width": 1920,
+                        "height": 1080,
+                        "pixels": 2073600
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 373653,
+            "url": "http://svs.gsfc.nasa.gov/14521/#media_group_373653",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-team-selects-survey-to-map-our-galaxys-far-side/](https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-team-selects-survey-to-map-our-galaxys-far-side/)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "NASA Astrophysics"
+    ],
+    "credits": [
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "KBR Wyle Services, LLC"
+                }
+            ]
+        },
+        {
+            "role": "Science writer",
+            "people": [
+                {
+                    "name": "Ashley Balzer",
+                    "employer": "ADNET Systems, Inc."
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Nancy Grace Roman Space Telescope"
+    ],
+    "series": [
+        "Astrophysics Features",
+        "Narrated Movies"
+    ],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Astrophysics",
+        "Galaxy",
+        "Infrared",
+        "Nancy Grace Roman Space Telescope",
+        "Space"
+    ],
+    "recommended_pages": [],
+    "related": [],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

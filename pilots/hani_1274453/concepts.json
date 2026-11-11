@@ -1,0 +1,889 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_1274453",
+  "concepts": [
+    {
+      "id": "hook",
+      "question": "우리 은하가 누웠다고?",
+      "takeaway": "100억 년 전 대충돌로 우리 은하 원반이 90도 넘게 누웠을 수 있다(추정)",
+      "narration_lines": [
+        "s01"
+      ],
+      "facts": [
+        "F6",
+        "F8",
+        "F13"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 15,
+            "word": "나왔습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "rewind",
+          "disk_tilt"
+        ],
+        "why": "첫 3초에 현생 인류→공룡 멸종→태양·지구 탄생→100억 년 전 우리 은하로 빠르게 되감는 생성 영상(사용자 제안: 숏폼은 첫 2~3초가 중요)으로 '100억 년 전'의 시간 거리를 보여 주고, 되감기 끝 프레임(기준 은하)에서 그대로 원반이 90도 기우는 생성 장면으로 이어짐. 후킹 문구 중앙"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "rewind",
+          "tilt_gen",
+          "ref_plane",
+          "opening_hook"
+        ],
+        "remove": []
+      },
+      "elements": [
+        {
+          "id": "rewind",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "tilt_gen",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "ref_plane",
+          "kind": "diagram",
+          "role": "metaphor"
+        },
+        {
+          "id": "opening_hook",
+          "kind": "text",
+          "role": "hook",
+          "text": "우리 은하가\n90도 넘게 누웠다?"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "rewind",
+          "tilt_gen",
+          "ref_plane",
+          "opening_hook"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "실제 밤하늘 → 기준선 대비 기우는 원반",
+        "moments": [
+          {
+            "id": "m_tilt",
+            "narration_lines": [
+              "s01"
+            ],
+            "subject": "은하 원반",
+            "action": "옆에서 보던 원반이 기준선에서 벗어나 크게 기운다",
+            "result": "원반이 거의 정면으로 보일 만큼 방향이 바뀐 상태",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "generated",
+          "asset_ids": [
+            "rewind",
+            "disk_tilt"
+          ],
+          "job_ids": [
+            "gen_rewind",
+            "gen_galaxy_side",
+            "gen_disk_tilt"
+          ],
+          "generated_role": "시간 되감기·원반 기울어짐",
+          "code_role": "기준선·후킹 오버레이"
+        }
+      }
+    },
+    {
+      "id": "structure",
+      "question": "우리 은하는 어떻게 생겼나? 헤일로 별은 어디서 왔나?",
+      "takeaway": "납작한 원반과 둘레의 헤일로; 헤일로 별 대부분은 작은 은하에서 흡수된 별",
+      "narration_lines": [
+        "s02",
+        "s03"
+      ],
+      "facts": [
+        "F1",
+        "F12"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "우리",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 10,
+            "word": "별들입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "metaphor",
+        "full_bleed": true,
+        "assets": [
+          "nasa_zoom",
+          "halo_close",
+          "nasa_halo"
+        ],
+        "why": "s02 '별과 가스가 모인 납작한 원반'에서 카메라가 원반 속으로 들어가는 NASA 상상도 영상 → '그 둘레를 드문드문 감싼 헤일로'는 NASA 헤일로 화면에서 출발해 원반 바깥의 드문드문한 별 속으로 다가가는 생성 근접 영상 → s03 NASA 옆모습 헤일로 영상 위에 작은 은하가 흘러드는 코드 도해. s03 흡수는 3단계 모션그래픽: 오른쪽 위에서 포물선으로 가속 진입하는 흰 금빛 작은 은하 → 지나간 자리에 늘어지는 조석 스트림과 입자 터짐 → 주황·호박색 입자가 둥근 헤일로로 안착, 헤일로 안 구상성단 4개, 카메라 미세 회전과 전경 흐림 입자(사용자 요청 2026-11-11)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "zoom_in",
+          "halo_close",
+          "halo_vid",
+          "infall",
+          "lbl_disk",
+          "lbl_halo"
+        ],
+        "remove": [
+          "rewind",
+          "tilt_gen",
+          "ref_plane",
+          "opening_hook"
+        ]
+      },
+      "elements": [
+        {
+          "id": "zoom_in",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "halo_close",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "halo_vid",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "infall",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "lbl_disk",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "원반"
+        },
+        {
+          "id": "lbl_halo",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "헤일로"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "zoom_in",
+          "halo_close",
+          "halo_vid",
+          "infall",
+          "lbl_disk",
+          "lbl_halo"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "원반 → 헤일로 → 흡수된 별",
+        "moments": [
+          {
+            "id": "m_struct",
+            "narration_lines": [
+              "s02"
+            ],
+            "subject": "원반과 헤일로",
+            "action": "원반 둘레로 성긴 별 영역이 넓어진다",
+            "result": "두 구조가 구분되어 보인다",
+            "motion_required": false
+          },
+          {
+            "id": "m_infall",
+            "narration_lines": [
+              "s03"
+            ],
+            "subject": "작은 은하",
+            "action": "헤일로 쪽으로 흘러들며 별이 흩어진다",
+            "result": "헤일로 별이 흡수된 별로 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "nasa_zoom",
+            "halo_close",
+            "nasa_halo"
+          ],
+          "job_ids": [
+            "gen_halo_close"
+          ],
+          "generated_role": "헤일로 근접 장면",
+          "code_role": "흡수 도해·라벨"
+        }
+      }
+    },
+    {
+      "id": "puzzle",
+      "question": "같은 은하인데 왜 이렇게 다른가?",
+      "takeaway": "가이아 관측: 원반 별 초속 약 220km, 헤일로 별 약 25km",
+      "narration_lines": [
+        "s04",
+        "s05"
+      ],
+      "facts": [
+        "F2"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "그런데",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 14,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "gaia_esa",
+          "galaxy_side"
+        ],
+        "why": "s04 '가이아 우주망원경으로 재 보니'에 ESA 가이아 위성 애니메이션(ESA – C. Carreau, ESA 표준 라이선스 — 사용자 결정으로 이번 편 예외 사용) → 같은 크기의 궤도에서 원반 별(청백, 긴 빛꼬리)은 빠르게, 헤일로 별(주황, 여러 기울기, 짧은 꼬리)은 느리게 공전(각속도 비 220:25). '원반…220' 구간은 원반 별, '헤일로…25' 구간은 헤일로 별을 강조하고 수치를 각 무리 옆에 붙임(사용자 요청 2026-11-11, 막대 그래프 대체)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "gaia_vid",
+          "galaxy_dim",
+          "lbl_disk2",
+          "lbl_halo2",
+          "speed_bars",
+          "lbl_220",
+          "lbl_25"
+        ],
+        "remove": [
+          "halo_close",
+          "halo_vid",
+          "infall",
+          "lbl_disk",
+          "lbl_halo",
+          "zoom_in"
+        ]
+      },
+      "elements": [
+        {
+          "id": "gaia_vid",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "galaxy_dim",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "lbl_disk2",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "원반"
+        },
+        {
+          "id": "lbl_halo2",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "헤일로"
+        },
+        {
+          "id": "speed_bars",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "lbl_220",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "약 220km/s"
+        },
+        {
+          "id": "lbl_25",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "약 25km/s"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 4,
+        "focal_priority": [
+          "gaia_vid",
+          "galaxy_dim",
+          "lbl_disk2",
+          "lbl_halo2",
+          "speed_bars",
+          "lbl_220",
+          "lbl_25"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "두 무리의 속도 차",
+        "moments": [
+          {
+            "id": "m_speed",
+            "narration_lines": [
+              "s04",
+              "s05"
+            ],
+            "subject": "원반 별과 헤일로 별",
+            "action": "같은 크기 궤도에서 원반 별은 긴 꼬리로 빠르게, 헤일로 별은 짧은 꼬리로 느리게 돈다",
+            "result": "헤일로 별이 약 9배 느리다는 차이가 움직임으로 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "gaia_esa",
+            "galaxy_side"
+          ],
+          "job_ids": [
+            "gen_galaxy_side"
+          ],
+          "generated_role": "기준 은하 배경 외형",
+          "code_role": "공전 움직임·빛꼬리·수치"
+        }
+      }
+    },
+    {
+      "id": "simulation",
+      "question": "연구진은 어떻게 실마리를 찾았나?",
+      "takeaway": "더럼대: 우리 은하 닮은 25개 시뮬레이션 은하 중 헤일로가 가장 느린 은하의 공통점 = 정면충돌 + 원반 90도 넘게 기울어짐",
+      "narration_lines": [
+        "s06",
+        "s07",
+        "s08"
+      ],
+      "facts": [
+        "F3",
+        "F4"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "영국",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 12,
+            "word": "겁니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "auriga",
+          "galaxy_side"
+        ],
+        "why": "s06 오리가 Halo 18 실제 시뮬레이션 그림(RAS, CC BY 4.0) → s07 25개 은하는 단순 원반 기호로 만든 개수 도식(실제 시뮬레이션 결과 아님, 출처 표기 없음)에서 일부만 남김 → s08 Halo 18의 같은 투영 패널(옆모습→충돌→정면모습)을 시간순으로 잘라 '누움'의 예로. RAS가 이 그림을 원반 뒤집힘 사례로 제시. '원반이 90도 넘게 기울어졌다'는 옆에서 본 평면 회전 도해(옆모습 원반 띠가 약 102° 돌고, 원래 가로 자리 잔상과 흰 각도 호) — 3D 원근판이 잘 읽히지 않아 교체(사용자 2026-11-11)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "auriga_frame",
+          "grid25",
+          "tilt_arc",
+          "lbl_25gal",
+          "lbl_90"
+        ],
+        "remove": [
+          "gaia_vid",
+          "galaxy_dim",
+          "lbl_220",
+          "lbl_25",
+          "lbl_disk2",
+          "lbl_halo2",
+          "speed_bars"
+        ]
+      },
+      "elements": [
+        {
+          "id": "auriga_frame",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "grid25",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "tilt_arc",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "lbl_25gal",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "25개"
+        },
+        {
+          "id": "lbl_90",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "90° 이상"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "auriga_frame",
+          "grid25",
+          "tilt_arc",
+          "lbl_25gal",
+          "lbl_90"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "시뮬레이션 그림 → 25개 → 누움 패널",
+        "moments": [
+          {
+            "id": "m_grid",
+            "narration_lines": [
+              "s07"
+            ],
+            "subject": "시뮬레이션 은하 25개",
+            "action": "격자에서 대부분이 흐려지고 몇 개만 남는다",
+            "result": "헤일로가 가장 느린 은하들이 골라진다",
+            "motion_required": true
+          },
+          {
+            "id": "m_flip",
+            "narration_lines": [
+              "s08"
+            ],
+            "subject": "시뮬레이션 은하 원반",
+            "action": "옆모습에서 충돌을 거쳐 정면 모습으로 바뀐다",
+            "result": "원반 방향이 90도 넘게 바뀐 것이 패널로 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "auriga",
+            "galaxy_side"
+          ],
+          "job_ids": [
+            "gen_galaxy_side"
+          ],
+          "generated_role": "원반 띠 외형",
+          "code_role": "25개 도식·패널 스냅·평면 회전·각도 호"
+        }
+      }
+    },
+    {
+      "id": "our_past",
+      "question": "우리 은하에도 그런 일이 있었나?",
+      "takeaway": "연구진은 가능성이 크다고 봄: 100억~110억 년 전 GSE와 정면충돌·흡수, 질량은 우리 은하의 5분의 1쯤",
+      "narration_lines": [
+        "s09",
+        "s10",
+        "s11"
+      ],
+      "facts": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 9,
+            "word": "덩치였습니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "metaphor",
+        "full_bleed": true,
+        "assets": [
+          "gse_merger"
+        ],
+        "why": "노란 빛의 작은 은하(GSE)가 기준 은하로 정면 돌입하는 생성 장면 → s11 푸른빛 알갱이 500개(우리 은하)와 금빛 알갱이 100개(작은 은하)로 5:1 질량비를 개수로 보여 주고, '왜소은하치곤 큰 덩치'에서 금빛 덩어리가 맥동한 뒤 우리 은하로 빨려 들어감(사용자 요청 2026-11-11, 네모 칸 대체)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "gse_gen",
+          "lbl_gse",
+          "mass_compare",
+          "lbl_mw",
+          "lbl_ratio"
+        ],
+        "remove": [
+          "auriga_frame",
+          "grid25",
+          "lbl_25gal",
+          "lbl_90",
+          "tilt_arc"
+        ]
+      },
+      "elements": [
+        {
+          "id": "gse_gen",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "lbl_gse",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "가이아-소시지-엔셀라두스"
+        },
+        {
+          "id": "mass_compare",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "lbl_mw",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "우리 은하"
+        },
+        {
+          "id": "lbl_ratio",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "약 1/5"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "gse_gen",
+          "lbl_gse",
+          "mass_compare",
+          "lbl_mw",
+          "lbl_ratio"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "충돌 장면 → 질량비",
+        "moments": [
+          {
+            "id": "m_merge",
+            "narration_lines": [
+              "s10"
+            ],
+            "subject": "작은 은하와 우리 은하",
+            "action": "작은 은하가 원반으로 정면 돌입해 별이 흩어진다",
+            "result": "작은 은하가 흡수된다",
+            "motion_required": true
+          },
+          {
+            "id": "m_mass",
+            "narration_lines": [
+              "s11"
+            ],
+            "subject": "질량 비교",
+            "action": "우리 은하 5칸 옆에 1칸이 놓인다",
+            "result": "약 5분의 1 크기가 읽힌다",
+            "motion_required": false
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "gse_merger"
+          ],
+          "job_ids": [
+            "gen_gse_merger"
+          ],
+          "generated_role": "충돌 외형·움직임",
+          "code_role": "이름 라벨·알갱이 질량 비교"
+        }
+      }
+    },
+    {
+      "id": "key",
+      "question": "그래서 무엇이 중요한가?",
+      "takeaway": "헤일로 별의 느린 회전이 그 충돌의 흔적일 수 있음(추정); 원반이 누웠다면 별 대부분은 예전에 아주 다른 궤도",
+      "narration_lines": [
+        "s12",
+        "s13"
+      ],
+      "facts": [
+        "F8",
+        "F9"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 13,
+            "word": "설명합니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "metaphor",
+        "full_bleed": true,
+        "assets": [
+          "galaxy_side"
+        ],
+        "why": "s12는 key-callout 공통 레이어가 중심 — 배경에 기준 은하와 노란 헤일로 별(흡수된 별)이 느리게 도는 모습을 두어 '느린 회전 = 충돌의 흔적'을 받친다. s13 원반이 기울며 궤도선이 갈라지는 도해. 메커니즘은 단정하지 않음"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "bg_dim",
+          "orbit_before_after",
+          "lbl_orbit"
+        ],
+        "remove": [
+          "gse_gen",
+          "lbl_gse",
+          "lbl_mw",
+          "lbl_ratio",
+          "mass_compare"
+        ]
+      },
+      "elements": [
+        {
+          "id": "bg_dim",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "orbit_before_after",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "lbl_orbit",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "다른 궤도"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "bg_dim",
+          "orbit_before_after",
+          "lbl_orbit"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "강조 → 궤도 변화",
+        "moments": [
+          {
+            "id": "m_orbit",
+            "narration_lines": [
+              "s13"
+            ],
+            "subject": "별의 궤도",
+            "action": "원반이 기울면서 예전 궤도선과 지금 궤도선이 다른 방향으로 갈라진다",
+            "result": "별들이 예전엔 다른 궤도였음이 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "galaxy_side"
+          ],
+          "job_ids": [
+            "gen_galaxy_side"
+          ],
+          "code_role": "어두운 배경·궤도 도해",
+          "generated_role": "기준 은하 배경 외형"
+        }
+      }
+    },
+    {
+      "id": "close",
+      "question": "그래서 남는 것은?",
+      "takeaway": "지금의 은하수도 충돌과 합병으로 모습을 바꿔 온 결과 + CTA",
+      "narration_lines": [
+        "s14",
+        "s15"
+      ],
+      "facts": [
+        "F8"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "representation": {
+        "kind": "footage",
+        "role": "tone",
+        "full_bleed": true,
+        "assets": [
+          "paranal"
+        ],
+        "why": "도입의 실제 은하수 하늘로 돌아와 수미상관. 화면 글자 없음. CTA 알약은 공통 레이어"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "sky_real_end"
+        ],
+        "remove": [
+          "bg_dim",
+          "orbit_before_after",
+          "lbl_orbit"
+        ]
+      },
+      "elements": [
+        {
+          "id": "sky_real_end",
+          "kind": "media",
+          "role": "tone"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 2,
+        "focal_priority": [
+          "sky_real_end"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "은하수 실사",
+        "moments": [],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "paranal"
+          ],
+          "job_ids": []
+        }
+      }
+    }
+  ]
+}

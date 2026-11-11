@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_1274453",
+  "script_policy": "editorial-owned",
+  "creative_scope": {
+    "script": "delegated",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "같은 우리 은하인데, 헤일로의 별들은 왜 원반의 별보다 훨씬 느리게 돌까?",
+  "takeaway": "100억여 년 전 왜소은하와의 정면충돌로 원반이 90도 넘게 누웠고, 헤일로의 느린 회전은 그 흔적일 수 있다(시뮬레이션 기반 추정). 지금의 은하수도 충돌과 합병으로 바뀌어 온 결과다",
+  "concept_order": [
+    "hook",
+    "structure",
+    "puzzle",
+    "simulation",
+    "our_past",
+    "key",
+    "close"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 980,
+          "center_y": 560
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 62,
+            "gap_after": 18,
+            "runs": [
+              {
+                "text": "우리 은하가",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 52,
+                "text_color": "#FFD16A",
+                "letter_spacing": 0
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 136,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "90도 넘게 누웠다?",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 116,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": []
+}

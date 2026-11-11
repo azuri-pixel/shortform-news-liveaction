@@ -1,0 +1,43 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 14335,
+            "url": "http://svs.gsfc.nasa.gov/14335/",
+            "result_type": "Produced Video",
+            "release_date": "2023-05-01T10:45:00-04:00",
+            "title": "NASA Animation Sizes Up the Universe’s Biggest Black Holes",
+            "description": "All monster black holes are not equal. Watch this video to see how they compare to each other and to our solar system. The black holes shown, which range from 100,000 to more than 60 billion times our Sun’s mass, are scaled according to the sizes of their shadows – a circular zone about twice the size of their event horizons. Only one of these colossal objects resides in our own galaxy, and it lies 26,000 light-years away. Smaller black holes are shown in bluish colors because their gas is expected to be hotter than that orbiting larger ones. Scientists think all of these objects shine most intensely in ultraviolet light. Credit: NASA's Goddard Space Flight Center Conceptual Image LabMusic: \"In the Stars\" from Universal Production MusicWatch this video on the NASA Goddard YouTube channel.Complete transcript available. || SMBH_Scale_Still_1.jpg (3840x2160) [3.0 MB] || SMBH_Scale_Still_1_searchweb.png (180x320) [71.4 KB] || SMBH_Scale_Still_1_thm.png (80x40) [4.2 KB] || 14335_Supermassive_Black_Hole_Scale_Comparison_V2_1080_Best.mp4 (1920x1080) [166.0 MB] || 14335_Supermassive_Black_Hole_Scale_Comparison_V2_1080.mp4 (1920x1080) [102.7 MB] || 14335_Supermassive_Black_Hole_Scale_Comparison_V2_1080_Best.webm (1920x1080) [13.3 MB] || 14335_Supermassive_Black_Hole_Scale_Comparison_V2_ProRes_3840x2160_60.mov (3840x2160) [12.6 GB] || 14335_Supermassive_Black_Hole_Scale_Comparison_V2_4k_Best.mp4 (3840x2160) [314.2 MB] || 14335_Supermassive_Black_Hole_Scale_Comparison_SRT_Captions.en_US.srt [2.2 KB] || 14335_Supermassive_Black_Hole_Scale_Comparison_SRT_Captions.en_US.vtt [2.2 KB] || ",
+            "hits": 1766
+        },
+        {
+            "id": 13419,
+            "url": "http://svs.gsfc.nasa.gov/13419/",
+            "result_type": "Animation",
+            "release_date": "2019-11-07T13:00:00-05:00",
+            "title": "NICER Catches Milestone X-ray Burst",
+            "description": "At about 10:04 p.m. EDT on Aug. 20, NASA’s Neutron star Interior Composition Explorer (NICER) telescope on the International Space Station detected a sudden spike of X-rays caused by a massive thermonuclear flash on the surface of a pulsar, the crushed remains of a star that long ago exploded as a supernova. The X-ray burst, the brightest seen by NICER so far, came from an object named SAX J1808.4-3658, or J1808 for short. The observations reveal many phenomena that have never been seen together in a single burst. In addition, the subsiding fireball briefly brightened again for reasons astronomers cannot yet explain.  The data reveal a two-step change in brightness, which scientists think is caused by the ejection of separate layers from the pulsar surface, and other features that will help them decode the physics of these powerful events.The explosion, which astronomers classify as a Type I X-ray burst, released as much energy in 20 seconds as the Sun does in nearly 10 days.J1808 is located about 11,000 light-years away in the constellation Sagittarius, spins at a dizzying 401 rotations each second, and is one member of a binary system. Its companion is a brown dwarf, an object larger than a giant planet yet too small to be a star. A steady stream of hydrogen gas flows from the companion toward the neutron star, and it accumulates in a vast storage structure called an accretion disk.Hydrogen raining onto the pulsar's surface forms a hot, ever-deepening global “sea.” At the base of this layer, temperatures and pressures increase until hydrogen nuclei fuse to form helium nuclei, which produces energy — a process at work in the core of our Sun.     The helium settles out and builds up a layer of its own. Eventually, the conditions allow helium nuclei to fuse into carbon. The helium erupts explosively and unleashes a thermonuclear fireball across the entire pulsar surface.As the burst started, NICER data show that its X-ray brightness leveled off for almost a second before increasing again at a slower pace. The researchers interpret this “stall” as the moment when the energy of the blast built up enough to blow the pulsar’s hydrogen layer into space. The fireball continued to build for another two seconds and then reached its peak, blowing off the more massive helium layer. The helium expanded faster, overtook the hydrogen layer before it could dissipate, and then slowed, stopped and settled back down onto the pulsar’s surface. Following this phase, the pulsar briefly brightened again by roughly 20 percent for reasons the team does not yet understand. || ",
+            "hits": 105
+        },
+        {
+            "id": 12101,
+            "url": "http://svs.gsfc.nasa.gov/12101/",
+            "result_type": "Produced Video",
+            "release_date": "2016-01-04T00:00:00-05:00",
+            "title": "Fermi Hyperwall--2016 AAS Technical",
+            "description": "Upresed 5760x3240 animation of the Fermi spacecraft.Credit: NASA's Goddard Space Flight Center/CI Lab || frame-000020_print.jpg (1024x576) [147.2 KB] || Fermi_Beauty_EarthandStars_1080p.webm (1920x1080) [1.4 MB] || Fermi_Beauty_EarthandStars_1080p.mov (1920x1080) [25.4 MB] || FermiBeautyDraft (5760x3240) [0 Item(s)] || Fermi_Beauty_EarthandStars_4k.mov (4096x2304) [47.9 MB] || Fermi_Beauty_EarthandStars_4k_ProRes.mov (5760x3240) [808.7 MB] || ",
+            "hits": 99
+        },
+        {
+            "id": 11108,
+            "url": "http://svs.gsfc.nasa.gov/11108/",
+            "result_type": "Produced Video",
+            "release_date": "2012-10-05T13:29:00-04:00",
+            "title": "X-ray Nova Reveals a New Black Hole in Our Galaxy",
+            "description": "On Sept. 16, NASA's Swift satellite detected a rising tide of high-energy X-rays from a source toward the center of our Milky Way galaxy. The outburst, produced by a rare X-ray nova, announced the presence of a previously unknown stellar-mass black hole. An X-ray nova is a short-lived X-ray source that appears suddenly, reaches its emission peak in a few days and then fades out over a period of months. The outburst arises when a torrent of stored gas suddenly rushes toward one of the most compact objects known, either a neutron star or a black hole. Named Swift J1745-26 after the coordinates of its sky position, the nova is located a few degrees from the center of our galaxy toward the constellation Sagittarius. While astronomers do not know its precise distance, they think the object resides about 20,000 to 30,000 light-years away in the galaxy's inner region. The pattern of X-rays from the nova signals that the central object is a black hole.Ground-based observatories detected infrared and radio emissions, but thick clouds of obscuring dust have prevented astronomers from catching Swift J1745-26 in visible light.The black hole must be a member of a low-mass X-ray binary (LMXB) system, which includes a normal, sun-like star. A stream of gas flows from the normal star and enters into a storage disk around the black hole. In most LMXBs, the gas in the disk spirals inward, heats up as it heads toward the black hole, and produces a steady stream of X-rays. But under certain conditions, stable flow within the disk depends on the rate of matter flowing into it from the companion star. At certain rates, the disk fails to maintain a steady internal flow and instead flips between two dramatically different conditions — a cooler, less ionized state where gas simply collects in the outer portion of the disk like water behind a dam, and a hotter, more ionized state that sends a tidal wave of gas surging toward the center.This phenomenon, called the thermal-viscous limit cycle, helps astronomers explain transient outbursts across a wide range of systems, from protoplanetary disks around young stars, to dwarf novae - where the central object is a white dwarf star - and even bright emission from supermassive black holes in the hearts of distant galaxies. || ",
+            "hits": 104
+        }
+    ]
+}

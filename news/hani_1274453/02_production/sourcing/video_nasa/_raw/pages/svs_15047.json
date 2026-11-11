@@ -1,0 +1,263 @@
+{
+    "id": 15047,
+    "url": "http://svs.gsfc.nasa.gov/15047/",
+    "page_type": "Produced Video",
+    "title": "Milky Way Habitable Zone",
+    "description": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. || MilkyWayZONES_Final_half.jpg (2160x1080) [438.6 KB] || MilkyWayZONES_Final.jpg (4320x2160) [1.2 MB] || MilkyWayZONES_Final.png (4320x2160) [5.9 MB] || MilkyWayZONES_Final_searchweb.png (320x180) [66.4 KB] || MilkyWayZONES_Final_thm.png (80x40) [5.1 KB] || ",
+    "release_date": "2026-05-28T10:00:00-04:00",
+    "update_date": "2026-05-28T11:11:33-04:00",
+    "main_image": {
+        "id": 1204095,
+        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_half.jpg",
+        "filename": "MilkyWayZONES_Final_half.jpg",
+        "media_type": "Image",
+        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+        "width": 2160,
+        "height": 1080,
+        "pixels": 2332800
+    },
+    "main_video": null,
+    "main_credits": {},
+    "progress": "Complete",
+    "media_groups": [
+        {
+            "id": 380377,
+            "url": "http://svs.gsfc.nasa.gov/15047/#media_group_380377",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+            "items": [
+                {
+                    "id": 521702,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204095,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_half.jpg",
+                        "filename": "MilkyWayZONES_Final_half.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                        "width": 2160,
+                        "height": 1080,
+                        "pixels": 2332800
+                    }
+                },
+                {
+                    "id": 521703,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204096,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final.jpg",
+                        "filename": "MilkyWayZONES_Final.jpg",
+                        "media_type": "Image",
+                        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                },
+                {
+                    "id": 521704,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204097,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final.png",
+                        "filename": "MilkyWayZONES_Final.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                },
+                {
+                    "id": 521707,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204100,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_searchweb.png",
+                        "filename": "MilkyWayZONES_Final_searchweb.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                        "width": 320,
+                        "height": 180,
+                        "pixels": 57600
+                    }
+                },
+                {
+                    "id": 521708,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204101,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_thm.png",
+                        "filename": "MilkyWayZONES_Final_thm.png",
+                        "media_type": "Image",
+                        "alt_text": "This infographic features artist's concept views of our Milky Way galaxy: face-on at the left and edge-on at the right. It highlights different galactic environments that could influence the development of planets and potentially life. The center of the galaxy is rich in the elements that form planets (like silicon, oxygen, and magnesium), which are forged by multiple generations of stars and supernova explosions. Planets there may be more common or larger, but they would also be flooded with radiation from densely packed stars (including massive ones that emit enormous amounts of high-energy ultraviolet light and X-rays). In the outskirts of the galaxy, where stars are much more spread out, radiation is far milder but there are also smaller amounts of planet-building materials. Nestled in between these regions is the galactic habitable zone, a happy medium where radiation levels and planet-forming elements balance out, increasing the likelihood of worlds that could support life. ",
+                        "width": 80,
+                        "height": 40,
+                        "pixels": 3200
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 380378,
+            "url": "http://svs.gsfc.nasa.gov/15047/#media_group_380378",
+            "widget": "Single image",
+            "title": "",
+            "caption": "",
+            "description": "Same as above with no labels.",
+            "items": [
+                {
+                    "id": 521705,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204098,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_Unlabeled.jpg",
+                        "filename": "MilkyWayZONES_Final_Unlabeled.jpg",
+                        "media_type": "Image",
+                        "alt_text": "Same as above with no labels.",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                },
+                {
+                    "id": 521706,
+                    "type": "media",
+                    "extra_data": null,
+                    "title": null,
+                    "caption": null,
+                    "instance": {
+                        "id": 1204099,
+                        "url": "http://svs.gsfc.nasa.gov/vis/a010000/a015000/a015047/MilkyWayZONES_Final_Unlabeled.png",
+                        "filename": "MilkyWayZONES_Final_Unlabeled.png",
+                        "media_type": "Image",
+                        "alt_text": "Same as above with no labels.",
+                        "width": 4320,
+                        "height": 2160,
+                        "pixels": 9331200
+                    }
+                }
+            ],
+            "extra_data": {}
+        },
+        {
+            "id": 380394,
+            "url": "http://svs.gsfc.nasa.gov/15047/#media_group_380394",
+            "widget": "Basic text",
+            "title": "For More Information",
+            "caption": "",
+            "description": "See [https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-mission-preps-to-unveil-new-populations-of-faraway-worlds/](https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-mission-preps-to-unveil-new-populations-of-faraway-worlds/)",
+            "items": [],
+            "extra_data": {}
+        }
+    ],
+    "studio": "gms",
+    "funding_sources": [
+        "NASA Astrophysics"
+    ],
+    "credits": [
+        {
+            "role": "Producer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Science writer",
+            "people": [
+                {
+                    "name": "Ashley Balzer",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Animator",
+            "people": [
+                {
+                    "name": "Adriana Manrique Gutierrez",
+                    "employer": "eMITS"
+                }
+            ]
+        },
+        {
+            "role": "Graphic designer",
+            "people": [
+                {
+                    "name": "Scott Wiessinger",
+                    "employer": "eMITS"
+                }
+            ]
+        }
+    ],
+    "missions": [
+        "Nancy Grace Roman Space Telescope"
+    ],
+    "series": [
+        "Astrophysics Stills"
+    ],
+    "tapes": [],
+    "papers": [],
+    "datasets": [],
+    "nasa_science_categories": [
+        "Universe"
+    ],
+    "keywords": [
+        "Astronomy",
+        "Astrophysics",
+        "Exoplanet",
+        "Galaxy",
+        "Milky Way"
+    ],
+    "recommended_pages": [],
+    "related": [
+        {
+            "id": 14935,
+            "url": "http://svs.gsfc.nasa.gov/14935/",
+            "page_type": "Infographic",
+            "title": "Milky Way Anatomy",
+            "description": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer. || Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg (1024x512) [118.4 KB] || Milky_Way_Anatomy_Infographic_Simple_Final.jpg (4320x2160) [1.2 MB] || Milky_Way_Anatomy_Infographic_Simple_Final.png (4320x2160) [6.5 MB] || Milky_Way_Anatomy_Infographic_Simple_Final_searchweb.png (320x180) [68.0 KB] || Milky_Way_Anatomy_Infographic_Simple_Final_thm.png (80x40) [5.1 KB] || ",
+            "release_date": "2025-12-18T13:00:00-05:00",
+            "update_date": "2025-12-18T22:23:06-05:00",
+            "main_image": {
+                "id": 1195143,
+                "url": "http://svs.gsfc.nasa.gov/vis/a010000/a014900/a014935/Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+                "filename": "Milky_Way_Anatomy_Infographic_Simple_Final_print.jpg",
+                "media_type": "Image",
+                "alt_text": "This infographic with artist’s concept views of our Milky Way galaxy highlights its main components: the disk, bulge, stellar halo, and dark matter halo. Scientists have a pretty good idea of the Milky Way’s overall structure, but since we’re nestled inside it, fine details are hard to see. Astronomers have used observations from different telescopes to piece together our galaxy's anatomy, and future observatories like NASA's Nancy Grace Roman Space Telescope will make the picture even clearer.",
+                "width": 1024,
+                "height": 512,
+                "pixels": 524288
+            }
+        }
+    ],
+    "sources": [],
+    "products": [],
+    "newer_versions": [],
+    "older_versions": [],
+    "alternate_versions": []
+}

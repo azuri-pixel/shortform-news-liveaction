@@ -1,0 +1,8 @@
+v1 (rejected): model seedance_2_5, omni_reference start_image galaxy_side_a, 9:16, 6s, 1080p — job 1340432d-bf96-4f46-bb64-a9eb130e0487. 관찰: 원반이 기울지 않고 옆모습 그대로, 중심 밝기만 변함 → 기각.
+Locked-off camera, no camera movement. The edge-on spiral galaxy in the center slowly and smoothly tilts as a rigid disk, rotating about its horizontal axis toward the viewer, until after about 5 seconds it is seen almost completely face-on as a round spiral with visible arms and a bright golden core. The galaxy stays centered and the same size. Background stars remain still. Slow, majestic, physically smooth motion. No text, no flashes, no extra objects.
+
+end frame image: model gpt_image_2_6, reference galaxy_side_a — job eb642ee2-3db1-4a6f-866e-3ec19c69f4ff → generated/galaxy_face.png
+Edit: show this exact same galaxy, but rotated by 90 degrees so it is now seen almost face-on from above: a round barred spiral disk with the same colors (warm golden-white core, bluish-white star-filled spiral arms with dark dust lanes), same size relative to the frame (disk diameter about 80% of frame width), centered at the same position, same black star background. No text, no labels.
+
+v2 (accepted): model seedance_2_5, omni_reference start_image galaxy_side_a + end_image galaxy_face, 9:16, 5s, 1080p — job c0cb6146-459b-48e7-9c29-6efafe2d1485 → generated/disk_tilt_v2.mp4
+Locked-off camera. The same galaxy continuously rotates as one rigid disk about its horizontal axis, smoothly tipping from the edge-on view to the face-on view over the whole clip, so the thin line slowly opens into the round spiral. The galaxy stays centered. Background stars stay still. Smooth, slow, majestic. No text, no flashes, no extra objects.

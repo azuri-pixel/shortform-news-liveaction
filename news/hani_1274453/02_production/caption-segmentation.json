@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "lines": {
+    "s04": {
+      "protected_phrases": [
+        {
+          "from": 1,
+          "to": 2,
+          "text": "가이아 우주망원경으로"
+        }
+      ]
+    },
+    "s05": {
+      "protected_phrases": [
+        {
+          "from": 2,
+          "to": 4,
+          "text": "초속 약 220킬로미터로"
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "text": "초속 약 25킬로미터에"
+        }
+      ]
+    },
+    "s06": {
+      "protected_phrases": [
+        {
+          "from": 0,
+          "to": 2,
+          "text": "영국 더럼대 연구진은"
+        }
+      ]
+    },
+    "s10": {
+      "protected_phrases": [
+        {
+          "from": 0,
+          "to": 2,
+          "text": "100억에서 110억 년"
+        }
+      ]
+    }
+  }
+}

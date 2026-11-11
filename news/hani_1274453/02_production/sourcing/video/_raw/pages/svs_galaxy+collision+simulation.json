@@ -1,0 +1,79 @@
+{
+    "count": 18,
+    "next": "http://svs.gsfc.nasa.gov/api/search/?limit=8&offset=8&search=galaxy+collision+simulation",
+    "previous": null,
+    "results": [
+        {
+            "id": 14847,
+            "url": "http://svs.gsfc.nasa.gov/14847/",
+            "result_type": "Produced Video",
+            "release_date": "2025-06-02T11:00:00-04:00",
+            "title": "100,000 Computer Simulations Reveal Milky Way's Fate",
+            "description": "For decades, astronomers believed that one thing was as certain as death and taxes: the Milky Way and our neighboring Andromeda galaxy were on a crash course… destined to collide in less than 5 billion years.That galactic smash-up would spark massive star formation, scatter stars like cosmic billiard balls, and possibly throw our Sun into a whole new orbit.But now… that future may not be so certain.For more information, visit science.nasa.gov/mission/hubbleCredit: NASA's Goddard Space Flight Center Paul Morris: Lead ProducerVideo Credits:Milky Way TimelapseStock Footage Provided By Pond5/lovemushroomArtist Rendition of Gaia SpacecraftESAArtist’s animation of the Sun becoming a red giantESA/Hubble (M. Kornmesser & L. L. Christensen)Milky Way and Andromeda Collision SimulationVisualization Credit: NASA, ESA, and F. Summers (STScI) Simulation Credit: NASA, ESA, G. Besla (Columbia University), and R. van der Marel (STScI)Music Credit:\"Lost to Eternity\" by Timothy James Cornick [PRS] via BBC Production Music [PRS] and Universal Production Music || ",
+            "hits": 284
+        },
+        {
+            "id": 14656,
+            "url": "http://svs.gsfc.nasa.gov/14656/",
+            "result_type": "Produced Video",
+            "release_date": "2024-08-14T11:00:00-04:00",
+            "title": "Galaxy Collision Simulation (Dome Version)",
+            "description": "Galaxy Collision Simulation || PRINT.jpg (1920x1080) [62.5 KB] || THUMB.jpg (1920x1080) [62.5 KB] || SEARCH.jpg (320x180) [8.3 KB] || Galaxy_Collision_Simulation_Dome_Version.mp4 (1280x720) [28.6 MB] || 1024x1024_1x1_30p [128.0 KB] || 2048x2048_1x1_30p [128.0 KB] || 3200x3200_1x1_30p [128.0 KB] || 3800x3800_1x1_30p [128.0 KB] || ",
+            "hits": 217
+        },
+        {
+            "id": 40409,
+            "url": "http://svs.gsfc.nasa.gov/gallery/fermi-stills/",
+            "result_type": "Gallery",
+            "release_date": "2020-01-22T00:00:00-05:00",
+            "title": "Fermi Stills",
+            "description": "A collection of Fermi-related still images, illustrations, graphics and short clips.",
+            "hits": 148
+        },
+        {
+            "id": 13043,
+            "url": "http://svs.gsfc.nasa.gov/13043/",
+            "result_type": "Produced Video",
+            "release_date": "2018-10-02T10:50:00-04:00",
+            "title": "New Simulation Sheds Light on Spiraling Supermassive Black Holes",
+            "description": "Gas glows brightly in this computer simulation of supermassive black holes only 40 orbits from merging. Models like this may eventually help scientists pinpoint real examples of these powerful binary systems. Credit: NASA's Goddard Space Flight Center/Scott Noble; simulation data, d'Ascoli et al. 2018Music: \"Games Show Sphere 01\" from Killer TracksWatch this video on the NASA Goddard YouTube channel.Complete transcript available. || SMBH_Sim_Still_1.jpg (1920x1080) [333.8 KB] || SMBH_Sim_Still_1_print.jpg (1024x576) [138.8 KB] || SMBH_Sim_Still_1_searchweb.png (320x180) [69.3 KB] || SMBH_Sim_Still_1_thm.png (80x40) [6.4 KB] || 13043_SMBH_Simulation_1080.webm (1920x1080) [17.4 MB] || 13043_SMBH_Simulation_1080.mp4 (1920x1080) [202.8 MB] || SMBH_SRT_Captions.en_US.srt [2.0 KB] || SMBH_SRT_Captions.en_US.vtt [1.9 KB] || 13043_SMBH_Simulation_ProRes_1920x1080_2997.mov (1920x1080) [2.0 GB] || ",
+            "hits": 287
+        },
+        {
+            "id": 30955,
+            "url": "http://svs.gsfc.nasa.gov/30955/",
+            "result_type": "Hyperwall Visual",
+            "release_date": "2018-05-23T15:00:00-04:00",
+            "title": "Crash of the Titans: Milky Way & Andromeda Collision",
+            "description": "This scientific visualization of a computer simulation depicts the joint evolution of the Milky Way and Andromeda galaxies over the next several billion years and features the inevitable massive collision. || mw_m31_m33_a-example_frame2-1920x1080.png (1920x1080) [224.3 KB] || mw_m31_m33_a-example_frame2-1920x1080_print.jpg (1024x576) [40.3 KB] || mw_m31_m33_a-example_frame2-1920x1080_searchweb.png (320x180) [22.9 KB] || mw_m31_m33_a-example_frame2-1920x1080_thm.png (80x40) [2.0 KB] || mw_m31_m33_a-b-1920x1080.m4v (1920x1080) [59.1 MB] || mw_m31_m33_a-b-1920x1080.wmv (1920x1080) [60.1 MB] || mw_m31_m33_a-b-1920x1080.webm (1920x1080) [59.4 MB] || mw_m31_m33_a-b-3840x2160.mp4 (3840x2160) [369.1 MB] || crash-of-the-titans-milky-way-andromeda-collision.hwshow [319 bytes] || crash-of-the-titans-milky-way-andromeda-collision-hd.hwshow [322 bytes] || ",
+            "hits": 701
+        },
+        {
+            "id": 40262,
+            "url": "http://svs.gsfc.nasa.gov/gallery/hubble-space-telescope/",
+            "result_type": "Gallery",
+            "release_date": "2015-12-04T00:00:00-05:00",
+            "title": "Hubble Space Telescope",
+            "description": "Since its launch in 1990, the Hubble Space Telescope has changed our fundamental understanding of the universe.  Hubble’s unique design, allowing it to be repaired and upgraded with advanced technology by astronauts, has made it one of NASA’s longest-living and most valuable observatories.  Today, Hubble continues to provide views of cosmic wonders never before seen and is still at the forefront of astronomy.\nThe Hubble Space Telescope is an international collaboration between NASA and the European Space Agency (ESA).For more information visit us at https://nasa.gov/hubble or follow us on social media @NASAHubble.",
+            "hits": 467
+        },
+        {
+            "id": 40277,
+            "url": "http://svs.gsfc.nasa.gov/gallery/hyperwall20-nov2015/",
+            "result_type": "Gallery",
+            "release_date": "2015-10-10T00:00:00-04:00",
+            "title": "Hyperwall 20 Nov 2015",
+            "description": "Content from the November 20, 2015 Hyperwall Content News mailing list",
+            "hits": 10
+        },
+        {
+            "id": 30686,
+            "url": "http://svs.gsfc.nasa.gov/30686/",
+            "result_type": "Hyperwall Visual",
+            "release_date": "2015-09-25T16:00:00-04:00",
+            "title": "Galaxy Collisions: Simulation vs Observations",
+            "description": "A galaxy collision simualtion compared, at different stages, to different galaxy collision images from Hubble || gc_sim_vs_obs_example_frame-1920x1080.jpg (1920x1080) [66.6 KB] || gc_sim_vs_obs_example_frame-1920x1080.png (1920x1080) [378.2 KB] || gc_sim_vs_obs_example_frame-1920x1080_searchweb.png (180x320) [21.0 KB] || gc_sim_vs_obs_example_frame-1920x1080_thm.png (80x40) [2.4 KB] || gc_sim_vs_obs-b-1280x720.wmv (1280x720) [34.4 MB] || gc_sim_vs_obs-b-1920x1080.m4v (1920x1080) [29.4 MB] || gc_sim_vs_obs-b-1280x720.m4v (1280x720) [12.6 MB] || gc_sim_vs_obs-b-1920x1080.wmv (1920x1080) [65.7 MB] || gc_sim_vs_obs-b-1920x1080p30.webm (1920x1080) [9.3 MB] || gc_sim_vs_obs-b-30686.key [15.1 MB] || gc_sim_vs_obs-b-30686.pptx [12.7 MB] || gc_sim_vs_obs-b-1920x1080p30.mov (1920x1080) [108.5 MB] || galaxy-collisions-simulation-vs-observations.hwshow [240 bytes] || ",
+            "hits": 173
+        }
+    ]
+}
