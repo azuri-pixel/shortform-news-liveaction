@@ -40,10 +40,13 @@
         "role": "evidence",
         "full_bleed": true,
         "assets": [
-          "rewind",
+          "rw_human",
+          "rw_dino",
+          "rw_sun",
+          "galaxy_side",
           "disk_tilt"
         ],
-        "why": "첫 3초에 현생 인류→공룡 멸종→태양·지구 탄생→100억 년 전 우리 은하로 빠르게 되감는 생성 영상(사용자 제안: 숏폼은 첫 2~3초가 중요)으로 '100억 년 전'의 시간 거리를 보여 주고, 되감기 끝 프레임(기준 은하)에서 그대로 원반이 90도 기우는 생성 장면으로 이어짐. 후킹 문구 중앙"
+        "why": "첫 3초: 현생 인류 → 공룡 멸종 → 태양·지구 탄생 → 100억 년 전 우리 은하 생성 키프레임을 같은 방향 줌아웃과 같은 테이프 되감기 전환(가로 줄무늬·흐림만, 사용자 요청으로 옆 쓸림·◀◀ 표시 모두 제거)으로 이어 '시간을 되감는' 느낌을 통일. 마지막 기준 은하에서 그대로 원반이 90도 기우는 생성 장면. 후킹 문구 중앙 위"
       },
       "state": {
         "keep": [],
@@ -51,7 +54,11 @@
           "rewind",
           "tilt_gen",
           "ref_plane",
-          "opening_hook"
+          "opening_hook",
+          "rw_k1",
+          "rw_k2",
+          "rw_k3",
+          "rw_k4"
         ],
         "remove": []
       },
@@ -76,6 +83,26 @@
           "kind": "text",
           "role": "hook",
           "text": "우리 은하가\n90도 넘게 누웠다?"
+        },
+        {
+          "id": "rw_k1",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "rw_k2",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "rw_k3",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "rw_k4",
+          "kind": "media",
+          "role": "metaphor"
         }
       ],
       "semantic_pairs": [],
@@ -85,7 +112,11 @@
           "rewind",
           "tilt_gen",
           "ref_plane",
-          "opening_hook"
+          "opening_hook",
+          "rw_k1",
+          "rw_k2",
+          "rw_k3",
+          "rw_k4"
         ]
       },
       "visual": {
@@ -106,7 +137,10 @@
         "realization": {
           "method": "generated",
           "asset_ids": [
-            "rewind",
+            "rw_human",
+            "rw_dino",
+            "rw_sun",
+            "galaxy_side",
             "disk_tilt"
           ],
           "job_ids": [
@@ -114,8 +148,8 @@
             "gen_galaxy_side",
             "gen_disk_tilt"
           ],
-          "generated_role": "시간 되감기·원반 기울어짐",
-          "code_role": "기준선·후킹 오버레이"
+          "generated_role": "시대 장면·원반 기울어짐",
+          "code_role": "줌아웃·되감기 전환·기준선·후킹 오버레이"
         }
       }
     },
@@ -174,10 +208,14 @@
           "lbl_halo"
         ],
         "remove": [
-          "rewind",
-          "tilt_gen",
+          "rw_k1",
+          "rw_k2",
+          "rw_k3",
+          "rw_k4",
+          "opening_hook",
           "ref_plane",
-          "opening_hook"
+          "rewind",
+          "tilt_gen"
         ]
       },
       "elements": [

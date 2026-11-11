@@ -3,16 +3,16 @@
   "pilot": "hani_1274453",
   "status": "closed",
   "basis": "user-confirmed",
-  "recorded_at": "2026-11-11T04:57:59+00:00",
+  "recorded_at": "2026-11-11T13:00:30+00:00",
   "raw_request": {
-    "path": "news/hani_1274453/00_brief/closeout-request.txt",
-    "sha256": "abeb034b5ba77d32a87476bb002cddb0610e3d6183727618754a620db4959c74"
+    "path": "news/hani_1274453/00_brief/closeout-request-2.txt",
+    "sha256": "0c23479177d320fa575e677409014b07b8e1f3542f7f558170499a37c2d3cbb9"
   },
   "artifacts": [
     {
-      "path": "out/pilots/hani_1274453/qa/production-dfdb154f-bd2e-44c8-9c07-716e4b9a4f87.mp4",
-      "sha256": "cb3592ead23c90aa2ff5203f328da9fb757c82a47254e01af45d6fddb09799da"
+      "path": "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4",
+      "sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1"
     }
   ],
-  "note": "사용자 원문 '확정해줘.'(음성 속도 설명 직후). 확정 대상은 현재 렌더(s13~s15 1.09배속 포함). 썸네일은 v2 후보 A·B·C 중 미선택 — 선택 후 별도 기록. 오늘 바뀐 구간의 독립 화면·사실 재검수는 수행하지 않음(review_visual/audio/facts 미기록)."
+  "note": "사용자 원문 'v2로 확정해줘'. 내레이션 전체 1.09배(77.2초), 되감기 통일(◀◀·옆 쓸림 제거), 헤일로 달무리, Auriga Project · Halo 18 출처, 옆에서 본 기울어짐. 썸네일 미선택. 바뀐 구간 독립 화면·사실 재검수 미수행."
 }

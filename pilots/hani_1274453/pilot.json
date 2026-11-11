@@ -39,6 +39,26 @@
         "report": "news/hani_1274453/02_production/reviews/audio-loudness.json"
       },
       "note": null
+    },
+    {
+      "version": "v2",
+      "label": "final_v2",
+      "master": "out/pilots/hani_1274453/qa/production-96fa407f-060d-4c65-9a1c-d3d7bb03dc60.mp4",
+      "sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1",
+      "file": "out/pilots/hani_1274453/deliver/v2/hani_1274453_v2.mp4",
+      "file_sha256": "3c058322d4868a9c8df8a31734a2dd5f16707b802eac07309b46242e8ed82bd1",
+      "duration_sec": 77.1,
+      "confirmed_by": "user",
+      "confirmed_at": "2026-11-11T22:00:31+09:00",
+      "basis": "user",
+      "audio_loudness": {
+        "contract": "audio-loudness@1",
+        "status": "pass",
+        "verdict": "pass",
+        "listening": "청취 미확인",
+        "report": "news/hani_1274453/02_production/reviews/audio-loudness.json"
+      },
+      "note": null
     }
   ],
   "gates_open": [],

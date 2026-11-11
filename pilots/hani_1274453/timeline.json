@@ -2,30 +2,30 @@
   "schema_version": "1.0",
   "pilot": "hani_1274453",
   "fps": 30,
-  "total_frames": 2479,
+  "total_frames": 2313,
   "source": {
-    "narration_word_sha256": "c27e41bf6e454fcab60d9428695cfc67c29365b68b71055afd99b0930beee720",
+    "narration_word_sha256": "231db366a153eecee9b45c55e1b9fb84894bddee9a33bd50581326e371f19f39",
     "story_sha256": "27e49947b5d3e1499379a880fa1bdc6873eec8e2ddbb684fb1c2cb622b018510",
-    "concepts_sha256": "9863f6699a4f0d9c1dc1f7d2dc793d7e2daeb7e31cd2566b2392f94215cdd565",
-    "motion_sha256": "cfca8a8a14f54b544456097efc81cecc99447da083605bec7d94ec1151c39b4d",
-    "visual_system_sha256": "11ce0b4385ecce7849ac06e0356910aef8d550a32bd9047457503ac3d0ece83c",
+    "concepts_sha256": "47f944bcc792330eafa66c57862aaf57dc026d15e9001b74bc0dab653a058a60",
+    "motion_sha256": "d2a161174656fb11d53bcb3c182a7b271c9a47072f2db2ebb626683cb494fc15",
+    "visual_system_sha256": "748602cf52889f159fcf280b2a04b31c31ac10095e7ee417ce6bd0221d2d23d3",
     "production_profile_sha256": "2056414125cc4b1f4c8656b0f93929a4c916804451294551c7e661ce50bbcc67"
   },
   "concepts": [
     {
       "id": "hook",
       "from": -3,
-      "end": 211,
-      "duration": 214,
+      "end": 194,
+      "duration": 197,
       "narration_lines": [
         "s01"
       ]
     },
     {
       "id": "structure",
-      "from": 207,
-      "end": 569,
-      "duration": 362,
+      "from": 189,
+      "end": 523,
+      "duration": 334,
       "narration_lines": [
         "s02",
         "s03"
@@ -33,9 +33,9 @@
     },
     {
       "id": "puzzle",
-      "from": 559,
-      "end": 938,
-      "duration": 379,
+      "from": 512,
+      "end": 861,
+      "duration": 349,
       "narration_lines": [
         "s04",
         "s05"
@@ -43,9 +43,9 @@
     },
     {
       "id": "simulation",
-      "from": 929,
-      "end": 1436,
-      "duration": 507,
+      "from": 851,
+      "end": 1318,
+      "duration": 467,
       "narration_lines": [
         "s06",
         "s07",
@@ -54,9 +54,9 @@
     },
     {
       "id": "our_past",
-      "from": 1427,
-      "end": 1867,
-      "duration": 440,
+      "from": 1308,
+      "end": 1714,
+      "duration": 406,
       "narration_lines": [
         "s09",
         "s10",
@@ -65,9 +65,9 @@
     },
     {
       "id": "key",
-      "from": 1857,
-      "end": 2237,
-      "duration": 380,
+      "from": 1703,
+      "end": 2070,
+      "duration": 367,
       "narration_lines": [
         "s12",
         "s13"
@@ -75,9 +75,9 @@
     },
     {
       "id": "close",
-      "from": 2228,
-      "end": 2464,
-      "duration": 236,
+      "from": 2061,
+      "end": 2298,
+      "duration": 237,
       "narration_lines": [
         "s14",
         "s15"
@@ -138,8 +138,232 @@
       "why": "첫 3초 시간 되감기",
       "from": -1,
       "settled": -1,
-      "to": 102,
-      "end": 103
+      "to": 94,
+      "end": 95
+    },
+    {
+      "id": "era1",
+      "concept_id": "hook",
+      "element_id": "rw_k1",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "우리가",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 3,
+            "word": "백억",
+            "edge": "start",
+            "offset_frames": -9
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 3,
+            "word": "백억",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "되감기 시대 장면 구간",
+      "from": -1,
+      "settled": -1,
+      "to": 32,
+      "end": 33
+    },
+    {
+      "id": "era2",
+      "concept_id": "hook",
+      "element_id": "rw_k2",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 3,
+            "word": "백억",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 3,
+            "word": "백억",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 5,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": -1
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 5,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "되감기 시대 장면 구간",
+      "from": 33,
+      "settled": 33,
+      "to": 54,
+      "end": 55
+    },
+    {
+      "id": "era3",
+      "concept_id": "hook",
+      "element_id": "rw_k3",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 5,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 5,
+            "word": "전",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 6,
+            "word": "대충돌로",
+            "edge": "start",
+            "offset_frames": 7
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 6,
+            "word": "대충돌로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "되감기 시대 장면 구간",
+      "from": 55,
+      "settled": 55,
+      "to": 74,
+      "end": 75
+    },
+    {
+      "id": "era4",
+      "concept_id": "hook",
+      "element_id": "rw_k4",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 6,
+            "word": "대충돌로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 6,
+            "word": "대충돌로",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": -1
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "구십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "되감기 시대 장면 구간",
+      "from": 75,
+      "settled": 75,
+      "to": 94,
+      "end": 95
     },
     {
       "id": "tilt_in",
@@ -192,10 +416,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'대충돌로'에서 우주 공간 은하로 전환, 원반이 기운다",
-      "from": 103,
-      "settled": 103,
-      "to": 203,
-      "end": 211
+      "from": 95,
+      "settled": 95,
+      "to": 186,
+      "end": 194
     },
     {
       "id": "ref_plane_in",
@@ -248,10 +472,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "기울기 전 원반 방향을 기준선으로 남긴다",
-      "from": 105,
-      "settled": 115,
-      "to": 203,
-      "end": 209
+      "from": 97,
+      "settled": 106,
+      "to": 186,
+      "end": 192
     },
     {
       "id": "hook_text",
@@ -306,8 +530,8 @@
       "why": "첫 문장 핵심을 큰 문구로",
       "from": 2,
       "settled": 12,
-      "to": 199,
-      "end": 209
+      "to": 182,
+      "end": 192
     },
     {
       "id": "hook_line",
@@ -360,10 +584,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'구십 도 넘게 누웠을'에 맞춰 밑줄",
-      "from": 103,
-      "settled": 154,
-      "to": 199,
-      "end": 209
+      "from": 95,
+      "settled": 141,
+      "to": 182,
+      "end": 192
     },
     {
       "id": "zoom_in_ev",
@@ -416,10 +640,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "원반 속으로 들어가는 카메라",
-      "from": 207,
-      "settled": 207,
-      "to": 309,
-      "end": 317
+      "from": 189,
+      "settled": 189,
+      "to": 283,
+      "end": 291
     },
     {
       "id": "halo_close_ev",
@@ -472,10 +696,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'그 둘레를 드문드문' 헤일로 근접",
-      "from": 309,
-      "settled": 317,
-      "to": 411,
-      "end": 417
+      "from": 283,
+      "settled": 291,
+      "to": 377,
+      "end": 383
     },
     {
       "id": "halo_vid_ev",
@@ -528,10 +752,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "옆모습 헤일로 위에서 흡수 도해",
-      "from": 411,
-      "settled": 417,
-      "to": 561,
-      "end": 569
+      "from": 377,
+      "settled": 383,
+      "to": 515,
+      "end": 523
     },
     {
       "id": "disk_label",
@@ -584,10 +808,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'원반과'에 원반 키워드",
-      "from": 275,
-      "settled": 293,
-      "to": 307,
-      "end": 313
+      "from": 252,
+      "settled": 269,
+      "to": 281,
+      "end": 287
     },
     {
       "id": "halo_label",
@@ -640,10 +864,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'헤일로로'에 헤일로 키워드",
-      "from": 372,
-      "settled": 382,
-      "to": 561,
-      "end": 569
+      "from": 341,
+      "settled": 351,
+      "to": 515,
+      "end": 523
     },
     {
       "id": "infall_move",
@@ -696,10 +920,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "진입→해체(조석 스트림·입자 터짐)→안착(주황 헤일로·구상성단) 3단계",
-      "from": 415,
-      "settled": 527,
-      "to": 561,
-      "end": 571
+      "from": 381,
+      "settled": 484,
+      "to": 515,
+      "end": 525
     },
     {
       "id": "gaia_ev",
@@ -752,10 +976,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'가이아 우주망원경으로 재 보니, 같은 은하인데 별들의 속도가 너무 달랐습니다'까지 가이아 위성(사용자 요청)",
-      "from": 559,
-      "settled": 559,
-      "to": 719,
-      "end": 727
+      "from": 512,
+      "settled": 512,
+      "to": 659,
+      "end": 667
     },
     {
       "id": "galaxy_hold",
@@ -808,10 +1032,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "기준 은하를 유지한 채 누른다",
-      "from": 559,
-      "settled": 559,
-      "to": 930,
-      "end": 938
+      "from": 512,
+      "settled": 512,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "disk_label_p",
@@ -864,10 +1088,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "원반 키워드를 막대 기준으로 옮긴다",
-      "from": 724,
-      "settled": 726,
-      "to": 930,
-      "end": 938
+      "from": 664,
+      "settled": 666,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "halo_label_p",
@@ -920,10 +1144,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "헤일로 키워드를 막대 기준으로 옮긴다",
-      "from": 724,
-      "settled": 726,
-      "to": 930,
-      "end": 938
+      "from": 664,
+      "settled": 666,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "bars_grow",
@@ -976,10 +1200,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "원반 막대 먼저, 헤일로 막대는 '이십오'에서 멈춤",
-      "from": 722,
-      "settled": 897,
-      "to": 930,
-      "end": 938
+      "from": 662,
+      "settled": 823,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "v220_label",
@@ -1032,10 +1256,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "막대 끝 220",
-      "from": 775,
-      "settled": 791,
-      "to": 930,
-      "end": 938
+      "from": 711,
+      "settled": 726,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "v25_label",
@@ -1088,10 +1312,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "막대 끝 25",
-      "from": 882,
-      "settled": 894,
-      "to": 930,
-      "end": 938
+      "from": 809,
+      "settled": 820,
+      "to": 853,
+      "end": 861
     },
     {
       "id": "auriga_in",
@@ -1144,10 +1368,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "오리가 실제 시뮬레이션 그림",
-      "from": 929,
-      "settled": 929,
-      "to": 1428,
-      "end": 1436
+      "from": 851,
+      "settled": 851,
+      "to": 1310,
+      "end": 1318
     },
     {
       "id": "grid_in",
@@ -1200,10 +1424,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "25개 격자 → '느린'에서 일부만 남음",
-      "from": 1081,
-      "settled": 1192,
-      "to": 1240,
-      "end": 1246
+      "from": 992,
+      "settled": 1094,
+      "to": 1137,
+      "end": 1143
     },
     {
       "id": "grid_label",
@@ -1256,10 +1480,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "25개",
-      "from": 1126,
-      "settled": 1147,
-      "to": 1233,
-      "end": 1239
+      "from": 1033,
+      "settled": 1052,
+      "to": 1130,
+      "end": 1136
     },
     {
       "id": "panel_edge",
@@ -1312,10 +1536,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "충돌 전 옆모습 패널(z=1.4)",
-      "from": 1239,
-      "settled": 1239,
-      "to": 1295,
-      "end": 1303
+      "from": 1136,
+      "settled": 1136,
+      "to": 1188,
+      "end": 1196
     },
     {
       "id": "panel_crash",
@@ -1368,10 +1592,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'정면으로 부딪혔고'에 충돌 패널(z=1.2)",
-      "from": 1295,
-      "settled": 1303,
-      "to": 1345,
-      "end": 1351
+      "from": 1188,
+      "settled": 1196,
+      "to": 1234,
+      "end": 1240
     },
     {
       "id": "panel_face",
@@ -1424,10 +1648,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "'원반이 기울어졌다'에 정면 모습 패널(z=0.9)",
-      "from": 1345,
-      "settled": 1351,
-      "to": 1365,
-      "end": 1371
+      "from": 1234,
+      "settled": 1240,
+      "to": 1253,
+      "end": 1259
     },
     {
       "id": "flip_arc",
@@ -1480,10 +1704,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "3D 원반이 거의 옆모습에서 약 100° 기울어지는 모습(잔상·회전축)",
-      "from": 1361,
-      "settled": 1397,
-      "to": 1428,
-      "end": 1436
+      "from": 1249,
+      "settled": 1282,
+      "to": 1310,
+      "end": 1318
     },
     {
       "id": "deg_label",
@@ -1536,10 +1760,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "90°",
-      "from": 1377,
-      "settled": 1397,
-      "to": 1428,
-      "end": 1436
+      "from": 1263,
+      "settled": 1282,
+      "to": 1310,
+      "end": 1318
     },
     {
       "id": "gse_in",
@@ -1592,10 +1816,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "작은 은하의 정면 돌입",
-      "from": 1427,
-      "settled": 1427,
-      "to": 1859,
-      "end": 1867
+      "from": 1308,
+      "settled": 1308,
+      "to": 1706,
+      "end": 1714
     },
     {
       "id": "gse_label",
@@ -1648,10 +1872,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "이름은 실제로 부를 때",
-      "from": 1596,
-      "settled": 1653,
-      "to": 1730,
-      "end": 1738
+      "from": 1464,
+      "settled": 1517,
+      "to": 1587,
+      "end": 1595
     },
     {
       "id": "mass_cmp",
@@ -1704,10 +1928,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "5칸 기준 → 1칸",
-      "from": 1747,
-      "settled": 1790,
-      "to": 1859,
-      "end": 1867
+      "from": 1603,
+      "settled": 1642,
+      "to": 1706,
+      "end": 1714
     },
     {
       "id": "mw_label",
@@ -1760,10 +1984,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "5칸이 우리 은하임을 표시",
-      "from": 1747,
-      "settled": 1756,
-      "to": 1859,
-      "end": 1867
+      "from": 1603,
+      "settled": 1611,
+      "to": 1706,
+      "end": 1714
     },
     {
       "id": "ratio_label",
@@ -1816,10 +2040,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "약 1/5",
-      "from": 1774,
-      "settled": 1790,
-      "to": 1859,
-      "end": 1867
+      "from": 1628,
+      "settled": 1642,
+      "to": 1706,
+      "end": 1714
     },
     {
       "id": "dim_in",
@@ -1872,10 +2096,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "강조 구간 배경",
-      "from": 1857,
-      "settled": 1857,
-      "to": 2229,
-      "end": 2237
+      "from": 1703,
+      "settled": 1703,
+      "to": 2062,
+      "end": 2070
     },
     {
       "id": "orbit_turn",
@@ -1928,10 +2152,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "원반이 기울며 궤도선이 갈라진다",
-      "from": 2044,
-      "settled": 2083,
-      "to": 2229,
-      "end": 2237
+      "from": 1877,
+      "settled": 1916,
+      "to": 2062,
+      "end": 2070
     },
     {
       "id": "orbit_label",
@@ -1984,10 +2208,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "다른 궤도",
-      "from": 2159,
-      "settled": 2180,
-      "to": 2229,
-      "end": 2237
+      "from": 1993,
+      "settled": 2014,
+      "to": 2062,
+      "end": 2070
     },
     {
       "id": "sky_end_in",
@@ -2040,10 +2264,10 @@
       "depends_on": [],
       "coexist_with": [],
       "why": "실제 은하수로 수미상관",
-      "from": 2228,
-      "settled": 2228,
-      "to": 2460,
-      "end": 2464
+      "from": 2061,
+      "settled": 2061,
+      "to": 2294,
+      "end": 2298
     }
   ],
   "audio_cues": [],
@@ -2055,8 +2279,12 @@
         "concept:hook:from",
         "event:rewind_hook:from",
         "event:rewind_hook:settled",
+        "event:era1:from",
+        "event:era1:settled",
         "event:rewind_hook:before",
-        "event:rewind_hook:enter-mid"
+        "event:rewind_hook:enter-mid",
+        "event:era1:before",
+        "event:era1:enter-mid"
       ]
     },
     {
@@ -2089,113 +2317,179 @@
     },
     {
       "id": "p006",
-      "frame": 102,
+      "frame": 32,
+      "labels": [
+        "event:era1:to",
+        "event:era2:before"
+      ]
+    },
+    {
+      "id": "p007",
+      "frame": 33,
+      "labels": [
+        "event:era1:end",
+        "event:era2:from",
+        "event:era2:settled",
+        "event:era1:exit-mid",
+        "event:era2:enter-mid"
+      ]
+    },
+    {
+      "id": "p008",
+      "frame": 54,
+      "labels": [
+        "event:era2:to",
+        "event:era3:before"
+      ]
+    },
+    {
+      "id": "p009",
+      "frame": 55,
+      "labels": [
+        "event:era2:end",
+        "event:era3:from",
+        "event:era3:settled",
+        "event:era2:exit-mid",
+        "event:era3:enter-mid"
+      ]
+    },
+    {
+      "id": "p010",
+      "frame": 74,
+      "labels": [
+        "event:era3:to",
+        "event:era4:before"
+      ]
+    },
+    {
+      "id": "p011",
+      "frame": 75,
+      "labels": [
+        "event:era3:end",
+        "event:era4:from",
+        "event:era4:settled",
+        "event:era3:exit-mid",
+        "event:era4:enter-mid"
+      ]
+    },
+    {
+      "id": "p012",
+      "frame": 94,
       "labels": [
         "event:rewind_hook:to",
+        "event:era4:to",
         "event:tilt_in:before",
         "event:hook_line:before"
       ]
     },
     {
-      "id": "p007",
-      "frame": 103,
+      "id": "p013",
+      "frame": 95,
       "labels": [
         "event:rewind_hook:end",
+        "event:era4:end",
         "event:tilt_in:from",
         "event:tilt_in:settled",
         "event:hook_line:from",
         "event:rewind_hook:exit-mid",
+        "event:era4:exit-mid",
         "event:tilt_in:enter-mid"
       ]
     },
     {
-      "id": "p008",
-      "frame": 104,
+      "id": "p014",
+      "frame": 96,
       "labels": [
         "event:ref_plane_in:before"
       ]
     },
     {
-      "id": "p009",
-      "frame": 105,
+      "id": "p015",
+      "frame": 97,
       "labels": [
         "event:ref_plane_in:from"
       ]
     },
     {
-      "id": "p010",
-      "frame": 110,
+      "id": "p016",
+      "frame": 102,
       "labels": [
         "event:ref_plane_in:enter-mid"
       ]
     },
     {
-      "id": "p011",
-      "frame": 115,
+      "id": "p017",
+      "frame": 106,
       "labels": [
         "event:ref_plane_in:settled"
       ]
     },
     {
-      "id": "p012",
-      "frame": 129,
+      "id": "p018",
+      "frame": 118,
       "labels": [
         "event:hook_line:enter-mid"
       ]
     },
     {
-      "id": "p013",
-      "frame": 154,
+      "id": "p019",
+      "frame": 141,
       "labels": [
         "event:hook_line:settled"
       ]
     },
     {
-      "id": "p014",
-      "frame": 199,
+      "id": "p020",
+      "frame": 182,
       "labels": [
         "event:hook_text:to",
         "event:hook_line:to"
       ]
     },
     {
-      "id": "p015",
-      "frame": 203,
+      "id": "p021",
+      "frame": 186,
       "labels": [
         "event:tilt_in:to",
         "event:ref_plane_in:to"
       ]
     },
     {
-      "id": "p016",
-      "frame": 204,
+      "id": "p022",
+      "frame": 187,
       "labels": [
         "event:hook_text:exit-mid",
         "event:hook_line:exit-mid"
       ]
     },
     {
-      "id": "p017",
-      "frame": 206,
+      "id": "p023",
+      "frame": 188,
       "labels": [
-        "event:ref_plane_in:exit-mid",
         "event:zoom_in_ev:before"
       ]
     },
     {
-      "id": "p018",
-      "frame": 207,
+      "id": "p024",
+      "frame": 189,
       "labels": [
         "concept:structure:from",
         "event:zoom_in_ev:from",
         "event:zoom_in_ev:settled",
-        "event:tilt_in:exit-mid",
+        "event:ref_plane_in:exit-mid",
         "event:zoom_in_ev:enter-mid"
       ]
     },
     {
-      "id": "p019",
-      "frame": 209,
+      "id": "p025",
+      "frame": 190,
+      "labels": [
+        "event:tilt_in:exit-mid"
+      ]
+    },
+    {
+      "id": "p026",
+      "frame": 192,
       "labels": [
         "event:ref_plane_in:end",
         "event:hook_text:end",
@@ -2203,79 +2497,79 @@
       ]
     },
     {
-      "id": "p020",
-      "frame": 210,
+      "id": "p027",
+      "frame": 193,
       "labels": [
         "concept:hook:end"
       ]
     },
     {
-      "id": "p021",
-      "frame": 211,
+      "id": "p028",
+      "frame": 194,
       "labels": [
         "event:tilt_in:end"
       ]
     },
     {
-      "id": "p022",
-      "frame": 274,
+      "id": "p029",
+      "frame": 251,
       "labels": [
         "event:disk_label:before"
       ]
     },
     {
-      "id": "p023",
-      "frame": 275,
+      "id": "p030",
+      "frame": 252,
       "labels": [
         "event:disk_label:from"
       ]
     },
     {
-      "id": "p024",
-      "frame": 284,
+      "id": "p031",
+      "frame": 261,
       "labels": [
         "event:disk_label:enter-mid"
       ]
     },
     {
-      "id": "p025",
-      "frame": 293,
+      "id": "p032",
+      "frame": 269,
       "labels": [
         "event:disk_label:settled"
       ]
     },
     {
-      "id": "p026",
-      "frame": 307,
+      "id": "p033",
+      "frame": 281,
       "labels": [
         "event:disk_label:to"
       ]
     },
     {
-      "id": "p027",
-      "frame": 308,
+      "id": "p034",
+      "frame": 282,
       "labels": [
         "event:halo_close_ev:before"
       ]
     },
     {
-      "id": "p028",
-      "frame": 309,
+      "id": "p035",
+      "frame": 283,
       "labels": [
         "event:zoom_in_ev:to",
         "event:halo_close_ev:from"
       ]
     },
     {
-      "id": "p029",
-      "frame": 310,
+      "id": "p036",
+      "frame": 284,
       "labels": [
         "event:disk_label:exit-mid"
       ]
     },
     {
-      "id": "p030",
-      "frame": 313,
+      "id": "p037",
+      "frame": 287,
       "labels": [
         "event:disk_label:end",
         "event:zoom_in_ev:exit-mid",
@@ -2283,59 +2577,59 @@
       ]
     },
     {
-      "id": "p031",
-      "frame": 317,
+      "id": "p038",
+      "frame": 291,
       "labels": [
         "event:zoom_in_ev:end",
         "event:halo_close_ev:settled"
       ]
     },
     {
-      "id": "p032",
-      "frame": 371,
+      "id": "p039",
+      "frame": 340,
       "labels": [
         "event:halo_label:before"
       ]
     },
     {
-      "id": "p033",
-      "frame": 372,
+      "id": "p040",
+      "frame": 341,
       "labels": [
         "event:halo_label:from"
       ]
     },
     {
-      "id": "p034",
-      "frame": 377,
+      "id": "p041",
+      "frame": 346,
       "labels": [
         "event:halo_label:enter-mid"
       ]
     },
     {
-      "id": "p035",
-      "frame": 382,
+      "id": "p042",
+      "frame": 351,
       "labels": [
         "event:halo_label:settled"
       ]
     },
     {
-      "id": "p036",
-      "frame": 410,
+      "id": "p043",
+      "frame": 376,
       "labels": [
         "event:halo_vid_ev:before"
       ]
     },
     {
-      "id": "p037",
-      "frame": 411,
+      "id": "p044",
+      "frame": 377,
       "labels": [
         "event:halo_close_ev:to",
         "event:halo_vid_ev:from"
       ]
     },
     {
-      "id": "p038",
-      "frame": 414,
+      "id": "p045",
+      "frame": 380,
       "labels": [
         "event:halo_close_ev:exit-mid",
         "event:halo_vid_ev:enter-mid",
@@ -2343,45 +2637,45 @@
       ]
     },
     {
-      "id": "p039",
-      "frame": 415,
+      "id": "p046",
+      "frame": 381,
       "labels": [
         "event:infall_move:from"
       ]
     },
     {
-      "id": "p040",
-      "frame": 417,
+      "id": "p047",
+      "frame": 383,
       "labels": [
         "event:halo_close_ev:end",
         "event:halo_vid_ev:settled"
       ]
     },
     {
-      "id": "p041",
-      "frame": 471,
+      "id": "p048",
+      "frame": 433,
       "labels": [
         "event:infall_move:enter-mid"
       ]
     },
     {
-      "id": "p042",
-      "frame": 527,
+      "id": "p049",
+      "frame": 484,
       "labels": [
         "event:infall_move:settled"
       ]
     },
     {
-      "id": "p043",
-      "frame": 558,
+      "id": "p050",
+      "frame": 511,
       "labels": [
         "event:gaia_ev:before",
         "event:galaxy_hold:before"
       ]
     },
     {
-      "id": "p044",
-      "frame": 559,
+      "id": "p051",
+      "frame": 512,
       "labels": [
         "concept:puzzle:from",
         "event:gaia_ev:from",
@@ -2393,8 +2687,8 @@
       ]
     },
     {
-      "id": "p045",
-      "frame": 561,
+      "id": "p052",
+      "frame": 515,
       "labels": [
         "event:halo_vid_ev:to",
         "event:halo_label:to",
@@ -2402,66 +2696,66 @@
       ]
     },
     {
-      "id": "p046",
-      "frame": 565,
+      "id": "p053",
+      "frame": 519,
       "labels": [
         "event:halo_vid_ev:exit-mid",
         "event:halo_label:exit-mid"
       ]
     },
     {
-      "id": "p047",
-      "frame": 566,
+      "id": "p054",
+      "frame": 520,
       "labels": [
         "event:infall_move:exit-mid"
       ]
     },
     {
-      "id": "p048",
-      "frame": 568,
+      "id": "p055",
+      "frame": 522,
       "labels": [
         "concept:structure:end"
       ]
     },
     {
-      "id": "p049",
-      "frame": 569,
+      "id": "p056",
+      "frame": 523,
       "labels": [
         "event:halo_vid_ev:end",
         "event:halo_label:end"
       ]
     },
     {
-      "id": "p050",
-      "frame": 571,
+      "id": "p057",
+      "frame": 525,
       "labels": [
         "event:infall_move:end"
       ]
     },
     {
-      "id": "p051",
-      "frame": 719,
+      "id": "p058",
+      "frame": 659,
       "labels": [
         "event:gaia_ev:to"
       ]
     },
     {
-      "id": "p052",
-      "frame": 721,
+      "id": "p059",
+      "frame": 661,
       "labels": [
         "event:bars_grow:before"
       ]
     },
     {
-      "id": "p053",
-      "frame": 722,
+      "id": "p060",
+      "frame": 662,
       "labels": [
         "event:bars_grow:from"
       ]
     },
     {
-      "id": "p054",
-      "frame": 723,
+      "id": "p061",
+      "frame": 663,
       "labels": [
         "event:gaia_ev:exit-mid",
         "event:disk_label_p:before",
@@ -2469,116 +2763,116 @@
       ]
     },
     {
-      "id": "p055",
-      "frame": 724,
+      "id": "p062",
+      "frame": 664,
       "labels": [
         "event:disk_label_p:from",
         "event:halo_label_p:from"
       ]
     },
     {
-      "id": "p056",
-      "frame": 725,
+      "id": "p063",
+      "frame": 665,
       "labels": [
         "event:disk_label_p:enter-mid",
         "event:halo_label_p:enter-mid"
       ]
     },
     {
-      "id": "p057",
-      "frame": 726,
+      "id": "p064",
+      "frame": 666,
       "labels": [
         "event:disk_label_p:settled",
         "event:halo_label_p:settled"
       ]
     },
     {
-      "id": "p058",
-      "frame": 727,
+      "id": "p065",
+      "frame": 667,
       "labels": [
         "event:gaia_ev:end"
       ]
     },
     {
-      "id": "p059",
-      "frame": 774,
+      "id": "p066",
+      "frame": 710,
       "labels": [
         "event:v220_label:before"
       ]
     },
     {
-      "id": "p060",
-      "frame": 775,
+      "id": "p067",
+      "frame": 711,
       "labels": [
         "event:v220_label:from"
       ]
     },
     {
-      "id": "p061",
-      "frame": 783,
+      "id": "p068",
+      "frame": 719,
       "labels": [
         "event:v220_label:enter-mid"
       ]
     },
     {
-      "id": "p062",
-      "frame": 791,
+      "id": "p069",
+      "frame": 726,
       "labels": [
         "event:v220_label:settled"
       ]
     },
     {
-      "id": "p063",
-      "frame": 810,
+      "id": "p070",
+      "frame": 743,
       "labels": [
         "event:bars_grow:enter-mid"
       ]
     },
     {
-      "id": "p064",
-      "frame": 881,
+      "id": "p071",
+      "frame": 808,
       "labels": [
         "event:v25_label:before"
       ]
     },
     {
-      "id": "p065",
-      "frame": 882,
+      "id": "p072",
+      "frame": 809,
       "labels": [
         "event:v25_label:from"
       ]
     },
     {
-      "id": "p066",
-      "frame": 888,
+      "id": "p073",
+      "frame": 815,
       "labels": [
         "event:v25_label:enter-mid"
       ]
     },
     {
-      "id": "p067",
-      "frame": 894,
+      "id": "p074",
+      "frame": 820,
       "labels": [
         "event:v25_label:settled"
       ]
     },
     {
-      "id": "p068",
-      "frame": 897,
+      "id": "p075",
+      "frame": 823,
       "labels": [
         "event:bars_grow:settled"
       ]
     },
     {
-      "id": "p069",
-      "frame": 928,
+      "id": "p076",
+      "frame": 850,
       "labels": [
         "event:auriga_in:before"
       ]
     },
     {
-      "id": "p070",
-      "frame": 929,
+      "id": "p077",
+      "frame": 851,
       "labels": [
         "concept:simulation:from",
         "event:auriga_in:from",
@@ -2587,8 +2881,8 @@
       ]
     },
     {
-      "id": "p071",
-      "frame": 930,
+      "id": "p078",
+      "frame": 853,
       "labels": [
         "event:galaxy_hold:to",
         "event:disk_label_p:to",
@@ -2599,8 +2893,8 @@
       ]
     },
     {
-      "id": "p072",
-      "frame": 934,
+      "id": "p079",
+      "frame": 857,
       "labels": [
         "event:galaxy_hold:exit-mid",
         "event:disk_label_p:exit-mid",
@@ -2611,15 +2905,15 @@
       ]
     },
     {
-      "id": "p073",
-      "frame": 937,
+      "id": "p080",
+      "frame": 860,
       "labels": [
         "concept:puzzle:end"
       ]
     },
     {
-      "id": "p074",
-      "frame": 938,
+      "id": "p081",
+      "frame": 861,
       "labels": [
         "event:galaxy_hold:end",
         "event:disk_label_p:end",
@@ -2630,79 +2924,79 @@
       ]
     },
     {
-      "id": "p075",
-      "frame": 1080,
+      "id": "p082",
+      "frame": 991,
       "labels": [
         "event:grid_in:before"
       ]
     },
     {
-      "id": "p076",
-      "frame": 1081,
+      "id": "p083",
+      "frame": 992,
       "labels": [
         "event:grid_in:from"
       ]
     },
     {
-      "id": "p077",
-      "frame": 1125,
+      "id": "p084",
+      "frame": 1032,
       "labels": [
         "event:grid_label:before"
       ]
     },
     {
-      "id": "p078",
-      "frame": 1126,
+      "id": "p085",
+      "frame": 1033,
       "labels": [
         "event:grid_label:from"
       ]
     },
     {
-      "id": "p079",
-      "frame": 1137,
+      "id": "p086",
+      "frame": 1043,
       "labels": [
         "event:grid_in:enter-mid",
         "event:grid_label:enter-mid"
       ]
     },
     {
-      "id": "p080",
-      "frame": 1147,
+      "id": "p087",
+      "frame": 1052,
       "labels": [
         "event:grid_label:settled"
       ]
     },
     {
-      "id": "p081",
-      "frame": 1192,
+      "id": "p088",
+      "frame": 1094,
       "labels": [
         "event:grid_in:settled"
       ]
     },
     {
-      "id": "p082",
-      "frame": 1233,
+      "id": "p089",
+      "frame": 1130,
       "labels": [
         "event:grid_label:to"
       ]
     },
     {
-      "id": "p083",
-      "frame": 1236,
+      "id": "p090",
+      "frame": 1133,
       "labels": [
         "event:grid_label:exit-mid"
       ]
     },
     {
-      "id": "p084",
-      "frame": 1238,
+      "id": "p091",
+      "frame": 1135,
       "labels": [
         "event:panel_edge:before"
       ]
     },
     {
-      "id": "p085",
-      "frame": 1239,
+      "id": "p092",
+      "frame": 1136,
       "labels": [
         "event:grid_label:end",
         "event:panel_edge:from",
@@ -2711,169 +3005,169 @@
       ]
     },
     {
-      "id": "p086",
-      "frame": 1240,
+      "id": "p093",
+      "frame": 1137,
       "labels": [
         "event:grid_in:to"
       ]
     },
     {
-      "id": "p087",
-      "frame": 1243,
+      "id": "p094",
+      "frame": 1140,
       "labels": [
         "event:grid_in:exit-mid"
       ]
     },
     {
-      "id": "p088",
-      "frame": 1246,
+      "id": "p095",
+      "frame": 1143,
       "labels": [
         "event:grid_in:end"
       ]
     },
     {
-      "id": "p089",
-      "frame": 1294,
+      "id": "p096",
+      "frame": 1187,
       "labels": [
         "event:panel_crash:before"
       ]
     },
     {
-      "id": "p090",
-      "frame": 1295,
+      "id": "p097",
+      "frame": 1188,
       "labels": [
         "event:panel_edge:to",
         "event:panel_crash:from"
       ]
     },
     {
-      "id": "p091",
-      "frame": 1299,
+      "id": "p098",
+      "frame": 1192,
       "labels": [
         "event:panel_edge:exit-mid",
         "event:panel_crash:enter-mid"
       ]
     },
     {
-      "id": "p092",
-      "frame": 1303,
+      "id": "p099",
+      "frame": 1196,
       "labels": [
         "event:panel_edge:end",
         "event:panel_crash:settled"
       ]
     },
     {
-      "id": "p093",
-      "frame": 1344,
+      "id": "p100",
+      "frame": 1233,
       "labels": [
         "event:panel_face:before"
       ]
     },
     {
-      "id": "p094",
-      "frame": 1345,
+      "id": "p101",
+      "frame": 1234,
       "labels": [
         "event:panel_crash:to",
         "event:panel_face:from"
       ]
     },
     {
-      "id": "p095",
-      "frame": 1348,
+      "id": "p102",
+      "frame": 1237,
       "labels": [
         "event:panel_crash:exit-mid",
         "event:panel_face:enter-mid"
       ]
     },
     {
-      "id": "p096",
-      "frame": 1351,
+      "id": "p103",
+      "frame": 1240,
       "labels": [
         "event:panel_crash:end",
         "event:panel_face:settled"
       ]
     },
     {
-      "id": "p097",
-      "frame": 1360,
+      "id": "p104",
+      "frame": 1248,
       "labels": [
         "event:flip_arc:before"
       ]
     },
     {
-      "id": "p098",
-      "frame": 1361,
+      "id": "p105",
+      "frame": 1249,
       "labels": [
         "event:flip_arc:from"
       ]
     },
     {
-      "id": "p099",
-      "frame": 1365,
+      "id": "p106",
+      "frame": 1253,
       "labels": [
         "event:panel_face:to"
       ]
     },
     {
-      "id": "p100",
-      "frame": 1368,
+      "id": "p107",
+      "frame": 1256,
       "labels": [
         "event:panel_face:exit-mid"
       ]
     },
     {
-      "id": "p101",
-      "frame": 1371,
+      "id": "p108",
+      "frame": 1259,
       "labels": [
         "event:panel_face:end"
       ]
     },
     {
-      "id": "p102",
-      "frame": 1376,
+      "id": "p109",
+      "frame": 1262,
       "labels": [
         "event:deg_label:before"
       ]
     },
     {
-      "id": "p103",
-      "frame": 1377,
+      "id": "p110",
+      "frame": 1263,
       "labels": [
         "event:deg_label:from"
       ]
     },
     {
-      "id": "p104",
-      "frame": 1379,
+      "id": "p111",
+      "frame": 1266,
       "labels": [
         "event:flip_arc:enter-mid"
       ]
     },
     {
-      "id": "p105",
-      "frame": 1387,
+      "id": "p112",
+      "frame": 1273,
       "labels": [
         "event:deg_label:enter-mid"
       ]
     },
     {
-      "id": "p106",
-      "frame": 1397,
+      "id": "p113",
+      "frame": 1282,
       "labels": [
         "event:flip_arc:settled",
         "event:deg_label:settled"
       ]
     },
     {
-      "id": "p107",
-      "frame": 1426,
+      "id": "p114",
+      "frame": 1307,
       "labels": [
         "event:gse_in:before"
       ]
     },
     {
-      "id": "p108",
-      "frame": 1427,
+      "id": "p115",
+      "frame": 1308,
       "labels": [
         "concept:our_past:from",
         "event:gse_in:from",
@@ -2882,8 +3176,8 @@
       ]
     },
     {
-      "id": "p109",
-      "frame": 1428,
+      "id": "p116",
+      "frame": 1310,
       "labels": [
         "event:auriga_in:to",
         "event:flip_arc:to",
@@ -2891,8 +3185,8 @@
       ]
     },
     {
-      "id": "p110",
-      "frame": 1432,
+      "id": "p117",
+      "frame": 1314,
       "labels": [
         "event:auriga_in:exit-mid",
         "event:flip_arc:exit-mid",
@@ -2900,15 +3194,15 @@
       ]
     },
     {
-      "id": "p111",
-      "frame": 1435,
+      "id": "p118",
+      "frame": 1317,
       "labels": [
         "concept:simulation:end"
       ]
     },
     {
-      "id": "p112",
-      "frame": 1436,
+      "id": "p119",
+      "frame": 1318,
       "labels": [
         "event:auriga_in:end",
         "event:flip_arc:end",
@@ -2916,130 +3210,130 @@
       ]
     },
     {
-      "id": "p113",
-      "frame": 1595,
+      "id": "p120",
+      "frame": 1463,
       "labels": [
         "event:gse_label:before"
       ]
     },
     {
-      "id": "p114",
-      "frame": 1596,
+      "id": "p121",
+      "frame": 1464,
       "labels": [
         "event:gse_label:from"
       ]
     },
     {
-      "id": "p115",
-      "frame": 1625,
+      "id": "p122",
+      "frame": 1491,
       "labels": [
         "event:gse_label:enter-mid"
       ]
     },
     {
-      "id": "p116",
-      "frame": 1653,
+      "id": "p123",
+      "frame": 1517,
       "labels": [
         "event:gse_label:settled"
       ]
     },
     {
-      "id": "p117",
-      "frame": 1730,
+      "id": "p124",
+      "frame": 1587,
       "labels": [
         "event:gse_label:to"
       ]
     },
     {
-      "id": "p118",
-      "frame": 1734,
+      "id": "p125",
+      "frame": 1591,
       "labels": [
         "event:gse_label:exit-mid"
       ]
     },
     {
-      "id": "p119",
-      "frame": 1738,
+      "id": "p126",
+      "frame": 1595,
       "labels": [
         "event:gse_label:end"
       ]
     },
     {
-      "id": "p120",
-      "frame": 1746,
+      "id": "p127",
+      "frame": 1602,
       "labels": [
         "event:mass_cmp:before",
         "event:mw_label:before"
       ]
     },
     {
-      "id": "p121",
-      "frame": 1747,
+      "id": "p128",
+      "frame": 1603,
       "labels": [
         "event:mass_cmp:from",
         "event:mw_label:from"
       ]
     },
     {
-      "id": "p122",
-      "frame": 1752,
+      "id": "p129",
+      "frame": 1607,
       "labels": [
         "event:mw_label:enter-mid"
       ]
     },
     {
-      "id": "p123",
-      "frame": 1756,
+      "id": "p130",
+      "frame": 1611,
       "labels": [
         "event:mw_label:settled"
       ]
     },
     {
-      "id": "p124",
-      "frame": 1769,
+      "id": "p131",
+      "frame": 1623,
       "labels": [
         "event:mass_cmp:enter-mid"
       ]
     },
     {
-      "id": "p125",
-      "frame": 1773,
+      "id": "p132",
+      "frame": 1627,
       "labels": [
         "event:ratio_label:before"
       ]
     },
     {
-      "id": "p126",
-      "frame": 1774,
+      "id": "p133",
+      "frame": 1628,
       "labels": [
         "event:ratio_label:from"
       ]
     },
     {
-      "id": "p127",
-      "frame": 1782,
+      "id": "p134",
+      "frame": 1635,
       "labels": [
         "event:ratio_label:enter-mid"
       ]
     },
     {
-      "id": "p128",
-      "frame": 1790,
+      "id": "p135",
+      "frame": 1642,
       "labels": [
         "event:mass_cmp:settled",
         "event:ratio_label:settled"
       ]
     },
     {
-      "id": "p129",
-      "frame": 1856,
+      "id": "p136",
+      "frame": 1702,
       "labels": [
         "event:dim_in:before"
       ]
     },
     {
-      "id": "p130",
-      "frame": 1857,
+      "id": "p137",
+      "frame": 1703,
       "labels": [
         "concept:key:from",
         "event:dim_in:from",
@@ -3048,8 +3342,8 @@
       ]
     },
     {
-      "id": "p131",
-      "frame": 1859,
+      "id": "p138",
+      "frame": 1706,
       "labels": [
         "event:gse_in:to",
         "event:mass_cmp:to",
@@ -3058,8 +3352,8 @@
       ]
     },
     {
-      "id": "p132",
-      "frame": 1863,
+      "id": "p139",
+      "frame": 1710,
       "labels": [
         "event:gse_in:exit-mid",
         "event:mass_cmp:exit-mid",
@@ -3068,15 +3362,15 @@
       ]
     },
     {
-      "id": "p133",
-      "frame": 1866,
+      "id": "p140",
+      "frame": 1713,
       "labels": [
         "concept:our_past:end"
       ]
     },
     {
-      "id": "p134",
-      "frame": 1867,
+      "id": "p141",
+      "frame": 1714,
       "labels": [
         "event:gse_in:end",
         "event:mass_cmp:end",
@@ -3085,71 +3379,71 @@
       ]
     },
     {
-      "id": "p135",
-      "frame": 2043,
+      "id": "p142",
+      "frame": 1876,
       "labels": [
         "event:orbit_turn:before"
       ]
     },
     {
-      "id": "p136",
-      "frame": 2044,
+      "id": "p143",
+      "frame": 1877,
       "labels": [
         "event:orbit_turn:from"
       ]
     },
     {
-      "id": "p137",
-      "frame": 2064,
+      "id": "p144",
+      "frame": 1897,
       "labels": [
         "event:orbit_turn:enter-mid"
       ]
     },
     {
-      "id": "p138",
-      "frame": 2083,
+      "id": "p145",
+      "frame": 1916,
       "labels": [
         "event:orbit_turn:settled"
       ]
     },
     {
-      "id": "p139",
-      "frame": 2158,
+      "id": "p146",
+      "frame": 1992,
       "labels": [
         "event:orbit_label:before"
       ]
     },
     {
-      "id": "p140",
-      "frame": 2159,
+      "id": "p147",
+      "frame": 1993,
       "labels": [
         "event:orbit_label:from"
       ]
     },
     {
-      "id": "p141",
-      "frame": 2170,
+      "id": "p148",
+      "frame": 2004,
       "labels": [
         "event:orbit_label:enter-mid"
       ]
     },
     {
-      "id": "p142",
-      "frame": 2180,
+      "id": "p149",
+      "frame": 2014,
       "labels": [
         "event:orbit_label:settled"
       ]
     },
     {
-      "id": "p143",
-      "frame": 2227,
+      "id": "p150",
+      "frame": 2060,
       "labels": [
         "event:sky_end_in:before"
       ]
     },
     {
-      "id": "p144",
-      "frame": 2228,
+      "id": "p151",
+      "frame": 2061,
       "labels": [
         "concept:close:from",
         "event:sky_end_in:from",
@@ -3158,8 +3452,8 @@
       ]
     },
     {
-      "id": "p145",
-      "frame": 2229,
+      "id": "p152",
+      "frame": 2062,
       "labels": [
         "event:dim_in:to",
         "event:orbit_turn:to",
@@ -3167,8 +3461,8 @@
       ]
     },
     {
-      "id": "p146",
-      "frame": 2233,
+      "id": "p153",
+      "frame": 2066,
       "labels": [
         "event:dim_in:exit-mid",
         "event:orbit_turn:exit-mid",
@@ -3176,15 +3470,15 @@
       ]
     },
     {
-      "id": "p147",
-      "frame": 2236,
+      "id": "p154",
+      "frame": 2069,
       "labels": [
         "concept:key:end"
       ]
     },
     {
-      "id": "p148",
-      "frame": 2237,
+      "id": "p155",
+      "frame": 2070,
       "labels": [
         "event:dim_in:end",
         "event:orbit_turn:end",
@@ -3192,22 +3486,22 @@
       ]
     },
     {
-      "id": "p149",
-      "frame": 2460,
+      "id": "p156",
+      "frame": 2294,
       "labels": [
         "event:sky_end_in:to"
       ]
     },
     {
-      "id": "p150",
-      "frame": 2462,
+      "id": "p157",
+      "frame": 2296,
       "labels": [
         "event:sky_end_in:exit-mid"
       ]
     },
     {
-      "id": "p151",
-      "frame": 2463,
+      "id": "p158",
+      "frame": 2297,
       "labels": [
         "concept:close:end",
         "event:sky_end_in:end"
@@ -3215,49 +3509,49 @@
     },
     {
       "id": "source1",
-      "frame": 209,
+      "frame": 191,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "source2",
-      "frame": 413,
+      "frame": 378,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "source3",
-      "frame": 558,
+      "frame": 512,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "source4",
-      "frame": 930,
+      "frame": 853,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "source5",
-      "frame": 1238,
+      "frame": 1135,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "source6",
-      "frame": 2229,
+      "frame": 2062,
       "labels": [
         "자료 출처"
       ]
     },
     {
       "id": "credit1",
-      "frame": 2464,
+      "frame": 2298,
       "labels": [
         "끝 크레딧"
       ]
@@ -3329,8 +3623,8 @@
           "why": "첫 문장 핵심을 큰 문구로",
           "from": 2,
           "settled": 12,
-          "to": 199,
-          "end": 209
+          "to": 182,
+          "end": 192
         },
         "underline_event": {
           "id": "hook_line",
@@ -3383,10 +3677,10 @@
           "depends_on": [],
           "coexist_with": [],
           "why": "'구십 도 넘게 누웠을'에 맞춰 밑줄",
-          "from": 103,
-          "settled": 154,
-          "to": 199,
-          "end": 209
+          "from": 95,
+          "settled": 141,
+          "to": 182,
+          "end": 192
         },
         "layout": {
           "width": 980,
@@ -3433,8 +3727,8 @@
   "closing_cta": {
     "policy": "closing-cta@1",
     "text": "구독과 댓글 부탁드려요",
-    "from": 2404,
-    "end": 2464,
+    "from": 2237,
+    "end": 2298,
     "style": {
       "center_x": 540,
       "center_y": 770,
@@ -3457,8 +3751,8 @@
       "policy": "key-callout@1",
       "line": "s12",
       "text": "중요한 한 가지!",
-      "from": 1862,
-      "end": 2026,
+      "from": 1708,
+      "end": 1860,
       "style": {
         "center_x": 540,
         "center_y": 860,
@@ -3508,50 +3802,50 @@
       {
         "asset_id": "nasa_zoom",
         "text": "NASA's Goddard Space Flight Center",
-        "start": 6.95,
-        "end": 314,
-        "from": 209
+        "start": 6.38,
+        "end": 288,
+        "from": 191
       },
       {
         "asset_id": "nasa_halo",
         "text": "NASA's Goddard Space Flight Center",
-        "start": 13.75,
-        "end": 558,
-        "from": 413
+        "start": 12.61,
+        "end": 512,
+        "from": 378
       },
       {
         "asset_id": "gaia_esa",
         "text": "ESA – C. Carreau",
-        "start": 18.6,
-        "end": 725,
-        "from": 558
+        "start": 17.06,
+        "end": 665,
+        "from": 512
       },
       {
         "asset_id": "auriga",
         "text": "Auriga Project",
-        "start": 31,
-        "end": 1103,
-        "from": 930
+        "start": 28.44,
+        "end": 1012,
+        "from": 853
       },
       {
         "asset_id": "auriga",
         "text": "Auriga Project · Halo 18",
-        "start": 41.25,
-        "end": 1371,
-        "from": 1238
+        "start": 37.84,
+        "end": 1258,
+        "from": 1135
       },
       {
         "asset_id": "paranal",
         "text": "ESO/B. Tafreshi",
-        "start": 74.3,
-        "end": 2463,
-        "from": 2229
+        "start": 68.74,
+        "end": 2296,
+        "from": 2062
       }
     ],
     "pages": [
       {
-        "from": 2464,
-        "end": 2479,
+        "from": 2298,
+        "end": 2313,
         "categories": [
           {
             "title": "참조 기사",

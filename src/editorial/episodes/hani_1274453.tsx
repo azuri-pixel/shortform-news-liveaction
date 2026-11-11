@@ -75,10 +75,27 @@ const Hook: React.FC<{ pilot: EditorialPilotData }> = ({ pilot }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#02040a" }}>
       <Video pilot={pilot} file="editorial/disk_tilt.mp4" ev={tilt} />
-      {/* 되감기 끝 프레임의 은하를 기울어짐 영상 첫 프레임 위치(약 +10px, +20px, 1% 확대)에 맞춘다 */}
-      <AbsoluteFill style={{ translate: "10px 20px", scale: "1.01" }}>
-        <Video pilot={pilot} file="editorial/hook_rewind.mp4" ev={sky} opacity={frame < sky.end ? 1 : 0} />
-      </AbsoluteFill>
+      {/* 되감기: 시대별 4장(사람 → 공룡·소행성 → 원시 태양 → 100억 년 전 은하)을 같은 방향 줌아웃으로만 움직이고,
+          장면 사이는 똑같은 테이프 되감기 전환(가로 줄무늬·흐림)으로 잇는다. 마지막 은하 = 기울어짐 영상 첫 프레임과 같은 그림 */}
+      {frame < sky.end ? (() => {
+        const eras = ["era1", "era2", "era3", "era4"].map((id) => useEvent(pilot.timeline, "hook", id));
+        const cuts = [sky.from, eras[1].from, eras[2].from, eras[3].from, sky.end];
+        const files = ["editorial/rw_human.png", "editorial/rw_dino.png", "editorial/rw_sun.png", "editorial/galaxy_side.png"];
+        const idx = Math.min(3, Math.max(0, cuts.findIndex((c, i) => frame >= c && frame < cuts[i + 1])));
+        const local = interpolate(frame, [cuts[idx], cuts[idx + 1]], [0, 1], clamp);
+        const zoom = idx === 3 ? interpolate(local, [0, 1], [1.06, 1.0], clamp) : interpolate(local, [0, 1], [1.12, 1.0], clamp);
+        // 전환: 각 경계 앞뒤 4프레임
+        const tr = Math.max(...cuts.slice(1, 4).map((c) => interpolate(frame, [c - 4, c, c + 4], [0, 1, 0], clamp)));
+        return (
+          <AbsoluteFill>
+            <AbsoluteFill style={{ filter: tr > 0 ? `blur(${tr * 6}px)` : undefined }}>
+              <Img src={pilot.file(files[idx])} style={{ width: 1080, height: 1920, objectFit: "cover", scale: String(zoom), transformOrigin: "50% 46%" }} />
+            </AbsoluteFill>
+            <AbsoluteFill style={{ opacity: tr * 0.85, background: "repeating-linear-gradient(0deg, rgba(255,255,255,0.18) 0px, rgba(255,255,255,0.18) 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 14px)" }} />
+            <AbsoluteFill style={{ opacity: tr * 0.5, background: `linear-gradient(0deg, rgba(0,0,0,0) ${30 + (frame % 7) * 8}%, rgba(255,255,255,0.35) ${32 + (frame % 7) * 8}%, rgba(0,0,0,0) ${36 + (frame % 7) * 8}%)` }} />
+          </AbsoluteFill>
+        );
+      })() : null}
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: refO }}>
         <line x1={540 - 520 * refDraw} y1={CORE.y} x2={540 + 520 * refDraw} y2={CORE.y} stroke="#E9EEF5" strokeWidth={3} strokeDasharray="18 14" />
       </svg>
