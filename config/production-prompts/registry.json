@@ -23,6 +23,13 @@
       "archive": "config/production-prompts/v2-original@7.txt",
       "recorded_at": "2026-11-11",
       "note": "가능하면 앞으로도 시각적 몰입도를 높일 수 있는 영상을 찾아야 해."
+    },
+    {
+      "version": "v2-original@8",
+      "sha256": "d7200da5fd3bb2dd4da8a21d0d6b90330656e46f8f7f40cb7edfaeb9060d21f1",
+      "archive": "config/production-prompts/v2-original@8.txt",
+      "recorded_at": "2026-11-12",
+      "note": "응 기본규칙으로 넣어줘 (생성 전 예상 비용 알리기·480p 시안 먼저·최소 길이·비용 조회와 제출 구분)"
     }
   ]
 }
