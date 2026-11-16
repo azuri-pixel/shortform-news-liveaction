@@ -30,6 +30,13 @@
       "archive": "config/production-prompts/v2-original@8.txt",
       "recorded_at": "2026-11-12",
       "note": "응 기본규칙으로 넣어줘 (생성 전 예상 비용 알리기·480p 시안 먼저·최소 길이·비용 조회와 제출 구분)"
+    },
+    {
+      "version": "v2-original@9",
+      "sha256": "0822b8df8125533bb59e40bf0e6eb070ceb6835042defbb89d4e1abf51a60221",
+      "archive": "config/production-prompts/v2-original@9.txt",
+      "recorded_at": "2026-11-16",
+      "note": "내레이션 원고를 복사해서 상사에게 보고하는데 문장 앞 번호를 일일이 지워야 함 → 제출·보고용 원고를 번호 없는 평문으로"
     }
   ]
 }
