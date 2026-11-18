@@ -44,6 +44,13 @@
       "archive": "config/production-prompts/v2-original@10.txt",
       "recorded_at": "2026-11-18",
       "note": "0:00 출처 위치에 ai생성영상 자막이 들어있어. 이를 원래 상단에 출처 쓸 때 사용하는 폰트,크기,위치로 쓰고, 문구는 \"AI활용영상\" 으로 수정해줘. 앞으로도 실사 형태로 AI생성 영상을 만들면, 출처 위치에 \"AI활용영상\"이라고 써주도록 규칙에 반영해줘."
+    },
+    {
+      "version": "v2-original@11",
+      "sha256": "08d363894c4e996eee537b2197704a914e7c9519dfc8504ad913833eae70940e",
+      "archive": "config/production-prompts/v2-original@11.txt",
+      "recorded_at": "2026-11-18",
+      "note": "AIv활용v영상 이렇게 상단에 실사 형태로 AI 생성 영상을 활용할 때, 출처 자막 쓸 때 띄어쓰기하도록 해줘. 이번에도 띄어쓰기 반영해주고, 규칙에 넣어줘"
     }
   ]
 }
