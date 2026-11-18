@@ -1,0 +1,32 @@
+{
+  "schema_version": "restored-production-defaults@1",
+  "baseline_commit": "59a2af79",
+  "guide": "config/production-defaults.md",
+  "logo_package": "presets/hani/brand-assets/v4/manifest.json",
+  "production_prompt": {
+    "version": "v2-original@8",
+    "path": "docs/PRODUCTION_PROMPT_V2_RESTORED.txt"
+  },
+  "narration": {
+    "voice": {
+      "provider": "typecast",
+      "voice_id": "tc_69fc0cff784968297fb45daa",
+      "voice_name": "Sanghyun",
+      "model": "ssfm-v30",
+      "language": "kor",
+      "audio_tempo": 1,
+      "audio_pitch": 0,
+      "emotion_preset": "normal"
+    }
+  },
+  "guide_sha256": "6cce6bd018d46e0b7309ceaa6e617dd8eedc096d8c12eccb11655f8611448f19",
+  "logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  }
+}

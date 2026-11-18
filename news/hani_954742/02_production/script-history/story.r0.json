@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_954742",
+  "script_policy": "editorial-owned",
+  "creative_scope": {
+    "script": "delegated",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "청량음료가 닿은 치아 표면은, 몇 분 사이에 얼마나 달라질까?",
+  "takeaway": "실험실에서 갈아 낸 법랑질 조각에 청량음료를 붓고 빼기를 반복하자 몇 분 만에 표면이 거칠어지고(10분 약 5배) 물러졌다(5분 1/5 이하). 거칠기 값은 탄산음료가 더 높았고 흠집이 있으면 더 빨랐다. 실제 입안은 침 등으로 덜할 수 있지만 오래 노출되면 같은 변화가 생길 수 있다.",
+  "concept_order": [
+    "hook",
+    "capture",
+    "afm",
+    "enamel",
+    "immersion",
+    "roughness",
+    "modulus",
+    "drinks",
+    "scratch",
+    "caveat",
+    "close"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 960,
+          "center_y": 780
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 56,
+            "gap_after": 22,
+            "runs": [
+              {
+                "text": "청량음료 10분, 치아 표면",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 46,
+                "text_color": "#FFD16A",
+                "letter_spacing": 0
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 124,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "약 5배 거칠어졌다",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 108,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": [
+    {
+      "role": "참조 기사",
+      "text": "한겨레 · 곽노필, 콜라·사이다에 치아 담갔더니…10분만에 5배 거칠어져"
+    },
+    {
+      "role": "이미지·관측 근거",
+      "text": "KAIST (홍승범 교수 연구팀 보도자료 그림)"
+    },
+    {
+      "role": "이미지·관측 근거",
+      "text": "그래프 재작도: Li et al., J. Mech. Behav. Biomed. Mater. 110, 103930 (2020)"
+    },
+    {
+      "role": "이미지·관측 근거",
+      "text": "치아 구조: Blausen.com staff (2014), CC BY 3.0, 라벨 변경"
+    }
+  ]
+}

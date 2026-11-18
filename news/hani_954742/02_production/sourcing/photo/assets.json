@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "note": "P3 photo sourcing manifest (sourcing agent). Originals under 01_input/05_참고자료/kaist_press/ and commons/. Rights per asset in candidates.md.",
+  "assets": [
+    {
+      "id": "kaist_ko_fig1",
+      "path": "01_input/05_참고자료/kaist_press/kaist_ko_9110_image1.jpg",
+      "source_url": "https://news.kaist.ac.kr/_prog/download/?editor_image=/images/000020/image1.jpg_2.jpg",
+      "page": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "800x236",
+      "content": "그림 1. 치아 시료 준비 과정(왼쪽)·AFM 탐침 사진(오른쪽) — KO판, EN판보다 저해상",
+      "sha256": "a12e636ddd67c3fc03da0c60754dea8564a6a429ac8babc492de90e9fe03e3ca"
+    },
+    {
+      "id": "kaist_ko_fig2",
+      "path": "01_input/05_참고자료/kaist_press/kaist_ko_9110_image2.jpg",
+      "source_url": "https://news.kaist.ac.kr/_prog/download/?editor_image=/images/000020/image2.jpg.jpg",
+      "page": "https://news.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "900x619",
+      "content": "그림 2. 표면 거칠기(위)·탄성 계수(아래) — KO판, EN판보다 저해상",
+      "sha256": "ba9e312fee5b3292c710ea60edb2789751b6d0585a479677bdee5de6dd44b407"
+    },
+    {
+      "id": "kaist_en_fig1",
+      "path": "01_input/05_참고자료/kaist_press/kaist_en_9131_Figure_1.jpg",
+      "source_url": "https://news.kaist.ac.kr/_prog/download/?editor_image=/images/000020/Figure_1.jpg",
+      "page": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=9131",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "1600x472",
+      "content": "Figure 1 — 최고해상도 확보본. (a)치아 2mm 절편 (b)enamel/dentin 표기 (c)시료 홀더, 우측 SEM 탐침(10µm)",
+      "sha256": "5486a6edee90216a1bd7544f1f97cf1f79a9247b210e2e33bef7184239660e37"
+    },
+    {
+      "id": "kaist_en_fig2",
+      "path": "01_input/05_참고자료/kaist_press/kaist_en_9131_Figure_2.jpg",
+      "source_url": "https://news.kaist.ac.kr/_prog/download/?editor_image=/images/000020/Figure_2.jpg",
+      "page": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=9131",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "1600x1103",
+      "content": "Figure 2 — 최고해상도 확보본. AFM 높이 이미지 3음료×5시점, Rq 그래프, 탄성계수 맵·그래프",
+      "sha256": "b1a7f97cbeae48e3174c0fb72a8b621441464c6fdbfbe52658e9c460c4316a29"
+    },
+    {
+      "id": "eurekalert_620971",
+      "path": "01_input/05_참고자료/kaist_press/eurekalert_620971_lowres.jpg",
+      "source_url": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/3415cfe7-e8eb-4f9a-8577-2afb11ab3aa2/Rendition/low-res/Content/Public",
+      "page": "https://www.eurekalert.org/multimedia/620971",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "1440x992",
+      "content": "EurekAlert low-res(최대 공개 렌디션), EN Figure_2와 동일 구성",
+      "sha256": "b29b350c3c0041b06f6273a3792972fb815515374af94167e2481b6d462f5502"
+    },
+    {
+      "id": "eurekalert_620972",
+      "path": "01_input/05_참고자료/kaist_press/eurekalert_620972_lowres.jpg",
+      "source_url": "https://mediasvc.eurekalert.org/Api/v1/Multimedia/f8da0a4d-531a-4433-ad74-699cf89613ee/Rendition/low-res/Content/Public",
+      "page": "https://www.eurekalert.org/multimedia/620972",
+      "status": "rights_limited_news_use",
+      "license": "KAIST 보도자료 이미지(KAIST 뉴스센터, 2020-07-22). 사이트 하단 'Copyright (C) 2020, KAIST, All Rights Reserved' — 별도 재사용 라이선스 문구 없음. EurekAlert 동일 이미지 Usage Restrictions: 'News organizations may use or redistribute these figures and images, with proper attribution, as part of news coverage of this paper only.' 크레딧: 'Professor Seungbum Hong, KAIST'",
+      "resolution": "1440x424",
+      "content": "EurekAlert low-res, EN Figure_1과 동일 구성",
+      "sha256": "0b1396745bfe2cdf97ade854570c24cbf0bc8c733b95f87bfefc62028393320b"
+    },
+    {
+      "id": "commons_blausen_0863",
+      "path": "01_input/05_참고자료/commons/Blausen_0863_ToothAnatomy_02.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Blausen_0863_ToothAnatomy_02.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Blausen_0863_ToothAnatomy_02.png",
+      "status": "candidate",
+      "license": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0). Artist 원문: 'BruceBlaus. When using this image in external sources it can be cited as: Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.010. ISSN 2002-4436.'",
+      "resolution": "1500x1500",
+      "content": "치아 단면 일러스트, Enamel/Dentin/Pulp/Gums/Bone 등 영문 라벨",
+      "sha256": "135bdf720bd48f021bd1e2533a30c87df63e1bf03866ad6f5aa1f9c1b2e50c21"
+    },
+    {
+      "id": "commons_nmhm_cp2335",
+      "path": "01_input/05_참고자료/commons/Section_of_tooth_CP_2335_NMHM_4777495592.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Section_of_tooth_%28CP_2335%29%2C_National_Museum_of_Health_and_Medicine_%284777495592%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Section_of_tooth_(CP_2335),_National_Museum_of_Health_and_Medicine_(4777495592).jpg",
+      "status": "rejected",
+      "license": "CC BY 2.0. Artist: National Museum of Health and Medicine",
+      "resolution": "4625x5907",
+      "content": "괴혈병 잇몸 염증 현미경 사진 — 법랑질 무표기, 질환 이미지",
+      "sha256": "5f91384209c373a3bd4fa09e6be735b822650bca739f1484096eedc8bd9cda90"
+    },
+    {
+      "id": "commons_inside_tooth_ahmed",
+      "path": "01_input/05_참고자료/commons/What_is_Inside_Human_Tooth_Macro-Anatomy.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/What_is_Inside_Human_Tooth_%28Macro-Anatomy%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:What_is_Inside_Human_Tooth_(Macro-Anatomy).jpg",
+      "status": "candidate_limited",
+      "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). Artist: Mohamed A.M. Ahmed. Credit: Own work",
+      "resolution": "1608x1259",
+      "content": "실제 어금니 종단면 사진 2쪽 — 바깥 반투명 법랑질 보임. 충치(갈색 병소)·하단 워터마크 'DR.MAXSTEIN / MOHAMED A.M. AHMED'",
+      "sha256": "a60cd19cce01ba155d34562bbf34ab4c268e74e92c2ddba010dc82c2385d2407"
+    },
+    {
+      "id": "commons_aletaibi_molar_sections",
+      "path": "01_input/05_참고자료/commons/Mandibular_first_molar_cross_sections_-_enamel_dentine_pulp.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mandibular_first_molar_cross_sections_-_enamel_dentine_pulp.svg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mandibular_first_molar_cross_sections_-_enamel_dentine_pulp.svg",
+      "status": "rejected",
+      "license": "CC BY 4.0. Artist: Khalid Aletaibi",
+      "resolution": "SVG 1420x660",
+      "content": "치과 시술용 수치 도해, 텍스트 과다·2026 업로드",
+      "sha256": "d7a7878bc141996768315172004258e592767ddd91a452bdb7f39941aa6618ec"
+    },
+    {
+      "id": "commons_tooth_section_numbered",
+      "path": "01_input/05_참고자료/commons/Tooth_Section_numbered.svg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tooth_Section_numbered.svg",
+      "page": "https://commons.wikimedia.org/wiki/File:Tooth_Section_numbered.svg",
+      "status": "candidate",
+      "license": "Public domain. Artist: Jak. Credit 원문: 'Made language-neutral by Jak from Image:Tooth Section.svg by User:Asbestos.'",
+      "resolution": "SVG 507x613 (벡터)",
+      "content": "번호식 치아 단면(1 Enamel, 2 Dentine, 3 Pulp...) 텍스트 없음",
+      "sha256": "f5e24a39b5b4816bbf999f470168deaf2fa89ef3f540aa6b13587b7e1be3c238"
+    }
+  ]
+}

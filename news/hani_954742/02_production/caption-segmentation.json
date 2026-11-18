@@ -1,0 +1,11 @@
+{
+ "schema_version": "1.0",
+ "lines": {
+  "s01": {"protected_phrases": [{"from": 5, "to": 7, "text": "사이다 같은 청량음료가"}], "break_before": [{"token": 4, "text": "콜라,"}]},
+  "s02": {"protected_phrases": [{"from": 5, "to": 6, "text": "부식시키는 모습을"}], "break_before": [{"token": 7, "text": "현미경으로"}]},
+  "s06": {"protected_phrases": [{"from": 5, "to": 7, "text": "각각 담근 뒤"}], "break_before": [{"token": 8, "text": "시간대별로"}]},
+  "s08": {"protected_phrases": [{"from": 2, "to": 3, "text": "표면 거칠기는"}, {"from": 5, "to": 6, "text": "5배 정도까지"}], "break_before": [{"token": 4, "text": "처음의"}, {"token": 7, "text": "커졌습니다."}]},
+  "s13": {"protected_phrases": [{"from": 3, "to": 5, "text": "보호막 역할을 하는"}, {"from": 9, "to": 12, "text": "덜 할 수 있다고"}], "break_before": [{"token": 6, "text": "침"}, {"token": 9, "text": "덜"}]},
+  "s14": {"protected_phrases": [{"from": 8, "to": 9, "text": "탄성 계수도"}, {"from": 10, "to": 13, "text": "떨어질 수 있다는 걸"}], "break_before": [{"token": 8, "text": "탄성"}, {"token": 14, "text": "나노미터"}]}
+ }
+}

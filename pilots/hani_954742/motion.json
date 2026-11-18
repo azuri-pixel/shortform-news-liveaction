@@ -1,0 +1,2524 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_954742",
+  "fps": 30,
+  "total_frames": 2002,
+  "narration_word_sha256": "512abecc1e5dae80738fceb44920bad7e9290495d8dbeec24c89aca2c3ab5eb7",
+  "events": [
+    {
+      "id": "macro_in",
+      "concept_id": "hook",
+      "element_id": "hook_macro",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "보이시나요.",
+            "edge": "start",
+            "offset_frames": -28
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "보이시나요.",
+            "edge": "start",
+            "offset_frames": -27
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "청량음료가",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "생성 매크로: 탄산 콜라 속으로 잠기는 치아(비유, 관측 아님)"
+    },
+    {
+      "id": "bubbles_in",
+      "concept_id": "hook",
+      "element_id": "hook_bubbles",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "청량음료가",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "탄산 기포 실사 배경"
+    },
+    {
+      "id": "hook_morph",
+      "concept_id": "hook",
+      "element_id": "hook_terrain",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 7,
+            "word": "청량음료가",
+            "edge": "end",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실측 지형이 처음→10분으로 모핑"
+    },
+    {
+      "id": "hook_clock_in",
+      "concept_id": "hook",
+      "element_id": "hook_clock",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "지형 옆 시간 칩(0분→10분)"
+    },
+    {
+      "id": "hook_tag_in",
+      "concept_id": "hook",
+      "element_id": "hook_tag",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 8,
+            "word": "치아를",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "지형이 치아 표면임을 붙인다"
+    },
+    {
+      "id": "hook_text",
+      "concept_id": "hook",
+      "element_id": "opening_hook",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 3,
+            "word": "장면은",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 4,
+            "word": "콜라,",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 10,
+            "word": "장면입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 10,
+            "word": "장면입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "후킹 문구"
+    },
+    {
+      "id": "hook_line",
+      "concept_id": "hook",
+      "element_id": "opening_hook",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 9,
+            "word": "부식시키는",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 9,
+            "word": "부식시키는",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 10,
+            "word": "장면입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 10,
+            "word": "장면입니다.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "부식시키는 장면에 밑줄"
+    },
+    {
+      "id": "team_in",
+      "concept_id": "capture",
+      "element_id": "team_photo",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "KAIST 보도자료 연구진 사진(사용자 addendum-6)"
+    },
+    {
+      "id": "name_hong_in",
+      "concept_id": "capture",
+      "element_id": "name_hong",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "이름"
+    },
+    {
+      "id": "name_oh_in",
+      "concept_id": "capture",
+      "element_id": "name_oh",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "이름"
+    },
+    {
+      "id": "tooth_in",
+      "concept_id": "capture",
+      "element_id": "sample_tooth",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 2,
+            "word": "음료가",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "연구 시료 치아 실사"
+    },
+    {
+      "id": "lens_in",
+      "concept_id": "capture",
+      "element_id": "zoom_lens",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 6,
+            "word": "모습을",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 7,
+            "word": "현미경으로",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "확대경 → 실측 AFM 이미지"
+    },
+    {
+      "id": "instrument_in",
+      "concept_id": "afm",
+      "element_id": "instrument_photo",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": -5
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "AFM 장비 사진(Wikimedia Commons, IISER Mohali, 퍼블릭 도메인, 사용자 addendum-9)"
+    },
+    {
+      "id": "probe_in",
+      "concept_id": "afm",
+      "element_id": "probe_photo",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "표면을",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "표면을",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실제 탐침 SEM 사진"
+    },
+    {
+      "id": "tip_label_in",
+      "concept_id": "afm",
+      "element_id": "tip_label",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 2,
+            "word": "아주",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 3,
+            "word": "뾰족한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "표면을",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "표면을",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "탐침 지시"
+    },
+    {
+      "id": "scan_in",
+      "concept_id": "afm",
+      "element_id": "scan_line",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 5,
+            "word": "표면을",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 6,
+            "word": "훑어,",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "삼차원",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "삼차원",
+            "edge": "start",
+            "offset_frames": 10
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "탐침이 단면선을 따라 오르내림"
+    },
+    {
+      "id": "rise_in",
+      "concept_id": "afm",
+      "element_id": "terrain_rise",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 7,
+            "word": "삼차원",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "이미지를",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "높이만큼 솟는 3D 지형"
+    },
+    {
+      "id": "height_key_in",
+      "concept_id": "afm",
+      "element_id": "height_key",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "이미지를",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 8,
+            "word": "이미지를",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "높이 눈금"
+    },
+    {
+      "id": "crown_in",
+      "concept_id": "enamel",
+      "element_id": "crown_art",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "치아 구조 그림"
+    },
+    {
+      "id": "trace_in",
+      "concept_id": "enamel",
+      "element_id": "enamel_trace",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 3,
+            "word": "가장",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 4,
+            "word": "바깥쪽,",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "가장 바깥층 강조선"
+    },
+    {
+      "id": "enamel_label_in",
+      "concept_id": "enamel",
+      "element_id": "enamel_label",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 7,
+            "word": "층인",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 8,
+            "word": "법랑질입니다.",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "법랑질 이름"
+    },
+    {
+      "id": "cola_in",
+      "concept_id": "immersion",
+      "element_id": "strip_cola",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "콜라 칸"
+    },
+    {
+      "id": "clear_in",
+      "concept_id": "immersion",
+      "element_id": "strip_clear",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 2,
+            "word": "사이다,",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 2,
+            "word": "사이다,",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "투명 탄산 칸"
+    },
+    {
+      "id": "oj_in",
+      "concept_id": "immersion",
+      "element_id": "strip_oj",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 3,
+            "word": "오렌지주스에",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 3,
+            "word": "오렌지주스에",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "오렌지주스 칸"
+    },
+    {
+      "id": "drop_in",
+      "concept_id": "immersion",
+      "element_id": "drop_scene",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 4,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 4,
+            "word": "치아를",
+            "edge": "start",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "코드 그래픽 재연: 액체셀 홀더 속 치아 절편에 피펫으로 콜라(논문 2.2절, 사용자 addendum-36~38)"
+    },
+    {
+      "id": "ticks_in",
+      "concept_id": "immersion",
+      "element_id": "time_ticks",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 8,
+            "word": "시간대별로",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 9,
+            "word": "부식",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1·3·5·10분 눈금"
+    },
+    {
+      "id": "grid_in",
+      "concept_id": "roughness",
+      "element_id": "afm_grid",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "울퉁불퉁해졌습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "실측 격자"
+    },
+    {
+      "id": "sweep_in",
+      "concept_id": "roughness",
+      "element_id": "col_sweep",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "울퉁불퉁해졌습니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 4,
+            "word": "울퉁불퉁해졌습니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "십",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "시간 열 강조 띠"
+    },
+    {
+      "id": "bars_in",
+      "concept_id": "roughness",
+      "element_id": "rough_bars",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 0,
+            "word": "십",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 7,
+            "word": "배",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "기준 1 → 약 5배 막대"
+    },
+    {
+      "id": "five_in",
+      "concept_id": "roughness",
+      "element_id": "five_label",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 6,
+            "word": "다섯",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s08",
+            "token_index": 7,
+            "word": "배",
+            "edge": "end",
+            "offset_frames": 2
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "약 5배 표기"
+    },
+    {
+      "id": "mod_in",
+      "concept_id": "modulus",
+      "element_id": "mod_maps",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 3,
+            "word": "탄성",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "탄성 계수 지도"
+    },
+    {
+      "id": "modbars_in",
+      "concept_id": "modulus",
+      "element_id": "mod_bars",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 5,
+            "word": "오",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 9,
+            "word": "일도",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "5분 막대가 1/5 아래로"
+    },
+    {
+      "id": "fifth_in",
+      "concept_id": "modulus",
+      "element_id": "fifth_line",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "오",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 9,
+            "word": "일도",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "1/5 기준 점선"
+    },
+    {
+      "id": "ten_in",
+      "concept_id": "drinks",
+      "element_id": "ten_tiles",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "세 음료 10분 표면"
+    },
+    {
+      "id": "tenbars_in",
+      "concept_id": "drinks",
+      "element_id": "ten_bars",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 7,
+            "word": "거칠기",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 9,
+            "word": "탄산음료에서",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "10분 거칠기 막대, 탄산 강조"
+    },
+    {
+      "id": "steps_in",
+      "concept_id": "caveat",
+      "element_id": "sample_steps",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 0,
+            "word": "이건",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 2,
+            "word": "잘라",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 2
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "통째 치아 → 절편 → 틀"
+    },
+    {
+      "id": "nosaliva_in",
+      "concept_id": "caveat",
+      "element_id": "no_saliva",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 6,
+            "word": "침",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 7,
+            "word": "없는",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 10,
+            "word": "결과입니다.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s12",
+            "token_index": 10,
+            "word": "결과입니다.",
+            "edge": "end",
+            "offset_frames": 6
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "조건 표기"
+    },
+    {
+      "id": "film_in",
+      "concept_id": "caveat",
+      "element_id": "saliva_film",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 6,
+            "word": "침",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "침 막 도해"
+    },
+    {
+      "id": "saliva_label_in",
+      "concept_id": "caveat",
+      "element_id": "saliva_label",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 6,
+            "word": "침",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 6,
+            "word": "침",
+            "edge": "end",
+            "offset_frames": 4
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "침 이름"
+    },
+    {
+      "id": "drinktag_in",
+      "concept_id": "caveat",
+      "element_id": "drink_tag",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 1,
+            "word": "실제",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "떨어지는 입자 = 음료"
+    },
+    {
+      "id": "kw_afm_in",
+      "concept_id": "afm",
+      "element_id": "kw_afm",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 2,
+            "word": "원자간력",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 3,
+            "word": "에이에프엠",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s04",
+            "token_index": 0,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "키워드 팝업 AFM 현미경"
+    },
+    {
+      "id": "kw_mod_in",
+      "concept_id": "modulus",
+      "element_id": "kw_mod",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 7,
+            "word": "오",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 9,
+            "word": "일도",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "키워드 팝업 탄성 계수 1/5"
+    },
+    {
+      "id": "kw_shield_in",
+      "concept_id": "caveat",
+      "element_id": "kw_shield",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 3,
+            "word": "보호막",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s13",
+            "token_index": 4,
+            "word": "역할을",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -2
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "키워드 팝업 침의 방패"
+    },
+    {
+      "id": "pair_in",
+      "concept_id": "close",
+      "element_id": "pair_terrain",
+      "kind": "motion",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 1,
+            "word": "청량음료에",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 17,
+            "word": "건데요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 17,
+            "word": "건데요.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "처음·10분 지형 나란히"
+    },
+    {
+      "id": "nm_in",
+      "concept_id": "close",
+      "element_id": "nm_axis",
+      "kind": "label",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 14,
+            "word": "나노미터",
+            "edge": "start",
+            "offset_frames": -4
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 15,
+            "word": "단위로",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 17,
+            "word": "건데요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 17,
+            "word": "건데요.",
+            "edge": "end",
+            "offset_frames": 8
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "nm 눈금"
+    },
+    {
+      "id": "closebub_in",
+      "concept_id": "close",
+      "element_id": "close_bubbles",
+      "kind": "media",
+      "timing": {
+        "from": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "settled": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 0,
+            "word": "여러분은",
+            "edge": "start",
+            "offset_frames": 6
+          }
+        },
+        "to": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "easing": {
+        "enter": "ease-out",
+        "move": "ease-in-out",
+        "exit": "ease-in"
+      },
+      "depends_on": [],
+      "coexist_with": [],
+      "why": "기포 실사로 마무리"
+    }
+  ],
+  "audio_cues": [
+    {
+      "id": "sfx_kw_afm",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "kw_afm_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_five_glitch",
+      "kind": "sfx",
+      "asset": "audio/sfx_glitch.wav",
+      "gain_db": -5,
+      "bind": {
+        "event_id": "five_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_five_drop",
+      "kind": "sfx",
+      "asset": "audio/sfx_bass_drop.wav",
+      "gain_db": -1,
+      "bind": {
+        "event_id": "five_in",
+        "point": "from",
+        "offset_frames": 2
+      }
+    },
+    {
+      "id": "sfx_mod_drop",
+      "kind": "sfx",
+      "asset": "audio/sfx_bass_drop.wav",
+      "gain_db": -2,
+      "bind": {
+        "event_id": "modbars_in",
+        "point": "from",
+        "offset_frames": 4
+      }
+    },
+    {
+      "id": "sfx_kw_mod",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -6,
+      "bind": {
+        "event_id": "kw_mod_in",
+        "point": "from",
+        "offset_frames": 0
+      }
+    },
+    {
+      "id": "sfx_tenbars",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -7,
+      "bind": {
+        "event_id": "tenbars_in",
+        "point": "from",
+        "offset_frames": 2
+      }
+    },
+    {
+      "id": "sfx_shield_chime",
+      "kind": "sfx",
+      "asset": "audio/sfx_chime.wav",
+      "gain_db": -4,
+      "bind": {
+        "event_id": "film_in",
+        "point": "from",
+        "offset_frames": 8
+      }
+    },
+    {
+      "id": "sfx_pour_cola",
+      "kind": "sfx",
+      "asset": "audio/envato_pour.wav",
+      "gain_db": -3,
+      "bind": {
+        "event_id": "cola_in",
+        "point": "from",
+        "offset_frames": 2
+      }
+    },
+    {
+      "id": "sfx_drop_pop",
+      "kind": "sfx",
+      "asset": "audio/sfx_pop.wav",
+      "gain_db": -8,
+      "bind": {
+        "event_id": "drop_in",
+        "point": "settled",
+        "offset_frames": 6
+      }
+    },
+    {
+      "id": "sfx_open_fizz",
+      "kind": "sfx",
+      "asset": "audio/envato_fizz_open.wav",
+      "gain_db": -3,
+      "bind": {
+        "event_id": "macro_in",
+        "point": "from",
+        "offset_frames": 28
+      }
+    },
+    {
+      "id": "sfx_end_fizz",
+      "kind": "sfx",
+      "asset": "audio/envato_fizz_end.wav",
+      "gain_db": -2,
+      "bind": {
+        "event_id": "closebub_in",
+        "point": "from",
+        "offset_frames": 2
+      }
+    }
+  ]
+}

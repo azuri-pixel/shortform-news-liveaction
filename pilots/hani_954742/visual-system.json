@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0",
+  "preset": "editorial-concept-v1",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "caption": {
+    "preset": "betelgeuse-v1"
+  },
+  "text": {
+    "persistent_top_text": false,
+    "explanatory_notes": false,
+    "allowed_roles": [
+      "necessary-label",
+      "condition",
+      "provenance"
+    ]
+  },
+  "media": {
+    "full_bleed_default": true,
+    "assets": [
+      {
+        "id": "project_logo",
+        "source": "02_production/brand/logo.png",
+        "file": "editorial/brand-logo.png"
+      },
+      {
+        "id": "afm_height_atlas",
+        "source": "02_production/external_assets/derived/afm_height_atlas.png",
+        "file": "editorial/afm_height_atlas.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "sample_a",
+        "source": "02_production/external_assets/derived/sample_a.png",
+        "file": "editorial/sample_a.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "team_photo",
+        "source": "02_production/external_assets/derived/team_photo.jpg",
+        "file": "editorial/team_photo.jpg",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=9131"
+      },
+      {
+        "id": "sample_b",
+        "source": "02_production/external_assets/derived/sample_b.png",
+        "file": "editorial/sample_b.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "sample_c",
+        "source": "02_production/external_assets/derived/sample_c.png",
+        "file": "editorial/sample_c.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "probe_sem",
+        "source": "02_production/external_assets/derived/probe_sem.png",
+        "file": "editorial/probe_sem.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r0c0",
+        "source": "02_production/external_assets/derived/afm_r0c0.png",
+        "file": "editorial/afm_r0c0.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r0c1",
+        "source": "02_production/external_assets/derived/afm_r0c1.png",
+        "file": "editorial/afm_r0c1.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r0c2",
+        "source": "02_production/external_assets/derived/afm_r0c2.png",
+        "file": "editorial/afm_r0c2.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r0c3",
+        "source": "02_production/external_assets/derived/afm_r0c3.png",
+        "file": "editorial/afm_r0c3.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r0c4",
+        "source": "02_production/external_assets/derived/afm_r0c4.png",
+        "file": "editorial/afm_r0c4.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r1c0",
+        "source": "02_production/external_assets/derived/afm_r1c0.png",
+        "file": "editorial/afm_r1c0.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r1c1",
+        "source": "02_production/external_assets/derived/afm_r1c1.png",
+        "file": "editorial/afm_r1c1.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r1c2",
+        "source": "02_production/external_assets/derived/afm_r1c2.png",
+        "file": "editorial/afm_r1c2.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r1c3",
+        "source": "02_production/external_assets/derived/afm_r1c3.png",
+        "file": "editorial/afm_r1c3.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r1c4",
+        "source": "02_production/external_assets/derived/afm_r1c4.png",
+        "file": "editorial/afm_r1c4.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r2c0",
+        "source": "02_production/external_assets/derived/afm_r2c0.png",
+        "file": "editorial/afm_r2c0.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r2c1",
+        "source": "02_production/external_assets/derived/afm_r2c1.png",
+        "file": "editorial/afm_r2c1.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r2c2",
+        "source": "02_production/external_assets/derived/afm_r2c2.png",
+        "file": "editorial/afm_r2c2.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r2c3",
+        "source": "02_production/external_assets/derived/afm_r2c3.png",
+        "file": "editorial/afm_r2c3.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "afm_tile_r2c4",
+        "source": "02_production/external_assets/derived/afm_r2c4.png",
+        "file": "editorial/afm_r2c4.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "mod_tile_r0c0",
+        "source": "02_production/external_assets/derived/mod_r0c0.png",
+        "file": "editorial/mod_r0c0.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "mod_tile_r0c1",
+        "source": "02_production/external_assets/derived/mod_r0c1.png",
+        "file": "editorial/mod_r0c1.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "mod_tile_r0c2",
+        "source": "02_production/external_assets/derived/mod_r0c2.png",
+        "file": "editorial/mod_r0c2.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "mod_tile_r0c3",
+        "source": "02_production/external_assets/derived/mod_r0c3.png",
+        "file": "editorial/mod_r0c3.png",
+        "credit": "KAIST",
+        "attribution_kind": "institution",
+        "attribution_evidence": "https://www.kaist.ac.kr/news/html/news/?mode=V&mng_no=9110"
+      },
+      {
+        "id": "hook_macro",
+        "source": "02_production/external_assets/generated/hook_macro.mp4",
+        "file": "editorial/hook_macro.mp4",
+        "credit": "AI 생성(Higgsfield)",
+        "generation_job": "job_hook_macro"
+      },
+      {
+        "id": "afm_instrument",
+        "source": "02_production/external_assets/derived/afm_instrument.jpg",
+        "file": "editorial/afm_instrument.jpg",
+        "credit": "Misra.saurabh1, Wikimedia Commons (Public domain)"
+      },
+      {
+        "id": "bubbles",
+        "source": "02_production/external_assets/derived/bubbles.mp4",
+        "file": "editorial/bubbles.mp4",
+        "credit": "Mixkit"
+      },
+      {
+        "id": "cola_pour",
+        "source": "02_production/external_assets/derived/cola_pour.mp4",
+        "file": "editorial/cola_pour.mp4",
+        "credit": "Mixkit"
+      },
+      {
+        "id": "clear_pour",
+        "source": "02_production/external_assets/derived/clear_pour.mp4",
+        "file": "editorial/clear_pour.mp4",
+        "credit": "Mixkit"
+      },
+      {
+        "id": "oj_pour",
+        "source": "02_production/external_assets/derived/oj_pour.mp4",
+        "file": "editorial/oj_pour.mp4",
+        "credit": "Mixkit"
+      }
+    ]
+  },
+  "mobile": {
+    "max_simultaneous_labels": 3,
+    "review_scale": 0.3333333333
+  },
+  "motion": {
+    "enter": "ease-out",
+    "move": "ease-in-out",
+    "exit": "ease-in",
+    "quantitative_overshoot": false
+  },
+  "production_profile": {
+    "id": "hani-shortform",
+    "version": "1.5.0"
+  },
+  "visual_contract": "visual-explanation@1",
+  "generation_jobs": [
+    {
+      "id": "job_hook_macro",
+      "kind": "video",
+      "purpose": "훅 비유: 탄산 콜라 속으로 잠기며 기포가 붙는 치아 매크로(관측 아님, 사용자 addendum-2)",
+      "status": "accepted",
+      "provider": "higgsfield",
+      "model": "seedance_2_5",
+      "job_id": "1c39751e-952c-43bd-9bbb-f58eeb223869",
+      "prompt_path": "02_production/prompts/hook_macro.txt",
+      "output": "02_production/external_assets/generated/hook_macro.mp4",
+      "observation": "720x1280 24fps 4.05s → 1080x1920 30fps 업스케일. 0~1.4s 치아가 공중, 1.5s부터 콜라에 잠기며 기포가 붙음. 글자·로고·병 없음. 0.5s부터 0.95배속으로 약 3.7초 사용(사용자 addendum-3: 「청량음료가」까지)"
+    }
+  ],
+  "hook_style": {
+    "version": "hook-style@3"
+  },
+  "attribution_style": {
+    "version": "1.0.0"
+  },
+  "attribution": {
+    "sources": [
+      {
+        "asset_ids": [
+          "afm_height_atlas"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 원자간력 현미경 측정 이미지(3D 재구성)",
+        "start": 4.25,
+        "end": 5.9
+      },
+      {
+        "asset_ids": [
+          "team_photo",
+          "sample_a",
+          "afm_tile_r0c4"
+        ],
+        "text": "KAIST 보도자료 · 연구진·치아 시료 사진, 원자간력 현미경 이미지",
+        "start": 5.95,
+        "end": 10.94
+      },
+      {
+        "asset_ids": [
+          "probe_sem",
+          "afm_height_atlas"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 탐침 전자현미경 사진, 측정 이미지(3D 재구성)",
+        "start": 13.82,
+        "end": 18.54
+      },
+      {
+        "asset_ids": [
+          "afm_tile_r0c0",
+          "afm_tile_r0c1",
+          "afm_tile_r0c2",
+          "afm_tile_r0c3",
+          "afm_tile_r0c4",
+          "afm_tile_r1c0",
+          "afm_tile_r1c1",
+          "afm_tile_r1c2",
+          "afm_tile_r1c3",
+          "afm_tile_r1c4",
+          "afm_tile_r2c0",
+          "afm_tile_r2c1",
+          "afm_tile_r2c2",
+          "afm_tile_r2c3",
+          "afm_tile_r2c4"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 음료별 법랑질 표면 원자간력 현미경 이미지",
+        "start": 28.41,
+        "end": 31.41
+      },
+      {
+        "asset_ids": [
+          "mod_tile_r0c0",
+          "mod_tile_r0c1",
+          "mod_tile_r0c2",
+          "mod_tile_r0c3"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 법랑질 탄성 계수 지도(콜라)",
+        "start": 34.74,
+        "end": 40.37
+      },
+      {
+        "asset_ids": [
+          "afm_tile_r0c4",
+          "afm_tile_r1c4",
+          "afm_tile_r2c4"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 10분 노출 법랑질 표면 이미지",
+        "start": 40.42,
+        "end": 45.63
+      },
+      {
+        "asset_ids": [
+          "sample_a",
+          "sample_b",
+          "sample_c"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 치아 시료 준비 사진",
+        "start": 46.85,
+        "end": 51.09
+      },
+      {
+        "asset_ids": [
+          "afm_height_atlas"
+        ],
+        "text": "KAIST 홍승범 교수 연구팀 · 원자간력 현미경 측정 이미지(3D 재구성)",
+        "start": 56.37,
+        "end": 63.54
+      }
+    ],
+    "pages": [
+      {
+        "duration": 0.5,
+        "categories": [
+          {
+            "title": "참조 기사",
+            "lines": [
+              "한겨레 · 곽노필, 콜라·사이다에 치아 담갔더니…10분만에 5배 거칠어져"
+            ]
+          },
+          {
+            "title": "이미지·관측 근거",
+            "lines": [
+              "KAIST 홍승범 교수 연구팀 (보도자료 그림·사진)",
+              "그래프 재작도: Li et al., J. Mech. Behav. Biomed. Mater. 110, 103930 (2020)",
+              "AFM 장비 사진: Misra.saurabh1, Wikimedia Commons (퍼블릭 도메인)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_logo": {
+    "version": "4.0.0",
+    "sha256": "9aff17473fe98ac7d59b21c97a754f753c2ddb32f70f26abefb708444308483a",
+    "file": "editorial/brand-logo.png",
+    "x": 860,
+    "y": 250,
+    "width": 140,
+    "height": 140
+  },
+  "attribution_policy": "attribution@4"
+}

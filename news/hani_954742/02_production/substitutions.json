@@ -1,0 +1,11 @@
+{
+ "pairs": [
+  {"text": "원자간력(AFM)", "spoken": "원자간력 에이에프엠"},
+  {"text": "3차원", "spoken": "삼차원"},
+  {"text": "10분", "spoken": "십 분"},
+  {"text": "5배", "spoken": "다섯 배"},
+  {"text": "5분만에", "spoken": "오 분만에"},
+  {"text": "5분의", "spoken": "오 분의"},
+  {"text": "1도", "spoken": "일도"}
+ ]
+}

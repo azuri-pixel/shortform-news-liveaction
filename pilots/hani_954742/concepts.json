@@ -1,0 +1,1277 @@
+{
+  "schema_version": "1.0",
+  "pilot": "hani_954742",
+  "concepts": [
+    {
+      "id": "hook",
+      "question": "청량음료가 닿은 치아 표면은 어떻게 변할까?",
+      "takeaway": "실제 측정 표면이 매끈한 상태에서 울퉁불퉁하게 변하는 장면으로 연다",
+      "narration_lines": [
+        "s01"
+      ],
+      "facts": [
+        "F2",
+        "F7"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s01",
+            "token_index": 0,
+            "word": "보이시나요.",
+            "edge": "start",
+            "offset_frames": -28
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "hook_macro",
+          "afm_height_atlas",
+          "bubbles"
+        ],
+        "why": "KAIST 원자간력 현미경 실측 이미지(콜라, 처음→10분)의 색 막대로 높이를 역산한 3D 지형이 매끈한 면에서 울퉁불퉁하게 바뀐다. 뒤는 탄산 기포 실사(분위기)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "hook_macro",
+          "hook_bubbles",
+          "hook_terrain",
+          "hook_clock",
+          "hook_tag",
+          "opening_hook"
+        ],
+        "remove": []
+      },
+      "elements": [
+        {
+          "id": "hook_macro",
+          "kind": "media",
+          "role": "metaphor"
+        },
+        {
+          "id": "hook_bubbles",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "hook_terrain",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "hook_clock",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "10분"
+        },
+        {
+          "id": "hook_tag",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "치아 표면"
+        },
+        {
+          "id": "opening_hook",
+          "kind": "text",
+          "role": "hook",
+          "text": "청량음료가 치아를\n부식시키는 장면"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "hook_macro",
+          "hook_bubbles",
+          "hook_terrain"
+        ]
+      },
+      "visual": {
+        "purpose": "observe",
+        "focus": "실제 측정 표면이 매끈한 상태에서 울퉁불퉁하게 변하는 장면으로 연다",
+        "moments": [
+          {
+            "id": "morph",
+            "narration_lines": [
+              "s01"
+            ],
+            "subject": "법랑질 표면 지형",
+            "action": "매끈한 면이 10분에 걸쳐 울퉁불퉁하게 솟고 꺼진다",
+            "result": "부식으로 표면이 거칠어지는 실제 변화를 본다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "hook_macro",
+            "afm_height_atlas",
+            "bubbles"
+          ],
+          "job_ids": [
+            "job_hook_macro"
+          ],
+          "code_role": "실측 높이 지도 → 3D 지형 모핑(처음→10분), 시간 칩",
+          "generated_role": "탄산 콜라에 잠기는 치아 매크로(비유, 관측 아님)"
+        }
+      }
+    },
+    {
+      "id": "capture",
+      "question": "누가 무엇으로 봤나?",
+      "takeaway": "카이스트가 실제 치아 조각을 현미경으로 들여다봤다",
+      "narration_lines": [
+        "s02"
+      ],
+      "facts": [
+        "F1",
+        "F2"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s02",
+            "token_index": 0,
+            "word": "카이스트",
+            "edge": "start",
+            "offset_frames": -8
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "team_photo",
+          "sample_a",
+          "afm_tile_r0c4"
+        ],
+        "why": "연구 시료 치아(KAIST 그림 1a) 실사 → 확대경이 표면을 들여다보면 실제 AFM 이미지가 열린다"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "team_photo",
+          "name_hong",
+          "name_oh",
+          "sample_tooth",
+          "zoom_lens"
+        ],
+        "remove": [
+          "hook_bubbles",
+          "hook_clock",
+          "hook_macro",
+          "hook_tag",
+          "hook_terrain",
+          "opening_hook"
+        ]
+      },
+      "elements": [
+        {
+          "id": "team_photo",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "name_hong",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "홍승범 교수"
+        },
+        {
+          "id": "name_oh",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "오충익 박사"
+        },
+        {
+          "id": "sample_tooth",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "zoom_lens",
+          "kind": "motion",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "team_photo",
+          "name_hong",
+          "name_oh"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "카이스트가 실제 치아 조각을 현미경으로 들여다봤다",
+        "moments": [
+          {
+            "id": "lens",
+            "narration_lines": [
+              "s02"
+            ],
+            "subject": "치아 표면",
+            "action": "확대경 원이 표면에 붙어 실제 AFM 이미지가 열린다",
+            "result": "현미경으로 표면을 찍었다는 것이 읽힌다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "team_photo",
+            "sample_a",
+            "afm_tile_r0c4"
+          ],
+          "job_ids": [],
+          "code_role": "확대경 원과 연결선"
+        }
+      }
+    },
+    {
+      "id": "afm",
+      "question": "원자간력 현미경은 어떻게 보나?",
+      "takeaway": "뾰족한 탐침이 표면을 훑어 높낮이를 3차원으로 그린다",
+      "narration_lines": [
+        "s03",
+        "s04"
+      ],
+      "facts": [
+        "F3"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s03",
+            "token_index": 0,
+            "word": "사용한",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "afm_instrument",
+          "probe_sem",
+          "afm_height_atlas"
+        ],
+        "why": "실제 탐침 SEM 사진(KAIST) → 탐침이 표면 선을 따라 오르내리는 코드 도해 → 같은 높이값이 3D 지형으로 솟는다"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "instrument_photo",
+          "probe_photo",
+          "tip_label",
+          "scan_line",
+          "terrain_rise",
+          "height_key",
+          "kw_afm"
+        ],
+        "remove": [
+          "name_hong",
+          "name_oh",
+          "sample_tooth",
+          "team_photo",
+          "zoom_lens"
+        ]
+      },
+      "elements": [
+        {
+          "id": "instrument_photo",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "probe_photo",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "tip_label",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "탐침"
+        },
+        {
+          "id": "scan_line",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "terrain_rise",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "height_key",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "높이"
+        },
+        {
+          "id": "kw_afm",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "AFM 현미경"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "instrument_photo",
+          "probe_photo",
+          "tip_label"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "뾰족한 탐침이 표면을 훑어 높낮이를 3차원으로 그린다",
+        "moments": [
+          {
+            "id": "scan",
+            "narration_lines": [
+              "s04"
+            ],
+            "subject": "탐침",
+            "action": "표면 단면을 따라 움직이며 높낮이를 따라 오르내린다",
+            "result": "훑어서 높이를 잰다",
+            "motion_required": true
+          },
+          {
+            "id": "rise",
+            "narration_lines": [
+              "s04"
+            ],
+            "subject": "평면 이미지",
+            "action": "높이만큼 솟아 3차원 지형이 된다",
+            "result": "3차원 이미지가 무엇인지 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "afm_instrument",
+            "probe_sem",
+            "afm_height_atlas"
+          ],
+          "job_ids": [],
+          "code_role": "탐침 궤적·표면 단면선, 3D 지형 상승"
+        }
+      }
+    },
+    {
+      "id": "enamel",
+      "question": "어느 층을 봤나?",
+      "takeaway": "치아 맨 바깥의 단단한 층, 법랑질",
+      "narration_lines": [
+        "s05"
+      ],
+      "facts": [
+        "F5"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s05",
+            "token_index": 0,
+            "word": "관찰",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "diagram",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [],
+        "why": "직접 그린 어금니 단면도(법랑질·상아질·치수·잇몸·뼈) — 가장 바깥층 법랑질만 밝게 강조(사용자 addendum-30)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "crown_art",
+          "enamel_trace",
+          "enamel_label"
+        ],
+        "remove": [
+          "height_key",
+          "instrument_photo",
+          "kw_afm",
+          "probe_photo",
+          "scan_line",
+          "terrain_rise",
+          "tip_label"
+        ]
+      },
+      "elements": [
+        {
+          "id": "crown_art",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "enamel_trace",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "enamel_label",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "법랑질"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "crown_art",
+          "enamel_trace",
+          "enamel_label"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "치아 맨 바깥의 단단한 층, 법랑질",
+        "moments": [
+          {
+            "id": "trace",
+            "narration_lines": [
+              "s05"
+            ],
+            "subject": "치아 바깥층",
+            "action": "바깥쪽 층을 따라 강조선이 그려진다",
+            "result": "법랑질 위치가 보인다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [],
+          "job_ids": [],
+          "code_role": "법랑질 윤곽 강조선"
+        }
+      }
+    },
+    {
+      "id": "immersion",
+      "question": "어떻게 실험했나?",
+      "takeaway": "세 음료로 시간대별 변화를 쟀다",
+      "narration_lines": [
+        "s06"
+      ],
+      "facts": [
+        "F6"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s06",
+            "token_index": 0,
+            "word": "연구진은",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "tone",
+        "full_bleed": true,
+        "assets": [
+          "cola_pour",
+          "clear_pour",
+          "oj_pour"
+        ],
+        "why": "콜라·투명 탄산·오렌지주스 붓기 실사 세 칸(상표 없음, 음료 종류 분위기). 시간대는 1·3·5·10분 눈금"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "strip_cola",
+          "strip_clear",
+          "strip_oj",
+          "drop_scene",
+          "time_ticks"
+        ],
+        "remove": [
+          "crown_art",
+          "enamel_label",
+          "enamel_trace"
+        ]
+      },
+      "elements": [
+        {
+          "id": "strip_cola",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "strip_clear",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "strip_oj",
+          "kind": "media",
+          "role": "tone"
+        },
+        {
+          "id": "drop_scene",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "time_ticks",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "1 · 3 · 5 · 10분"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "strip_cola",
+          "strip_clear",
+          "strip_oj"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "세 음료로 시간대별 변화를 쟀다",
+        "moments": [
+          {
+            "id": "drinks",
+            "narration_lines": [
+              "s06"
+            ],
+            "subject": "세 음료",
+            "action": "말하는 순서대로 한 칸씩 열린다",
+            "result": "세 음료를 비교했다",
+            "motion_required": false
+          },
+          {
+            "id": "ticks",
+            "narration_lines": [
+              "s06"
+            ],
+            "subject": "시간 눈금",
+            "action": "1·3·5·10분 눈금이 차례로 찍힌다",
+            "result": "시간대별로 쟀다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "source",
+          "asset_ids": [
+            "cola_pour",
+            "clear_pour",
+            "oj_pour"
+          ],
+          "job_ids": []
+        }
+      }
+    },
+    {
+      "id": "roughness",
+      "question": "표면은 얼마나 거칠어졌나?",
+      "takeaway": "시간이 갈수록 울퉁불퉁, 10분 뒤 거칠기 약 5배",
+      "narration_lines": [
+        "s07",
+        "s08"
+      ],
+      "facts": [
+        "F7",
+        "F14"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s07",
+            "token_index": 0,
+            "word": "매끈했던",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "afm_tile_r0c0",
+          "afm_tile_r0c1",
+          "afm_tile_r0c2",
+          "afm_tile_r0c3",
+          "afm_tile_r0c4",
+          "afm_tile_r1c0",
+          "afm_tile_r1c1",
+          "afm_tile_r1c2",
+          "afm_tile_r1c3",
+          "afm_tile_r1c4",
+          "afm_tile_r2c0",
+          "afm_tile_r2c1",
+          "afm_tile_r2c2",
+          "afm_tile_r2c3",
+          "afm_tile_r2c4"
+        ],
+        "why": "KAIST 실측 AFM 이미지 3행×5열(상표 라벨 제거, 일반명) — 시간 열을 따라 강조 띠가 지나간다 → 거칠기 값(논문 그래프 평균, 재작도) 기준 막대 1 → 약 5배"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "afm_grid",
+          "col_sweep",
+          "rough_bars",
+          "five_label"
+        ],
+        "remove": [
+          "drop_scene",
+          "strip_clear",
+          "strip_cola",
+          "strip_oj",
+          "time_ticks"
+        ]
+      },
+      "elements": [
+        {
+          "id": "afm_grid",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "col_sweep",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "rough_bars",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "five_label",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "약 5배"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "afm_grid",
+          "col_sweep",
+          "rough_bars"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "시간이 갈수록 울퉁불퉁, 10분 뒤 거칠기 약 5배",
+        "moments": [
+          {
+            "id": "sweep",
+            "narration_lines": [
+              "s07"
+            ],
+            "subject": "실측 표면 격자",
+            "action": "강조 띠가 처음→10분 열로 옮겨 간다",
+            "result": "시간이 갈수록 울퉁불퉁",
+            "motion_required": true
+          },
+          {
+            "id": "bars",
+            "narration_lines": [
+              "s08"
+            ],
+            "subject": "거칠기 막대",
+            "action": "기준 막대에서 약 5배 높이로 자란다",
+            "result": "10분 뒤 약 5배",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "afm_tile_r0c0",
+            "afm_tile_r0c1",
+            "afm_tile_r0c2",
+            "afm_tile_r0c3",
+            "afm_tile_r0c4",
+            "afm_tile_r1c0",
+            "afm_tile_r1c1",
+            "afm_tile_r1c2",
+            "afm_tile_r1c3",
+            "afm_tile_r1c4",
+            "afm_tile_r2c0",
+            "afm_tile_r2c1",
+            "afm_tile_r2c2",
+            "afm_tile_r2c3",
+            "afm_tile_r2c4"
+          ],
+          "job_ids": [],
+          "code_role": "시간 열 강조 띠, 기준 막대 1 대비 약 5배 막대"
+        }
+      }
+    },
+    {
+      "id": "modulus",
+      "question": "단단함은?",
+      "takeaway": "탄성 계수는 5분 만에 5분의 1도 안 되게",
+      "narration_lines": [
+        "s09"
+      ],
+      "facts": [
+        "F4",
+        "F8"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s09",
+            "token_index": 0,
+            "word": "단단한",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "mod_tile_r0c0",
+          "mod_tile_r0c1",
+          "mod_tile_r0c2",
+          "mod_tile_r0c3"
+        ],
+        "why": "KAIST 탄성 계수 지도(콜라, 0·1·3·5분)가 밝은 색에서 어두운 색으로 → 막대(그래프 재작도): 처음 대비 5분 뒤, 1/5 점선 아래"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "mod_maps",
+          "mod_bars",
+          "fifth_line",
+          "kw_mod"
+        ],
+        "remove": [
+          "afm_grid",
+          "col_sweep",
+          "five_label",
+          "rough_bars"
+        ]
+      },
+      "elements": [
+        {
+          "id": "mod_maps",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "mod_bars",
+          "kind": "motion",
+          "role": "evidence"
+        },
+        {
+          "id": "fifth_line",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "1/5 선"
+        },
+        {
+          "id": "kw_mod",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "탄성계수 1/5 이하"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "mod_maps",
+          "mod_bars",
+          "fifth_line"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "탄성 계수는 5분 만에 5분의 1도 안 되게",
+        "moments": [
+          {
+            "id": "drop",
+            "narration_lines": [
+              "s09"
+            ],
+            "subject": "탄성 막대",
+            "action": "5분 막대가 1/5 점선 아래까지 줄어든다",
+            "result": "5분의 1도 안 되는 수준",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "mod_tile_r0c0",
+            "mod_tile_r0c1",
+            "mod_tile_r0c2",
+            "mod_tile_r0c3"
+          ],
+          "job_ids": [],
+          "code_role": "탄성 막대와 1/5 기준 점선"
+        }
+      }
+    },
+    {
+      "id": "drinks",
+      "question": "음료마다 달랐나?",
+      "takeaway": "모두 거칠어졌고, 거칠기 값은 탄산음료가 더 컸다",
+      "narration_lines": [
+        "s10"
+      ],
+      "facts": [
+        "F9",
+        "F10"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s10",
+            "token_index": 0,
+            "word": "음료",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "afm_tile_r0c4",
+          "afm_tile_r1c4",
+          "afm_tile_r2c4"
+        ],
+        "why": "세 음료의 10분 실측 표면을 나란히 → 아래 거칠기 막대(그래프 재작도)에서 콜라·사이다가 오렌지주스보다 높다"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "ten_tiles",
+          "ten_bars"
+        ],
+        "remove": [
+          "fifth_line",
+          "kw_mod",
+          "mod_bars",
+          "mod_maps"
+        ]
+      },
+      "elements": [
+        {
+          "id": "ten_tiles",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "ten_bars",
+          "kind": "motion",
+          "role": "evidence"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "ten_tiles",
+          "ten_bars"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "모두 거칠어졌고, 거칠기 값은 탄산음료가 더 컸다",
+        "moments": [
+          {
+            "id": "compare",
+            "narration_lines": [
+              "s10"
+            ],
+            "subject": "거칠기 막대",
+            "action": "탄산음료 두 막대가 강조된다",
+            "result": "거칠기 값은 탄산음료가 더 큼",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "afm_tile_r0c4",
+            "afm_tile_r1c4",
+            "afm_tile_r2c4"
+          ],
+          "job_ids": [],
+          "code_role": "10분 거칠기 막대 세 개"
+        }
+      }
+    },
+    {
+      "id": "caveat",
+      "question": "실제 입안에서도 이만큼일까?",
+      "takeaway": "잘라 갈아 낸 조각·침 없는 실험, 실제 입안은 침 등으로 덜할 수 있다",
+      "narration_lines": [
+        "s11",
+        "s12",
+        "s13"
+      ],
+      "facts": [
+        "F12",
+        "F14"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s11",
+            "token_index": 0,
+            "word": "여기서",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "sample_a",
+          "sample_b",
+          "sample_c"
+        ],
+        "why": "KAIST 시료 사진(통째 치아 → 2mm 절편 → 고정 틀) + 조건 표기 → 법랑질 위 침 막이 산을 막는 코드 도해"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "sample_steps",
+          "no_saliva",
+          "saliva_film",
+          "saliva_label",
+          "drink_tag",
+          "kw_shield"
+        ],
+        "remove": [
+          "ten_bars",
+          "ten_tiles"
+        ]
+      },
+      "elements": [
+        {
+          "id": "sample_steps",
+          "kind": "media",
+          "role": "evidence"
+        },
+        {
+          "id": "no_saliva",
+          "kind": "text",
+          "role": "condition",
+          "text": "침 없는 실험실"
+        },
+        {
+          "id": "saliva_film",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "saliva_label",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "침"
+        },
+        {
+          "id": "drink_tag",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "음료"
+        },
+        {
+          "id": "kw_shield",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "침의 방패"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "sample_steps",
+          "no_saliva",
+          "saliva_film"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "잘라 갈아 낸 조각·침 없는 실험, 실제 입안은 침 등으로 덜할 수 있다",
+        "moments": [
+          {
+            "id": "lab",
+            "narration_lines": [
+              "s12"
+            ],
+            "subject": "시료",
+            "action": "통째 치아가 잘린 조각으로 바뀐다",
+            "result": "실험 대상이 잘라 낸 조각임",
+            "motion_required": false
+          },
+          {
+            "id": "film",
+            "narration_lines": [
+              "s13"
+            ],
+            "subject": "침 막",
+            "action": "법랑질 위에 막이 덮이고 산 입자가 막에서 줄어든다",
+            "result": "침이 보호막이라 덜할 수 있다",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "sample_a",
+            "sample_b",
+            "sample_c"
+          ],
+          "job_ids": [],
+          "code_role": "침 막 도해(법랑질 띠, 산 입자, 막)"
+        }
+      }
+    },
+    {
+      "id": "close",
+      "question": "그래서 무엇을 확인했나?",
+      "takeaway": "오래 노출되면 표면이 거칠어지고 단단함이 떨어질 수 있음을 나노미터 단위로",
+      "narration_lines": [
+        "s14",
+        "s15"
+      ],
+      "facts": [
+        "F3",
+        "F12"
+      ],
+      "prerequisites": [],
+      "range": {
+        "from": {
+          "anchor": {
+            "line": "s14",
+            "token_index": 0,
+            "word": "다만",
+            "edge": "start",
+            "offset_frames": -6
+          }
+        },
+        "end": {
+          "anchor": {
+            "line": "s15",
+            "token_index": 5,
+            "word": "남겨주세요.",
+            "edge": "end",
+            "offset_frames": 0
+          }
+        }
+      },
+      "representation": {
+        "kind": "hybrid",
+        "role": "evidence",
+        "full_bleed": true,
+        "assets": [
+          "afm_height_atlas",
+          "hook_macro"
+        ],
+        "why": "처음과 10분 3D 지형을 나란히, 높이 눈금 ±100 nm → 마지막은 첫 장면의 콜라에 잠긴 치아 생성 영상(사용자 addendum-23)"
+      },
+      "state": {
+        "keep": [],
+        "add": [
+          "pair_terrain",
+          "nm_axis",
+          "close_bubbles"
+        ],
+        "remove": [
+          "drink_tag",
+          "kw_shield",
+          "no_saliva",
+          "saliva_film",
+          "saliva_label",
+          "sample_steps"
+        ]
+      },
+      "elements": [
+        {
+          "id": "pair_terrain",
+          "kind": "diagram",
+          "role": "evidence"
+        },
+        {
+          "id": "nm_axis",
+          "kind": "text",
+          "role": "necessary-label",
+          "text": "±100 nm"
+        },
+        {
+          "id": "close_bubbles",
+          "kind": "media",
+          "role": "metaphor"
+        }
+      ],
+      "semantic_pairs": [],
+      "mobile": {
+        "max_simultaneous_labels": 3,
+        "focal_priority": [
+          "pair_terrain",
+          "nm_axis",
+          "close_bubbles"
+        ]
+      },
+      "visual": {
+        "purpose": "explain",
+        "focus": "오래 노출되면 표면이 거칠어지고 단단함이 떨어질 수 있음을 나노미터 단위로",
+        "moments": [
+          {
+            "id": "pair",
+            "narration_lines": [
+              "s14"
+            ],
+            "subject": "처음·10분 지형",
+            "action": "나란히 천천히 돌며 높이 눈금이 붙는다",
+            "result": "나노미터 단위 확인",
+            "motion_required": true
+          }
+        ],
+        "realization": {
+          "method": "hybrid",
+          "asset_ids": [
+            "afm_height_atlas",
+            "hook_macro"
+          ],
+          "job_ids": [
+            "job_hook_macro"
+          ],
+          "code_role": "두 지형과 nm 눈금",
+          "generated_role": "탄산 콜라에 잠기는 치아 매크로(비유, 관측 아님)"
+        }
+      }
+    }
+  ]
+}

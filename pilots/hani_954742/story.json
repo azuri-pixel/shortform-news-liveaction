@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "mode": "editorial-concept",
+  "pilot": "hani_954742",
+  "script_policy": "script-faithful",
+  "creative_scope": {
+    "script": "locked",
+    "assets": "delegated",
+    "diagrams": "delegated",
+    "audio": "delegated"
+  },
+  "question": "청량음료에 닿은 치아 표면은 실제로 어떻게 변할까?",
+  "takeaway": "원자간력 현미경으로 본 법랑질 조각은 콜라·사이다·오렌지주스에서 몇 분 만에 거칠어지고(10분 약 5배) 탄성 계수가 떨어졌다(5분 1/5 이하). 침 없는 실험실 조건이라 실제 입안은 덜할 수 있다.",
+  "concept_order": [
+    "hook",
+    "capture",
+    "afm",
+    "enamel",
+    "immersion",
+    "roughness",
+    "modulus",
+    "drinks",
+    "caveat",
+    "close"
+  ],
+  "hook": {
+    "narration_line": "s01",
+    "phrases": [
+      {
+        "element_id": "opening_hook",
+        "text_event_id": "hook_text",
+        "underline_event_id": "hook_line",
+        "layout": {
+          "width": 980,
+          "center_y": 1190
+        },
+        "rows": [
+          {
+            "align": "center",
+            "line_height": 70,
+            "gap_after": 14,
+            "runs": [
+              {
+                "text": "청량음료가 치아를",
+                "role": "support",
+                "font_family": "Pretendard",
+                "font_weight": 700,
+                "font_size": 60,
+                "text_color": "#FFD16A",
+                "letter_spacing": 0
+              }
+            ]
+          },
+          {
+            "align": "center",
+            "line_height": 122,
+            "gap_after": 0,
+            "runs": [
+              {
+                "text": "부식시키는 장면",
+                "role": "emphasis",
+                "underline": true,
+                "font_family": "Pretendard",
+                "font_weight": 800,
+                "font_size": 110,
+                "text_color": "#FFFFFF",
+                "letter_spacing": -2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "credits": [
+    "한겨레 · 곽노필, 콜라·사이다에 치아 담갔더니…10분만에 5배 거칠어져",
+    "KAIST",
+    "그래프 재작도: Li et al., J. Mech. Behav. Biomed. Mater. 110, 103930 (2020)"
+  ]
+}
