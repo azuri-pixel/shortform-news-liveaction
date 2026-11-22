@@ -58,6 +58,13 @@
       "archive": "config/production-prompts/v2-original@12.txt",
       "recorded_at": "2026-11-22",
       "note": "규칙에 반영"
+    },
+    {
+      "version": "v2-original@13",
+      "sha256": "c40fff4c7be74a4f3a77c168c2cf011dc24cb33b99365f5b68e9808fac044a6b",
+      "archive": "config/production-prompts/v2-original@13.txt",
+      "recorded_at": "2026-11-22",
+      "note": "자막에만 표시"
     }
   ]
 }
