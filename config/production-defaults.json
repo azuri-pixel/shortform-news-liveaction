@@ -14,7 +14,7 @@
       "voice_name": "Sanghyun",
       "model": "ssfm-v30",
       "language": "kor",
-      "audio_tempo": 1,
+      "audio_tempo": 1.1,
       "audio_pitch": 0,
       "emotion_preset": "normal"
     }
