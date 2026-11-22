@@ -72,6 +72,13 @@
       "archive": "config/production-prompts/v2-original@14.txt",
       "recorded_at": "2026-11-22",
       "note": "4가지 반영"
+    },
+    {
+      "version": "v2-original@15",
+      "sha256": "d76342a2e80dcb9d2993be22c97f9e9406758b8f1b265d284274a3b6cf571a98",
+      "archive": "config/production-prompts/v2-original@15.txt",
+      "recorded_at": "2026-11-22",
+      "note": "4가지 반영"
     }
   ]
 }
