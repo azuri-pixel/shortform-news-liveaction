@@ -100,6 +100,13 @@
       "archive": "config/production-prompts/v2-original@18.txt",
       "recorded_at": "2026-11-26",
       "note": "해시태그 10개를 원고 처음 보여줄 때(초안)와 완성본 제출 때(확정) 두 번"
+    },
+    {
+      "version": "v2-original@19",
+      "sha256": "0e419508abf37c35a0ee8c00e075b1235b1c41a1d4225dab28976512804aee2a",
+      "archive": "config/production-prompts/v2-original@19.txt",
+      "recorded_at": "2026-11-26",
+      "note": "해시태그: 원고 단계 10개 후보에서 상사가 고른 것만 완성본에 사용"
     }
   ]
 }
