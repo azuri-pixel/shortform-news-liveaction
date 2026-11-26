@@ -86,6 +86,13 @@
       "archive": "config/production-prompts/v2-original@16.txt",
       "recorded_at": "2026-11-26",
       "note": "데스크 눈 완성도 기준 7가지(발음·지시선·밀도·과학 동작·입체·완성도 균일·제출 전 독립 검수), 이 PC에만"
+    },
+    {
+      "version": "v2-original@17",
+      "sha256": "89accb754c1c1461d6ba811fb6d48353bfc746b80b0e7b447eadde144100dbe0",
+      "archive": "config/production-prompts/v2-original@17.txt",
+      "recorded_at": "2026-11-26",
+      "note": "완성본마다 해시태그 10개를 CREDITS.md와 제출 메시지에"
     }
   ]
 }
