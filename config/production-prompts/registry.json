@@ -93,6 +93,13 @@
       "archive": "config/production-prompts/v2-original@17.txt",
       "recorded_at": "2026-11-26",
       "note": "완성본마다 해시태그 10개를 CREDITS.md와 제출 메시지에"
+    },
+    {
+      "version": "v2-original@18",
+      "sha256": "461b8bf3b9e88795a886303596054e768b92bf5eac03355084508119c885b25b",
+      "archive": "config/production-prompts/v2-original@18.txt",
+      "recorded_at": "2026-11-26",
+      "note": "해시태그 10개를 원고 처음 보여줄 때(초안)와 완성본 제출 때(확정) 두 번"
     }
   ]
 }
