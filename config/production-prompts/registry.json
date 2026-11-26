@@ -79,6 +79,13 @@
       "archive": "config/production-prompts/v2-original@15.txt",
       "recorded_at": "2026-11-22",
       "note": "4가지 반영"
+    },
+    {
+      "version": "v2-original@16",
+      "sha256": "520b9b57dbdc5a6710316e983416c168d1ed05ef40e35544c440893fd69d07f3",
+      "archive": "config/production-prompts/v2-original@16.txt",
+      "recorded_at": "2026-11-26",
+      "note": "데스크 눈 완성도 기준 7가지(발음·지시선·밀도·과학 동작·입체·완성도 균일·제출 전 독립 검수), 이 PC에만"
     }
   ]
 }
